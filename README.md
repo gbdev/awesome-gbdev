@@ -22,7 +22,7 @@ Here you can find everything to get started and master the development of unoffi
 - [#gbdev on EFnet](http://chat.efnet.org/?channels=gbdev)
 
 ## Documentation
-- [GameBoy Programming Manual](http://www.romhacking.net/documents/544/) **Official Game Boy **hardware manual by Nintendo. Pretty much everything in the console is covered and explained in this manual. This should be your first and main resource to start understanding what game boy is. 
+- [GameBoy Programming Manual](http://www.romhacking.net/documents/544/) **Official Game Boy** hardware manual by Nintendo. Pretty much everything in the console is covered and explained in this manual. This should be your first and main resource to start understanding what game boy is. 
 - [Pan Docs](http://bgb.bircd.org/pandocs.htm) the single most comprehensive technical reference to GameBoy that is available to the public. 
 - [DMG Schematics](http://gbdev.gg8.se/wiki/articles/DMG_Schematics)
 - [GB Instructions](http://www.chrisantonellis.com/files/gameboy/gb-instructions.txt) Gameboy Assembly Language Commands 
@@ -38,7 +38,7 @@ Here you can find everything to get started and master the development of unoffi
 
 ## Development Softwares and Tools
 - [rgbds](https://github.com/bentley/rgbds) The main gb devkit. Assembler and linker package, currently updated. This is your main tool to write code in **ASM**. 
-- [The GameBoy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/)** A set of tools that enable to develop programs for the Nintendo GameBoy system, either in **C** or in assembly. GBDK includes a set of libraries for the most common requirements and generates image files for use with a real GameBoy. 
+- [The GameBoy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/) A set of tools that enable to develop programs for the Nintendo GameBoy system, either in **C** or in assembly. GBDK includes a set of libraries for the most common requirements and generates image files for use with a real GameBoy. 
 - [BGB](http://bgb.bircd.org/) Powerful GameBoy **emulator** and **debugger**. Provides an accurate hardware emulation.
 - [Gameboy Tile Data Generator](http://www.chrisantonellis.com/gameboy/gbtdg/)** HTML5 / JS web application that will **convert bitmap images to hexidecimal data** appropriate for use in tile based graphical applications, specifically GB.
 - [rgbds_textmate](https://github.com/Bananattack/rgbds_textmate) Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3\. The syntax is particularly designed for [RGBDS](http://www.otakunozoku.com/rednex-gameboy-development-system/) and Gameboy-specific Z80 instructions. 

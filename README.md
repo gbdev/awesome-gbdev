@@ -11,8 +11,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Development Softwares and Tools](#development-softwares-and-tools)
 - [Programming Tutorials](#programming-tutorials)
 - [Cartridges] (#cartridges)
-- [Related sites and posts](#related-sites-and-posts)
-- [Related projects](#related-projects)
+- [Related projects](#related-sites,posts-and-projectss)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -70,9 +69,16 @@ gbdk
 - [MBC1 and MBC2 cartridges circuits](http://fms.komkon.org/GameBoy/Tech/Carts.html) and explaination on how these MBC actually bank switch and control RAM. 
 - [GB Rom List](https://docs.google.com/spreadsheets/d/1cOS__xEj8bBT7cqEDgJcYStKuFAS8mMA4uErx9kA40M/edit?usp=sharing) Navigable table of every GB game released with details on their cartridges(RAM, ROM, PCB type,..)
 
-## Related sites and posts
-
-## Related projects
+## Related sites,posts and projects
+- [The GameBoy Project](http://marc.rawer.de/Gameboy/Docs/GBProject.pdf) A work by 6 students of Fachhochschule Karlsruhe University. The document provides a **study on the hardware** and detailed constructional information for the realisation of three 8 bitbidirectional parallel ports.
+- [gbdk-n](https://github.com/rotmoset/gbdk-n) This project aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms. WIP 
+- [Wiz by Andrew G. Crowell](https://github.com/Bananattack) A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more). WIP 
+- [Mooneye-gb](https://github.com/Gekkio/mooneye-gb) Work-In-Progress emulator made in Rust. The main goals of this project are accuracy and documentation. Existing emulators are very accurate but are not documented very clearly, so they are not that good references for emulator developers. This project is meant to document as clearly as possible _why_ certain behaviour is emulated in a certain way. This also means writing a lot of test ROMs to figure out corner cases and precise behaviour on real hardware. 
+- [Gatesboy](https://web.archive.org/web/*/http://www.gatesboy.com/)* non-gaming purposes applications development.
+- [RealBoy blog](https://realboyemulator.wordpress.com/) Articles about the GB hardware and an interesting <span data-dobid="hdw">analysis</span> of the start up phase (bootstrap). 
+- [pdroms.de](http://pdroms.de/news/gameboy/) Gameboy releases. 
+- [Gameboy Demospotting](http://gameboy.modermodemet.se/en) A collection of demos. 
+- [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) Every cartdrige has to show the authentic logo to be considered valid and be runned, but obviously some companies managed to exploit the check system.
 
 ## Contributing
 

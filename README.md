@@ -11,7 +11,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Development Softwares and Tools](#development-softwares-and-tools)
 - [Programming Tutorials](#programming-tutorials)
 - [Cartridges] (#cartridges)
-- [Related projects](#related-sites,posts-and-projectss)
+- [Related sites,posts and projects](#related-sitesposts-and-projectss)
 - [Contributing](#contributing)
 - [License](#license)
 

@@ -20,10 +20,10 @@ Here you can find everything to get started and master the development of unoffi
 - [gbdev.gg8.se](http://gbdev.gg8.se) This is basically the home of the gbdev scene. The wiki has a lot of articles from previous sites, tutorials and other documents about a lot of topics. The community lives here: take a look at the forum and the #gbdev IRC channel on EFNet.
 
 - [devrs.com/gb](devrs.com/gb) Jeff Frohwein’s page, this the main reference for everything. Almost everything is archived here: code examples and working programs(ASM and C), complete documentation and various tools.
-# #Documentation
-# #Development Softwares and Tools
-# #Programming Tutorials
-# #Related sites and posts
-# #Related projects
-# #Contributing
-# #License
+## Documentation
+## Development Softwares and Tools
+## Programming Tutorials
+## Related sites and posts
+## Related projects
+## Contributing
+## License

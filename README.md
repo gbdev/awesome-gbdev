@@ -13,6 +13,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Cartridges] (#cartridges)
 - [Related sites,posts and projects](#related-sitesposts-and-projects)
 - [Contributing](#contributing)
+- [License](#license)
 - [Special Thanks](#special-thanks)
 
 ## Community
@@ -82,6 +83,12 @@ gbdk
 ## Contributing
 Great! Make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource.
 See also the [Contribution guidelines](https://github.com/avivace/awesome-gbdev/blob/master/CONTRIBUTING.md).
+
+## License
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/).
+
+See [LICENSE](LICENSE) for more information.
 
 ## Special Thanks
 Jeff Frohwein, pascal felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, Martin Korth, BOWSER, neviksti, NOCASH, NITRO2k01, duo, Chris Antonellis, MICHAEL HOPE, beware, lord_nigh and everyone in #gbdev irc.

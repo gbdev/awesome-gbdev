@@ -42,7 +42,7 @@ Here you can find everything to get started and master the development of unoffi
 - [BGB](http://bgb.bircd.org/) Powerful GameBoy **emulator** and **debugger**. Provides an accurate hardware emulation.
 - [Gameboy Tile Data Generator](http://www.chrisantonellis.com/gameboy/gbtdg/)** HTML5 / JS web application that will **convert bitmap images to hexidecimal data** appropriate for use in tile based graphical applications, specifically GB.
 - [rgbds_textmate](https://github.com/Bananattack/rgbds_textmate) Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3\. The syntax is particularly designed for [RGBDS](http://www.otakunozoku.com/rednex-gameboy-development-system/) and Gameboy-specific Z80 instructions. 
-- [Harry Mulder's GB Development](http://www.devrs.com/gb/hmgd/intro.html)* Some sources and home of GameBoy Tile Designer and GameBoy Map Builder tools 
+- [Harry Mulder's GB Development](http://www.devrs.com/gb/hmgd/intro.html) Some sources and home of GameBoy Tile Designer and GameBoy Map Builder tools 
 - [Gambatte](http://sourceforge.net/projects/gambatte/) Open-source, cross-platform and accurate **emulator** for gb/gbc
 
 ## Programming Tutorials

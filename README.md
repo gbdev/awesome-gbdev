@@ -13,7 +13,6 @@ Here you can find everything to get started and master the development of unoffi
 - [Cartridges] (#cartridges)
 - [Related sites,posts and projects](#related-sitesposts-and-projects)
 - [Contributing](#contributing)
-- [License](#license)
 
 
 ## Community
@@ -82,5 +81,3 @@ gbdk
 
 ## Contributing
 Great! Make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource.
-
-## License

@@ -10,8 +10,9 @@ Here you can find everything to get started and master the development of unoffi
 - [Documentation](#documentation)
 - [Development Softwares and Tools](#development-softwares-and-tools)
 - [Programming Tutorials](#programming-tutorials)
+- [ROMs Disassembly] (#roms-disassembly)
 - [Cartridges] (#cartridges)
-- [Related sites,posts and projects](#related-sitesposts-and-projects)
+- [Related sites, posts and projects](#related-sitesposts-and-projects)
 - [Contributing](#contributing)
 - [License](#license)
 - [Special Thanks](#special-thanks)
@@ -60,6 +61,11 @@ gbdk
 - [How to Write a Simple Side Scrolling Game](http://pastebin.com/F3tHLj68) 
 - [Just another simple tutorial](http://pastebin.com/gzT47MPJ)
 
+## ROMs Disassembly
+- [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)
+- [Pokèmon Red/Blue](https://github.com/pret/pokered)
+- [Pokèmon Crystal](https://github.com/pret/pokecrystal)
+
 ## Cartridges
 - [AntonioND's docs](https://github.com/AntonioND/giibiiadvance/tree/master/docs) corrected schematics and infos on cartridge header data [Gekkio's Gameboy cartridge types](http://gekkio.fi/blog/2015-02-14-mooneye-gb-gameboy-cartridge-types.html)
 - [Gekkio](http://gekkio.fi/blog/)'s cartridge analysis [DMG-BEAN-02](http://gekkio.fi/blog/2015-05-18-mooneye-gb-cartridge-analysis-dmg-bean-02.html), [MBC1](http://gekkio.fi/blog/2015-05-17-mooneye-gb-cartridge-analysis-fortress-of-fear.html), [no MBC](http://gekkio.fi/blog/2015-02-28-mooneye-gb-cartridge-analysis-tetris.html) 
@@ -69,7 +75,7 @@ gbdk
 - [MBC1 and MBC2 cartridges circuits](http://fms.komkon.org/GameBoy/Tech/Carts.html) and explaination on how these MBC actually bank switch and control RAM. 
 - [GB Rom List](https://docs.google.com/spreadsheets/d/1cOS__xEj8bBT7cqEDgJcYStKuFAS8mMA4uErx9kA40M/edit?usp=sharing) Navigable table of every GB game released with details on their cartridges(RAM, ROM, PCB type,..)
 
-## Related sites,posts and projects
+## Related sites, posts and projects
 - [The GameBoy Project](http://marc.rawer.de/Gameboy/Docs/GBProject.pdf) A work by 6 students of Fachhochschule Karlsruhe University. The document provides a **study on the hardware** and detailed constructional information for the realisation of three 8 bitbidirectional parallel ports.
 - [gbdk-n](https://github.com/rotmoset/gbdk-n) This project aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms. WIP 
 - [Wiz by Andrew G. Crowell](https://github.com/Bananattack) A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more). WIP 

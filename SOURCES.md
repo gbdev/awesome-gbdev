@@ -1,4 +1,4 @@
-This is a list of full homebrews or games for GameBoy with sources avaiaible. If you have a notable work you think should be here, feel free to comment or contact me. Be sure to check out my [gbdev page](http://avivace.altervista.org/blog/gbdev/) where I grouped all the resources, docs and tools.  
+This is a list of full homebrews or games for GameBoy with sources avaiaible. If you have a notable work you think should be here, feel free to contribute.
 
 ## **ASM**
 

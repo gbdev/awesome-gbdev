@@ -46,6 +46,20 @@ Here you can find everything to get started and master the development of unoffi
 - [Gambatte](http://sourceforge.net/projects/gambatte/) Open-source, cross-platform and accurate **emulator** for gb/gbc
 
 ## Programming Tutorials
+asm
+- **[ASMSchool](http://gameboy.mongenel.com/asmschool.html)** In this page you can find: a set of lessons by Duo about coding in Assembly for GB/GBC (from the basics to the first program), 2 lessons about disassembling and some old articles (about asm programming) written by various coders. 
+- [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) a lot of working demos and sources 
+- [assembly tutorial by David Pello](http://wiki.ladecadence.net/doku.php?do=show&id=tutorial_de_ensamblador) Good document to actually learn to produce working asm code for gb. Brief explainations of many important topics. Many examples with commented source code. (spanish only) 
+- [assembly tutorial by David Pello](http://92.19.232.58:82/files/GameBoy_RGBDS_ASM_Tutorial.zip) The english version by _a cat_ 
+- [Beginners Guide to Reverse Engineering GB](http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm) 
+- [Gameboy DMA transfer routines](http://siobyte.xyz/fast-dma/)
+
+gbdk
+
+- [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) Well-written introductory document about how Game Boy works and how to start developing working code for it. 
+- [GameBoy home of Flavor](http://www.personal.triticom.com/~erm/GameBoy/) Some full games and sources 
+- [How to Write a Simple Side Scrolling Game](http://pastebin.com/F3tHLj68) 
+- [Just another simple tutorial](http://pastebin.com/gzT47MPJ)
 
 ## Related sites and posts
 

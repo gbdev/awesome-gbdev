@@ -47,7 +47,7 @@ Here you can find everything to get started and master the development of unoffi
 
 ## Programming Tutorials
 asm
-- **[ASMSchool](http://gameboy.mongenel.com/asmschool.html)** In this page you can find: a set of lessons by Duo about coding in Assembly for GB/GBC (from the basics to the first program), 2 lessons about disassembling and some old articles (about asm programming) written by various coders. 
+- [ASMSchool](http://gameboy.mongenel.com/asmschool.html) In this page you can find: a set of lessons by Duo about coding in Assembly for GB/GBC (from the basics to the first program), 2 lessons about disassembling and some old articles (about asm programming) written by various coders. 
 - [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) a lot of working demos and sources 
 - [assembly tutorial by David Pello](http://wiki.ladecadence.net/doku.php?do=show&id=tutorial_de_ensamblador) Good document to actually learn to produce working asm code for gb. Brief explainations of many important topics. Many examples with commented source code. (spanish only) 
 - [assembly tutorial by David Pello](http://92.19.232.58:82/files/GameBoy_RGBDS_ASM_Tutorial.zip) The english version by _a cat_ 
@@ -81,5 +81,6 @@ gbdk
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) Every cartdrige has to show the authentic logo to be considered valid and be runned, but obviously some companies managed to exploit the check system.
 
 ## Contributing
+Great! Make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource.
 
 ## License

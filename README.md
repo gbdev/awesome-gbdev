@@ -10,6 +10,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Documentation](#documentation)
 - [Development Softwares and Tools](#development-softwares-and-tools)
 - [Programming Tutorials](#programming-tutorials)
+- [Cartridges] (#cartridges)
 - [Related sites and posts](#related-sites-and-posts)
 - [Related projects](#related-projects)
 - [Contributing](#contributing)
@@ -55,11 +56,19 @@ asm
 - [Gameboy DMA transfer routines](http://siobyte.xyz/fast-dma/)
 
 gbdk
-
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) Well-written introductory document about how Game Boy works and how to start developing working code for it. 
 - [GameBoy home of Flavor](http://www.personal.triticom.com/~erm/GameBoy/) Some full games and sources 
 - [How to Write a Simple Side Scrolling Game](http://pastebin.com/F3tHLj68) 
 - [Just another simple tutorial](http://pastebin.com/gzT47MPJ)
+
+## Cartridges
+- [AntonioND's docs](https://github.com/AntonioND/giibiiadvance/tree/master/docs) corrected schematics and infos on cartridge header data [Gekkio's Gameboy cartridge types](http://gekkio.fi/blog/2015-02-14-mooneye-gb-gameboy-cartridge-types.html)
+- [Gekkio](http://gekkio.fi/blog/)'s cartridge analysis [DMG-BEAN-02](http://gekkio.fi/blog/2015-05-18-mooneye-gb-cartridge-analysis-dmg-bean-02.html), [MBC1](http://gekkio.fi/blog/2015-05-17-mooneye-gb-cartridge-analysis-fortress-of-fear.html), [no MBC](http://gekkio.fi/blog/2015-02-28-mooneye-gb-cartridge-analysis-tetris.html) 
+- [Gameboy Cartridges Schematics](http://www.devrs.com/gb/files/gb.html) 
+- [Reiner Ziegler's GameBoy page](http://www.reinerziegler.de/readplus.htm) Commercial and homemades programmable cartridges and programming systems. Tutorials, wiring and schematics provided. 
+- [MBC1+Ram+Battery cartridge Schematic](http://www.devrs.com/gb/files/mbc1.gif) by Jeff Frohwein 
+- [MBC1 and MBC2 cartridges circuits](http://fms.komkon.org/GameBoy/Tech/Carts.html) and explaination on how these MBC actually bank switch and control RAM. 
+- [GB Rom List](https://docs.google.com/spreadsheets/d/1cOS__xEj8bBT7cqEDgJcYStKuFAS8mMA4uErx9kA40M/edit?usp=sharing) Navigable table of every GB game released with details on their cartridges(RAM, ROM, PCB type,..)
 
 ## Related sites and posts
 

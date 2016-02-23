@@ -2,7 +2,8 @@ This is a list of full homebrews or games for GameBoy with sources avaiaible. If
 
 ## **ASM**
 
-- **2048-gb** by Sanqui [Source and ROM](https://github.com/Sanqui/2048-gb) **Snake** by Sanqui [Source](https://bitbucket.org/Sanqui/snake/src/?at=master) 
+- **2048-gb** by Sanqui [Source and ROM](https://github.com/Sanqui/2048-gb) 
+- **Snake** by Sanqui [Source](https://bitbucket.org/Sanqui/snake/src/?at=master) 
 - **Snake** clone(dual Game Gear/ GB ROM) by Sanqui [Release Page](http://www.smspower.org/forums/14588-DualGGGBROM), [ROM](http://www.smspower.org/forums/14588-DualGGGBROM), [Source](https://bitbucket.org/Sanqui/snake/src/?at=gbgg) 
 - **PlantBoy** by siObyte [Release Page](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=62619), [ROM](http://sio.itch.io/plantboy), [Source](https://github.com/siObyte/PlantBoy) 
 - **Lazerpong** by huderlem [Rom](http://www.mediafire.com/download/0gi9i9hh2qukyma/lazerpong.gb), [Source](https://github.com/huderlem/lazerpong)

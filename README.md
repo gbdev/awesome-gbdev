@@ -13,7 +13,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Cartridges] (#cartridges)
 - [Related sites,posts and projects](#related-sitesposts-and-projects)
 - [Contributing](#contributing)
-
+- [Special Thanks](#special-thanks)
 
 ## Community
 - [gbdev.gg8.se](http://gbdev.gg8.se) This is basically the home of the gbdev scene. The [wiki](http://gbdev.gg8.se/wiki/articles/Main_Page) has a lot of articles from previous sites, tutorials and other documents about a lot of topics.
@@ -81,3 +81,7 @@ gbdk
 
 ## Contributing
 Great! Make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource.
+
+## Special Thanks
+Jeff Frohwein, pascal felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, Martin Korth, BOWSER, neviksti, NOCASH, NITRO2k01, duo, Chris Antonellis, MICHAEL HOPE, beware, lord_nigh and everyone in #gbdev irc.
+Your hard work and dedication made this possible.

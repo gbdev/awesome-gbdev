@@ -33,7 +33,7 @@ Here you can find everything to get started and master the development of unoffi
 - [GameBoy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) Assembly Language Commands, Timings and Opcodes
 - [Assembly Language Programming Course](http://cratel.wichita.edu/cratel/ECE238Spr08) Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Gameboy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State Universiy).
 - [Building a GameBoy emulator in JavaScript](http://imrannazar.com/GameBoy-Emulation-in-JavaScript) by _Imran Nazar_ 
-- [gbdev Sources](http://avivace.altervista.org/blog/gbdev-sources/) a collection of homebrew and games with complete sources (in C and ASM).
+- [gbdev Sources](https://github.com/avivace/awesome-gbdev/blob/master/SOURCES.md) a collection of homebrew and games with complete sources (in C and ASM).
 
 ## Development Softwares and Tools
 - [rgbds](https://github.com/bentley/rgbds) The main gb devkit. Assembler and linker package, currently updated. This is your main tool to write code in **ASM**. 

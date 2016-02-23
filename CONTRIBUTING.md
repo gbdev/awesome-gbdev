@@ -14,4 +14,4 @@ Please ensure your pull request adheres to the following guidelines:
 - Make sure your text editor is set to remove trailing whitespace.
 - The pull request should have a useful title and include a link to the package and why it should be included.
 
-Thank you for your suggestions! 💾
+Thank you!

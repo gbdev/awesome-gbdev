@@ -76,6 +76,8 @@ gbdk
 - [GB Rom List](https://docs.google.com/spreadsheets/d/1cOS__xEj8bBT7cqEDgJcYStKuFAS8mMA4uErx9kA40M/edit?usp=sharing) Navigable table of every GB game released with details on their cartridges(RAM, ROM, PCB type,..)
 
 ## Related sites, posts and projects
+- [fpgaboy](https://github.com/trun/fpgaboy) Implementation Nintendo's GameBoy console on an FPGA
+- [php-terminal-gameboy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) A PHP Terminal GameBoy Emulator
 - [The GameBoy Project](http://marc.rawer.de/Gameboy/Docs/GBProject.pdf) A work by 6 students of Fachhochschule Karlsruhe University. The document provides a **study on the hardware** and detailed constructional information for the realisation of three 8 bitbidirectional parallel ports.
 - [gbdk-n](https://github.com/rotmoset/gbdk-n) This project aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms. WIP 
 - [Wiz by Andrew G. Crowell](https://github.com/Bananattack) A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more). WIP 
@@ -87,7 +89,7 @@ gbdk
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) Every cartdrige has to show the authentic logo to be considered valid and be runned, but obviously some companies managed to exploit the check system.
 
 ## Contributing
-Great! Make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource.
+Make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource.
 See also the [Contribution guidelines](https://github.com/avivace/awesome-gbdev/blob/master/CONTRIBUTING.md).
 
 ## License
@@ -97,5 +99,5 @@ See also the [Contribution guidelines](https://github.com/avivace/awesome-gbdev/
 See [LICENSE](LICENSE) for more information.
 
 ## Special Thanks
-Jeff Frohwein, pascal felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, Martin Korth, BOWSER, neviksti, NOCASH, NITRO2k01, duo, Chris Antonellis, MICHAEL HOPE, beware, lord_nigh and everyone in #gbdev irc.
+Jeff Frohwein, Pascal Felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, Martin Korth, BOWSER, neviksti, NoCash, Nitro2k01, Duo, Chris Antonellis, Michael Hope, Beware, lord_nigh and everyone in #gbdev IRC
 Your hard work and dedication made this possible.

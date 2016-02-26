@@ -12,7 +12,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Programming Tutorials](#programming-tutorials)
 - [ROMs Disassembly] (#roms-disassembly)
 - [Cartridges] (#cartridges)
-- [Related sites, posts and projects](#related-sitesposts-and-projects)
+- [Related sites, posts and projects](#related-sites-posts-and-projects)
 - [Contributing](#contributing)
 - [License](#license)
 - [Special Thanks](#special-thanks)

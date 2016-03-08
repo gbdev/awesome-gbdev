@@ -87,6 +87,7 @@ gbdk
 - [pdroms.de](http://pdroms.de/news/gameboy/) Gameboy releases. 
 - [Gameboy Demospotting](http://gameboy.modermodemet.se/en) A collection of demos. 
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) Every cartdrige has to show the authentic logo to be considered valid and be runned, but obviously some companies managed to exploit the check system.
+- [GBDK Developers](http://gbdk-developers.com/) Active blog about everything related to the scene. Features insights and interviews.
 
 ## Contributing
 Make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource.

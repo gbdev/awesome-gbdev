@@ -53,6 +53,7 @@ asm
 - [assembly tutorial by David Pello](http://wiki.ladecadence.net/doku.php?do=show&id=tutorial_de_ensamblador) Good document to actually learn to produce working asm code for gb. Brief explainations of many important topics. Many examples with commented source code. (spanish only) 
 - [assembly tutorial by David Pello](http://92.19.232.58:82/files/GameBoy_RGBDS_ASM_Tutorial.zip) The english version by _a cat_ 
 - [Beginners Guide to Reverse Engineering GB](http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm) 
+- [Writing a Gameboy game in ASM - Intro to Binary and Hexadecimal](http://siobyte.xyz/1-gameboy-tutorial/)
 - [Gameboy DMA transfer routines](http://siobyte.xyz/fast-dma/)
 
 gbdk
@@ -74,6 +75,7 @@ gbdk
 - [MBC1+Ram+Battery cartridge Schematic](http://www.devrs.com/gb/files/mbc1.gif) by Jeff Frohwein 
 - [MBC1 and MBC2 cartridges circuits](http://fms.komkon.org/GameBoy/Tech/Carts.html) and explaination on how these MBC actually bank switch and control RAM. 
 - [GB Rom List](https://docs.google.com/spreadsheets/d/1cOS__xEj8bBT7cqEDgJcYStKuFAS8mMA4uErx9kA40M/edit?usp=sharing) Navigable table of every GB game released with details on their cartridges(RAM, ROM, PCB type,..)
+- [Game Boy cartridge PCB photos](http://gekkio.fi/blog/2016-03-19-game-boy-cartridge-pcb-photos.html)
 
 ## Related sites, posts and projects
 - [fpgaboy](https://github.com/trun/fpgaboy) Implementation Nintendo's GameBoy console on an FPGA

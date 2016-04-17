@@ -80,6 +80,10 @@ gbdk
 ## Related sites, posts and projects
 - [fpgaboy](https://github.com/trun/fpgaboy) Implementation Nintendo's GameBoy console on an FPGA
 - [php-terminal-gameboy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) A PHP Terminal GameBoy Emulator
+- [JavaScript GameBoy Color Emulator](https://github.com/taisel/GameBoy-Online) A GameBoy Color emulator that utilizes HTML5 canvas and JavaScript audio APIs to provide a full emulation of the console
+- [weplay](https://github.com/rauchg/weplay) Collaborative gameboy emulation powered 100% by JavaScript 
+- [gbasm](https://github.com/BonsaiDen/gbasm) A JavaScript based compiler for Gameboy z80 assembly code
+- [Piglet](https://github.com/danShumway/Piglet) A LUA driven AI that plays classic gameboy color games using experimentation. In active development.
 - [The GameBoy Project](http://marc.rawer.de/Gameboy/Docs/GBProject.pdf) A work by 6 students of Fachhochschule Karlsruhe University. The document provides a **study on the hardware** and detailed constructional information for the realisation of three 8 bitbidirectional parallel ports.
 - [gbdk-n](https://github.com/rotmoset/gbdk-n) This project aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms. WIP 
 - [Wiz by Andrew G. Crowell](https://github.com/Bananattack) A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more). WIP 

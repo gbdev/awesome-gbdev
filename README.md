@@ -24,6 +24,7 @@ Here you can find everything to get started and master the development of unoffi
 
 ## Documentation
 - [GameBoy Programming Manual](http://www.romhacking.net/documents/544/) **Official Game Boy** hardware manual by Nintendo. Pretty much everything in the console is covered and explained in this manual. This should be your first and main resource to start understanding what game boy is. 
+- [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) 
 - [Pan Docs](http://bgb.bircd.org/pandocs.htm) the single most comprehensive technical reference to GameBoy that is available to the public. 
 - [DMG Schematics](http://gbdev.gg8.se/wiki/articles/DMG_Schematics)
 - [GB Instructions](http://www.chrisantonellis.com/files/gameboy/gb-instructions.txt) Gameboy Assembly Language Commands 

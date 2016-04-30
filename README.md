@@ -63,7 +63,7 @@ gbdk
 - [GameBoy home of Flavor](http://www.personal.triticom.com/~erm/GameBoy/) Some full games and sources 
 - [How to Write a Simple Side Scrolling Game](http://pastebin.com/F3tHLj68) 
 - [Just another simple tutorial](http://pastebin.com/gzT47MPJ)
-- [GBDK Tutorial by Ryan Carson](https://refreshgames.co.uk/2016/04/18/gameboy-tutorial-rom/)
+- [GBDK Tutorial by Ryan Carson](https://refreshgames.co.uk/2016/04/18/gameboy-tutorial-rom/) Fairly minimal game demo for getting started with GBDEK
 
 ## ROMs Disassembly
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)

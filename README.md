@@ -26,6 +26,7 @@ Here you can find everything to get started and master the development of unoffi
 - [GameBoy Programming Manual](http://www.romhacking.net/documents/544/) **Official Game Boy** hardware manual by Nintendo. Pretty much everything in the console is covered and explained in this manual. This should be your first and main resource to start understanding what game boy is. 
 - [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) 
 - [Pan Docs](http://bgb.bircd.org/pandocs.htm) the single most comprehensive technical reference to GameBoy that is available to the public. 
+- [GBSOUND.txt](https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt) 
 - [DMG Schematics](http://gbdev.gg8.se/wiki/articles/DMG_Schematics)
 - [GB Instructions](http://www.chrisantonellis.com/files/gameboy/gb-instructions.txt) Gameboy Assembly Language Commands 
 - [GB ASM Tips](http://www.chrisantonellis.com/files/gameboy/gb-asm-tips.txt) by GeeBee 
@@ -56,6 +57,7 @@ asm
 - [Beginners Guide to Reverse Engineering GB](http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm) 
 - [Writing a Gameboy game in ASM - Intro to Binary and Hexadecimal](http://siobyte.xyz/1-gameboy-tutorial/)
 - [Gameboy DMA transfer routines](http://siobyte.xyz/fast-dma/)
+- [GBDK Tutorial by Ryan Carson](https://refreshgames.co.uk/2016/04/18/gameboy-tutorial-rom/)
 
 gbdk
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) Well-written introductory document about how Game Boy works and how to start developing working code for it. 

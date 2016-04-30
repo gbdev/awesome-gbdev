@@ -57,13 +57,13 @@ asm
 - [Beginners Guide to Reverse Engineering GB](http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm) 
 - [Writing a Gameboy game in ASM - Intro to Binary and Hexadecimal](http://siobyte.xyz/1-gameboy-tutorial/)
 - [Gameboy DMA transfer routines](http://siobyte.xyz/fast-dma/)
-- [GBDK Tutorial by Ryan Carson](https://refreshgames.co.uk/2016/04/18/gameboy-tutorial-rom/)
 
 gbdk
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) Well-written introductory document about how Game Boy works and how to start developing working code for it. 
 - [GameBoy home of Flavor](http://www.personal.triticom.com/~erm/GameBoy/) Some full games and sources 
 - [How to Write a Simple Side Scrolling Game](http://pastebin.com/F3tHLj68) 
 - [Just another simple tutorial](http://pastebin.com/gzT47MPJ)
+- [GBDK Tutorial by Ryan Carson](https://refreshgames.co.uk/2016/04/18/gameboy-tutorial-rom/)
 
 ## ROMs Disassembly
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)

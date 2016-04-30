@@ -109,5 +109,4 @@ See also the [Contribution guidelines](https://github.com/avivace/awesome-gbdev/
 See [LICENSE](LICENSE) for more information.
 
 ## Special Thanks
-Jeff Frohwein, Pascal Felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, Martin Korth, BOWSER, neviksti, NoCash, Nitro2k01, Duo, Chris Antonellis, Michael Hope, Beware, lord_nigh and everyone in #gbdev IRC
-Your hard work and dedication made this possible.
+Jeff Frohwein, Pascal Felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, Martin Korth, BOWSER, neviksti, Martin “nocash" Korth, Nitro2k01, Duo, Chris Antonellis, Michael Hope, Beware, Jonathan “Lord Nightmare” Gevaryahu, Marat Fayzullin, Paul Robson, Carsten Sorense, Sindre Aamås, Otaku No Zoku, GeeBee.

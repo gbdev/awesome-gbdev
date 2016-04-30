@@ -10,8 +10,8 @@ Here you can find everything to get started and master the development of unoffi
 - [Documentation](#documentation)
 - [Development Softwares and Tools](#development-softwares-and-tools)
 - [Programming Tutorials](#programming-tutorials)
-- [ROMs Disassembly] (#roms-disassembly)
-- [Cartridges] (#cartridges)
+- [ROMs Disassembly](#roms-disassembly)
+- [Cartridges](#cartridges)
 - [Related sites, posts and projects](#related-sites-posts-and-projects)
 - [Contributing](#contributing)
 - [License](#license)
@@ -59,6 +59,7 @@ asm
 - [Gameboy DMA transfer routines](http://siobyte.xyz/fast-dma/)
 
 gbdk
+- [Grooves Game Boy Programming](https://github.com/gbdk-salvage/grooves-game-boy-programming) 
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) Well-written introductory document about how Game Boy works and how to start developing working code for it. 
 - [GameBoy home of Flavor](http://www.personal.triticom.com/~erm/GameBoy/) Some full games and sources 
 - [How to Write a Simple Side Scrolling Game](http://pastebin.com/F3tHLj68) 
@@ -92,7 +93,7 @@ gbdk
 - [Wiz by Andrew G. Crowell](https://github.com/Bananattack) A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more). WIP 
 - [Mooneye-gb](https://github.com/Gekkio/mooneye-gb) Work-In-Progress emulator made in Rust. The main goals of this project are accuracy and documentation. Existing emulators are very accurate but are not documented very clearly, so they are not that good references for emulator developers. This project is meant to document as clearly as possible _why_ certain behaviour is emulated in a certain way. This also means writing a lot of test ROMs to figure out corner cases and precise behaviour on real hardware. 
 - [Gatesboy](https://web.archive.org/web/*/http://www.gatesboy.com/)* non-gaming purposes applications development.
-- [RealBoy blog](https://realboyemulator.wordpress.com/) Articles about the GB hardware and an interesting <span data-dobid="hdw">analysis</span> of the start up phase (bootstrap). 
+- [RealBoy blog](https://realboyemulator.wordpress.com/) Articles about the GB hardware and an interesting analysis of the start up phase (bootstrap). 
 - [pdroms.de](http://pdroms.de/news/gameboy/) Gameboy releases. 
 - [Gameboy Demospotting](http://gameboy.modermodemet.se/en) A collection of demos. 
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) Every cartdrige has to show the authentic logo to be considered valid and be runned, but obviously some companies managed to exploit the check system.

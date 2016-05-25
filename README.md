@@ -70,6 +70,7 @@ gbdk
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)
 - [Pokèmon Red/Blue](https://github.com/pret/pokered)
 - [Pokèmon Crystal](https://github.com/pret/pokecrystal)
+- [Reverse engineering Kirby's Dreamland 2](http://ecc-comp.blogspot.it/2016/03/reverse-engineering-kirbys-dreamland-2.html)
 
 ## Cartridges
 - [AntonioND's docs](https://github.com/AntonioND/giibiiadvance/tree/master/docs) corrected schematics and infos on cartridge header data [Gekkio's Gameboy cartridge types](http://gekkio.fi/blog/2015-02-14-mooneye-gb-gameboy-cartridge-types.html)

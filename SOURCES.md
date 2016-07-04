@@ -1,13 +1,17 @@
 # gbdev Sources
-This is a list of full homebrews or games for GameBoy with sources avaiaible. If you have a notable work you think should be here, feel free to contribute with a pull request (see also the [Contribution guidelines](https://github.com/avivace/awesome-gbdev/blob/master/CONTRIBUTING.md)).
+This is a list of demos,full homebrews or games for GameBoy with complete sources available. If you have a notable work you think should be here, feel free to contribute with a pull request or an issue(see also the [Contribution guidelines](https://github.com/avivace/awesome-gbdev/blob/master/CONTRIBUTING.md)).
+
 
 ## ASM
 
 - [Tuff](https://github.com/BonsaiDen/Tuff.gb)
 - [2048-gb](https://github.com/Sanqui/2048-gb) 
-- [Snake](https://bitbucket.org/Sanqui/snake/src/?at=master) by Sanqui
+- [Snake](https://bitbucket.org/Sanqui/snake/src/?at=master)
 - [PlantBoy](https://github.com/siObyte/PlantBoy) 
 - [Lazerpong](https://github.com/huderlem/lazerpong)
+- [Back to Color](https://github.com/AntonioND/back-to-color)
+- [Geometrix](https://github.com/AntonioND/geometrix)
+- [Bitcity](https://github.com/AntonioND/bitcity)
 
 ## C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)

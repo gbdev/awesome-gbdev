@@ -1,4 +1,4 @@
-﻿# awesome-gbdev [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#awesome-gbdev)
+# awesome-gbdev [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#awesome-gbdev)
 
 ![asd](http://orig04.deviantart.net/fb5e/f/2010/239/6/1/free_av__gameboy_by_kiddo47.gif)A curated list of awesome GameBoy Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
@@ -105,7 +105,8 @@ gbdk
 - [GBDK Developers](http://gbdk-developers.com/) Active blog about everything related to the scene. Features insights and interviews.
 
 ## Contributing
-Make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource.
+Help is appreciated. This list mainly need clear and explicative descriptions for every resource.
+If want to suggest some resources, make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource (or list them in an issue).
 See also the [Contribution guidelines](https://github.com/avivace/awesome-gbdev/blob/master/CONTRIBUTING.md).
 
 ## License

@@ -4,7 +4,7 @@
 
 Here you can find everything to get started and master the development of unofficial software for the original 1989 GameBoy.
 
-## Table of Contents
+## Contents
 
 - [Community](#community)
 - [Documentation](#documentation)
@@ -13,7 +13,7 @@ Here you can find everything to get started and master the development of unoffi
 - [ROMs Disassembly](#roms-disassembly)
 - [Cartridges](#cartridges)
 - [Related sites, posts and projects](#related-sites-posts-and-projects)
-- [Contributing](#contributing)
+- [Contribution](#contribution-guidelines)
 - [License](#license)
 - [Special Thanks](#special-thanks)
 
@@ -104,7 +104,7 @@ gbdk
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) Every cartdrige has to show the authentic logo to be considered valid and be runned, but obviously some companies managed to exploit the check system.
 - [GBDK Developers](http://gbdk-developers.com/) Active blog about everything related to the scene. Features insights and interviews.
 
-## Contributing
+## Contribution Guidelines
 Help is appreciated. This list mainly need clear and explicative descriptions for every resource.
 If want to suggest some resources, make an individual pull request for each suggestion and be sure to include a clear title and a link to your suggested resource (or list them in an issue).
 

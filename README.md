@@ -1,6 +1,6 @@
 # Awesome Game Boy Development [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#awesome-gbdev)
 
-![asd](http://orig04.deviantart.net/fb5e/f/2010/239/6/1/free_av__Game Boy_by_kiddo47.gif)A curated list of awesome Game Boy Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
+A curated list of awesome Game Boy Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 Here you can find everything to get started and master the development of unofficial software for the original 1989 Game Boy.
 
@@ -106,7 +106,7 @@ Here you can find everything to get started and master the development of unoffi
 - [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Features insights and interviews.
 
 ## Contribute
-Thank you! Take a look at [Contribution Guidelines](contributing.md).
+Thank you! Take a look at [Contribution Guidelines](CONTRIBUTING.md).
 
 ## License
 

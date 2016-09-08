@@ -41,7 +41,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Building a Game Boy emulator in JavaScript](http://imrannazar.com/Game Boy-Emulation-in-JavaScript) - Step by step tutorial.
 - [Game Boy Camera RE](https://github.com/AntonioND/gbcam-rev-engineer) - Documentation about GB Camera and tools used to reverse engineer it by using Arduino UNO.
 - [The Game Boy Printer](https://shonumi.github.io/articles/art2.html) - An in depth technical document about the printer hardware, the comunication protocol and the usual routine that games used for implementing the print feature.
-- [Game Boy Bootrom](http://www.neviksti.com/DMG/DMG_ROM.asm) Commented dump of the DMG bootrom.
+- [Game Boy Bootrom](http://www.neviksti.com/DMG/DMG_ROM.asm) - Commented dump of the DMG bootrom.
 
 ## Development Softwares and Tools
 - [rgbds](https://github.com/bentley/rgbds) - The main gb devkit. Assembler and linker package, currently updated. This is your main tool to write code in ASM.

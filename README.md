@@ -88,6 +88,7 @@ Here you can find everything to get started and master the development of unoffi
 - [MBC1+Ram+Battery cartridge Schematic](http://www.devrs.com/gb/files/mbc1.gif) - First schematics by Jeff Frohwein.
 - [MBC1 and MBC2 cartridges circuits](http://fms.komkon.org/Game Boy/Tech/Carts.html) and explaination on how these MBC actually bank switch and control RAM.
 - [GB Rom List](https://docs.google.com/spreadsheets/d/1cOS__xEj8bBT7cqEDgJcYStKuFAS8mMA4uErx9kA40M/edit?usp=sharing) - Navigable table of every GB game released with details on their cartridges.
+- [Alternate Rom List](http://catskull.net/gb-rom-database/) - A list of every GB/GBC rom ever released inluding bootlegs and pirates.
 - [Game Boy cartridge PCB photos](http://gekkio.fi/blog/2016-03-19-game-boy-cartridge-pcb-photos.html)
 
 ## Related sites, posts and projects

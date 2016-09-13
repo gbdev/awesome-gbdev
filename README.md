@@ -106,8 +106,8 @@ Here you can find everything to get started and master the development of unoffi
 - [pdroms.de](http://pdroms.de/news/Game Boy/) Game Boy releases.
 - [Game Boy Demospotting](http://Game Boy.modermodemet.se/en) - A collection of demos.
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartdrige has to show the authentic logo to be considered valid and be runned, but obviously some companies managed to exploit the check system.
+- [Booting the Game Boy with a custom logo](https://dhole.github.io/post/gameboy_custom_logo/) - The trick used to bypass the Nintendo logo check.
 - [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Features insights and interviews.
-
 ## Contribute
 Thank you! Take a look at [Contribution Guidelines](CONTRIBUTING.md).
 

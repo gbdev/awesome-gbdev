@@ -114,9 +114,7 @@ Here you can find everything to get started and master the development of unoffi
 Thank you! Take a look at [Contribution Guidelines](CONTRIBUTING.md).
 
 ## License
-
-[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-
+Licensed under GPLv3.
 See [LICENSE](LICENSE) for more information.
 
 ## Special Thanks

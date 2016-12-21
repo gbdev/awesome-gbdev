@@ -11,7 +11,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Community](#community)
 - [Documentation](#documentation)
   - [Cartridges](#cartridges)
-- [Development Software](#development-softwares)
+- [Development Software](#development-software)
   - [Assemblers](#assemblers)
   - [Compilers](#compilers)
   - [Emulators](#emulators)
@@ -63,6 +63,7 @@ Here you can find everything to get started and master the development of unoffi
 - [MBC1 and MBC2 cartridges circuits](http://fms.komkon.org/gameboy/Tech/Carts.html) and explaination on how these MBC actually bank switch and control RAM.
 - [GB Rom List](https://docs.google.com/spreadsheets/d/1cOS__xEj8bBT7cqEDgJcYStKuFAS8mMA4uErx9kA40M/edit?usp=sharing) - Navigable table of every GB game released with details on their cartridges.
 - [Game Boy cartridge PCB photos](http://gekkio.fi/blog/2016-03-19-game-boy-cartridge-pcb-photos.html)
+- [Emulating a GameBoy Cartridge](https://dhole.github.io/post/gameboy_cartridge_emu_1/) - Emulating the functionality of a GameBoy cartridge with the development board STM32F4.
 
 ## Development Software
 
@@ -73,7 +74,7 @@ Here you can find everything to get started and master the development of unoffi
 - [tniASM](http://www.tni.nl/products/tniasm.html) - Macro Assembler.
 
 ### Compilers
-- [The Game Boy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/) - A set of tools that enable to develop programs for the Nintendo Game Boy system, either in **C**. Includes a set of libraries for the most common requirements and generates image files for use with a real Game Boy.
+- [The Game Boy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/) - A set of tools that enable to develop programs for the Nintendo Game Boy system in **C**. Includes a set of libraries for the most common requirements and generates image files for use with a real Game Boy.
 
 ### Emulators
 - [BGB](http://bgb.bircd.org/) - Powerful Game Boy emulator and debugger. Provides an accurate hardware emulation.

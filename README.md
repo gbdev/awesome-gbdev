@@ -20,7 +20,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Programming Tutorials](#programming-tutorials)
   - [ASM](#asm)
   - [C](#c)
-- [Sources](#sources)
+- [Games](#games)
   - [ASM](#asm-1)
   - [C](#c-1)
 - [ROMs Disassembly](#roms-disassembly)
@@ -100,7 +100,9 @@ Here you can find everything to get started and master the development of unoffi
 - [Assembly tutorial by David Pello](http://92.19.232.58:82/files/gameboy_RGBDS_ASM_Tutorial.zip) - The english version of the resource above.
 - [Beginner's Guide to Reverse Engineering GB](http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm) - Some starting tips on disassembling and reverse engineering.
 - [Writing a Game Boy game in ASM](http://siobyte.xyz/1-gameboy-tutorial/) - Intro to Binary and Hexadecimal.
-- [Game Boy DMA transfer routines](http://siobyte.xyz/fast-dma/) - Understanding and using DMA routines.
+- [Game Boy DMA transfer routines](http://exez.in/gameboy-dma) - Understanding and using DMA routines.
+- [gb-template](https://github.com/exezin/gb-template) - A template with basic functions pre-made such as joypad input, DMA transfers, and map/tile data loading.
+- [assemblydigest](https://github.com/assemblydigest/gameboy) - Exploring Game Boy programming techniques.
 
 
 ### C
@@ -108,13 +110,13 @@ Here you can find everything to get started and master the development of unoffi
 - [Grooves Game Boy Programming](https://github.com/gbdk-salvage/grooves-game-boy-programming) - A complete set of lessons about implementing various game mechanics in a Game Boy game.
 - [How to Write a Simple Side Scrolling Game](http://pastebin.com/F3tHLj68) - Old (but still relevant) tutorial.
 - [Just another simple tutorial](http://pastebin.com/gzT47MPJ)
-- [GBDK Tutorial by Ryan Carson](https://refreshgames.co.uk/2016/04/18/gameboy-tutorial-rom/) - Fairly minimal game demo for getting started with GBDK.
+- [GBDK Tutorial](https://refreshgames.co.uk/2016/04/18/gameboy-tutorial-rom/) - Fairly minimal game demo for getting started with GBDK.
 - [GBDK Sprite](http://gbdev.gg8.se/wiki/articles/GBDK_Sprite_Tutorial) - Presents a workflow for getting multiple sprites to display and animate.
 - [GBDK Color](http://gbdev.gg8.se/wiki/articles/GBDK_Color_Tutorial) - Extends your knowledge of basic spriting on the Game Boy by adding colors to sprites, backgrounds and the window layer.
 - [GBDK Joypad](http://gbdev.gg8.se/wiki/articles/GBDK_Joypad_Tutorial) - Details the use of the joypad with GBDK.
 - [Game Boy home of Flavor](http://www.personal.triticom.com/~erm/gameboy/) - Some full games and sources.
 
-## Sources
+## Games
 - [Infinity](https://github.com/infinity-gbc/infinity)
 
 ### ASM
@@ -126,6 +128,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Back to Color](https://github.com/AntonioND/back-to-color)
 - [Geometrix](https://github.com/AntonioND/geometrix)
 - [Bitcity](https://github.com/AntonioND/bitcity)
+- [Carazu](https://github.com/mholtkamp/carazu)
 
 ### C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)
@@ -159,7 +162,7 @@ Here you can find everything to get started and master the development of unoffi
 - [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Including features, insights and interviews.
 
 ### Contribute
-Thank you! Take a look at [Contribution Guidelines](CONTRIBUTING.md).
+Take a look at [Contribution Guidelines](CONTRIBUTING.md).
 
 ### License
 Licensed under **GPLv3**.

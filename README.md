@@ -47,6 +47,7 @@ Here you can find everything to get started and master the development of unoffi
 - [GB Instructions](http://www.chrisantonellis.com/files/gameboy/gb-instructions.txt) Game Boy Assembly commands.
 - [GB ASM Tips](http://www.chrisantonellis.com/files/gameboy/gb-asm-tips.txt) - Some tips for coding in Assembly by Jeff Frohwein.
 - [ASMotor Manual](http://www.chrisantonellis.com/files/gameboy/asmotor-v0.1.0-manual.pdf) - A reference for rgbds.
+- [ASMotor v1.10 documentation](http://otakunozoku.com/RGBDSdocs/)
 - [GBDK libraries documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf)
 - [gbdev FAQs](http://www.devrs.com/gb/files/faqs.html) - Must read by Jeff Frohwein.
 - [Game Boy CPU InstructionSet Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
@@ -86,6 +87,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Gambatte](http://sourceforge.net/projects/gambatte/) - Open-source, cross-platform and accurate emulator for Game Boy and Game Boy Color.
 
 ### Tools
+- [ZGB](https://github.com/Zal0/ZGB) - A little engine for creating games for the original Game Boy.
 - [Game Boy Tile Data Generator](http://www.chrisantonellis.com/gameboy/gbtdg/) - HTML5 / JS web application that will convert bitmap images to hexidecimal data appropriate for use in tile based graphical applications, specifically GB.
 - [rgbds_textmate](https://github.com/Bananattack/rgbds_textmate) - Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3\. The syntax is particularly designed for rgbds and Game Boy-specific Z80 instructions.
 - [Harry Mulder's GB Development](http://www.devrs.com/gb/hmgd/intro.html) - Some sources and home of Game Boy Tile Designer and Game Boy Map Builder tools.
@@ -97,7 +99,7 @@ Here you can find everything to get started and master the development of unoffi
 - [ASMSchool](http://gameboy.mongenel.com/asmschool.html) - A set of lessons by Duo about coding in Assembly for GB/GBC and disassembling.
 - [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) - A lot of working demos and sources.
 - [Assembly tutorial by David Pello](http://wiki.ladecadence.net/doku.php?do=show&id=tutorial_de_ensamblador) - Good document to actually learn to produce working asm code for gb. Brief explainations of many important topics. Many examples with commented source code (spanish only).
-- [Assembly tutorial by David Pello](http://92.19.232.58:82/files/gameboy_RGBDS_ASM_Tutorial.zip) - The english version of the resource above.
+- [Assembly tutorial by David Pello](https://avivace.ovh/apps/gbdev/salvage/tutorial_de_ensamblador%20%5bLa%20decadence%5d.html) - The english version of the resource above.
 - [Beginner's Guide to Reverse Engineering GB](http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm) - Some starting tips on disassembling and reverse engineering.
 - [Writing a Game Boy game in ASM](http://siobyte.xyz/1-gameboy-tutorial/) - Intro to Binary and Hexadecimal.
 - [Game Boy DMA transfer routines](http://exez.in/gameboy-dma) - Understanding and using DMA routines.
@@ -120,6 +122,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Infinity](https://github.com/infinity-gbc/infinity)
 
 ### ASM
+- [RedPlusPlus](https://github.com/TheFakeMateo/RedPlusPlus) - An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features.
 - [Tuff](https://github.com/BonsaiDen/Tuff.gb)
 - [2048-gb](https://github.com/Sanqui/2048-gb)
 - [Snake](https://bitbucket.org/Sanqui/snake/src/?at=master)
@@ -129,6 +132,9 @@ Here you can find everything to get started and master the development of unoffi
 - [Geometrix](https://github.com/AntonioND/geometrix)
 - [Bitcity](https://github.com/AntonioND/bitcity)
 - [Carazu](https://github.com/mholtkamp/carazu)
+- [Snake-gb](https://github.com/DonaldHays/snake-gb)
+- [GB303](https://github.com/furrtek/GB303) - GB303 wavetable-based TB-303 style synthesizer for the Nintendo Gameboy.
+- [Pokémon Christmas](https://github.com/TheFakeMateo/xmas)
 
 ### C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)
@@ -136,6 +142,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Squishy the Turtle](https://github.com/cppchriscpp/SquishyTheTurtle)
 - [Quadratino](https://github.com/avivace/quadratino)
 - [Doctor How](https://github.com/elfgames/doctorhow)
+- [Super Princess' 2092 Exodus](https://github.com/Zal0/gbjam2016)
 
 ## ROMs Disassembly
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)

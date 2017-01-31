@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+#
+# Find URLs in ../README.md and print them with their HTTP status code.
+#
+# Example usage:
+#
+# $ ./scripts/urls-http-status | sort
+# 200 http://example.com/page.html
+# 200 http://example.com/another-page.html
+# [...]
+# 404 http://example.com/missing-page.html
+#
+# Changing the number of parallel processes is possible. The default is 10.
+#
+# $ MAX_PARALLEL=100 ./scripts/urls-http-status
+
+MAX_PARALLEL=${MAX_PARALLEL:-10}
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+grep -Eoie "\(https?://.*?\)" "$DIR/../README.md" |\
+  cut -d "(" -f 2 |\
+  cut -d ")" -f 1 |\
+  xargs -n1 -P "$MAX_PARALLEL" curl -o /dev/null --silent --head --write-out "%{http_code} %{url_effective}\n"

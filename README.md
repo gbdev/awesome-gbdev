@@ -1,5 +1,7 @@
 # Awesome Game Boy Development [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#awesome-gbdev)
 
+[![Join the chat at https://gitter.im/gb-dev/Lobby](https://badges.gitter.im/gb-dev/Lobby.svg)](https://gitter.im/gb-dev/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ![GameboyIcon](http://i.imgur.com/ROUq7NT.gif)
 
 A curated list of awesome Game Boy Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.

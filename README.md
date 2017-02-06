@@ -95,6 +95,9 @@ Here you can find everything to get started and master the development of unoffi
 - [cboy](https://github.com/jkbenaim/cboy) - A Game Boy emulator written in C. Runs on Mac OS X and Linux.
 - [weplay](https://github.com/rauchg/weplay) - Collaborative Game Boy emulation powered by JavaScript.
 - [giibiiadvance](https://github.com/AntonioND/giibiiadvance) -  A GB, GBC emulator with GB Camera support. Written in C.
+- [GBE+](https://github.com/shonumi/gbe-plus) - A DMG/GBC emulator focused on enhancements. Built in C++ and SDL.
+- [Sameboy](https://github.com/LIJI32/SameBoy) - A DMG/GBC emulator written in portable C.
+- [GameYob](https://github.com/Drenn1/GameYob) - DMG/GBC emulator for Nintendo (3)DS.
 
 
 ### Tools
@@ -116,6 +119,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Game Boy DMA transfer routines](http://exez.in/gameboy-dma) - Understanding and using DMA routines.
 - [gb-template](https://github.com/exezin/gb-template) - A template with basic functions pre-made such as joypad input, DMA transfers, and map/tile data loading.
 - [assemblydigest](https://github.com/assemblydigest/gameboy) - Exploring Game Boy programming techniques.
+- [Reverse Engineering for Beginners](https://beginners.re/) - Free ebook (1060 pages) by Dennis Yurichev.
 
 
 ### C
@@ -141,11 +145,12 @@ Here you can find everything to get started and master the development of unoffi
 - [Lazerpong](https://github.com/huderlem/lazerpong)
 - [Back to Color](https://github.com/AntonioND/back-to-color)
 - [Geometrix](https://github.com/AntonioND/geometrix)
-- [Bitcity](https://github.com/AntonioND/bitcity)
+- [µCity](https://github.com/AntonioND/ucity)
 - [Carazu](https://github.com/mholtkamp/carazu)
 - [Snake-gb](https://github.com/DonaldHays/snake-gb)
 - [GB303](https://github.com/furrtek/GB303) - GB303 wavetable-based TB-303 style synthesizer for the Nintendo Gameboy.
 - [Pokémon Christmas](https://github.com/TheFakeMateo/xmas)
+- [Sushi](https://github.com/JustSid/Sushi)
 
 ### C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)
@@ -174,6 +179,11 @@ Here you can find everything to get started and master the development of unoffi
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be runned, but obviously some companies managed to exploit the check system.
 - [Booting the Game Boy with a custom logo](https://dhole.github.io/post/gameboy_custom_logo/) - Bypassing the Nintendo logo check.
 - [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Including features, insights and interviews.
+- [Ostrich](https://github.com/PumpMagic/ostrich) - A Game Boy Sound System player written in Swift.
+- [mGB](https://github.com/trash80/mGB) - A Gameboy cartridge program that enables the Gameboy to act as a full MIDI supported sound module.
+- [GBVisualizer](https://github.com/LIJI32/GBVisualizer) - Demonstrating the use of two undocumented Gameboy Color registers, nicknamed PCM12 (FF76) and PCM34 (FF77), which can be used to read the current PCM amplitude of the 4 APU channels.
+- [GBVideoPlayer](https://github.com/LIJI32/GBVideoPlayer) - A technical demo demonstrating how the Gameboy LCD controller can be hacked to make a Gameboy Color play a full motion video in color, together with music.
+- [rgbgfx](https://github.com/stag019/rgbgfx) - A program which converts PNG images into the Game Boy's planar tile format, for eventual integration into RGBDS.
 
 ### Contribute
 Take a look at [Contribution Guidelines](CONTRIBUTING.md).

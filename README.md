@@ -31,7 +31,7 @@ Here you can find everything to get started and master the development of unoffi
 
 ## Intro
 - [The Game Boy, a hardware autopsy](https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu).
-- [The Ultimate Boy Talk](https://www.youtube.com/watch?v=CImyDBJSTsQ).
+- [The Ultimate Boy Talk](https://media.ccc.de/v/33c3-8029-the_ultimate_game_boy_talk).
 
 ## Community
 - [gbdev.gg8.se](http://gbdev.gg8.se) - This is basically the home of the gbdev scene. The [wiki](http://gbdev.gg8.se/wiki/articles/Main_Page) has a lot of articles from previous sites, tutorials and other documents about a lot of topics.

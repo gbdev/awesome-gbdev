@@ -11,8 +11,11 @@ Here you can find everything to get started and master the development of unoffi
 - [Intro](#intro)
 - [Community](#community)
 - [Documentation](#documentation)
+  - [Peripherals](#peripherals)
   - [Cartridges](#cartridges)
-- [Development Software](#development-software)
+- [Emulator Development](#emulator-development)
+  - [Open-Source emulators](#open-source-emulators)
+- [Software Development](#software-development)
   - [Assemblers](#assemblers)
   - [Compilers](#compilers)
   - [Emulators](#emulators)
@@ -20,14 +23,15 @@ Here you can find everything to get started and master the development of unoffi
 - [Programming Tutorials](#programming-tutorials)
   - [ASM](#asm)
   - [C](#c)
-- [Games](#games)
+- [Open-Source Games](#games)
   - [ASM](#asm-1)
   - [C](#c-1)
 - [ROMs Disassembly](#roms-disassembly)
 - [Related sites, posts and projects](#related-sites-posts-and-projects)
-- [Contribute](#contribute)
-- [License](#license)
-- [Special Thanks](#special-thanks)
+- [About this project](#about)
+  - [Contribute](#contribute)
+  - [License](#license)
+  - [Special Thanks](#special-thanks)
 
 ## Intro
 - [The Game Boy, a hardware autopsy](https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu).
@@ -42,6 +46,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Game Boy Programming Manual](http://www.romhacking.net/documents/544/) - **Official Game Boy** hardware manual by Nintendo. Pretty much everything in the console is covered and explained in this manual. This should be your first and main resource to start understanding what game boy is.
 - [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) - A precise documentation by AntonioND to make a cicle-accurate Game Boy emulator.
 - [Pan Docs](http://bgb.bircd.org/pandocs.htm) - The single most comprehensive technical reference to Game Boy that is available to the public.
+- [Everything You Always Wanted To Know About GAME BOY](http://www.emulatronia.com/doctec/consolas/gameboy/gameboy.txt) - but were afraid to ask
 - [GBSOUND.txt](https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt) - A document detailing the Game Boy sound engine.
 - [DMG Schematics](http://gbdev.gg8.se/wiki/articles/DMG_Schematics) - Hardware schematics.
 - [GB Instructions](http://www.chrisantonellis.com/files/gameboy/gb-instructions.txt) Game Boy Assembly commands.
@@ -52,13 +57,20 @@ Here you can find everything to get started and master the development of unoffi
 - [GBDK libraries documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf)
 - [gbdev FAQs](http://www.devrs.com/gb/files/faqs.html) - Must read by Jeff Frohwein.
 - [Game Boy CPU InstructionSet Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
+- [Opcode table](http://goldencrystal.free.fr/GBZ80Opcodes.pdf)
+- [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
 - [Game Boy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) - Assembly language commands, timings and opcodes.
 - [Assembly Language Programming Course](http://cratel.wichita.edu/cratel/ECE238Spr08) - Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Game Boy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State University).
-- [Building a Game Boy emulator in JavaScript](http://imrannazar.com/gameboy-Emulation-in-JavaScript) - Step by step tutorial.
-- [Game Boy Camera RE](https://github.com/AntonioND/gbcam-rev-engineer) - Documentation about GB Camera and tools used to reverse engineer it by using Arduino UNO.
-- [The Game Boy Printer](https://shonumi.github.io/articles/art2.html) - An in-depth technical document about the printer hardware, the communication protocol and the usual routine that games used for implementing the print feature.
 - [Game Boy Bootrom](http://www.neviksti.com/DMG/DMG_ROM.asm) - Commented dump of the DMG bootrom.
 - [GB Technical Information](http://fms.komkon.org/GameBoy/Tech/) - Some old code resources.
+- [Differences between the Z80 and the gameboy's processor](http://www.z80.info/z80gboy.txt)
+- [Archive of related files](http://gbdev.gg8.se/files/)
+- [fruttenboel](http://verhoeven272.nl/fruttenboel/Gameboy/index.html) - Page with loads of information on the actual hardware, custom boards to interface with the console and other related projects.
+
+### Peripherals
+- [Game Boy Camera RE](https://github.com/AntonioND/gbcam-rev-engineer) - Documentation about GB Camera and tools used to reverse engineer it by using Arduino UNO.
+- [The Game Boy Printer](https://shonumi.github.io/articles/art2.html) - An in-depth technical document about the printer hardware, the communication protocol and the usual routine that games used for implementing the print feature.
+- [Ben Heck Reverse Engineers Game Boy Printer](https://www.youtube.com/watch?v=43FfJvd-YP4)
 
 ### Cartridges
 - [AntonioND's docs](https://github.com/AntonioND/giibiiadvance/tree/master/docs) - Corrected schematics and infos on cartridge header data
@@ -73,7 +85,36 @@ Here you can find everything to get started and master the development of unoffi
 - [Emulating a GameBoy Cartridge](https://dhole.github.io/post/gameboy_cartridge_emu_1/) - Emulating the functionality of a GameBoy cartridge with the development board STM32F4.
 - [Wolf](http://www.happydaze.se/wolf/) - Gameboy cartridge with co-processor.
 
-## Development Software
+## Emulator Development
+
+- [Blargg's test roms](http://gbdev.gg8.se/files/roms/blargg-gb-tests/)
+- [Gekkio's test roms](https://gekkio.fi/files/mooneye-gb/latest/)
+- [Building a Game Boy emulator in JavaScript](http://imrannazar.com/gameboy-Emulation-in-JavaScript) - Step by step tutorial.
+- [Writing a Game Boy emulator, Cinoop](https://cturt.github.io/cinoop.html)
+- [RealBoy Emulator](https://realboyemulator.wordpress.com/posts/) - A series of posts about the design and implementation of the RealBoy Emulator
+- [Codeslinger](http://www.codeslinger.co.uk/pages/projects/gameboy.html) - Another series of posts documenting the building of an emulator.
+
+
+### Open-source emulators
+- [Mooneye-gb](https://github.com/Gekkio/mooneye-gb) -  A Game Boy research project and emulator written in Rust.
+- [php-terminal-Game Boy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) - A PHP Terminal Game Boy Emulator.
+- [gameboy-Online](https://github.com/taisel/gameboy-Online) - A Game Boy Color emulator that utilizes HTML5 canvas and JavaScript audio APIs to provide a full emulation of the console.
+- [cboy](https://github.com/jkbenaim/cboy) - A Game Boy emulator written in C. Runs on Mac OS X and Linux.
+- [weplay](https://github.com/rauchg/weplay) - Collaborative Game Boy emulation powered by JavaScript.
+- [giibiiadvance](https://github.com/AntonioND/giibiiadvance) -  A GB, GBC emulator with GB Camera support. Written in C.
+- [GBE+](https://github.com/shonumi/gbe-plus) - A DMG/GBC emulator focused on enhancements. Built in C++ and SDL.
+- [Sameboy](https://github.com/LIJI32/SameBoy) - A DMG/GBC emulator written in portable C.
+- [GameYob](https://github.com/Drenn1/GameYob) - DMG/GBC emulator for Nintendo (3)DS.
+- [oneup-gb](https://github.com/oneup40/oneup-gb) - C++ DMG emulator. Currently provides SDL frontend and Retroarch integration.
+- [rustboy](https://github.com/VelocityRa/rustboy) - A basic DMG emulator written in Rust, using the Piston engine for window creation and graphics.
+- [Gearboy](https://github.com/drhelius/Gearboy) - C++ emulator that runs on iOS, Raspberry Pi, Mac, Windows and Linux.
+- [AndroidGameBoyEmulator](https://github.com/pedrovgs/AndroidGameBoyEmulator)
+- [GameLad](https://github.com/Dooskington/GameLad) - C++/SDL almost fully featured emulator.
+- [Wadatsumi](https://github.com/arrow-lang/wadatsumi) - Emulator written in Arrow.
+- [Binjgb](https://github.com/binji/binjgb) - 5kloc emulator in C that passes most of the tests.
+- [jgilchrist](https://github.com/jgilchrist/emulator) - A Gameboy emulator in modern C++.
+
+## Software Development
 
 ### Assemblers
 - [rgbds](https://github.com/bentley/rgbds) - Assembler and linker package (a fork currently updated).
@@ -87,18 +128,6 @@ Here you can find everything to get started and master the development of unoffi
 ### Emulators
 - [BGB](http://bgb.bircd.org/) - Powerful Game Boy emulator and debugger. Provides an accurate hardware emulation.
 - [Gambatte](http://sourceforge.net/projects/gambatte/) - Open-source, cross-platform and accurate emulator for Game Boy and Game Boy Color.
-
-##### Minor Emulators
-- [php-terminal-Game Boy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) - A PHP Terminal Game Boy Emulator.
-- [Mooneye-gb](https://github.com/Gekkio/mooneye-gb) - Work-In-Progress emulator made in Rust aiming at accuracy and documentation.
-- [gameboy-Online](https://github.com/taisel/gameboy-Online) - A Game Boy Color emulator that utilizes HTML5 canvas and JavaScript audio APIs to provide a full emulation of the console.
-- [cboy](https://github.com/jkbenaim/cboy) - A Game Boy emulator written in C. Runs on Mac OS X and Linux.
-- [weplay](https://github.com/rauchg/weplay) - Collaborative Game Boy emulation powered by JavaScript.
-- [giibiiadvance](https://github.com/AntonioND/giibiiadvance) -  A GB, GBC emulator with GB Camera support. Written in C.
-- [GBE+](https://github.com/shonumi/gbe-plus) - A DMG/GBC emulator focused on enhancements. Built in C++ and SDL.
-- [Sameboy](https://github.com/LIJI32/SameBoy) - A DMG/GBC emulator written in portable C.
-- [GameYob](https://github.com/Drenn1/GameYob) - DMG/GBC emulator for Nintendo (3)DS.
-
 
 ### Tools
 - [ZGB](https://github.com/Zal0/ZGB) - A little engine for creating games for the original Game Boy.
@@ -116,11 +145,17 @@ Here you can find everything to get started and master the development of unoffi
 - [Assembly tutorial by David Pello](http://wiki.ladecadence.net/doku.php?do=show&id=tutorial_de_ensamblador) - Good document to actually learn to produce working asm code for gb. Brief explainations of many important topics. Many examples with commented source code (spanish only).
 - [Assembly tutorial by David Pello](https://avivace.ovh/apps/gbdev/salvage/tutorial_de_ensamblador%20%5bLa%20decadence%5d.html) - The english version of the resource above.
 - [Beginner's Guide to Reverse Engineering GB](http://web.archive.org/web/20150511145100/http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm) - Some starting tips on disassembling and reverse engineering.
-- [Game Boy DMA transfer routines](http://exez.in/gameboy-dma) - Understanding and using DMA routines.
 - [gb-template](https://github.com/exezin/gb-template) - A template with basic functions pre-made such as joypad input, DMA transfers, and map/tile data loading.
 - [assemblydigest](https://github.com/assemblydigest/gameboy) - Exploring Game Boy programming techniques.
 - [Reverse Engineering for Beginners](https://beginners.re/) - Free ebook (1060 pages) by Dennis Yurichev.
+- [FlappyBoy: Making a simple Game Boy Game](http://voidptr.io/blog/2017/01/21/GameBoy.html)
 
+#### Timings
+- [Game Boy DMA transfer routines](http://exez.in/gameboy-dma) - Understanding and using DMA routines.
+- [Nitty Gritty Gameboy Cycle Timing](http://blog.kevtris.org/blogfiles/Nitty%20Gritty%20Gameboy%20VRAM%20Timing.txt)
+- [Mode3 Sprite Timing](https://www.reddit.com/r/EmuDev/comments/59pawp/gb_mode3_sprite_timing/)
+- [GameBoy Color DMA-Transfers v0.0.1](http://gameboy.mongenel.com/dmg/gbc_dma_transfers.txt)
+- [STAT interrupt timings](http://gameboy.mongenel.com/dmg/istat98.txt)
 
 ### C
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) - Well-written introductory document about how the Game Boy works and how to start developing working code for it.
@@ -151,6 +186,7 @@ Here you can find everything to get started and master the development of unoffi
 - [GB303](https://github.com/furrtek/GB303) - GB303 wavetable-based TB-303 style synthesizer for the Nintendo Gameboy.
 - [Pokémon Christmas](https://github.com/TheFakeMateo/xmas)
 - [Sushi](https://github.com/JustSid/Sushi)
+- [Flappy-boy-asm](https://github.com/bitnenfer/flappy-boy-asm)
 
 ### C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)
@@ -173,7 +209,6 @@ Here you can find everything to get started and master the development of unoffi
 - [gbdk-n](https://github.com/rotmoset/gbdk-n) - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms.
 - [Wiz](https://github.com/Bananattack/wiz) - A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more).
 - [Gatesboy](https://web.archive.org/web/*/http://www.gatesboy.com/) - Non-gaming purposes applications development.
-- [RealBoy blog](https://realboyemulator.wordpress.com/) - Articles about the GB hardware and an interesting analysis of the start up phase (bootstrap).
 - [pdroms.de](http://pdroms.de/news/gameboy/) Game Boy releases.
 - [Game Boy Demospotting](http://gameboy.modermodemet.se/en) - A collection of demos.
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be runned, but obviously some companies managed to exploit the check system.
@@ -184,6 +219,9 @@ Here you can find everything to get started and master the development of unoffi
 - [GBVisualizer](https://github.com/LIJI32/GBVisualizer) - Demonstrating the use of two undocumented Gameboy Color registers, nicknamed PCM12 (FF76) and PCM34 (FF77), which can be used to read the current PCM amplitude of the 4 APU channels.
 - [GBVideoPlayer](https://github.com/LIJI32/GBVideoPlayer) - A technical demo demonstrating how the Gameboy LCD controller can be hacked to make a Gameboy Color play a full motion video in color, together with music.
 - [rgbgfx](https://github.com/stag019/rgbgfx) - A program which converts PNG images into the Game Boy's planar tile format, for eventual integration into RGBDS.
+- [ArduinoGameBoy](https://github.com/drhelius/arduinogameboy) - Arduino based Game Boy cartridge reader and writer.
+
+## About
 
 ### Contribute
 Take a look at [Contribution Guidelines](CONTRIBUTING.md).

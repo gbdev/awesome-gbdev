@@ -195,6 +195,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Quadratino](https://github.com/avivace/quadratino)
 - [Doctor How](https://github.com/elfgames/doctorhow)
 - [Super Princess' 2092 Exodus](https://github.com/Zal0/gbjam2016)
+- [GBsnake](https://github.com/brovador/GBsnake)
 
 ## ROMs Disassembly
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)

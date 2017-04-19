@@ -22,6 +22,8 @@ Here you can find everything to get started and master the development of unoffi
   - [Tools](#tools)
 - [Programming Tutorials](#programming-tutorials)
   - [ASM](#asm)
+    + [Glitches and exploits](#glitches-and-exploits)
+    + [Timings](#timings)
   - [C](#c)
 - [Open-Source Games](#games)
   - [ASM](#asm-1)
@@ -135,13 +137,17 @@ Here you can find everything to get started and master the development of unoffi
 - [Gambatte](http://sourceforge.net/projects/gambatte/) - Open-source, cross-platform and accurate emulator for Game Boy and Game Boy Color.
 
 ### Tools
-- [ZGB](https://github.com/Zal0/ZGB) - A little engine for creating games for the original Game Boy.
+- [ZGB](https://github.com/Zal0/ZGB) - A little engine for creating games for the original Game Boy (expands gbdk, more info [here](http://zalods.blogspot.com/2017/01/zgb-little-engine-for-game-boy.html)).
+- [DevSound](https://github.com/DevEd2/DevSound) - Sound driver embeddable in homebrews which supports pulse width manipulation, arpeggios, and multiple waveforms.
 - [Game Boy Tile Data Generator](http://www.chrisantonellis.com/gameboy/gbtdg/) - HTML5 / JS web application that will convert bitmap images to hexidecimal data appropriate for use in tile based graphical applications, specifically GB.
 - [rgbds_textmate](https://github.com/Bananattack/rgbds_textmate) - Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3\. The syntax is particularly designed for rgbds and Game Boy-specific Z80 instructions.
 - [Harry Mulder's GB Development](http://www.devrs.com/gb/hmgd/intro.html) - Some sources and home of Game Boy Tile Designer and Game Boy Map Builder tools.
 - [GBT PLAYER](https://github.com/AntonioND/gbt-player) - A music player library and converter kit for Game Boy that can be used with RGBDS.
 - [ROM Header Utility](http://catskull.net/GB-Logo-Generator/) - An online tool to inspect and modify a ROM's header data, including the logo.
 - [gbcamextract](https://github.com/jkbenaim/gbcamextract) - Extracts photos from Game Boy Camera saves.
+- [GBExtended](http://www.tensi.eu/thomas/programming/gameboy/gbextended.html) - C library extending gbdk.
+- [GBZ80 to items](http://issotm.github.io/gbz80toitems3/) - 
+An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Source](https://github.com/ISSOtm/gbz80-to-items))
 
 ## Programming Tutorials
 ### ASM
@@ -154,6 +160,10 @@ Here you can find everything to get started and master the development of unoffi
 - [assemblydigest](https://github.com/assemblydigest/gameboy) - Exploring Game Boy programming techniques.
 - [Reverse Engineering for Beginners](https://beginners.re/) - Free ebook (1060 pages) by Dennis Yurichev.
 - [FlappyBoy: Making a simple Game Boy Game](http://voidptr.io/blog/2017/01/21/GameBoy.html)
+
+#### Glitches and exploits
+- [DMA hijacking](https://github.com/avivace/awesome-gbdev/blob/master/articles/dma_hijacking.md) - A simple technique that allows you to run custom code in most GB/SGB/CGB games, provided you have an ACE exploit. [Demo video](http://gbdev.gg8.se/forums/viewtopic.php?id=430).
+- [Pokèmon Yellow ASM hack](http://pastebin.com/raw.php?i=WaFyrr21) - Debug menu. [Demo video](https://www.youtube.com/watch?v=BkIDPwkeGWs).
 
 #### Timings
 - [Game Boy DMA transfer routines](http://exez.in/gameboy-dma) - Understanding and using DMA routines.
@@ -202,6 +212,9 @@ Here you can find everything to get started and master the development of unoffi
 - [Super Princess' 2092 Exodus](https://github.com/Zal0/gbjam2016)
 - [GBsnake](https://github.com/brovador/GBsnake)
 - [gb-mines](https://github.com/andreasjhkarlsson/gb-mines)
+- [oranges](http://www.atari2600land.com/gameboy/oranges.html)
+- [red hot princess carnage](https://github.com/Imanolea/bitbitjam3_red_hot_princess_carnage)
+- [loderunner](http://www.tensi.eu/thomas/programming/gameboy/loderunner.html)
 
 ## ROMs Disassembly
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)

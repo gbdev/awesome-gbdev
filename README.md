@@ -119,6 +119,8 @@ Here you can find everything to get started and master the development of unoffi
 - [Wadatsumi](https://github.com/arrow-lang/wadatsumi) - Emulator written in Arrow.
 - [Binjgb](https://github.com/binji/binjgb) - 5kloc emulator in C that passes most of the tests.
 - [jgilchrist](https://github.com/jgilchrist/emulator) - A Gameboy emulator in modern C++.
+- [gameboyGO](https://github.com/gonccalo/gameboyGO) - Game Boy emulator in go.
+
 
 ## Software Development
 
@@ -131,6 +133,7 @@ Here you can find everything to get started and master the development of unoffi
 
 ### Compilers
 - [The Game Boy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/) - A set of tools that enable to develop programs for the Nintendo Game Boy system in **C**. Includes a set of libraries for the most common requirements and generates image files for use with a real Game Boy.
+- [gbdk-osx](https://github.com/x43x61x69/gbdk-osx) - Patched GBDK 2.96a for the latest compilers on OS X.
 
 ### Emulators
 - [BGB](http://bgb.bircd.org/) - Powerful Game Boy emulator and debugger. Provides an accurate hardware emulation.
@@ -205,6 +208,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 
 ### C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)
+- [FlappyBoy](https://github.com/bitnenfer/FlappyBoy)
 - [Novascape](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=6823)
 - [Squishy the Turtle](https://github.com/cppchriscpp/SquishyTheTurtle)
 - [Quadratino](https://github.com/avivace/quadratino)
@@ -240,6 +244,9 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [GBVideoPlayer](https://github.com/LIJI32/GBVideoPlayer) - A technical demo demonstrating how the Gameboy LCD controller can be hacked to make a Gameboy Color play a full motion video in color, together with music.
 - [rgbgfx](https://github.com/stag019/rgbgfx) - A program which converts PNG images into the Game Boy's planar tile format, for eventual integration into RGBDS.
 - [ArduinoGameBoy](https://github.com/drhelius/arduinogameboy) - Arduino based Game Boy cartridge reader and writer.
+- [gameboy-brainfuck](https://github.com/bitnenfer/gameboy-brainfuck) - 
+Implementation of a brainfuck interpreter.
+
 
 ## About
 

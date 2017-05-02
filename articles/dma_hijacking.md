@@ -52,7 +52,7 @@ ret
 DMAHook can be anywhere (in WRAM, mostly). It will be executed in the context of the VBlank interrupt, so for most games interrupts will be disabled, etc.
 An alert reader will notice the new DMA handler modifies C (whereas the original simply zeroes A). I don't know any game whose behavior is altered by this.
 
-DMA hijacking is also useful when combined with cartswap (swapping carts without shutting the console down, concept found by furrtek, developed by Cryo and me on the GCL forums), because it allows porting ACE to other games.
+DMA hijacking is also useful when combined with [cartswap](https://gist.github.com/ISSOtm/3008fd73ec66cb56f1caecfcc8b6fb6f) (swapping carts without shutting the console down, concept found by furrtek, developed by Cryo and me on the GCL forums), because it allows porting ACE to other games.
 
 General procedure :
 
@@ -73,8 +73,20 @@ Possible "attack vectors", ie ways of affecting the recipient game, are setting 
 Manipulating the stack with this technique can not crash if the triggering game state is specific enough. I achieved text pointer manipulation in Pokémon Red this way.
 
 
+### Details
+Here are some details on how to combine DMA hijacking and cartswap to pwn any game.
+
+First thing you will need is to find some RAM to store the DMA hook code. We'll call it "HookRAM". I recommend checking how much memory is allocated to the stack.
+
+Then :
+- Clear as much RAM as needed for the game to run properly
+- Copy the DMA hook code to HookRAM
+- Copy the hijacked DMA routine to HRAM
+- Emulate all game initialization up to right before DMA routine copy / HookRAM clearing
+- Jump back to ROM
+
 
 ## Trivia
 DMA hijacking works similarly to the GameShark : it detected when the GB tried reading from the VBlank interrupt vector, and responded with instructions that applied the codes.
 
-And yep, it is possible to use DMA hijacking to emulate GameShark codes. I have a PoC in Pokémon Red (a VBA BGB save state), if anyone's interested.
+And yep, it is possible to use DMA hijacking to emulate GameShark codes. I have a PoC in Pokémon Red (a BGB save state), if anyone's interested.

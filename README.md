@@ -118,8 +118,9 @@ Here you can find everything to get started and master the development of unoffi
 - [GameLad](https://github.com/Dooskington/GameLad) - C++/SDL almost fully featured emulator.
 - [Wadatsumi](https://github.com/arrow-lang/wadatsumi) - Emulator written in Arrow.
 - [Binjgb](https://github.com/binji/binjgb) - 5kloc emulator in C that passes most of the tests.
-- [jgilchrist](https://github.com/jgilchrist/emulator) - A Gameboy emulator in modern C++.
+- [jgilchrist](https://github.com/jgilchrist/emulator) - A Game Boy emulator in modern C++.
 - [gameboyGO](https://github.com/gonccalo/gameboyGO) - Game Boy emulator in go.
+- [GameBoyEmulator-GBS](https://github.com/Salgat/GameBoyEmulator-GBS) - Game Boy emulator written in C++14 with a single library dependency of SFML.
 
 
 ## Software Development

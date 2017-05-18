@@ -212,6 +212,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 ### C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)
 - [FlappyBoy](https://github.com/bitnenfer/FlappyBoy)
+- [flappybird-gameboy](https://github.com/pashutk/flappybird-gameboy) - Yet another gbdk powered Flappybird clone
 - [Novascape](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=6823)
 - [Squishy the Turtle](https://github.com/cppchriscpp/SquishyTheTurtle)
 - [Quadratino](https://github.com/avivace/quadratino)

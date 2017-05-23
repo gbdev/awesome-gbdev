@@ -121,6 +121,7 @@ Here you can find everything to get started and master the development of unoffi
 - [jgilchrist](https://github.com/jgilchrist/emulator) - A Game Boy emulator in modern C++.
 - [gameboyGO](https://github.com/gonccalo/gameboyGO) - Game Boy emulator in go.
 - [GameBoyEmulator-GBS](https://github.com/Salgat/GameBoyEmulator-GBS) - Game Boy emulator written in C++14 with a single library dependency of SFML.
+- [PyBoy](https://github.com/Baekalfen/PyBoy) - Game Boy emulator written in Python. Works on Mac, Linux and Windows.
 
 
 ## Software Development

@@ -38,6 +38,7 @@ Here you can find everything to get started and master the development of unoffi
 ## Intro
 - [The Game Boy, a hardware autopsy](https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu).
 - [The Ultimate Boy Talk](https://media.ccc.de/v/33c3-8029-the_ultimate_game_boy_talk).
+- [Emulation of Nintendo Game Boy](https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf) - Overview of the Game Boy hardware with the perspective of building an emulator.
 
 ## Community
 - [gbdev Discord Server](https://discord.gg/gpBxq85)

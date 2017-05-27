@@ -104,25 +104,26 @@ Here you can find everything to get started and master the development of unoffi
 
 ### Open-source emulators
 - [Mooneye-gb](https://github.com/Gekkio/mooneye-gb) -  A Game Boy research project and emulator written in Rust.
-- [php-terminal-Game Boy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) - A PHP Terminal Game Boy Emulator.
-- [gameboy-Online](https://github.com/taisel/gameboy-Online) - A Game Boy Color emulator that utilizes HTML5 canvas and JavaScript audio APIs to provide a full emulation of the console.
-- [cboy](https://github.com/jkbenaim/cboy) - A Game Boy emulator written in C. Runs on Mac OS X and Linux.
+- [php-terminal-Game Boy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) - PHP Terminal
+- [gameboy-Online](https://github.com/taisel/gameboy-Online) - Javascript, HTML5 canvas and JavaScript audio APIs.
+- [cboy](https://github.com/jkbenaim/cboy) - C. Mac OS X and Linux.
 - [weplay](https://github.com/rauchg/weplay) - Collaborative Game Boy emulation powered by JavaScript.
 - [giibiiadvance](https://github.com/AntonioND/giibiiadvance) -  A GB, GBC emulator with GB Camera support. Written in C.
-- [GBE+](https://github.com/shonumi/gbe-plus) - A DMG/GBC emulator focused on enhancements. Built in C++ and SDL.
-- [Sameboy](https://github.com/LIJI32/SameBoy) - A DMG/GBC emulator written in portable C.
-- [GameYob](https://github.com/Drenn1/GameYob) - DMG/GBC emulator for Nintendo (3)DS.
-- [oneup-gb](https://github.com/oneup40/oneup-gb) - C++ DMG emulator. Currently provides SDL frontend and Retroarch integration.
+- [GBE+](https://github.com/shonumi/gbe-plus) - Built in C++ and SDL. Focused on enhancements.
+- [Sameboy](https://github.com/LIJI32/SameBoy) - Portable C.
+- [GameYob](https://github.com/Drenn1/GameYob) - Emulator for Nintendo (3)DS.
+- [oneup-gb](https://github.com/oneup40/oneup-gb) - C++ DMG. Currently provides SDL frontend and Retroarch integration.
 - [rustboy](https://github.com/VelocityRa/rustboy) - A basic DMG emulator written in Rust, using the Piston engine for window creation and graphics.
-- [Gearboy](https://github.com/drhelius/Gearboy) - C++ emulator that runs on iOS, Raspberry Pi, Mac, Windows and Linux.
+- [Gearboy](https://github.com/drhelius/Gearboy) - C++. iOS, Raspberry Pi, Mac, Windows and Linux.
 - [AndroidGameBoyEmulator](https://github.com/pedrovgs/AndroidGameBoyEmulator)
 - [GameLad](https://github.com/Dooskington/GameLad) - C++/SDL almost fully featured emulator.
-- [Wadatsumi](https://github.com/arrow-lang/wadatsumi) - Emulator written in Arrow.
+- [Wadatsumi](https://github.com/arrow-lang/wadatsumi) - Arrow.
 - [Binjgb](https://github.com/binji/binjgb) - 5kloc emulator in C that passes most of the tests.
-- [jgilchrist](https://github.com/jgilchrist/emulator) - A Game Boy emulator in modern C++.
-- [gameboyGO](https://github.com/gonccalo/gameboyGO) - Game Boy emulator in go.
-- [GameBoyEmulator-GBS](https://github.com/Salgat/GameBoyEmulator-GBS) - Game Boy emulator written in C++14 with a single library dependency of SFML.
-- [PyBoy](https://github.com/Baekalfen/PyBoy) - Game Boy emulator written in Python. Works on Mac, Linux and Windows.
+- [jgilchrist](https://github.com/jgilchrist/emulator) - Modern C++.
+- [gameboyGO](https://github.com/gonccalo/gameboyGO) - Go.
+- [GameBoyEmulator-GBS](https://github.com/Salgat/GameBoyEmulator-GBS) - C++ 14 with a single library dependency of SFML.
+- [PyBoy](https://github.com/Baekalfen/PyBoy) - Python. Mac, Linux and Windows.
+- [scimitar](https://github.com/tompko/scimitar) - Rust.
 
 
 ## Software Development
@@ -225,6 +226,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [oranges](http://www.atari2600land.com/gameboy/oranges.html)
 - [red hot princess carnage](https://github.com/Imanolea/bitbitjam3_red_hot_princess_carnage)
 - [loderunner](http://www.tensi.eu/thomas/programming/gameboy/loderunner.html)
+- [Hives](https://refreshgames.co.uk/2017/04/24/ludum-dare-38-entry-hives/)
 
 ## ROMs Disassembly
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)
@@ -233,6 +235,8 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [Reverse engineering Kirby's Dreamland 2](http://ecc-comp.blogspot.it/2016/03/reverse-engineering-kirbys-dreamland-2.html)
 
 ## Related sites, posts and projects
+- [papiGB](https://github.com/diegovalverde/papiGB) - 
+Game Boy Classic fully functional FPGA implementation from scratch
 - [fpgaboy](https://github.com/trun/fpgaboy) - Implementation Nintendo's Game Boy console on an FPGA.
 - [Piglet](https://github.com/danShumway/Piglet) - A LUA-driven AI that plays classic Game Boy color games using experimentation. In active development.
 - [The Game Boy Project](http://marc.rawer.de/Gameboy/Docs/GBProject.pdf) - Provides a study on the hardware and detailed constructional information for the realisation of three 8-bit bidirectional parallel ports.

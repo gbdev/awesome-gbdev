@@ -124,6 +124,7 @@ Here you can find everything to get started and master the development of unoffi
 - [GameBoyEmulator-GBS](https://github.com/Salgat/GameBoyEmulator-GBS) - C++ 14 with a single library dependency of SFML.
 - [PyBoy](https://github.com/Baekalfen/PyBoy) - Python. Mac, Linux and Windows.
 - [scimitar](https://github.com/tompko/scimitar) - Rust.
+- [FunGBC](https://github.com/andreasjhkarlsson/fungbc) - F#.
 
 
 ## Software Development

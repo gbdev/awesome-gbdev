@@ -130,7 +130,7 @@ Here you can find everything to get started and master the development of unoffi
 ## Software Development
 
 ### Assemblers
-- [rgbds](https://github.com/bentley/rgbds) - Assembler and linker package (a fork currently updated).
+- [rgbds](https://github.com/rednex/rgbds) - Assembler and linker package (a fork currently updated).
 - [wla-dx](https://github.com/vhelin/wla-dx) - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package.
 - [gbasm](https://github.com/BonsaiDen/gbasm) - A JavaScript based compiler for Gameboy z80 assembly code.
 - [tniASM](http://www.tni.nl/products/tniasm.html) - Macro Assembler.

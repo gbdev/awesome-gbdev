@@ -65,6 +65,7 @@ Here you can find everything to get started and master the development of unoffi
 - [Opcode table](http://goldencrystal.free.fr/GBZ80Opcodes.pdf)
 - [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
 - [Game Boy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) - Assembly language commands, timings and opcodes.
+- [OP Codes cheatsheet](http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
 - [Assembly Language Programming Course](http://cratel.wichita.edu/cratel/ECE238Spr08) - Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Game Boy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State University).
 - [Game Boy Bootrom](http://www.neviksti.com/DMG/DMG_ROM.asm) - Commented dump of the DMG bootrom.
 - [GB Technical Information](http://fms.komkon.org/GameBoy/Tech/) - Some old code resources.
@@ -125,6 +126,7 @@ Here you can find everything to get started and master the development of unoffi
 - [PyBoy](https://github.com/Baekalfen/PyBoy) - Python. Mac, Linux and Windows.
 - [scimitar](https://github.com/tompko/scimitar) - Rust.
 - [FunGBC](https://github.com/andreasjhkarlsson/fungbc) - F#.
+- [barnacleboy](https://github.com/rep-nop/barnacleboy) - Rust.
 
 
 ## Software Development

@@ -106,6 +106,7 @@ Here you can find everything to get started and master the development of unoffi
 
 ### Open-source emulators
 - [Mooneye-gb](https://github.com/Gekkio/mooneye-gb) -  A Game Boy research project and emulator written in Rust.
+- [jsGB](https://github.com/Two9A/jsGB) - Javascript.
 - [php-terminal-Game Boy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) - PHP Terminal
 - [gameboy-Online](https://github.com/taisel/gameboy-Online) - Javascript, HTML5 canvas and JavaScript audio APIs.
 - [cboy](https://github.com/jkbenaim/cboy) - C. Mac OS X and Linux.

@@ -1,0 +1,95 @@
+GameBoy Color Memormap v0.01                                     200300/GPZ-HIT
+-------------------------------------------------------------------------------
+
+
+        General Memory Map                   Hardware Write Registers
+        ------------------                   ------------------------
+
+   0000 ---------------------------
+        16kB ROM bank #0                     0000-1FFF rRAMG  MBC5+Ram RAM-Bank Enable ($00 == disabnled/$0a == enabled)
+        - 0000-00ff header                   2000-2FFF rROMB0          ROM-Bank LSB
+            - hardware vectors               3000-3FFF rROMB1          ROM-Bank MSB    (only bit 0 used)
+        - 0100 start of user code,
+               usally:
+               NOP
+               jp START
+            - nintendo logo
+            - cartridge hardware
+              info
+        --------------------------- 014F
+   0150 ---------------------------
+        ~16kb ROM 'Home' Bank
+         START: should be located
+         here somewhere
+        --------------------------- 3FFF
+   4000 ---------------------------
+        16kB switchable ROM bank             4000                      Rumble Motor on Rumble-Cards (obvious =P)
+                                             4000-5FFF rRAMB  MBC5+Ram RAM-Bank        (bit 3-0 used)
+                                             6000-7FFF        MBC1     ROM/RAM Select
+        --------------------------- 7FFF
+   8000 ---------------------------
+        8kB Video RAM
+
+        - switchable config, refer to reg. $ff40 (rLCDC)
+
+        STD-Config 1|Bank 0        |Bank 1
+        ------------+--------------+---------------
+        8000-8FFF   |Charset-Tiles |Charset-Tiles
+                    |$00-$FF/b0    |$00-$FF/b1
+        9000-97FF   |Sprite-Tiles  |Sprite-Tiles
+                    |$00-$7F/b0    |$00-$7F/b1
+        9800-9BFF   |Window-Map    |Window-Attribs
+        9C00-9FFF   |Screen-Map    |Screen-Attribs
+
+        (*) 9800-9FFF can be used for Sprite-Tiles
+                      $80-$FF if not used otherwhise
+
+        STD-Config 2|Bank 0        |Bank 1
+        ------------+--------------+---------------
+        8000-87FF   |Sprite-Tiles  |Sprite-Tiles
+                    |$00-$7F/b0    |$00-$7F/b1
+        8800-8FFF   |shared Sprite+|shared Sprite+
+                    |Charset-Tiles0|Charset-Tiles
+                    |$80-$FF/b0    |$80-$FF/b1
+        9000-97FF   |Charset-Tiles |Charset-Tiles
+                    |$00-$7F/b0    |$00-$7F/b1
+        9800-9BFF   |Screen-Map    |Screen-Attribs
+        9C00-9FFF   |Window-Map    |Window-Attribs
+
+        --------------------------- 9FFF
+   A000 ---------------------------
+        8kB switchable RAM bank
+        --------------------------- BFFF
+   C000 ---------------------------
+        4kB Internal RAM
+        --------------------------- CFFF
+   D000 ---------------------------
+        4kB Internal RAM Banks 0-7
+        --------------------------- DFFF
+   E000 ---------------------------
+        Echo of 8kB Internal RAM
+        --------------------------- FDFF
+   FE00 ---------------------------
+        Sprite Attrib Memory (OAM)
+        --------------------------- FE9F
+   FEA0 ---------------------------
+        Empty but unusable for I/O
+        --------------------------- FEFF
+   FF00 ---------------------------
+        I/O ports / Hardware regs.
+        --------------------------- FF4B
+   FF4C ---------------------------          FF40      rSVBK  GBC      internal RAM Bank Select
+        GBC I/O - Hardware area
+        --------------------------- FF7F
+   FF80 ---------------------------
+        Internal RAM - "Zero-Page"
+        - stack is located here by
+          default (after reset)
+        --------------------------- FFFE
+   FFFF ---------------------------
+        Interrupt Enable Register
+        --------------------------- FFFF
+
+
+
+

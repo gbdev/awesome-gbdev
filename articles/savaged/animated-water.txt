@@ -1,0 +1,50 @@
+How to animate the water as seen in Zelda DX
+By Marc Gale
+marc@sbirmc.ac.uk
+
+The way I've done it uses the following:
+
+
+1. Four seperate animation tiles which will cycle around happily.  In 
+other words, displaying tile 1, 2, 3, 4, 1 will look good.
+2. A byte in RAM somewhere for the frame counter
+3. Use a specific single tile number for all water
+4. A byte in RAM somewhere for the water animation delay
+5. A byte in RAM somewhere for the water animation count
+
+
+What I did was to ensure that the specified tile number was used 
+for all water on the map.  Then, in the V-Blank interrupt, copy the 
+appropriate frames' tile from ROM to the tile data area, and then 
+update the frame counter.  Of course, checking to see if we're 
+ready for the animation first.  A pseudo code for the interrupt 
+follows:
+
+
+VBlank_Int:
+        grab the animation counter
+        increase it by one
+        put it back
+        compare the counter to the animation delay value
+        if we haven't reached the delay value, return
+
+
+        reset the animation counter
+
+
+        grab the frame number
+        increase the frame number, resetting it if neccessary
+
+
+        copy the appropriate tile data from rom into the specified 
+                tile to be used for water
+fin:
+
+
+Or something like that.  When I have some replacement graphics 
+for my project, I'll release the full source code (any volunteers?) as 
+I can't release the project whilst it still uses Zelda's graphics.
+
+
+
+

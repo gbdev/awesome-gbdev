@@ -1,0 +1,70 @@
+by The ZenPsycho
+
+;*****************************
+;*      Jump table code      *
+;*****************************
+;
+;******************************************************************
+;
+;  on entry:
+;  A = Address offset
+;
+;  Registers used:
+;  A, HL, DE
+;  
+;  on exit:
+;  A  destroyed
+;  hl contains address from jump table
+;  
+;  place this routine at reset $08
+;
+;  [example code]
+;  (If A=0 then jp this)
+;  (if A=1 then jp that)
+;  (if A=2 then jp theother)
+;
+;  RST $08         ;call function to jump to address from pointer table
+;  DB this         ;pointer table
+;  DB that
+;  DB theother
+;
+;
+;******************************************************************
+
+
+  pop  hl         ;get address of first pointer from stack                  
+  push de         ;preserve DE        
+  add  a,a        ;multiply A by two           
+  ld   e,a        ;store A in E          
+  ld   d,00       ;so that we can           
+  add  hl,de      ;add the offset to hl         
+  ldi  a,(hl)     ;and now          
+  ld   h,(hl)     ;get an address from the pointer table        
+  ld   l,a        ;           
+  pop  de         ;restore DE        
+  jp   hl         ;and jump to address from table                          
+  
+  
+  
+  
+  
+  
+  
+  
+;*****************************************************************
+
+    pop  hl     ;get address
+    push bc     ;preserve BC
+    ld   c,a    ;get offset from A into BC
+    ld   b,00   ;
+    ldi  a,(hl) ;load from address into A and increment address
+    push hl     ;store address+1
+    add  hl,bc  ;add offset to address+1
+    ld   c,a    ;get data from address+1 into BC (B still=0)
+    ld   a,(hl) ;get data from address+1+offset
+    pop  hl     ;restore address+1
+    add  hl,bc  ;
+    pop  bc     ;
+    jp   hl     ;
+
+;*****************************************************************

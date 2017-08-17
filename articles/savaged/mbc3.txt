@@ -1,0 +1,65 @@
+Memory Bank Controller (MBC) 3 for GameBoy Information
+
+            by bRILLO hEAD, 1-Jan-98
+
+ THe MBC3 is a memory controller for GameBoy that supports
+ROMs up to 16megabits (2megabytes) and RAM up to 256kbits
+(32kbytes). It has a built-in clock counter that requires
+an external 32.768KHz crystal for operation.
+
+Reg 0 - $0000-$1fff - RAM/clock write protect
+
+    $0A - Enable
+    $00 - Disable
+
+Reg 1 - $2000-$3fff - ROM Bank Select
+
+    $00-$7F - Rom bank #
+
+Reg 2 - $4000-$5fff - RAM Bank/Clock Reg Select
+
+    $00-$03 - RAM bank #
+    $08-$0c - Clock register #
+
+Reg 3 - $6000-$7fff - Latch clock counter data
+
+    Writing $00 and then $01 latches clock data.
+    Another write $00 and write $01 is required
+    to latch data again.
+
+Reg SEC - $08 - Seconds counter
+
+Reg MIN - $09 - Minutes counter
+
+Reg HRS - $0A - Hours counter
+
+Reg DAYL- $0B - Lower 8 bits of day counter
+
+Reg DAYH- $0C - bit 0 = Upper 1 bit of day counter
+                bit 6 = start(0)/stop(1) clock counter
+                bit 7 = Day counter carry bit
+   
+         
+ Notes:
+
+ Bit 7 of Reg DAYH once set stays set until a 0 is written.
+
+ To access the clock counter the ram bank must first be turned
+on by writing $0A to Reg 0.
+
+ To read the clock counter value, set Reg 3 to $01. This latches
+the values of all registers so they won't change on you while your
+trying to read them. However, this does not prevent the internal
+counters from keeping correct time. If reg 3 is already set to
+$01 then write $00 and then $01.
+
+ For example, to read Reg SEC write $08 to Reg 2. The value of
+Reg SEC can then be read from any address in $A000-$BFFF range.
+Use a similar process for writing to a register.
+
+ Due to slow MBC3/clock interfacing, 4 machine cycles (16 clock cycles)
+are required between register accesses.
+
+
+
+

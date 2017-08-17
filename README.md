@@ -188,6 +188,9 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [GameBoy Color DMA-Transfers v0.0.1](http://gameboy.mongenel.com/dmg/gbc_dma_transfers.txt)
 - [STAT interrupt timings](http://gameboy.mongenel.com/dmg/istat98.txt)
 
+#### Old articles
+[This](https://github.com/avivace/awesome-gbdev/tree/master/articles/savaged) folder is an historical archive of old articles, FAQs and in general text documents about the game boy development. Note that a lot of information may be wrong or obsolete - they are archived for historical reasons.
+
 ### C
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) - Well-written introductory document about how the Game Boy works and how to start developing working code for it.
 - [Grooves Game Boy Programming](https://github.com/gbdk-salvage/grooves-game-boy-programming) - A complete set of lessons about implementing various game mechanics in a Game Boy game.

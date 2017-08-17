@@ -1,0 +1,105 @@
+    Notes for getting assembly language programs
+    that run on VGB to run on a real GB
+             by kOOPa, 2-Jan-98:
+    --------------------------------------------
+
+ 1. Emulators tend to set all of RAM to $00 on power up.
+   Real GBs do NOT initialize RAM on power up. RAM is filled
+   with random values on power up. You must clear it yourself
+   if you wish it to be set to some known value.
+
+ 2. The real hardware could care less about the ROM checksum
+   ($14e,$14f) but the complement check ($14d) MUST be correct
+   or programs will "lock up" after scrolling the Nintendo logo.
+
+    Use RGBFIX -V in the RGBDS development system to set
+   the checksum and the complement byte after each source
+   code compile. It doesn't matter whether you program in
+   C or assembly, this program will fix it.
+
+ 3. The Nintendo scrolling graphic from $104 - $133 must be
+   accurate. If one byte of it is changed then your programs
+   will "lock up" after scrolling this graphic logo.
+
+ 4. When the LCD display is off (bit 7 of $ff40 set to 0) you
+   can write to video memory at any time with out restrictions.
+   While it is on you can only write to video memory during
+   H-Blank and V-Blank. Code similar to this will work:
+
+   ; Write B to Video RAM location HL
+   WriteVRAM:
+     di                ;turn off interrupts
+   Write1:
+     ldh a,[$41]       ;read $ff41
+     and 2
+     jr nz,Write1
+     ld [hl],b
+     ei         ;turn on interrupts
+     ret
+
+    There should not be many instructions between the "jr nz" and
+   write to memory "ld [hl],b". A worst case of 64 CPU clock cycles
+   are available to access main video memory (not OAM!) following
+   the "jr nz" command.
+
+    The "di" and "ei" commands above are only required if you
+   are using Serial, Timer, or Hi-2-Lo interrupts.
+
+ 5. The LCD display is on at reset (bit 7 of $ff40 set to 1).
+   Before the LCD display can be turned off you must wait for
+   V-Blank. One popular way of doing this is the following:
+
+   ; Turn off LCD display
+   LCDOff:
+     ldh a,[$44h]    ; $ff44=LCDC Y-Pos
+     cp $90          ; $90 and bigger = in VBL
+     jr nz,LCDOff    ; Loop until = $90
+     xor a
+     ldh [$41],a     ; Turn off LCD display
+     ret
+
+    Note you should disable interrupts, if they are enabled,
+   before executing the above code or else the test of $ff44
+   could prove invalid.
+
+    Turning the LCD display on can be done at any time.
+
+ 6. If you are using sprites then you should not use the
+   following commands when their register contents are in
+   the range $fe00-$feff.
+
+     inc bc
+     inc de
+     inc hl
+
+    If you don't follow this rule, sprite trash in the form
+   of sprite "blink" will randomly affect your sprites.
+
+ 7. Normally you should only make changes to Sprite RAM
+   during V-Blank unless you are an expert and know exactly
+   what you are doing. The common way to do this is to use
+   the GB DMA register ($ff46) to do a fast copy from your
+   sprite table in RAM to $fE00-$fe9f.
+
+     A. You need a sprite table in RAM with a starting address
+       of $XX00 and with a length of 160 ($a0). Many often
+       use $c000-$c09f for this purpose but anywhere in RAM
+       starting with $XX00 is fine.
+
+     B. You need to create a VBlank interrupt routine that
+       contains the DMA command, followed by a short delay
+       to allow the DMA to complete, and copy this routine
+       to high RAM ($ff00-$fffe). The DMA command WILL NOT
+       WORK in ROM or low RAM because these are disabled
+       during DMA.
+
+     C. After copying this routine to high RAM you then
+       need to enable the VBLANK interrupt and then enable
+       interrupts.
+
+
+
+
+
+
+

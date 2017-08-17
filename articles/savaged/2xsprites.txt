@@ -1,0 +1,28 @@
+Some ideas for why sprites would disappear in 2x Speed Mode
+Written by Jan-Lieuwe Koopmans
+moa@gelrevision.nl 
+
+
+- You move your sprites using an ISR (interrupt service routine) and that
+particular interrupt is disabled by the cpu-speed switch routine (IE_REG
+being altered);
+
+
+- Bit 1 of the LCDC register is somehow set to zero;
+
+
+- The DMA copy of OAM workram to real OAM ram is not done anymore (that
+routine is in HiRam and is being called by the default VBL ISR).
+
+
+- Your sprite-tiles are not being copied to VRAM in a proper way.
+
+
+
+You can check all these easily using No$Gmb (press F10 in debug mode to see
+register contents, check HiRam (starting at $FF80) using the debugger, check
+Video RAM using F5 in debug mode).
+
+
+
+

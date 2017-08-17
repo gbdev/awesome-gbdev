@@ -1,0 +1,540 @@
+Making your first Gameboy Game
+by Mike Mika, Genetic Fantasia
+mmika@geneticfantasia.com
+
+You will find many incredible tools out there to make gameboy games, but to make
+life easy for you at this point, find these programs:
+
+TASM with Gameboy Table by Jeff Frohwein
+GFTILE by Genetic Fantasia (Only because its easy output, I recommend TILE256)
+VGB-DOS by Marcel De Kogel (Port of Marat Fayzullin's emulator)
+PAN97DOC the Gameboy Hacker Bible by Pan of Anthrox and Jeff Frohwein
+Z80 command list
+GAMEBOY memory map
+GBTOOL
+
+
+Terminology:
+
+A CHARACTER is an 8x8 graphic tile.  The gameboy screen is comprised of 32x32
+characters, with only 20x18 visible.
+
+A MAP is the coordinate information of all the characters to be displayed on the
+screen.  A 20x18 map would cover the visible screen.
+
+A SPRITE is a form of tile that is not a part of the background, but
+may move freely over or under the background character map.  It is also not
+restricted to 8x8 coordinates, but moves pixel by pixel.
+
+A PALETTE is the color set used by the gameboy.  The gameboy has four empty indexes
+where you can place the order of the four grey scale.
+
+These are essential tools to begin with.  It also helps to know a little bit about
+assembly.  Even if you don't, you can figure it out pretty easy as the Z80 processor
+is very basic.  
+
+First Step
+
+You should find yourself a good text editor.  If not, just use the DOS text editor
+to write this program, or even use notepad.  A gameboy program needs a header and
+checksum to run correctly on a gameboy.  Any source you find will have this header.
+Here is an example (Used from Hero Zero's Text Demo):
+ 
+.org $0000              ; Start of the binary
+
+.org $0040              ; VBlank IRQ
+ reti                   ; Do nothing
+.org $0048              ; LCDC Status IRQ
+ reti                   ; Do nothing
+.org $0050              ; Timer Owerflow
+ reti                   ; Do nothing
+.org $0058              ; Serial Transfear Completion
+ reti                   ; Do nothing
+.org $0060              ; Hmm, this is a wierd on
+			; Im not sure how this one works
+			; Transition from high to low
+			; of pin p10-p13
+			; I think Its a hardware thing
+ reti                   ; Do nothing :)
+; Irqs done..
+
+.org $0100
+
+; GameBoy Header with correct checksum
+.db $00,$C3,$50,$01,$CE,$ED,$66,$66,$CC,$0D,$00,$0B,$03,$73,$00,$83
+.db $00,$0C,$00,$0D,$00,$08,$11,$1F,$88,$89,$00,$0E,$DC,$CC,$6E,$E6
+.db $DD,$DD,$D9,$99,$BB,$BB,$67,$63,$6E,$0E,$EC,$CC,$DD,$DC,$99,$9F
+.db $BB,$B9,$33,$3E     ; Standard Nintendo DO NOT CHANGE...
+
+.db "MY FIRST GAME   "  ; Cart name   16bytes
+.db $00,$00,$00         ; Not used
+.db $00                 ; Cart type   ROM Only
+.db $00                 ; ROM Size    32k
+.db $00                 ; RAM Size     0k
+.db $fe,$ba             ; Maker ID    $bafe=Genetic Fantasia
+.db $01                 ; Version     =1
+.db $DA                 ; Complement check (Important)
+.db $ff,$ff             ; Cheksum, fix this if you are going to
+			; run this in VGB, or simpy use the -NOCRC
+			; switch in the VGB-DOS command line.
+
+start                   ; This is addr $0150
+ ld     sp,$fff4        ; Put the stack where the GB wants it
+ ld     a,%00000000     ; No IRQs at all
+ ldh    ($ff),a
+ sub    a               ; Misc standard init things..
+ ldh    ($41),a         ; LCDC Status
+ ldh    ($42),a         ; Screen scroll Y=0
+ ldh    ($43),a         ; Screen scroll X=0
+
+(Start program here)
+
+Here we are!  Our first delve into a program.  Now let's make a map
+and a character set.  Use GFTILE to draw a character set and save it as a binary,
+and also save it as a TASM file called "chr.tsm".  Draw a map and save it as binary
+and also as a tasm file "map.tsm".  Make sure the map dimensions are 32x32 before
+you save it!  The gameboy screen routine we will be writing will be 32 characters
+wide by 32 characters tall.
+
+
+After that, we will have to set up the screen.  By setting all the bits to on,
+the remarks on the right become effective.  If we turn on the screen, we will set
+bit 1 to 1, (I.E. a,%10000000)
+
+ ld     a,%00000000     ; LCD Controller = Off (No picture on screen)
+			; WindowBank = $9800 (Not used)
+			; Window = OFF
+			; BG Chr = $8000
+			; BG Bank= $9800
+			; Sprites= 8x8 (Size Assembly, 1=8x16)
+			; Sprites= Off (Sprites on or off)
+			; BG     = On
+ ldh    ($40),a
+
+The gameboy has only four colors to deal with, making life both easy and difficult
+for you.  Let's set up the palette for the screen and the future implementation of
+sprites to the same palette configuration we used in GFTILE, the index is in bit
+order (I.E. Color index0=11, index1=01, etc.).  The reason I set up the sprite
+palettes now is to prevent confusion later.  You have two sprite palettes that each
+sprite can choose from.  For now, we will make them both the same as the background
+palette:
+
+nor_col                 ; Sets the colors to normal palette
+ ld     a,%11011000     ; grey 3=11 (Black)
+			; grey 2=10 (Dark grey)
+			; grey 1=01 (Ligth grey)
+			; grey 0=00 (Transparent)
+ ldh    ($47),a
+ ldh    ($48),a         ; 48,49 are sprite palettes
+			; set same as background
+ ldh    ($49),a
+ ret
+ 
+
+Now we need to write the routines that will load the character set that you drew
+into the character memory ($8000), and the map onto the screen ($9800).  
+
+mchar
+ ld     hl,$8000
+ ld     d,$00           ; move 256 bytes 
+ ld     e,$12           ; x2=512. Increase this value
+			; to copy more of the character set.
+mchar_loop
+ ldh     a,($41)	; There are only certain times you
+ and     2		; can write out scrn/tile.  This
+ jr nz,mchar_loop	; loop waits for those times.
+ ld     a,(bc)
+ ld     (hli),a
+ inc    bc
+ dec    d
+ jp     nz,mchar_loop
+ dec    e
+ jp     nz,mchar_loop
+ ret
+
+map
+ ld     hl,$9800
+ ld     d,$00
+ ld     e,$04           ; 256*4=1024=32x32=One whole GB Screen
+map_loop
+ ldh     a,($41)
+ and     2
+ jr nz,map_loop
+ ld     a,(bc)
+ ld     (hli),a
+ inc    bc
+ dec    d
+ jp     nz,map_loop
+ dec    e
+ jp     nz,map_loop
+ ret
+
+Also, we'll add a routine to clear any sprites that may be randomly lingering around
+the screen.
+
+spr_cls                 ; Clear Sprites
+ ld l,0
+ ld h,$ce
+spclear
+ ld a,$ff
+ ld (hl),a
+ inc l
+ ld a,l
+ cp $ff
+ jp nz,spclear
+ ret
+
+Now, let's include our Tasm files we made with GFTILE:
+
+chrset:
+#include "chr.tsm"
+
+chrmap:
+#include "map.tsm"
+
+If you do not have a map/tile editor, then create these files:
+
+"chr.tsm"
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$82,$82,$C6,$C6
+.DB $EE,$EE,$BA,$BA,$92,$92,$82,$82,$0,$0,$0,$0
+.DB $0,$0,$C0,$C0,$23,$23,$1E,$1E,$C,$C,$78,$78
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$8,$8
+.DB $F,$F,$8,$8,$8,$8,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$1C,$1C,$E0,$E0,$0,$0,$0,$0,$F,$F
+.DB $8,$8,$8,$8,$8,$8,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$80,$80,$10,$10,$0,$0,$10,$10,$10,$10
+.DB $18,$18,$8,$8,$0,$0,$8,$8,$78,$78,$C8,$C8
+.DB $CC,$CC,$7E,$7E,$33,$33,$61,$61,$40,$40,$0,$0
+.DB $3C,$3C,$70,$70,$C,$C,$4,$4,$EC,$EC,$78,$78
+.DB $0,$0,$0,$0,$20,$20,$20,$20,$7C,$7C,$20,$20
+.DB $20,$20,$20,$20,$20,$20,$20,$20,$20,$20,$30,$30
+.DB $18,$18,$C,$C,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$3E,$3E,$7E,$7E,$60,$60,$60,$60,$6E,$6E
+.DB $6E,$6E,$0,$0,$0,$0,$38,$38,$7C,$7C,$C6,$C6
+.DB $C6,$C6,$FE,$FE,$FE,$FE,$0,$0,$0,$0,$C3,$C3
+.DB $E7,$E7,$FF,$FF,$DB,$DB,$C3,$C3,$C3,$C3,$0,$0
+.DB $0,$0,$7F,$7F,$7F,$7F,$60,$60,$60,$60,$7C,$7C
+.DB $60,$60,$0,$0,$0,$0,$7E,$7E,$7F,$7F,$63,$63
+.DB $63,$63,$7E,$7E,$63,$63,$0,$0,$0,$0,$3E,$3E
+.DB $7F,$7F,$63,$63,$63,$63,$63,$63,$63,$63,$0,$0
+.DB $0,$0,$63,$63,$63,$63,$63,$63,$77,$77,$3E,$3E
+.DB $1C,$1C,$66,$66,$7E,$7E,$3E,$3E,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$C6,$C6,$C6,$C6,$C6,$C6
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$C3,$C3
+.DB $C3,$C3,$C3,$C3,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$60,$60,$7F,$7F,$7F,$7F
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$63,$63
+.DB $7F,$7F,$7E,$7E,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$63,$63,$7F,$7F,$3E,$3E,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$1C,$1C,$1C,$1C,$1C,$1C
+
+"map.tsm"
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$1,$2,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$3,$4,$0
+.DB $0,$9,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$5,$6,$7,$8,$A,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$B,$C,$D,$E
+.DB $F,$10,$11,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$12,$13,$14,$16,$17,$18,$19,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+.DB $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0
+
+
+Now that we've type this all in, go back to the position just before the palette
+routine (nor_pal).  Enter this code:
+
+setup
+ ld	bc,chrset
+ call 	mchar
+ ld 	bc,chrmap
+ call	map
+ call 	nor_col
+ call   spr_cls
+ ld     a,%10010101     ; LCD Controller = Off (No picture on screen)
+			; WindowBank = $9800 (Not used)
+			; Window = OFF
+			; BG Chr = $8000
+			; BG Bank= $9800
+			; Sprites= 8x8 (Size Assembly, 1=8x16)
+			; Sprites= Off (Sprites on or off)
+			; BG     = On
+ ldh    ($40),a
+loop
+ jr loop
+
+Now, finally, at the end of our program, type:
+
+.block $008000-$
+.end
+
+This tells Tasm we are done and to make the binary 32k.  Now save your file as
+prog1.asm.
+
+
+TIME TO COMPILE!
+
+Here is the big moment.  Using TASM, type:
+
+TASM -69 -b prog1.asm prog1.gb
+
+This will now compile your program.  "-69" tells tasm to use the gameboy opcode
+table, and "-b" tells TASM to create a binary image.  It will do all this in file
+PROG1.GB
+
+To run this on a real gameboy or vgb, you now need to use GBTOOL and type these two
+command lines in the following order (IMPORTANT!):
+
+GBTOOL C PROG1.GB
+
+(Answer yes to inquiry)
+
+GBTOOL F PROG1.GB
+
+(Answer yes to inquiry)
+
+You may also use the crcfix programs available on the net, feel free to experiment
+as this can be tedious everytime you try your program.  If you want to bypass this
+step with VGB-DOS, you can.  Without doing the above, type:
+
+VGB-DOS PROG1.GB -NOCRC
+
+This tells VGB-DOS to not worry about the CRC check or Complement check (Nintendo's
+cartridge protection).
+
+
+NOW!  If you are using VGB-DOS, type:
+
+VGB-DOS PROG1.GB
+
+Voila!  The program runs!
+
+If you have uploaded this binary to the Smart Cart, make sure you rename the file
+to GBPROG1.GB (Just in case) and try it out.  Bingo!
+
+This is your first lesson.
+
+The final file should look like:
+
+
+
+.org $0000              ; Start of the binary
+
+.org $0040              ; VBlank IRQ
+ reti                   ; Do nothing
+.org $0048              ; LCDC Status IRQ
+ reti                   ; Do nothing
+.org $0050              ; Timer Owerflow
+ reti                   ; Do nothing
+.org $0058              ; Serial Transfear Completion
+ reti                   ; Do nothing
+.org $0060              ; Hmm, this is a wierd on
+			; Im not sure how this one works
+			; Transition from high to low
+			; of pin p10-p13
+			; I think Its a hardware thing
+ reti                   ; Do nothing :)
+; Irqs done..
+
+.org $0100
+
+; GameBoy Header with correct checksum
+.db $00,$C3,$50,$01,$CE,$ED,$66,$66,$CC,$0D,$00,$0B,$03,$73,$00,$83
+.db $00,$0C,$00,$0D,$00,$08,$11,$1F,$88,$89,$00,$0E,$DC,$CC,$6E,$E6
+.db $DD,$DD,$D9,$99,$BB,$BB,$67,$63,$6E,$0E,$EC,$CC,$DD,$DC,$99,$9F
+.db $BB,$B9,$33,$3E     ; Standard Nintendo DO NOT CHANGE...
+
+.db "MY FIRST GAME   "  ; Cart name   16bytes
+.db $00,$00,$00         ; Not used
+.db $00                 ; Cart type   ROM Only
+.db $00                 ; ROM Size    32k
+.db $00                 ; RAM Size     0k
+.db $fe,$ba             ; Maker ID    $bafe=Genetic Fantasia
+.db $01                 ; Version     =1
+.db $DA                 ; Complement check (Important)
+.db $ff,$ff             ; Cheksum, fix this if you are going to
+			; run this in VGB, or simpy use the -NOCRC
+			; switch in the VGB-DOS command line.
+
+start                   ; This is addr $0150
+ ld     sp,$fff4        ; Put the stack where the GB wants it
+ ld     a,%00000000     ; No IRQs at all
+ ldh    ($ff),a
+ sub    a               ; Misc standard init things..
+ ldh    ($41),a         ; LCDC Status
+ ldh    ($42),a         ; Screen scroll Y=0
+ ldh    ($43),a         ; Screen scroll X=0
+
+ ld     a,%00000000     ; LCD Controller = Off (No picture on screen)
+			; WindowBank = $9800 (Not used)
+			; Window = OFF
+			; BG Chr = $8000
+			; BG Bank= $9800
+			; Sprites= 8x8 (Size Assembly, 1=8x16)
+			; Sprites= Off (Sprites on or off)
+			; BG     = On
+ ldh    ($40),a
+
+setup
+ ld	bc,chrset
+ call 	mchar
+ ld 	bc,chrmap
+ call	map
+ call 	nor_col
+ call   spr_cls
+ ld     a,%10010101     ; LCD Controller = Off (No picture on screen)
+			; WindowBank = $9800 (Not used)
+			; Window = OFF
+			; BG Chr = $8000
+			; BG Bank= $9800
+			; Sprites= 8x8 (Size Assembly, 1=8x16)
+			; Sprites= Off (Sprites on or off)
+			; BG     = On
+ ldh    ($40),a
+loop
+ jr loop
+
+
+nor_col                 ; Sets the colors to normal palette
+ ld     a,%11011000     ; grey 3=11 (Black)
+			; grey 2=10 (Dark grey)
+			; grey 1=01 (Ligth grey)
+			; grey 0=00 (Transparent)
+ ldh    ($47),a
+ ldh    ($48),a         ; 48,49 are sprite palettes
+			; set same as background
+ ldh    ($49),a
+ ret
+
+mchar
+ ld     hl,$8000
+ ld     d,$00           ; move 256 bytes 
+ ld     e,$12           ; x2=512. Increase this value
+			; to copy more of the character set.
+mchar_loop
+ ldh     a,($41)	; There are only certain times you
+ and     2		; can write out scrn/tile.  This
+ jr nz,mchar_loop	; loop waits for those times.
+ ld     a,(bc)
+ ld     (hli),a
+ inc    bc
+ dec    d
+ jp     nz,mchar_loop
+ dec    e
+ jp     nz,mchar_loop
+ ret
+
+map
+ ld     hl,$9800
+ ld     d,$00
+ ld     e,$04           ; 256*4=1024=32x32=One whole GB Screen
+map_loop
+ ldh     a,($41)
+ and     2
+ jr nz,map_loop
+ ld     a,(bc)
+ ld     (hli),a
+ inc    bc
+ dec    d
+ jp     nz,map_loop
+ dec    e
+ jp     nz,map_loop
+ ret
+
+spr_cls                 ; Clear Sprites
+ ld l,0
+ ld h,$ce
+spclear
+ ld a,$ff
+ ld (hl),a
+ inc l
+ ld a,l
+ cp $ff
+ jp nz,spclear
+ ret
+
+chrset:
+#include "chr.tsm"
+
+chrmap:
+#include "map.tsm"
+
+.block $008000-$
+.end

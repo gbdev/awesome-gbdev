@@ -1,0 +1,46 @@
+;***************************************
+;*      Lookup table function          *
+;***************************************
+;
+; On entry:
+; A contains table index
+; 
+; registers used:
+; A, HL, BC
+; 
+; On exit:
+; A contains table entry
+; HL contains address of the end of the table
+; BC is preserved
+; 
+; this function is placed at $0018
+;
+; [Example Code]
+; LD A, $04
+; CALL TABLE
+; 
+; TABLE:
+; RST $18  ;call table look up function , push PC onto stack
+; DB $06   ;number of bytes in table
+; DB $06, $05, $04, $03, $02, $01  ;table data
+; ret
+; 
+; after running this code the accumulator (A) contains $02
+;
+;************************************************************************
+
+
+  POP   HL       ;Load address from stack
+  PUSH  BC       ;preserve BC
+  LD    C,A      ;Load index
+  LD    B,0      ;into BC
+  LD    A,[HLI]  ;Load size of table into A
+  PUSH  HL       ;preserve the address of the start of the table
+  ADD   HL,BC    ;HL now points to table index
+  LD    C,A      ;load size of table into BC
+  LD    A,[HL]   ;A now contains Table entry at the specified index
+  POP   HL       ;to the start address of the table,
+  ADD   HL,BC    ;add the size of the table
+  POP   BC       ;restore BC
+  JP    HL       ;and jump to the instruction AFTER the table
+

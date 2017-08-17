@@ -1,0 +1,81 @@
+Common Gameboy Development Acronyms
+Written by GeeBee and Jason
+
+*plug* http://www.devrs.com/gb/
+*plug* http://www.tripmode.com/gbdev/
+
+Read up, because GeeBee likes to give pop quizes. =)
+
+ AdvGBIDE    - GB IDE assembler by MegaMan_X. Abandoned(?).
+ AI          - Artificial Intelligence
+ APA         - All points accessable. Used in pixel-based graphics.
+ API         - Application Program Interface
+ ASxxxx      - Assembler used in GBDK.
+ BG          - Background
+ C3          - Carbon Copy Card
+ CGB         - Reference to the Gameboy Color
+ CPU         - Central Processing Unit
+ DA          - Digital Audio
+ DX          - Term adapted indicating Gameboy Color enhanced.
+ GB          - Game Boy
+ GBC         - Gameboy Color.
+ GBCAM       - Gameboy Camera.
+ GBDEV       - Gameboy Development (well duh.) =)
+ GBDK        - C compiler for GB by Pascal Felber now maintained by
+               Michael Hope. http://gbdk.sourceforge.net
+ GBMB        - Map builder for GB by Harry Mulder.
+ GBP         - Game Boy Pocket
+ GBTD        - Tile editor for GB by Harry Mulder.
+ GBX         - Gameboy XChanger. Flash cart programmer manufactured by Bung.
+               Product is not currently being manufactured.
+ GG          - Game Genie
+ DMA         - Direct Memory Access
+ EPROM       - A chip that works like a ROM but is reprogrammable
+               but requires an ultaviolet light source to do so.
+ Flash       - A chip that works like a ROM but that can be
+               reprogrammed many times easily.
+ Flash EPROM - Same as Flash.
+ Flash Cart  - Any cart that has had the original ROM removed
+               and a Flash installed in its place as shown
+               in the ReadPlus cart reader/writer docs.
+ FMV         - Full Motion Video
+ GUI         - Graphical User Interface
+ HBL         - Horizontal Blank
+ HBlank      - Horizontal Blank
+ HC          - High color. Involves palette updates during Horizontal Blank.
+ IDE         - Integrated Development Environment
+ HuC         - Hudson Controller (selects memory banks + other features)
+ LCC         - GBDK's original compiler.
+ LCD         - Liquid Crystal Display
+ LSB         - Least Significant Bit (or Byte)
+ MBC         - Memory Bank Controller
+ MSB         - Most Significant Bit (or Byte)
+ NDA         - Non-Disclosure Agreement
+ OAM         - Object (Sprite) Attribute Memory
+ PAL         - Palette
+ PV          - Pocketvoice. Flash cart with microphone and speaker built in.
+ RAM         - Random Access Memory (read / write memory)
+ RGBDS       - Powerful GB assembler by Carsten Sorensen now maintained by
+               Otaku. http://www.otakunozoku.com
+ RGBASM      - Powerful GB assembler by Carsten Sorensen now maintained by
+               Otaku. http://www.otakunozoku.com
+ ROM         - Read Only Memory (new carts contain this)
+ SDCC        - New compiler used in GBDK.
+ SGB         - Super Game Boy
+ SPR         - Sprite
+ SRAM        - Save RAM. Battery backed up random access memory.
+ SRC         - Source Code
+ SSC         - Super Smart Card (programmable cart, no longer made)
+ TASM        - Table assembler for GB (not related to Turbo Assembler)
+ TIM         - Timer
+ TIMINT      - Timer Interrupt
+ VBK         - Video RAM Bank
+ VBL         - Vertical Blank
+ VBLINT      - Vertical Blank Interrupt
+ VRAM        - Video RAM
+ WIN         - Window
+
+
+
+
+

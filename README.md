@@ -2,9 +2,18 @@
 
 #### [![GameboyIcon](http://i.imgur.com/ROUq7NT.gif) Join us on Discord](https://discord.gg/gpBxq85)
 
-A curated list of awesome Game Boy Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
+A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
-Here you can find everything to get started and master the development of unofficial software for the original 1989 Game Boy.
+#### Disambiguation: Game Boy, Game Boy Color and Super Game Boy
+
+>Although this documentation is focused on the original (1989) Game Boy (DMG), the Game Boy Color (GBC) and Super Game Boy (SGB) are very similar systems, with few important distictions, such as:
+>
+>- Different hardware specifications
+>- Specific hardware and software features
+>- Specific registers
+>- Specific bugs and exploitable behaviours
+>
+>If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check for specific references to GBC/CGB and SGB in the documentation section.
 
 ## Contents
 
@@ -25,6 +34,7 @@ Here you can find everything to get started and master the development of unoffi
     + [Glitches and exploits](#glitches-and-exploits)
     + [Timings](#timings)
   - [C](#c)
+  - [Old articles](#old-articles)
 - [Open-Source Games](#games)
   - [ASM](#asm-1)
   - [C](#c-1)
@@ -188,9 +198,6 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [GameBoy Color DMA-Transfers v0.0.1](http://gameboy.mongenel.com/dmg/gbc_dma_transfers.txt)
 - [STAT interrupt timings](http://gameboy.mongenel.com/dmg/istat98.txt)
 
-#### Old articles
-[This](https://github.com/avivace/awesome-gbdev/tree/master/articles/savaged) folder is an historical archive of old articles, FAQs and in general text documents about the game boy development. Note that a lot of information may be wrong or obsolete - they are archived for historical reasons.
-
 ### C
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) - Well-written introductory document about how the Game Boy works and how to start developing working code for it.
 - [Grooves Game Boy Programming](https://github.com/gbdk-salvage/grooves-game-boy-programming) - A complete set of lessons about implementing various game mechanics in a Game Boy game.
@@ -202,6 +209,9 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [GBDK Joypad](http://gbdev.gg8.se/wiki/articles/GBDK_Joypad_Tutorial) - Details the use of the joypad with GBDK.
 - [Game Boy home of Flavor](http://www.personal.triticom.com/~erm/GameBoy/) - Some full games and sources.
 - [GBDK Configuring and Programming Tutorial](https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/) - Configuring GBDK, Using Tiles, Colliding Sprites, GBTD, GBMB, Memory Management and ROM Banking.
+
+#### Old articles
+[This](https://github.com/avivace/awesome-gbdev/tree/master/articles/salvaged) folder is an historical archive of old articles, FAQs and in general text documents about the game boy development. These may be wrong or obsolete - they are archived for historical reasons.
 
 ## Games
 - [Infinity](https://github.com/infinity-gbc/infinity)

@@ -4,20 +4,10 @@
 
 A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
-#### Disambiguation: Game Boy, Game Boy Color and Super Game Boy
-
->Although this documentation is focused on the original (1989) Game Boy (DMG), the Game Boy Color (GBC) and Super Game Boy (SGB) are very similar systems, with few important distictions, such as:
->
->- Different hardware specifications
->- Specific hardware and software features
->- Specific registers
->- Specific bugs and exploitable behaviours
->
->If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check for specific references to GBC/CGB and SGB in the documentation section.
-
 ## Contents
 
 - [Intro](#intro)
+  + [Disambiguation](#disambiguation)
 - [Community](#community)
 - [Documentation](#documentation)
   - [Peripherals](#peripherals)
@@ -49,6 +39,17 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [The Game Boy, a hardware autopsy](https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu).
 - [The Ultimate Game Boy Talk](https://media.ccc.de/v/33c3-8029-the_ultimate_game_boy_talk).
 - [Emulation of Nintendo Game Boy](https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf) - Overview of the Game Boy hardware with the perspective of building an emulator.
+
+#### Disambiguation
+
+Although this documentation is focused on the original (1989) Game Boy (DMG), the *Game Boy Color* (GBC) and *Super Game Boy* (SGB) are very similar systems, with few important distictions, such as:
+
+- Different hardware specifications
+- Specific hardware and software features
+- Specific registers
+- Specific bugs and exploitable behaviours
+
+If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check for specific references to GBC/CGB and SGB in the documentation section.
 
 ## Community
 - [gbdev Discord Server](https://discord.gg/gpBxq85)

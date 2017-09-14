@@ -106,7 +106,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [MBC1 and MBC2 cartridges circuits](http://fms.komkon.org/GameBoy/Tech/Carts.html) and explaination on how these MBC actually bank switch and control RAM.
 - [GB Rom List](https://docs.google.com/spreadsheets/d/1cOS__xEj8bBT7cqEDgJcYStKuFAS8mMA4uErx9kA40M/edit?usp=sharing) - Navigable table of every GB game released with details on their cartridges.
 - [Game Boy cartridge PCB photos](http://gekkio.fi/blog/2016-03-19-game-boy-cartridge-pcb-photos.html)
-- [Emulating a GameBoy Cartridge](https://dhole.github.io/post/gameboy_cartridge_emu_1/) - Emulating the functionality of a GameBoy cartridge with the development board STM32F4.
+- [Emulating a GameBoy Cartridge](https://dhole.github.io/post/gameboy_cartridge_emu_1/) - Emulating the functionality of a Game Boy cartridge with the development board STM32F4.
 - [Wolf](http://www.happydaze.se/wolf/) - Gameboy cartridge with co-processor.
 
 ## Emulator Development
@@ -263,6 +263,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [pokemontools](https://github.com/pret/pokemon-reverse-engineering-tools) - a python module that provides various reverse engineering components for various Pokémon games.
 
 ## Related sites, posts and projects
+- [ArduinoBoy](https://github.com/trash80/Arduinoboy) - Serial communication (MIDI) from an Arduino to the Game Boy for music applications such as LittleSoundDJ, Nanoloop., and mGB.
 - [papiGB](https://github.com/diegovalverde/papiGB) - 
 Game Boy Classic fully functional FPGA implementation from scratch
 - [fpgaboy](https://github.com/trun/fpgaboy) - Implementation Nintendo's Game Boy console on an FPGA.

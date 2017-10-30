@@ -237,14 +237,12 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [Carazu](https://github.com/mholtkamp/carazu)
 - [Snake-gb](https://github.com/DonaldHays/snake-gb)
 - [GB303](https://github.com/furrtek/GB303) - GB303 wavetable-based TB-303 style synthesizer for the Nintendo Gameboy.
-- [Pokémon Christmas](https://github.com/TheFakeMateo/xmas)
 - [Sushi](https://github.com/JustSid/Sushi)
 - [Flappy-boy-asm](https://github.com/bitnenfer/flappy-boy-asm)
 - [Adjustris](https://github.com/tbsp/Adjustris)
 - [exeman](https://github.com/exezin/exeman/)
 
 ### C
-- [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)
 - [FlappyBoy](https://github.com/bitnenfer/FlappyBoy)
 - [flappybird-gameboy](https://github.com/pashutk/flappybird-gameboy) - Yet another gbdk powered Flappybird clone
 - [Novascape](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=6823)

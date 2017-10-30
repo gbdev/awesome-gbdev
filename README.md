@@ -284,7 +284,6 @@ Game Boy Classic fully functional FPGA implementation from scratch
 - [mGB](https://github.com/trash80/mGB) - A Gameboy cartridge program that enables the Gameboy to act as a full MIDI supported sound module.
 - [GBVisualizer](https://github.com/LIJI32/GBVisualizer) - Demonstrating the use of two undocumented Gameboy Color registers, nicknamed PCM12 (FF76) and PCM34 (FF77), which can be used to read the current PCM amplitude of the 4 APU channels.
 - [GBVideoPlayer](https://github.com/LIJI32/GBVideoPlayer) - A technical demo demonstrating how the Gameboy LCD controller can be hacked to make a Gameboy Color play a full motion video in color, together with music.
-- [rgbgfx](https://github.com/stag019/rgbgfx) - A program which converts PNG images into the Game Boy's planar tile format, for eventual integration into RGBDS.
 - [ArduinoGameBoy](https://github.com/drhelius/arduinogameboy) - Arduino based Game Boy cartridge reader and writer.
 - [gameboy-brainfuck](https://github.com/bitnenfer/gameboy-brainfuck) - 
 Implementation of a brainfuck interpreter.

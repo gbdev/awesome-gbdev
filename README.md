@@ -239,6 +239,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [Sushi](https://github.com/JustSid/Sushi)
 - [Flappy-boy-asm](https://github.com/bitnenfer/flappy-boy-asm)
 - [Adjustris](https://github.com/tbsp/Adjustris)
+- [exeman](https://github.com/exezin/exeman/)
 
 ### C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)

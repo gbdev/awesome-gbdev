@@ -215,6 +215,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [GBDK Joypad](http://gbdev.gg8.se/wiki/articles/GBDK_Joypad_Tutorial) - Details the use of the joypad with GBDK.
 - [Game Boy home of Flavor](http://www.personal.triticom.com/~erm/GameBoy/) - Some full games and sources.
 - [GBDK Configuring and Programming Tutorial](https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/) - Configuring GBDK, Using Tiles, Colliding Sprites, GBTD, GBMB, Memory Management and ROM Banking.
+- [Simplified GBDK examples](https://github.com/mrombout/gbdk_playground)
 
 #### Old articles
 [This](https://github.com/avivace/awesome-gbdev/tree/master/articles/salvage) folder is an historical archive of old articles, FAQs and in general text documents about Game Boy development. These may be wrong or obsolete - they are archived for historical reasons.

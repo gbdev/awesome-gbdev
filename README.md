@@ -145,6 +145,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [scimitar](https://github.com/tompko/scimitar) - Rust.
 - [FunGBC](https://github.com/andreasjhkarlsson/fungbc) - F#.
 - [barnacleboy](https://github.com/rep-nop/barnacleboy) - Rust.
+- [node-gameboy](https://github.com/nakardo/node-gameboy) - Node.js.
 
 
 ## Software Development

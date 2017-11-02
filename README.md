@@ -246,6 +246,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [kupman](https://github.com/dubvulture/gbdev)
 - [Adjustris](https://github.com/tbsp/Adjustris)
 - [exeman](https://github.com/exezin/exeman/)
+- [Aevilia](https://github.com/ISSOtm/Aevilia-GB)
 
 ### C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)

@@ -243,7 +243,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [Pokémon Christmas](https://github.com/TheFakeMateo/xmas)
 - [Sushi](https://github.com/JustSid/Sushi)
 - [Flappy-boy-asm](https://github.com/bitnenfer/flappy-boy-asm)
-- [kupman](https://github.com/dubvulture/gbdev)
+- [kupman](https://github.com/dubvulture/gbdev) and some other projects
 - [Adjustris](https://github.com/tbsp/Adjustris)
 - [exeman](https://github.com/exezin/exeman/)
 - [Aevilia](https://github.com/ISSOtm/Aevilia-GB)
@@ -265,6 +265,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [Hives](https://refreshgames.co.uk/2017/04/24/ludum-dare-38-entry-hives/)
 - [Bubble Factory](https://github.com/DonaldHays/bubblefactory)
 - [GBC Atari Boxing](https://github.com/rubfi/gbc-atari-boxing) - Atari 2600 Boxing clone for the Game Boy (Color).
+- [GB raycaster, Vision-8](https://github.com/haroldo-ok/really-old-stuff/tree/master/gameboy) and some other projects
 
 ## ROMs Disassembly
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)

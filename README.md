@@ -184,6 +184,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [Vim syntax file for RGBDS](https://github.com/Leandros/dotfiles/blob/master/.vim/syntax/rgbds.vim) - Another Vim syntax highlighting file for RGBDS assembly.
 - [gbdk-lib-extension](https://github.com/ProGM/gbdk-lib-extension) - A small set of sources and tools for the Gameboy Development Kit by Michael Hope.
 - [GB-convert](https://github.com/exezin/gb-convert) - Gameboy tile conversion and map editor tool (converts to assembly).
+- [cart-dumper](https://github.com/Palmr/cart-dumper) - Gameboy Cartridge Dumper ROM.
 
 ## Programming Tutorials
 ### ASM

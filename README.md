@@ -248,6 +248,7 @@ An online converter, translates gameboy assembly into Pokémon R/B/Y items ([Sou
 - [Adjustris](https://github.com/tbsp/Adjustris)
 - [exeman](https://github.com/exezin/exeman/)
 - [Aevilia](https://github.com/ISSOtm/Aevilia-GB)
+- [GBSlides](https://github.com/Kartones/gameboy) - A simple Game Boy Powerpoint-like slides viewer.
 
 ### C
 - [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)

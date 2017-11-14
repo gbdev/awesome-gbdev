@@ -147,6 +147,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [barnacleboy](https://github.com/rep-nop/barnacleboy) - Rust.
 - [node-gameboy](https://github.com/nakardo/node-gameboy) - Node.js.
 - [PlutoBoy](https://github.com/RossMeikleham/PlutoBoy) - Cross platform (Windows, OSX, Linux/Unix, Android, iOS, Web Browsers, and Sony PSP) emulator.
+- [SuperGameHerm](https://code.foxkit.us/emulators/supergameherm) - Cross platform emulator written in C11.
 
 
 ## Software Development

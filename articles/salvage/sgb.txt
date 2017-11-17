@@ -1,0 +1,462 @@
+Super GameBoy Commands, Extracted by kOOPa, 15-Feb-98
+-----------------------------------------------------
+	Last updated by:	Bowser, 13-June-98
+
+Updates:
+	Block Area mode ($04) control codes updated
+	Line mode ($05) written
+	Divide mode ($06) written
+	1CHR mode ($07) written
+
+ A SGB command transfer is 128 bits + a zero bit. The first five
+bits of the first byte is the command byte. The last 3 bits of
+the first byte represent the number of 128 bit packages to be
+sent. Unused bits in a SGB command transfer should be set to 0.
+ Most of the commands listed below only transfer one package.
+The command bytes below are preceded by the # character to remind
+you that they have to be shifted left three times before used.
+
+
+Palettes
+--------
+
+ There are several different types of palettes in the SGB.
+One type is the System color palette. It is a virtual palette
+rather than a hardware palette. The hardware color palette
+is shown at the bottom of this document and contains what
+are called the SGB color palettes and also holds the SGB Border
+palette.
+
+ As far as SGB onscreen colors are concerned there are
+only really two palette types: SGB color palettes and
+the SGB border palette.
+
+ The SGB border palette is setup using command $14.
+There are 64 colors in this palette.
+
+ The SGB color palettes may be set directly using
+commands $00-$03. There are a total of four of
+these palettes and they determine which colors are
+used in the main game action window. The color for
+bit 00 will be the same for all SGB color palettes.
+The color most recently stored in bit 00 will be used.
+
+ The SGB color palettes may be set indirectly using
+the System color palettes using commands $0a-$0b.
+There are a total of 512 of these palettes.
+
+
+SGB Border
+----------
+
+ The SGB border is often shown as colorful graphics that
+surround the main game action window. The truth is that the
+SGB border actually covers the whole viewing screen and
+has the highest viewing priority. The reason it appears be
+just a "border" around most games is due to the fact that
+usually a 160x144 pixel wide box is drawn in the center of
+the SGB "border" using color 0. Since this color is
+transparent, the main game action window under it is visible.
+
+ Creating a program to convert a 16-color GIF to a SGB
+border is relatively easy and has been done for DOS.
+(i.e.gif2sopt.exe) What is not so easy is converting a
+64-color GIF to a SGB border because each tile only has
+access to 16-colors. The 16-color palette that the tile
+has access to is determined by the tile attribute byte.
+The tile attribute byte is described in the 'Picture
+Transfer' command ($14) below.
+
+Main Action Window
+------------------
+
+ The SGB cartridge that plugs into the SNES contains
+a GB CPU. The SNES is able to video capture the video
+output of this GB CPU and display it on the screen as
+the main game action window. Since the SNES is only
+doing a raw video capture it only knows about 4 levels
+of grey coming from the GB CPU. In order to add more
+than 4 colors to the main game action window, the SGB
+software allows you to assign 1 of the 4 SGB color
+palettes for each 8x8 tile position in this window.
+"Block"($4), "Line"($5), "Divide"($6), "1Chr"($7),
+and "Set Attr from ATF"($15) all are different means
+for setting the palettes for each 8x8 tile location.
+On reset, each 8x8 tile position defaults to SGB
+color palette 0.
+
+ Commands $4-$7 are various methods for block-setting
+the 8x8 tile color palettes. The "Set Attr from ATF"
+($15) allows you to select 1 of 45 "ATtribute Files".
+Each "ATtribute File" contains 90 bytes (20x18x2 bits).
+By selecting an "ATtribute File", you can exactly
+select 1 of 4 SGB color palettes for each 8x8 tile
+location due to the fact that these files contain
+2 bits of information for each 8x8 tile location.
+
+
+Commands
+--------
+
+Set SGB color Palettes
+ 0 & 1 ($00,data) - Download color palettes 0 & 1
+ 2 & 3 ($01,data) - Download color palettes 2 & 3
+ 0 & 3 ($02,data) - Download color palettes 0 & 3
+ 1 & 2 ($03,data) - Download color palettes 1 & 2
+--------------------------------------------------
+
+Here is example data for setting SGB color palettes 0 & 1:
+
+        DW      $7fff    ;white      ;bit 00 color
+
+;Pallete 0
+        DW      $7c00    ;blue       ;bit 01 color
+        DW      $03e0    ;green      ;bit 10 color
+        DW      $0000    ;black      ;bit 11 color
+
+;Palette 1
+        DW      $03ff    ;yellow     ;bit 01 color
+        DW      $001f    ;red        ;bit 10 color
+        DW      $0000    ;black      ;bit 11 color
+
+
+ Please note that all four SGB color palettes share the
+same bit 00 color. The color most recently stored in
+bit 00 will be used.
+
+ Information for calculating the DW color value is given later
+in this text.
+
+ When using the following four Palette Direct Set commands,
+the GameBoy image will be altered (colors changed) even if
+you used the GameBoy Window Mask command to freeze the screen.
+Therefore use arguments Black or White with the Window Mask
+command before using the following four commands. If you want
+to freeze the screen, send palette data with the Attribute
+File ATF0-ATF44. In the event you are changing the screen by
+sending attribute data and color data at the same time, use
+Set SGB Palette Indirect command.
+
+
+"Block" Area Designation Mode ($04) (other data shown below)
+-----------------------------------------------------------
+
+ $00 - %00100xxx   xxx = # of packets
+ $01 - %///xxxxx   xxxxx = # of data sets - One data set is control
+                      code, color palette designation, & the coords.
+
+ $02 - %/////xxx   xxx = Control code
+			    	000 = don't care
+			    	001 = set pal (inside block + surrounding block line) to 'zz' of $03
+				010 = set pal of surrounding block line to 'yy' of $03
+				011 = set pal inside block to 'yy' & surrounding block line to 'yy'
+				100 = set pal outside the block to 'xx'
+				101 = set pal inside to 'zz' & outside the block to 'xx'
+				110 = set pal outside the block to 'xx'
+				111 = set pal inside block tp 'zz' + surrounding line to 'yy' + outside block to 'xx'
+ $03 - %//xxyyzz   Color Palette Designation 
+				xx = color palette outside surrounded area
+				yy = color palette on surrounding block line
+				zz = color palette inside surrounded area
+ $04 - %///xxxxx   xxxxx = start point H
+ $05 - %///xxxxx   xxxxx = start point V
+ $06 - %///xxxxx   xxxxx = end point H
+ $07 - %///xxxxx   xxxxx = end point V
+
+ $08-$0d Repeat of $02-$07 data if # of data sets > 1.
+
+ If number of packets is 1, set $0e & $0f to $00.
+
+
+
+"Line" Area Designation Mode ($05)
+----------------------------------
+$00 - %00101xxx	xxx = # packets
+$01 - %xxxxxxxx   number of data sets ($1 - $6E), one data set controls:
+			code, colours palette designation, and coords.
+
+$02 - %xyyzzzzz	control code 1'st data set
+				x 	= Mode (0 = Horizontal line, 1 = Vertical line)
+				yy	= Palette number
+				zzzzz = Line number
+
+One dataset is 1 byte just as $02.
+If # data sets = 1, fill with 0's up to $0F
+
+
+"Divide" Area Designation Mode ($06)
+-----------------------------------
+$00 - %00101001	(number of packets must be 1)
+
+$01 - %/vxxyyzz	control code
+				v 	= Mode (0 = divide horizontally, 1 = Divide vertical)
+				xx	= Colour palette ON division line
+				yy	= Colour palette ABOVE & LEFT of division
+				zz	= colour palette BELOW & RIGHT of division
+
+$02 - %///xxxxx	xxxxx = Character line number to divide at
+
+fill with 0's to $0F
+
+
+"1CHR" Area Designation Mode ($07)
+----------------------------------
+$00 - %00111xxx	xxx = number of packets ($01 - $06)
+$01 - %///xxxxx	Beginning X coordinate
+$02 - %///yyyyy	Beginning Y coordinate
+
+$03 - %xxxxxxxx	Number of datasets, 2 bits = 1 dataset
+$04 - %///////x	MSB of data in $03. Max number = 360.
+$05 - %///////x	Writing style ( 0 = Left -> right, 1 = up -> down)
+
+$06 - %vvxxyyzz	data
+				vv = pal for dataset 1
+				xx = pal for dataset 2
+				yy = pal for dataset 3
+				zz = pal for dataset 4
+
+$07 - %vvxxyyzz	data
+etc...
+
+
+Sound On/Off ($08)
+------------------
+
+
+Transfer Sound PRG/DATA ($09)
+-----------------------------
+
+ This transfers your score (in .GAK format) data.
+
+
+Set SGB Palette Indirect ($0a)
+------------------------------
+
+
+Set System Color Palette Data ($0b)
+-----------------------------------
+
+
+Enable/Disable Attraction Mode ($0c)
+------------------------------------
+
+
+Speed Function ($0d)
+--------------------
+
+
+SGB Function ($0e)
+------------------
+
+
+Super NES WRAM Transfer 1 ($0f)
+-------------------------------
+
+
+Super NES WRAM Transfer 2 ($10)
+-------------------------------
+
+
+Controller 2 Request (#11) ($00) - Request 1 play
+-------------------------------------------------
+
+
+Controller 2 Request (#11) ($01) - Request 2 play
+-------------------------------------------------
+
+  Is used to determine if system is SGB or regular GB.
+
+
+Set Program Counter ($12)
+-------------------------
+
+
+CharSet Transfer ($13) (%00000xyy)
+  (x=Char Type:0=BG,1=OBJ  y=CharSet Range:0=00-7f,1=80-ff)
+-----------------------------------------------------------
+
+ The tiles that are downloaded to the SNES for the border
+are regular GB tiles that have been modified for extra colors.
+Every tile consists of 32 bytes. The format is:
+
+ 16 bytes - Standard 4 color GB character set
+ 16 bytes - Extended color information
+
+ The same way GB uses two bytes to convey 8 pixels
+and the 4 colors for each pixel, the extended color
+info uses the same technique for determining extended
+colors. This tells the SNES which color palette to
+use to display each pixel. This allows a total of 16
+colors per tile. Since SGB borders support up to 64 colors,
+access to the other colors are achieved by changing the
+Major palette number in the picture transfer tile map.
+
+
+Picture Transfer ($14) - Download border to SNES.
+------------------------------------------------
+
+ The border (or tile map) that is downloaded is 32x28 tiles
+or 256x224 pixels. The regular GB screen fits right in the
+middle like this:
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXX....................XXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+ The tile map consists of a tile number byte & a tile attribute
+byte at each position on the map. A total of 32 lines are
+downloaded even though the last 4 lines are not visible. This
+would equal 64 bytes per line and a total of 2048 bytes per map.
+Next, a 64 x 2 byte color palette for the map is downloaded.
+The first palette entry color is transparent. Use this color
+to display regular GB screen underneath.
+
+ The tile number comes before the tile attribute of each position.
+There can be up to 1024 tiles from which to select. The SGB only
+supports 256 so bits 0 & 1 of the tile attribute must be set to 0.
+Here are the tile attributes I understand so far:
+
+Bit 7 - Vertical flip tile
+Bit 6 - Horizontal flip tile
+Bit 5 - Does nothing (Set to 0.)
+Bit 4 - Select Major Palette MSB (Usually set to 1.)
+Bit 3 - Select Major Palette  -
+Bit 2 - Select Major Palette LSB
+Bit 1 - Tile # MSB (Most significant bit) (Set to 0.)
+Bit 0 - Tile # NSB (Next most significant bit) (Set to 0.)
+
+ This is often called the SGB border but in fact it covers
+the whole SNES screen. The Major Palette select has 8
+different settings. Only the last 4 - 7 are normally used
+thought to access all 64 colors transfered with cmd (#14).
+(NOTE: If using 'gif2sopt.exe' to generate a border, the
+ range of the palette selections is 1-8 so select palette
+ 5 since that program only allows up to 16 colors.)
+
+
+Set Attribute from ATF ($15)
+----------------------------
+
+ The data for 45 Attribute files is transfered with
+ this command. Each ATtribute File is 90 bytes so
+ 90x45 or 4050 bytes of data are transfered. Each
+ attribute file uses 5 bytes per 8x8 horizontal
+ line (20 x 4 char/byte x 2 bits/palette) to
+ describe the color palettes of a line.
+ Example ATF data:
+
+   DB $ff,$00,$00,$00,$02    ; Line #1
+   DB $ff,$00,$00,$00,$02    ; Line #2
+   DB $ff,$00,$00,$00,$02    ; Line #3
+   .....
+   DB $ff,$00,$00,$00,$02    ; Line #18
+
+ The above ATtribute File would set the SGB color
+ palette selection to 3 for the first 4 columns
+ of the main game action window. The last column
+ would have SGB color palette 2 selected. All the
+ other columns would have palette 0 selected.
+
+
+Set Data from ATF ($16) (data)
+------------------------------
+
+ Transfer specified ATtribute File to GameBoy window.
+
+data:
+  %/xyyyyyy    x - 0 = No Change, 1 = Cancel mask after xfer ATF
+               yyyyyy = ATtribute File number ($00-$2c)
+
+
+GameBoy Window Mask ($17) (data)
+--------------------------------
+data:
+  $00 = Off
+  $01 = Transfers VRAM to SNES until cancelled.
+  $02 = Mask so that all color codes in SGB
+        color palette are black.
+  $03 = Mask so that all color codes in SBG
+        color palette are white.
+
+
+Super NES OBJ Mode ($18)
+------------------------
+
+SNES Color Palette Info
+-----------------------
+
+ The Nintendo Super Famicom is capable of displaying 256 colors from a
+palette of 32,768. These 256 colors are split into 16 palettes of 16 colors
+each. Only 8 of these palettes are accessible by the SGB.
+
+Color data is made up of 3 components (Red,Green,Blue) each of 5 bits (The
+Amiga uses exactly the same system, but only using 4 bits per component).
+
+                      00000 00000 00000
+                      \   / \   / \   /
+                       \ /   \ /   \ /
+                        B     G     R
+
+Examples:
+~~~~~~~~~
+         00000 10111 11100
+         11111 00000 00000 = $7C00 (Bright Blue)
+         00000 11111 00000 = $03E0 (Bright Green)
+         00000 00000 11111 = $001F (Bright Red)
+         00000 00000 00000 = $0000 (Black)
+         11111 11111 11111 = $7FFF (White)
+
+
+SGB Palette Selection
+---------------------
+
+ There is actually only one color palette in the SNES
+but it is divided up into several sections for different
+SGB functions. These sections are referred to as Major (M)
+sections 0-7. Some SGB functions even divided some of these
+sections into sections. These sections are referred to as
+minor (m) sections. The large blocks below represent Major
+sections or palettes and smaller ones below them represent
+minor palettes. There are 4 colors per minor palette and
+16 colors per Major palette:
+
++-------+-------+-------+-------+-------+-------+-------+-------+
+|   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |
++-------+-------+-------+-------+-------+-------+-------+-------+
+|0|1|2|3|                        ^                             ^
++-------+                        |                             |
+ ^     ^                         +--------------+--------------+
+ +--+--+                                        |
+    |                                           |
+Set with Commands         Set with 64 colors in Picture Transfer (#14)
+#00,#01,#02, & #03                  (holds SGB Border colors)
+
+
+
+
+

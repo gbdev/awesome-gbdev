@@ -1,0 +1,142 @@
+Fast Two Player Code using RGBASM
+(or Fast OOP using RGBASM)
+Written by GeeBee
+With an addition by Otaku
+
+ As an example, let's say you have an assembly language two
+player game that you are working on where the majority of
+the code for player one might be identical for player two.
+There are basically two ways of handling this: 
+
+ 1) Pass a pointer to these routines that points to the
+ "object" structure that you wish to process.
+
+ 2) Repeat all of these code routines using slightly
+ different function/variable names.
+
+ The advantage to using approach number 1 is that you can
+have two or more objects that share the same code routines.
+One disadvantage is the code will be slower than approach
+2 because you have to access the object structure through
+a pointer. Also this pointer can tie up valuable GB registers
+which can cause longer/slower code due to fewer available
+registers.
+
+ The advantage to using approach number 2 is that since your
+object data doesn't have to be accessed through a pointer the
+code can be much quicker which sometimes is very important
+on the limited GB/GBC platform. The disadvantages are that
+code must be repeated for each object (which can rapidly eat
+up ROM space for a large number of objects) and having several
+identical routines (with different function & variable names)
+is a big maintenance problem when the same changes need to be
+applied to each object.
+
+
+ If you can get around the maintenance problems of approach
+number 2, this can be ideal in some cases where you need
+fast execution speed OR in cases where you have just finished
+coding a 1 player game and as an after-thought you decide to
+add 2 player support but you don't want to rewrite your code
+to use object pointers.
+
+ RGBASM is powerful enough that you can eliminate the majority
+of the maintenance problems in this case. Here's example code:
+(The macro operator '@' is incremented with each macro included
+in your source code so this code needs to be compiled stand-alone
+and then linked with other code or you must guarantee that no
+macros are included before this code. The macro FOO below is
+only used to increment '@' from 0 to 1 so that the first object
+ends with _1 instead of _0.)
+
+
+ObjectX_1:	DB
+ObjectY_1:      DB
+ObjectX_2:	DB
+ObjectY_2:      DB
+
+FOO:	MACRO
+        db 0
+        ENDM
+
+; Set Object X,Y coordinates to H,L
+
+OBJCODE: MACRO
+
+SetObjectPos\@:
+	ld	a,h
+	ld	[ObjectX\@],a
+	ld	a,l
+	ld	[ObjectY\@],a
+	ret
+
+GetObjectPos\@:
+	ld	a,[ObjectX\@]
+	ld	h,a
+	ld	a,[ObjectY\@]
+	ld	l,a
+	ret
+
+	ENDM
+
+; Include code for object #1
+	OBJCODE
+; Include code for object #2
+	OBJCODE
+
+; Set Object 1 coordinates to 0,0
+	ld	hl,0
+	call	SetObjectPos_1
+
+; Set Object 2 coordinates to 0,0
+	ld	hl,0
+	call	SetObjectPos_2
+
+; Return Object 1 coordinates in H,L
+	call	GetObjectPos_1
+
+; Return Object 2 coordinates in H,L
+	call	GetObjectPos_2
+
+--
+added by Otaku
+
+Using SET to point to the start of your object
+structure, and then calculating offsets into the
+object structure is a neater way of doing this,
+without having to worry about an idle use of MACRO
+incrementing the @ counter.
+
+So:
+Object1:  DS  16
+Object2:  DS  16
+
+          RSRESET
+X_POS     RB    2
+Y_POS     RB    2
+HEALTH    RB    1
+
+
+; assume that x & y are passed in BC & DE
+; assume for this example that GB has the ability
+; to move registers directly to memory without using
+; the A register
+SetObjectPos:   MACRO
+ObjectBase SET \1
+                LD   [ObjectBase+X_POS],C
+                LD   [ObjectBase+X_POS+1],B
+                LD   [ObjectBase+Y_POS],E
+                LD   [ObjectBase+Y_POS+1],D
+                PURGE ObjectBase
+                ENDM
+
+SetObject1Pos:
+                SetObjectPos   Object1
+                RET
+SetObject2Pos:
+                SetObjectPos   Object2
+                RET
+
+
+
+

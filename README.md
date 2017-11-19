@@ -189,6 +189,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [cart-dumper](https://github.com/Palmr/cart-dumper) - Gameboy Cartridge Dumper ROM.
 - [Game Boy LCD sniffing](https://github.com/svendahlstrand/game-boy-lcd-sniffing) - Sniff your Game Boy's LCD using a logic analyzer.
 - [Dot Matrix Game Editor](http://www.dotmatrixgame.com/) - An IDE for Game Boy programming in a C-like language called GBL, with many other features like tile and map extraction, WLA-DX assembly, and more.
+- [brewtool](http://make.vg/brewtool/) - A collection of primitive editor/converter tools for making assets used with homebrew ROM development.
 
 ## Programming Tutorials
 ### ASM

@@ -62,7 +62,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Game Boy Programming Manual](http://www.chrisantonellis.com/files/gameboy/gb-programming-manual.pdf) - **Official Game Boy** programming & hardware manual by Nintendo. Pretty much everything in the console is covered and explained in this manual. This should be your first and main resource to start understanding what game boy is.
 - [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) - A precise documentation by AntonioND to make a cycle-accurate Game Boy emulator.
 - [Game Boy: Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf)
-- [Pan Docs](http://bgb.bircd.org/pandocs.htm) - The single most comprehensive technical reference to Game Boy that is available to the public.
+- [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - The single most comprehensive technical reference to Game Boy that is available to the public, wikified and updated. Also [archived](http://bgb.bircd.org/pandocs.htm) on BGB's website.
 - [Game Boy hardware database](https://gbhwdb.gekkio.fi/) - Data and photos of various types of Game Boy consoles.
 - [Everything You Always Wanted To Know About GAME BOY](http://www.emulatronia.com/doctec/consolas/gameboy/gameboy.txt) - but were afraid to ask
 - [GBSOUND.txt](https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt) - A document detailing the Game Boy sound engine.
@@ -149,6 +149,8 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [barnacleboy](https://github.com/rep-nop/barnacleboy) - Rust.
 - [node-gameboy](https://github.com/nakardo/node-gameboy) - Node.js.
 - [PlutoBoy](https://github.com/RossMeikleham/PlutoBoy) - Cross platform (Windows, OSX, Linux/Unix, Android, iOS, Web Browsers, and Sony PSP) emulator.
+- [SuperGameHerm](https://code.foxkit.us/emulators/supergameherm) - Cross platform emulator written in C11.
+- [Coffee GB](https://github.com/trekawek/coffee-gb) - Java
 
 
 ## Software Development
@@ -183,11 +185,13 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [bmp2cgb](https://github.com/gitendo/bmp2cgb) - 8bpp bitmap converter for Gameboy Color development.
 - [Vim syntax file for the Game Boy assembler RGBASM](http://www.vim.org/scripts/script.php?script_id=819) - Vim syntax highlighting for RGBDS assembly.
 - [Vim syntax file for RGBDS](https://github.com/Leandros/dotfiles/blob/master/.vim/syntax/rgbds.vim) - Another Vim syntax highlighting file for RGBDS assembly.
+- [Notepad++ syntax file for RGBDS](https://issotm.github.io/GBz80.xml) - Notepad++ syntax highlighting file for RGBDS assembly. Somewhat compatible with other syntaxes, such as WLA-DX.
 - [gbdk-lib-extension](https://github.com/ProGM/gbdk-lib-extension) - A small set of sources and tools for the Gameboy Development Kit by Michael Hope.
 - [GB-convert](https://github.com/exezin/gb-convert) - Gameboy tile conversion and map editor tool (converts to assembly).
 - [cart-dumper](https://github.com/Palmr/cart-dumper) - Gameboy Cartridge Dumper ROM.
 - [Game Boy LCD sniffing](https://github.com/svendahlstrand/game-boy-lcd-sniffing) - Sniff your Game Boy's LCD using a logic analyzer.
 - [Dot Matrix Game Editor](http://www.dotmatrixgame.com/) - An IDE for Game Boy programming in a C-like language called GBL, with many other features like tile and map extraction, WLA-DX assembly, and more.
+- [brewtool](http://make.vg/brewtool/) - A collection of primitive editor/converter tools for making assets used with homebrew ROM development.
 
 ## Programming Tutorials
 ### ASM
@@ -200,6 +204,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Reverse Engineering for Beginners](https://beginners.re/) - Free ebook (1060 pages) by Dennis Yurichev.
 - [FlappyBoy: Making a simple Game Boy Game](http://voidptr.io/blog/2017/01/21/GameBoy.html)
 - [bootstrap.gb](https://github.com/yenatch/bootstrap.gb) - An example Game Boy project.
+- [Super Game Boy development](https://imanoleasgames.blogspot.no/2016/12/games-aside-1-super-game-boy.html) - Step by step tutorial to implement Super Game Boy features (frame and palettes).
 
 #### Glitches and exploits
 - [DMA hijacking](https://github.com/avivace/awesome-gbdev/blob/master/articles/dma_hijacking.md) - A simple technique that allows you to run custom code in most GB/SGB/CGB games, provided you have an ACE exploit. [Demo video](http://gbdev.gg8.se/forums/viewtopic.php?id=430).
@@ -244,7 +249,6 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Carazu](https://github.com/mholtkamp/carazu)
 - [Snake-gb](https://github.com/DonaldHays/snake-gb)
 - [GB303](https://github.com/furrtek/GB303) - GB303 wavetable-based TB-303 style synthesizer for the Nintendo Gameboy.
-- [Pokémon Christmas](https://github.com/TheFakeMateo/xmas)
 - [Sushi](https://github.com/JustSid/Sushi)
 - [Flappy-boy-asm](https://github.com/bitnenfer/flappy-boy-asm)
 - [kupman](https://github.com/dubvulture/gbdev) and some other projects
@@ -254,7 +258,6 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [GBSlides](https://github.com/Kartones/gameboy) - A simple Game Boy Powerpoint-like slides viewer.
 
 ### C
-- [flappybird-gb](https://github.com/LuckyLights/flappybird-gb)
 - [FlappyBoy](https://github.com/bitnenfer/FlappyBoy)
 - [flappybird-gameboy](https://github.com/pashutk/flappybird-gameboy) - Yet another gbdk powered Flappybird clone.
 - [Novascape](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=6823)

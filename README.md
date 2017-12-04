@@ -285,6 +285,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Bubble Factory](https://github.com/DonaldHays/bubblefactory)
 - [GBC Atari Boxing](https://github.com/rubfi/gbc-atari-boxing) - Atari 2600 Boxing clone for the Game Boy (Color).
 - [GB raycaster, Vision-8](https://github.com/haroldo-ok/really-old-stuff/tree/master/gameboy) and some other projects
+- [Tobu Tobu Girl](https://github.com/SimonLarsen/tobutobugirl) - An arcade platformer for the Game Boy.
 
 ## ROMs Disassembly
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)

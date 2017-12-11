@@ -155,7 +155,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Coffee GB](https://github.com/trekawek/coffee-gb) - Java 8.
 - [gomeboycolor](https://github.com/djhworld/gomeboycolor) - Go, cross platform [documented](http://djhworld.github.io/gomeboycolor/) emulator.
 - [mGBA](https://github.com/mgba-emu/mgba) - A modern cross platform GBA emulator which also runs GB/GBC games. Written in C.
-- [GBRE](https://github.com/ericgramgb/GBRE) - GB Runtime Environment for iOS (iOS Safari and Chrome).
+- [GBRE](https://github.com/ericgramgb/GBRE) - Game Boy Runtime Environment for iOS (iOS Safari and Chrome).
 
 ## Software Development
 
@@ -325,6 +325,8 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [gb-save-states](https://github.com/mattcurrie/gb-save-states) - Patches to add save state support to Game Boy games when playing on the original hardware.
 - [The Game Boy Archive](https://github.com/gb-archive) - A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades.
 - [gbcpu](https://github.com/jdeblese/gbcpu) - A CPU and peripherals implementing the Game Boy instruction set and functionality.
+- [Pokemon Pocket Computer:](https://tilde.town/~minerobber/techwriteups/pokemonpc.html) What is it and how to use it to make cheat codes
+- [Making a Game Boy game in 2017:](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/) A "Sheep It Up!" Post-Mortem (part 1/2)
 
 
 ## About

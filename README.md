@@ -60,7 +60,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 
 
 ## Documentation
-- [Game Boy Programming Manual](http://www.chrisantonellis.com/files/gameboy/gb-programming-manual.pdf) - **Official Game Boy** programming & hardware manual by Nintendo. Pretty much everything in the console is covered and explained in this manual. This should be your first and main resource to start understanding what game boy is.
+- [Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) - **Official Game Boy** programming and hardware manual by Nintendo. Pretty much everything in the console is covered and explained. This should be your first and main resource to start understanding what Game Boy is.
 - [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) - A precise documentation by AntonioND to make a cycle-accurate Game Boy emulator.
 - [Game Boy: Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf)
 - [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - The single most comprehensive technical reference to Game Boy that is available to the public, wikified and updated. Also [archived](http://bgb.bircd.org/pandocs.htm) on BGB's website.
@@ -249,7 +249,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 
 
 #### Old articles
-[This](https://github.com/avivace/awesome-gbdev/tree/master/articles/salvage) folder is an historical archive of old articles, FAQs and in general text documents about Game Boy development. These may be wrong or obsolete - they are archived for historical reasons.
+[This repository](https://github.com/gb-archive/salvage) contains articles, FAQs, and documents about Game Boy development - archived for historical reasons. The information may be wrong or obsolete in some cases.
 
 ## Games
 - [Infinity](https://github.com/infinity-gbc/infinity)

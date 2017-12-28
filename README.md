@@ -10,6 +10,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   + [Disambiguation](#disambiguation)
 - [Community](#community)
 - [Documentation](#documentation)
+  - [Game Boy Color](#game-boy-color)
   - [Peripherals](#peripherals)
   - [Cartridges](#cartridges)
 - [Emulator Development](#emulator-development)
@@ -89,6 +90,11 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Gameboy 2BPP Graphics Format](http://www.huderlem.com/demos/gameboy2bpp.html) - Information on how the Game Boy interprets VRAM tile data to color pixels.
 - [Game Boy Crib Sheet](http://gbdev.gg8.se/files/docs/GBCribSheet000129.pdf) - A handy printable reference sheet with ASM opcodes, memory locations, and much more.
 - [Introduction to Game Boy Hacking](http://pepijndevos.nl/sha2017/workshop.pdf) - Workshop introducing basic assembly, debugging and reverse engineering.
+
+### Game Boy Color
+- [Game Boy Color Bootstrap ROM](https://tcrf.net/Game_Boy_Color_Bootstrap_ROM)
+- [Unused Palettes](https://tcrf.net/Notes:Game_Boy_Color_Bootstrap_ROM)
+- [GBC colorization palettes in the BIOS](https://forums.nesdev.com/viewtopic.php?p=114388&sid=c3d4ce08cfd9d9c834958d4f148750c3#p114388)
 
 ### Peripherals
 - [Game Boy Camera RE](https://github.com/AntonioND/gbcam-rev-engineer) - Documentation about GB Camera and tools used to reverse engineer it by using Arduino UNO.

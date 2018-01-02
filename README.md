@@ -53,6 +53,7 @@ Although this documentation is focused on the original (1989) Game Boy (DMG), th
 If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check for specific references to GBC/CGB and SGB in the documentation section.
 
 ## Community
+
 - [gbdev Discord Server](https://discord.gg/gpBxq85)
 - [#gbdev on EFnet](http://chat.efnet.org/?channels=gbdev) - IRC channel.
 - [gbdev.gg8.se](http://gbdev.gg8.se) - This is basically the home of the gbdev scene. The [wiki](http://gbdev.gg8.se/wiki/articles/Main_Page) has a lot of articles from previous sites, tutorials and other documents about a lot of topics.
@@ -60,10 +61,11 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 
 
 ## Documentation
-- [Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) - **Official Game Boy** programming and hardware manual by Nintendo. Pretty much everything in the console is covered and explained. This should be your first and main resource to start understanding what Game Boy is.
+
+- [Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) - **Official** Game Boy programming and hardware manual by Nintendo. Pretty much everything in the console is covered and explained. This should be your first and main resource to start understanding what Game Boy is.
 - [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) - A precise documentation by AntonioND to make a cycle-accurate Game Boy emulator.
 - [Game Boy: Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf)
-- [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - The single most comprehensive technical reference to Game Boy that is available to the public, wikified and updated. Also [archived](http://bgb.bircd.org/pandocs.htm) on BGB's website.
+- [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - The single most comprehensive technical reference to Game Boy that is available to the public, wikified, corrected and updated. Also [archived](http://bgb.bircd.org/pandocs.htm) on BGB's website.
 - [Game Boy hardware database](https://gbhwdb.gekkio.fi/) - Data and photos of various types of Game Boy consoles.
 - [Everything You Always Wanted To Know About GAME BOY](http://www.emulatronia.com/doctec/consolas/gameboy/gameboy.txt) - but were afraid to ask
 - [GBSOUND.txt](https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt) - A document detailing the Game Boy sound engine.
@@ -78,6 +80,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Game Boy CPU InstructionSet Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
 - [Opcode table](http://goldencrystal.free.fr/GBZ80Opcodes.pdf)
 - [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
+- [Gameboy CPU (LR35902) instruction set](http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html) - Another Opcodes cheatsheet.
 - [Game Boy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) - Assembly language commands, timings and opcodes.
 - [OP Codes cheatsheet](http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
 - [rednex gbz80 opcode reference](https://rednex.github.io/rgbds/gbz80.7.html)
@@ -92,11 +95,14 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Introduction to Game Boy Hacking](http://pepijndevos.nl/sha2017/workshop.pdf) - Workshop introducing basic assembly, debugging and reverse engineering.
 
 ### Game Boy Color
+
 - [Game Boy Color Bootstrap ROM](https://tcrf.net/Game_Boy_Color_Bootstrap_ROM)
 - [Unused Palettes](https://tcrf.net/Notes:Game_Boy_Color_Bootstrap_ROM)
 - [GBC colorization palettes in the BIOS](https://forums.nesdev.com/viewtopic.php?p=114388&sid=c3d4ce08cfd9d9c834958d4f148750c3#p114388)
+- [High resolution GBC schematics](https://drive.google.com/file/d/1a0HTmBiRxoZw4XgLEDzwGCugfTfdIQwT/view?usp=sharing)
 
 ### Peripherals
+
 - [Game Boy Camera RE](https://github.com/AntonioND/gbcam-rev-engineer) - Documentation about GB Camera and tools used to reverse engineer it by using Arduino UNO.
 - [Creating photorealistic images with neural networks and a Gameboy Camera](http://www.pinchofintelligence.com/photorealistic-neural-network-gameboy/)
 - [The Game Boy Printer](https://shonumi.github.io/articles/art2.html) - An in-depth technical document about the printer hardware, the communication protocol and the usual routine that games used for implementing the print feature.
@@ -106,6 +112,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [GB KISS LINK MODEM](http://nectaris.tg-16.com/GB-KISS-LINK-FAQ-hudson-gameboy-nectaris.html)
 
 ### Cartridges
+
 - [AntonioND's docs](https://github.com/AntonioND/giibiiadvance/tree/master/docs) - Corrected schematics and infos on cartridge header data.
 - [Gekkio's Game Boy cartridge types](http://gekkio.fi/blog/2015-02-14-mooneye-gb-gameboy-cartridge-types.html) - An overview on existing cartridge types.
 - [Gekkio](http://gekkio.fi/blog/)'s cartridge analysis - [DMG-BEAN-02](http://gekkio.fi/blog/2015-05-18-mooneye-gb-cartridge-analysis-dmg-bean-02.html), [MBC1](http://gekkio.fi/blog/2015-05-17-mooneye-gb-cartridge-analysis-fortress-of-fear.html), [no MBC](http://gekkio.fi/blog/2015-02-28-mooneye-gb-cartridge-analysis-tetris.html)
@@ -131,6 +138,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 
 
 ### Open-source emulators
+
 - [Mooneye-gb](https://github.com/Gekkio/mooneye-gb) -  A Game Boy research project and emulator written in Rust.
 - [jsGB](https://github.com/Two9A/jsGB) - Javascript.
 - [php-terminal-Game Boy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) - PHP Terminal.
@@ -166,6 +174,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 ## Software Development
 
 ### Assemblers
+
 - [RGBDS](https://github.com/rednex/rgbds) - Assembler and linker package (a fork currently updated).
 - [wla-dx](https://github.com/vhelin/wla-dx) - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package.
 - [gbasm](https://github.com/BonsaiDen/gbasm) - A JavaScript based compiler for Game Boy z80 assembly code.
@@ -177,10 +186,12 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [gbdk-osx](https://github.com/x43x61x69/gbdk-osx) - Patched GBDK 2.96a for the latest compilers on OS X.
 
 ### Emulators
+
 - [BGB](http://bgb.bircd.org/) - Powerful Game Boy emulator and debugger. Provides an accurate hardware emulation.
 - [Gambatte](https://github.com/sinamas/gambatte) - Open-source, cross-platform and accurate emulator for Game Boy and Game Boy Color.
 
 ### Tools
+
 - [ZGB](https://github.com/Zal0/ZGB) - A little engine for creating games for the original Game Boy (expands gbdk, more info [here](http://zalods.blogspot.com/2017/01/zgb-little-engine-for-game-boy.html)).
 - [DevSound](https://github.com/DevEd2/DevSound) - Sound driver embeddable in homebrews which supports pulse width manipulation, arpeggios, and multiple waveforms.
 - [Carillon Player](http://gbdev.gg8.se/files/musictools/Aleksi%20Eeben/Carillon%20Editor.zip) - Music Engine for Game Boy & Game Boy Color.
@@ -207,7 +218,9 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [mmlgb](https://github.com/SimonLarsen/mmlgb) - MML to Game Boy parser and driver.
 
 ## Programming Tutorials
+
 ### ASM
+
 - [ASMSchool](http://gameboy.mongenel.com/asmschool.html) - A set of lessons by Duo about coding in Assembly for GB/GBC and disassembling.
 - [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) - A lot of working demos and sources.
 - [Assembly tutorial by David Pello](http://wiki.ladecadence.net/doku.php?do=show&id=tutorial_de_ensamblador) - Good document to actually learn to produce working asm code for gb. Brief explanations of many important topics. Many examples with commented source code. An english version is available [here](https://avivace.com/apps/gbdev/salvage/tutorial_de_ensamblador%20[La%20decadence].html).
@@ -223,10 +236,12 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [GameBoy programming tutorial: Hello World!](http://peterwynroberts.com/?p=10) - Step by step tutorial.
 
 #### Glitches and exploits
+
 - [DMA hijacking](https://github.com/avivace/awesome-gbdev/blob/master/articles/dma_hijacking.md) - A simple technique that allows you to run custom code in most GB/SGB/CGB games, provided you have an ACE exploit. [Demo video](http://gbdev.gg8.se/forums/viewtopic.php?id=430).
 - [Pokémon Yellow ASM hack](http://pastebin.com/raw.php?i=WaFyrr21) - Debug menu. [Demo video](https://www.youtube.com/watch?v=BkIDPwkeGWs).
 
 #### Timings
+
 - [Game Boy DMA transfer routines](http://exez.in/gameboy-dma) - Understanding and using DMA routines.
 - [Nitty Gritty Gameboy Cycle Timing](http://blog.kevtris.org/blogfiles/Nitty%20Gritty%20Gameboy%20VRAM%20Timing.txt)
 - [Mode3 Sprite Timing](https://www.reddit.com/r/EmuDev/comments/59pawp/gb_mode3_sprite_timing/)
@@ -235,6 +250,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Video Timing](https://github.com/jdeblese/gbcpu/wiki/Video-Timing)
 
 ### C
+
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) - Well-written introductory document about how the Game Boy works and how to start developing working code for it.
 - [Grooves Game Boy Programming](https://github.com/gbdk-salvage/grooves-game-boy-programming) - A complete set of lessons about implementing various game mechanics in a Game Boy game.
 - [How to Write a Simple Side Scrolling Game](http://pastebin.com/F3tHLj68) - Old (but still relevant) tutorial.
@@ -249,12 +265,15 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 
 
 #### Old articles
+
 [This repository](https://github.com/gb-archive/salvage) contains articles, FAQs, and documents about Game Boy development - archived for historical reasons. The information may be wrong or obsolete in some cases.
 
 ## Games
+
 - [Infinity](https://github.com/infinity-gbc/infinity)
 
 ### ASM
+
 - [RedPlusPlus](https://github.com/TheFakeMateo/RedPlusPlus) - An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features.
 - [Tuff](https://github.com/BonsaiDen/Tuff.gb)
 - [2048-gb](https://github.com/Sanqui/2048-gb)
@@ -289,12 +308,13 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [red hot princess carnage](https://github.com/Imanolea/bitbitjam3_red_hot_princess_carnage)
 - [loderunner](http://www.tensi.eu/thomas/programming/gameboy/loderunner.html)
 - [Hives](https://refreshgames.co.uk/2017/04/24/ludum-dare-38-entry-hives/)
-- [Bubble Factory](https://github.com/DonaldHays/bubblefactory)
+- [Bubble Factory](https://github.com/DonaldHays/bubblefactory) - *Vanilla* SDCC (no gbdk).
 - [GBC Atari Boxing](https://github.com/rubfi/gbc-atari-boxing) - Atari 2600 Boxing clone for the Game Boy (Color).
 - [GB raycaster, Vision-8](https://github.com/haroldo-ok/really-old-stuff/tree/master/gameboy) and some other projects
 - [Tobu Tobu Girl](https://github.com/SimonLarsen/tobutobugirl) - An arcade platformer for the Game Boy.
 
 ## ROMs Disassembly
+
 - [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)
 - [Pokémon Red/Blue](https://github.com/pret/pokered)
 - [Pokémon Crystal](https://github.com/pret/pokecrystal)
@@ -309,6 +329,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [FX Hammer disassembly](https://github.com/DevEd2/FXHammer-Disasm)
 
 ## Related sites, posts and projects
+
 - [ArduinoBoy](https://github.com/trash80/Arduinoboy) - Serial communication (MIDI) from an Arduino to the Game Boy for music applications such as LittleSoundDJ, Nanoloop, and mGB.
 - [papiGB](https://github.com/diegovalverde/papiGB) - Game Boy Classic fully functional FPGA implementation from scratch.
 - [fpgaboy](https://github.com/trun/fpgaboy) - Implementation Nintendo's Game Boy console on an FPGA.
@@ -331,18 +352,22 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [gb-save-states](https://github.com/mattcurrie/gb-save-states) - Patches to add save state support to Game Boy games when playing on the original hardware.
 - [The Game Boy Archive](https://github.com/gb-archive) - A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades.
 - [gbcpu](https://github.com/jdeblese/gbcpu) - A CPU and peripherals implementing the Game Boy instruction set and functionality.
-- [Pokemon Pocket Computer:](https://tilde.town/~minerobber/techwriteups/pokemonpc.html) What is it and how to use it to make cheat codes
+- [Pokemon Pocket Computer:](https://tilde.town/~minerobber/techwriteups/pokemonpc.html) What is it and how to use it to make cheat codes.
 - [Making a Game Boy game in 2017:](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/) A "Sheep It Up!" Post-Mortem (part 1/2)
-
+- [llvm-gbz80](https://github.com/euclio/llvm-gbz80) - LLVM with a Game Boy Z80 Assembly Backend.
+- [Related custom hardware](https://github.com/Gekkio/gb-hardware) - by gekkio.
 
 ## About
 
 ### Contribute
+
 Take a look at [Contribution Guidelines](CONTRIBUTING.md).
 
 ### License
+
 Licensed under **GPLv3**.
 See [LICENSE](LICENSE) for more information.
 
 ### Special Thanks
+
 [Every](https://github.com/avivace/awesome-gbdev/graphs/contributors) contributor of this project, Jeff Frohwein, Pascal Felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, BOWSER, neviksti, Martin “nocash" Korth, Nitro2k01, Duo, Chris Antonellis, Michael Hope, Beware, Jonathan “Lord Nightmare” Gevaryahu, Carsten Sorense, Sindre Aamås, Otaku No Zoku, GeeBee.

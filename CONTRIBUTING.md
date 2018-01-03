@@ -2,7 +2,6 @@
 
 Before sending a Pull Request, ensure your pull request adheres to the following guidelines and policies.
 
-
 ### Adding a resource
 
 - Search previous suggestions before making a new one, as yours may be a duplicate.

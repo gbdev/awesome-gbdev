@@ -1,4 +1,4 @@
-# Awesome Game Boy Development [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](#awesome-gbdev)
+# Awesome Game Boy Development
 
 #### [![GameboyIcon](http://i.imgur.com/ROUq7NT.gif) Join us on Discord](https://discord.gg/gpBxq85)
 
@@ -38,6 +38,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   - [Special Thanks](#special-thanks)
 
 ## Intro
+
 - [The Game Boy, a hardware autopsy](https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu).
 - [The Ultimate Game Boy Talk](https://media.ccc.de/v/33c3-8029-the_ultimate_game_boy_talk).
 - [Emulation of Nintendo Game Boy](https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf) - Overview of the Game Boy hardware with the perspective of building an emulator.
@@ -57,16 +58,23 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 
 - [gbdev Discord Server](https://discord.gg/gpBxq85)
 - [#gbdev on EFnet](http://chat.efnet.org/?channels=gbdev) - IRC channel.
-- [gbdev.gg8.se](http://gbdev.gg8.se) - This is basically the home of the gbdev scene. The [wiki](http://gbdev.gg8.se/wiki/articles/Main_Page) has a lot of articles from previous sites, tutorials and other documents about a lot of topics.
-- [devrs.com/gb](http://devrs.com/gb) - Jeff Frohwein’s page, this the main reference for everything. Almost everything is archived here: code examples and working programs(ASM and C), complete documentation and various tools.
+- [gbdev.gg8.se Wiki](http://gbdev.gg8.se/wiki/articles/Main_Page)
+- [devrs.com/gb](http://devrs.com/gb) - Jeff Frohwein’s page. Old home of the scene, a lot was posted here: code examples and working programs(ASM and C), complete documentation, single text files and various tools.
 
 
 ## Documentation
 
-- [Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) - **Official** Game Boy programming and hardware manual by Nintendo. Pretty much everything in the console is covered and explained. This should be your first and main resource to start understanding what Game Boy is.
+- [Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) - **Official** Game Boy programming and hardware manual by Nintendo. Pretty much everything in the console is covered and explained.
 - [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) - A precise documentation by AntonioND to make a cycle-accurate Game Boy emulator.
-- [Game Boy: Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf)
-- [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - The single most comprehensive technical reference to Game Boy that is available to the public, wikified, corrected and updated. Also [archived](http://bgb.bircd.org/pandocs.htm) on BGB's website.
+- [Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf)
+- [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - Historical comprehensive technical reference, wikified, corrected and updated. [Original](http://bgb.bircd.org/pandocs.htm) version.
+- [Game Boy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) - Assembly language commands, timings and opcodes.
+- [RGBDS Documentation](https://rednex.github.io/)
+- [GBDK libraries documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf)
+
+
+- [Introduction to Game Boy Hacking](http://pepijndevos.nl/sha2017/workshop.pdf) - Workshop introducing basic assembly, debugging and reverse engineering.
+- [Assembly Language Programming Course](http://cratel.wichita.edu/cratel/ECE238Spr08) - Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Game Boy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State University).
 - [Everything You Always Wanted To Know About GAME BOY](http://www.emulatronia.com/doctec/consolas/gameboy/gameboy.txt) - but were afraid to ask
 - [GBSOUND.txt](https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt) - A document detailing the Game Boy sound engine.
 - [GB Instructions](http://www.chrisantonellis.com/files/gameboy/gb-instructions.txt) Game Boy Assembly commands.
@@ -74,23 +82,26 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [ASMotor Manual](http://www.chrisantonellis.com/files/gameboy/asmotor-v0.1.0-manual.pdf) - A reference for RGBDS.
 - [ASMotor v1.10 documentation](http://otakunozoku.com/RGBDSdocs/)
 - [wla-dx documentation](http://www.villehelin.com/wla.txt) - WLA DX Macro Assembler Package manual.
-- [GBDK libraries documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf)
 - [gbdev FAQs](http://www.devrs.com/gb/files/faqs.html) - Must read by Jeff Frohwein.
-- [Game Boy CPU Instruction Set Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
-- [Opcode table](http://goldencrystal.free.fr/GBZ80Opcodes.pdf)
-- [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
-- [Gameboy CPU (LR35902) instruction set](http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html) - Another Opcodes cheatsheet.
-- [Game Boy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) - Assembly language commands, timings and opcodes.
-- [OP Codes cheatsheet](http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
-- [rednex gbz80 opcode reference](https://rednex.github.io/rgbds/gbz80.7.html)
-- [Assembly Language Programming Course](http://cratel.wichita.edu/cratel/ECE238Spr08) - Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Game Boy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State University).
 - [Game Boy Bootrom](http://www.neviksti.com/DMG/DMG_ROM.asm) - Commented dump of the DMG bootrom.
 - [GB Technical Information](http://fms.komkon.org/GameBoy/Tech/) - Some old code resources.
 - [Differences between the Z80 and the gameboy's processor](http://www.z80.info/z80gboy.txt)
-- [Archive of related files](http://gbdev.gg8.se/files/)
 - [Gameboy 2BPP Graphics Format](http://www.huderlem.com/demos/gameboy2bpp.html) - Information on how the Game Boy interprets VRAM tile data to color pixels.
+
+#### Cheatsheets, Tables
+
 - [Game Boy Crib Sheet](http://gbdev.gg8.se/files/docs/GBCribSheet000129.pdf) - A handy printable reference sheet with ASM opcodes, memory locations, and much more.
-- [Introduction to Game Boy Hacking](http://pepijndevos.nl/sha2017/workshop.pdf) - Workshop introducing basic assembly, debugging and reverse engineering.
+- [OP Codes cheatsheet](http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
+- [rednex gbz80 opcode reference](https://rednex.github.io/rgbds/gbz80.7.html)
+- [Opcode table](http://goldencrystal.free.fr/GBZ80Opcodes.pdf)
+- [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
+- [Gameboy CPU (LR35902) instruction set](http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html) - Another Opcodes cheatsheet.
+- [Game Boy CPU Instruction Set Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
+
+#### Files Directory
+
+- [Archive of related files](http://gbdev.gg8.se/files/)
+
 
 ### Hardware
 

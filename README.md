@@ -72,6 +72,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [RGBDS Documentation](https://rednex.github.io/)
 - [GBDK libraries documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf)
 
+#### Misc
 
 - [Introduction to Game Boy Hacking](http://pepijndevos.nl/sha2017/workshop.pdf) - Workshop introducing basic assembly, debugging and reverse engineering.
 - [Assembly Language Programming Course](http://cratel.wichita.edu/cratel/ECE238Spr08) - Machine and assembly language programming concepts that illustrate basic principles and techniques. Application through study of the Z80 chip and Game Boy programming assignments (Center for Research in Arts, Technology, Education, and Learning CRATEL at Withicha State University).
@@ -101,7 +102,8 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 #### Files Directory
 
 - [Archive of related files](http://gbdev.gg8.se/files/)
-
+- [The Game Boy Archive](https://github.com/gb-archive) - A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades.
+- [The Game Boy Archive - Salvage](https://github.com/gb-archive/salvage) - Old articles, FAQs and various documents.
 
 ### Hardware
 
@@ -280,11 +282,6 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [GBDK Configuring and Programming Tutorial](https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/) - Configuring GBDK, Using Tiles, Colliding Sprites, GBTD, GBMB, Memory Management and ROM Banking.
 - [Simplified GBDK examples](https://github.com/mrombout/gbdk_playground)
 
-
-#### Old articles
-
-[This repository](https://github.com/gb-archive/salvage) contains articles, FAQs, and documents about Game Boy development - archived for historical reasons. The information may be wrong or obsolete in some cases.
-
 ## Games
 
 - [Infinity](https://github.com/infinity-gbc/infinity)
@@ -312,6 +309,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [GBSlides](https://github.com/Kartones/gameboy) - A simple Game Boy Powerpoint-like slides viewer.
 
 ### C
+
 - [FlappyBoy](https://github.com/bitnenfer/FlappyBoy)
 - [flappybird-gameboy](https://github.com/pashutk/flappybird-gameboy) - Yet another gbdk powered Flappybird clone.
 - [Novascape](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=6823)
@@ -345,7 +343,18 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Disassembly of Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
 - [FX Hammer disassembly](https://github.com/DevEd2/FXHammer-Disasm)
 
-## Related sites, posts and projects
+## Articles, posts and sites
+
+- [Making a Game Boy game in 2017:](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/) A "Sheep It Up!" Post-Mortem (part 1/2)
+- [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system.
+- [Booting the Game Boy with a custom logo](https://dhole.github.io/post/gameboy_custom_logo/) - Bypassing the Nintendo logo check.
+- [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Including features, insights and interviews.
+- [pdroms.de](http://pdroms.de/news/gameboy/) Game Boy releases.
+- [Game Boy Demospotting](http://gameboy.modermodemet.se/en) - A collection of demos.
+- [Pokemon Pocket Computer:](https://tilde.town/~minerobber/techwriteups/pokemonpc.html) What is it and how to use it to make cheat codes.
+
+
+## Related projects
 
 - [ArduinoBoy](https://github.com/trash80/Arduinoboy) - Serial communication (MIDI) from an Arduino to the Game Boy for music applications such as LittleSoundDJ, Nanoloop, and mGB.
 - [papiGB](https://github.com/diegovalverde/papiGB) - Game Boy Classic fully functional FPGA implementation from scratch.
@@ -354,11 +363,6 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [gbdk-n](https://github.com/rotmoset/gbdk-n) - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms.
 - [Wiz](https://github.com/wiz-lang/wiz) - A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more).
 - [Gatesboy](https://web.archive.org/web/*/http://www.gatesboy.com/) - Non-gaming purposes applications development.
-- [pdroms.de](http://pdroms.de/news/gameboy/) Game Boy releases.
-- [Game Boy Demospotting](http://gameboy.modermodemet.se/en) - A collection of demos.
-- [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system.
-- [Booting the Game Boy with a custom logo](https://dhole.github.io/post/gameboy_custom_logo/) - Bypassing the Nintendo logo check.
-- [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Including features, insights and interviews.
 - [Ostrich](https://github.com/PumpMagic/ostrich) - A Game Boy Sound System player written in Swift.
 - [mGB](https://github.com/trash80/mGB) - A Game Boy cartridge program that enables the Game Boy to act as a full MIDI supported sound module.
 - [GBVisualizer](https://github.com/LIJI32/GBVisualizer) - Demonstrating the use of two undocumented Game Boy Color registers, nicknamed PCM12 (FF76) and PCM34 (FF77), which can be used to read the current PCM amplitude of the 4 APU channels.
@@ -366,10 +370,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [ArduinoGameBoy](https://github.com/drhelius/arduinogameboy) - Arduino based Game Boy cartridge reader and writer.
 - [gameboy-brainfuck](https://github.com/bitnenfer/gameboy-brainfuck) - Implementation of a brainfuck interpreter.
 - [gb-save-states](https://github.com/mattcurrie/gb-save-states) - Patches to add save state support to Game Boy games when playing on the original hardware.
-- [The Game Boy Archive](https://github.com/gb-archive) - A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades.
 - [gbcpu](https://github.com/jdeblese/gbcpu) - A CPU and peripherals implementing the Game Boy instruction set and functionality.
-- [Pokemon Pocket Computer:](https://tilde.town/~minerobber/techwriteups/pokemonpc.html) What is it and how to use it to make cheat codes.
-- [Making a Game Boy game in 2017:](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/) A "Sheep It Up!" Post-Mortem (part 1/2)
 - [llvm-gbz80](https://github.com/euclio/llvm-gbz80) - LLVM with a Game Boy Z80 Assembly Backend.
 
 ## About

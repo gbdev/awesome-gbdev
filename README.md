@@ -1,6 +1,6 @@
 # ![GameboyIcon](http://i.imgur.com/ROUq7NT.gif) Awesome Game Boy Development
 
-#### [Join us on Discord](https://discord.gg/gpBxq85) [![Discord Badge](https://img.shields.io/badge/dynamic/json.svg?label=chat&colorB=green&prefix=&suffix=&query=count&uri=https%3A%2F%2Feracolatore.tk%2Fapi%2Fdiscord)](https://discord.gg/gpBxq85)
+#### [Join us on Discord](https://discord.gg/gpBxq85) [![Discord Badge](https://img.shields.io/badge/dynamic/json.svg?label=chat&colorB=green&prefix=&suffix=%20online&query=count&uri=https%3A%2F%2Feracolatore.tk%2Fapi%2Fdiscord)](https://discord.gg/gpBxq85)
 
 A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
@@ -31,11 +31,13 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   - [ASM](#asm-1)
   - [C](#c-1)
 - [ROMs Disassembly](#roms-disassembly)
-- [Related sites, posts and projects](#related-sites-posts-and-projects)
-- [About this project](#about)
+- [Related Projects](#related-projects)
+  + [Files Directories](#directories)
+  + [Articles, posts and websites](#articles-posts-and-sites)
+- [About this repository](#about)
   - [Contribute](#contribute)
   - [License](#license)
-  - [Special Thanks](#special-thanks)
+  - [Acknowledgements](#acknowledgements)
 
 ## Intro
 
@@ -52,12 +54,12 @@ Although this documentation is focused on the original (1989) Game Boy (DMG), th
 - Specific registers
 - Specific bugs and exploitable behaviours
 
-If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check for specific references to GBC/CGB and SGB in the documentation section.
+If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check the [Game Boy Color](#game-boy-color) category and look for specific references to GBC/CGB and SGB in the documentation.
 
 ## Community
 
 - [gbdev Discord Server](https://discord.gg/gpBxq85)
-- [#gbdev on EFnet](http://chat.efnet.org/?channels=gbdev) - IRC channel.
+- [`#gbdev` on EFnet](http://chat.efnet.org/?channels=gbdev) - IRC channel.
 - [gbdev.gg8.se Wiki](http://gbdev.gg8.se/wiki/articles/Main_Page)
 - [devrs.com/gb](http://devrs.com/gb) - Jeff Frohwein’s page. Old home of the scene, a lot was posted here: code examples and working programs(ASM and C), complete documentation, single text files and various tools.
 
@@ -98,12 +100,6 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
 - [Gameboy CPU (LR35902) instruction set](http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html) - Another Opcodes cheatsheet.
 - [Game Boy CPU Instruction Set Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
-
-#### Files Directory
-
-- [Archive of related files](http://gbdev.gg8.se/files/)
-- [The Game Boy Archive](https://github.com/gb-archive) - A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades.
-- [The Game Boy Archive - Salvage](https://github.com/gb-archive/salvage) - Old articles, FAQs and various documents.
 
 ### Hardware
 
@@ -231,6 +227,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [brewtool](http://make.vg/brewtool/) - A collection of primitive editor/converter tools for making assets used with homebrew ROM development.
 - [Game Boy Text Tools](https://github.com/raphaklaus/gameboy-text-tools) - Set of tools for text manipulation and translation of Game Boy ROMs written in NodeJS
 - [mmlgb](https://github.com/SimonLarsen/mmlgb) - MML to Game Boy parser and driver.
+- [mgbdis](https://github.com/mattcurrie/mgbdis) - Game Boy ROM disassembler with RGBDS compatible output.
 
 #### Syntax highlighting packages
 
@@ -353,17 +350,6 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Disassembly of Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
 - [FX Hammer disassembly](https://github.com/DevEd2/FXHammer-Disasm)
 
-## Articles, posts and sites
-
-- [Making a Game Boy game in 2017:](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/) A "Sheep It Up!" Post-Mortem (part 1/2)
-- [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system.
-- [Booting the Game Boy with a custom logo](https://dhole.github.io/post/gameboy_custom_logo/) - Bypassing the Nintendo logo check.
-- [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Including features, insights and interviews.
-- [pdroms.de](http://pdroms.de/news/gameboy/) Game Boy releases.
-- [Game Boy Demospotting](http://gameboy.modermodemet.se/en) - A collection of demos.
-- [Pokemon Pocket Computer:](https://tilde.town/~minerobber/techwriteups/pokemonpc.html) What is it and how to use it to make cheat codes.
-
-
 ## Related projects
 
 - [ArduinoBoy](https://github.com/trash80/Arduinoboy) - Serial communication (MIDI) from an Arduino to the Game Boy for music applications such as LittleSoundDJ, Nanoloop, and mGB.
@@ -383,6 +369,22 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [gbcpu](https://github.com/jdeblese/gbcpu) - A CPU and peripherals implementing the Game Boy instruction set and functionality.
 - [llvm-gbz80](https://github.com/euclio/llvm-gbz80) - LLVM with a Game Boy Z80 Assembly Backend.
 
+### Directories
+
+- [Archive of related files](http://gbdev.gg8.se/files/)
+- [The Game Boy Archive](https://github.com/gb-archive) - A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades.
+- [The Game Boy Archive - Salvage](https://github.com/gb-archive/salvage) - Old articles, FAQs and various documents.
+
+### Articles, posts and sites
+
+- [Making a Game Boy game in 2017:](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/) A "Sheep It Up!" Post-Mortem (part 1/2)
+- [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system.
+- [Booting the Game Boy with a custom logo](https://dhole.github.io/post/gameboy_custom_logo/) - Bypassing the Nintendo logo check.
+- [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Including features, insights and interviews.
+- [pdroms.de](http://pdroms.de/news/gameboy/) Game Boy releases.
+- [Game Boy Demospotting](http://gameboy.modermodemet.se/en) - A collection of demos.
+- [Pokemon Pocket Computer:](https://tilde.town/~minerobber/techwriteups/pokemonpc.html) What is it and how to use it to make cheat codes.
+
 ## About
 
 ### Contribute
@@ -394,6 +396,6 @@ Take a look at [Contribution Guidelines](CONTRIBUTING.md).
 Licensed under **GPLv3**.
 See [LICENSE](LICENSE) for more information.
 
-### Special Thanks
+### Acknowledgements
 
-[Every](https://github.com/avivace/awesome-gbdev/graphs/contributors) contributor of this project, Jeff Frohwein, Pascal Felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, BOWSER, neviksti, Martin “nocash" Korth, Nitro2k01, Duo, Chris Antonellis, Michael Hope, Beware, Jonathan “Lord Nightmare” Gevaryahu, Carsten Sorense, Sindre Aamås, Otaku No Zoku, GeeBee.
+Thanks to [every](https://github.com/avivace/awesome-gbdev/graphs/contributors) contributor of this project, Jeff Frohwein, Pascal Felber, KOOPa, Pan of Anthrox, GABY, Marat Fayzullin, Paul Robson, BOWSER, neviksti, Martin “nocash" Korth, Nitro2k01, Duo, Chris Antonellis, Michael Hope, Beware, Jonathan “Lord Nightmare” Gevaryahu, Carsten Sorense, Sindre Aamås, Otaku No Zoku, GeeBee.

@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Before sending a Pull Request, ensure your pull request adheres to the following guidelines and policies.
+Before sending a Pull Request, ensure it adheres to the following guidelines and policies.
 
 ### Adding a resource
 

@@ -1,6 +1,6 @@
 # ![GameboyIcon](http://i.imgur.com/ROUq7NT.gif) Awesome Game Boy Development
 
-#### [Join us on Discord](https://discord.gg/gpBxq85) [![Discord Badge](https://img.shields.io/badge/dynamic/json.svg?label=chat&colorB=green&prefix=&suffix=%20online&query=count&uri=https%3A%2F%2Feracolatore.tk%2Fapi%2Fdiscord)](https://discord.gg/gpBxq85)
+#### [Join us on Discord](https://discord.gg/gpBxq85) [![Discord Badge](https://img.shields.io/badge/dynamic/json.svg?label=chat&colorB=green&prefix=&suffix=&query=count&uri=https%3A%2F%2Feracolatore.tk%2Fapi%2Fdiscord)](https://discord.gg/gpBxq85)
 
 A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
@@ -243,11 +243,17 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 
 - [ASMSchool](http://gameboy.mongenel.com/asmschool.html) - A set of lessons by Duo about coding in Assembly for GB/GBC and disassembling.
 - [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) - A lot of working demos and sources.
-- [Assembly tutorial by David Pello](http://wiki.ladecadence.net/doku.php?do=show&id=tutorial_de_ensamblador) - Good document to actually learn to produce working asm code for gb. Brief explanations of many important topics. Many examples with commented source code. An english version is available [here](https://avivace.com/apps/gbdev/salvage/tutorial_de_ensamblador%20[La%20decadence].html).
+- [Assembly tutorial by David Pello](https://avivace.com/apps/gbdev/salvage/tutorial_de_ensamblador%20[La%20decadence].html) - Good document to actually learn to produce working asm code for gb. Brief explanations of many important topics. Many examples with commented source code.
+- [assemblydigest](https://github.com/assemblydigest/gameboy) - Exploring Game Boy programming techniques:
+
+  - [Making an Empty Game Boy ROM (in RGBDS)](http://assemblydigest.tumblr.com/post/77198211186/tutorial-making-an-empty-game-boy-rom-in-rgbds)
+  - [Making an Empty Game Boy ROM (in Wiz)](http://assemblydigest.tumblr.com/post/77203696711/tutorial-making-an-empty-game-boy-rom-in-wiz)
+  - [Making Art for the Game Boy](http://assemblydigest.tumblr.com/post/77404621743/tutorial-making-art-for-the-game-boy)
+  - [Helpful Libraries](http://assemblydigest.tumblr.com/post/77432349682/code-helpful-libraries)
+
 - [Beginner's Guide to Reverse Engineering GB](http://web.archive.org/web/20150511145100/http://www.bennvenn.com/Beginners_Guide_To_Reverse_Engineering.htm) - Some starting tips on disassembling and reverse engineering.
 - [gb-template](https://github.com/exezin/gb-template) - A template with basic functions pre-made such as joypad input, DMA transfers, and map/tile data loading.
 - [https://github.com/nezticle/rgbds-template](rgbds-template) - Basic hello-world example for Game Boy using RGBDS.
-- [assemblydigest](https://github.com/assemblydigest/gameboy) - Exploring Game Boy programming techniques.
 - [Reverse Engineering for Beginners](https://beginners.re/) - Free ebook (1060 pages) by Dennis Yurichev.
 - [FlappyBoy: Making a simple Game Boy Game](http://voidptr.io/blog/2017/01/21/GameBoy.html)
 - [bootstrap.gb](https://github.com/yenatch/bootstrap.gb) - An example Game Boy project.
@@ -295,7 +301,6 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Snake](https://bitbucket.org/Sanqui/snake/src/?at=master)
 - [PlantBoy](https://github.com/siObyte/PlantBoy)
 - [Lazerpong](https://github.com/huderlem/lazerpong)
-- [Back to Color](https://github.com/AntonioND/back-to-color)
 - [Geometrix](https://github.com/AntonioND/geometrix)
 - [µCity](https://github.com/AntonioND/ucity)
 - [Carazu](https://github.com/mholtkamp/carazu)
@@ -334,6 +339,11 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 ### Hack ROMs
 
 - [Trainin' in a Winter Wonderland](https://www.pokecommunity.com/showthread.php?t=276298) (Pokemon Gold (U))
+
+### Demos
+
+- [Back to Color](https://github.com/AntonioND/back-to-color)
+- [beach-gbc](https://github.com/vegard/beach-gbc)
 
 ## ROMs Disassembly
 

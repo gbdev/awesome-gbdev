@@ -345,6 +345,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Back to Color](https://github.com/AntonioND/back-to-color)
 - [beach-gbc](https://github.com/vegard/beach-gbc)
 - [CUTE DEMO](https://github.com/mills32/CUTE_DEMO)
+- [`10 PRINT` Game Boy](https://github.com/svendahlstrand/10-print-game-boy)
 
 ## ROMs Disassembly
 

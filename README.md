@@ -71,7 +71,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf)
 - [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - Historical comprehensive technical reference, wikified, corrected and updated. [Original](http://bgb.bircd.org/pandocs.htm) version.
 - [Game Boy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) - Assembly language commands, timings and opcodes.
-- [RGBDS Documentation](https://rednex.github.io/)
+- [RGBDS Documentation](https://rednex.github.io/rgbds/)
 - [GBDK libraries documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf)
 
 #### Misc

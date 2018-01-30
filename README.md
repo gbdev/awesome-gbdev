@@ -188,6 +188,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [mGBA](https://github.com/mgba-emu/mgba) - A modern cross platform GBA emulator which also runs GB/GBC games. Written in C.
 - [GBRE](https://github.com/ericgramgb/GBRE) - Game Boy Runtime Environment for iOS (iOS Safari and Chrome).
 - [PatBoy](https://github.com/Jonazan2/PatBoy) - C++/SDL2 with a fully functional visual debugger.
+- [gnuboy](https://github.com/rofl0r/gnuboy) - ANSI C.
  
 ## Software Development
 
@@ -234,6 +235,8 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [mmlgb](https://github.com/SimonLarsen/mmlgb) - MML to Game Boy parser and driver.
 - [mgbdis](https://github.com/mattcurrie/mgbdis) - Game Boy ROM disassembler with RGBDS compatible output.
 - [Retr0 GB](https://bitbucket.org/HellSuffering/retr0-gb/) - An engine for creating games (expands GBDK).
+- [awake](https://github.com/devdri/awake) - Gameboy decompiler.
+
 
 #### Syntax highlighting packages
 

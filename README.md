@@ -232,6 +232,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Game Boy Text Tools](https://github.com/raphaklaus/gameboy-text-tools) - Set of tools for text manipulation and translation of Game Boy ROMs written in NodeJS
 - [mmlgb](https://github.com/SimonLarsen/mmlgb) - MML to Game Boy parser and driver.
 - [mgbdis](https://github.com/mattcurrie/mgbdis) - Game Boy ROM disassembler with RGBDS compatible output.
+- [Retr0 GB](https://bitbucket.org/HellSuffering/retr0-gb/) - An engine for creating games (expands GBDK).
 
 #### Syntax highlighting packages
 

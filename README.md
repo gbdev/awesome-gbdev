@@ -98,7 +98,6 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [rednex gbz80 opcode reference](https://rednex.github.io/rgbds/gbz80.7.html)
 - [Opcode table](http://goldencrystal.free.fr/GBZ80Opcodes.pdf)
 - [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
-- [Gameboy CPU (LR35902) instruction set](http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html) - Another Opcodes cheatsheet.
 - [Game Boy CPU Instruction Set Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
 
 ### Hardware

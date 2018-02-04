@@ -188,6 +188,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [GBRE](https://github.com/ericgramgb/GBRE) - Game Boy Runtime Environment for iOS (iOS Safari and Chrome).
 - [PatBoy](https://github.com/Jonazan2/PatBoy) - C++/SDL2 with a fully functional visual debugger.
 - [gnuboy](https://github.com/rofl0r/gnuboy) - ANSI C.
+- [SmartGear](https://github.com/bitbank2/sg_free) - C++, SDL2. Focus on optimized performance for resource-limited devices. GTK or direct framebuffer build.
  
 ## Software Development
 

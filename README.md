@@ -143,6 +143,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 
 ## Emulator Development
 
+- [Reverse Engineering fine details of Game Boy hardware] - 43 minutes talk by Gekkio given at Disobey 2018.
 - [Blargg's test roms](http://gbdev.gg8.se/files/roms/blargg-gb-tests/)
 - [Gekkio's test roms](https://gekkio.fi/files/mooneye-gb/latest/)
 - [Building a Game Boy emulator in JavaScript](http://imrannazar.com/gameboy-Emulation-in-JavaScript) - Step by step tutorial.
@@ -189,10 +190,9 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [PatBoy](https://github.com/Jonazan2/PatBoy) - C++/SDL2 with a fully functional visual debugger.
 - [gnuboy](https://github.com/rofl0r/gnuboy) - ANSI C.
 - [SmartGear](https://github.com/bitbank2/sg_free) - C++, SDL2. Focus on optimized performance for resource-limited devices. GTK or direct framebuffer build.
+- [wasmBoy](https://github.com/torch2424/wasmBoy) - Web Assembly
  
 ## Software Development
-
-- [Homebrew Hub](https://gbhh.avivace.com) - Every unofficial homebrew ever produced for Game Boy playable online (mobile/touch too): a community-lead attempt to collect, archive and save every unofficial game, homebrew, demo, patch, hackrom for Game Boy (Color) produced by the community through years of passionate work.
 
 ### Assemblers
 
@@ -298,7 +298,8 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 
 ## Games
 
-- [Infinity](https://github.com/infinity-gbc/infinity)
+- [Homebrew Hub](https://gbhh.avivace.com) - Every unofficial homebrew ever produced for Game Boy playable online (mobile/touch too): a community-lead attempt to collect, archive and save every unofficial game, homebrew, demo, patch, hackrom for Game Boy (Color) produced by the community through years of passionate work.
+- [Infinity](https://github.com/infinity-gbc/infinity) - RPG developed by Affinix Software primarily between the years 1999 and 2001. The game never found a publisher and was eventually canceled. Got recently released with the full source, devolpment tools and workflows.
 
 ### ASM
 

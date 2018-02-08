@@ -375,6 +375,7 @@ Pokémon Red remade with full GBC support.
 - [Link's Awakening DX Disassembly](https://github.com/mojobojo/LADX-Disassembly)
 - [Disassembly of Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
 - [FX Hammer disassembly](https://github.com/DevEd2/FXHammer-Disasm)
+- [Reverse Engineering the GameBoy Tetris](https://github.com/h3nnn4n/Reverse-Engineering-the-GameBoy-Tetris)
 
 ## Related projects
 

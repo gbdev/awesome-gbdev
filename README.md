@@ -44,6 +44,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [The Game Boy, a hardware autopsy](https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu).
 - [The Ultimate Game Boy Talk](https://media.ccc.de/v/33c3-8029-the_ultimate_game_boy_talk).
 - [Emulation of Nintendo Game Boy](https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf) - Overview of the Game Boy hardware with the perspective of building an emulator.
+- [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d615409fd) - Writeup offering a brief overview of the Game Boy's capabilities, discussing the pros and cons of the available development tools, and providing tips to write more efficient code.
 
 #### Disambiguation
 

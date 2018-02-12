@@ -324,8 +324,8 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [exeman](https://github.com/exezin/exeman/)
 - [Aevilia](https://github.com/ISSOtm/Aevilia-GB)
 - [GBSlides](https://github.com/Kartones/gameboy) - A simple Game Boy Powerpoint-like slides viewer.
-- [Pokered-gbc](https://github.com/dannye/pokered-gbc) - 
-Pokémon Red remade with full GBC support.
+- [Pokered-gbc](https://github.com/dannye/pokered-gbc) - Pokémon Red remade with full GBC support.
+- [ToyToy](https://github.com/tslanina/Retro-GameBoyColor-ToyToy)
 
 
 ### C

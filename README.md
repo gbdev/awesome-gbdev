@@ -327,6 +327,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Pokered-gbc](https://github.com/dannye/pokered-gbc) - Pokémon Red remade with full GBC support.
 - [ToyToy](https://github.com/tslanina/Retro-GameBoyColor-ToyToy)
 - [StefaN](https://github.com/tslanina/Retro-GameBoyColor-StefaN) - Fourway Breakout clone.
+- [Galaxia](https://github.com/tslanina/Retro-GameBoyColor-Galaxia)
 
 
 ### C

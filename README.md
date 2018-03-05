@@ -193,7 +193,9 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [SmartGear](https://github.com/bitbank2/sg_free) - C++, SDL2. Focus on optimized performance for resource-limited devices. GTK or direct framebuffer build.
 - [wasmBoy](https://github.com/torch2424/wasmBoy) - Web Assembly.
 - [gameboycore](https://github.com/nnarain/gameboycore) - C++ emulation backend. Dependency free C++11 library.
- 
+- [Gambattye](https://github.com/Ben10do/Gambattye) - macOS, powered by a fork of Gambatte.
+
+
 ## Software Development
 
 ### Assemblers

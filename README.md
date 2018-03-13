@@ -33,7 +33,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [ROMs Disassembly](#roms-disassembly)
 - [Related Projects](#related-projects)
   + [Files Directories](#directories)
-  + [Articles, posts and websites](#articles-posts-and-sites)
+  + [Websites](#websites)
 - [About this repository](#about)
   - [Contribute](#contribute)
   - [License](#license)
@@ -194,6 +194,8 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [wasmBoy](https://github.com/torch2424/wasmBoy) - Web Assembly.
 - [gameboycore](https://github.com/nnarain/gameboycore) - C++ emulation backend. Dependency free C++11 library.
 - [Gambattye](https://github.com/Ben10do/Gambattye) - macOS, powered by a fork of Gambatte.
+- [miniBoy](https://github.com/Dhole/miniBoy) - C.
+- [hhugboy](https://github.com/tzlion/hhugboy) - Windows, based on GEST v1.1.1 by TM, with added support for unlicensed mappers, Unicode filenames, screenshots and some other stuff
 
 
 ## Software Development
@@ -372,6 +374,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [beach-gbc](https://github.com/vegard/beach-gbc)
 - [CUTE DEMO](https://github.com/mills32/CUTE_DEMO)
 - [`10 PRINT` Game Boy](https://github.com/svendahlstrand/10-print-game-boy)
+- [Roboto Demo](https://github.com/naavis/roboto-demo)
 
 ## ROMs Disassembly
 
@@ -407,6 +410,13 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [gb-save-states](https://github.com/mattcurrie/gb-save-states) - Patches to add save state support to Game Boy games when playing on the original hardware.
 - [gbcpu](https://github.com/jdeblese/gbcpu) - A CPU and peripherals implementing the Game Boy instruction set and functionality.
 - [Digitized Speech in Game Boy Games](https://youtube.com/watch?v=1lzHfLYzyRM)
+- [Sniffing Game Boy serial traffic with an STM32F4](https://dhole.github.io/post/gameboy_serial_1/)
+- [Virtual Game Boy Printer with an STM32F4](https://dhole.github.io/post/gameboy_serial_2/)
+- [Printing on the Game Boy Printer using an STM32F4](https://dhole.github.io/post/gameboy_serial_3/)
+- [Pokemon Pocket Computer:](https://tilde.town/~minerobber/techwriteups/pokemonpc.html) - What is it and how to use it to make cheat codes.
+- [Booting the Game Boy with a custom logo](https://dhole.github.io/post/gameboy_custom_logo/) - Bypassing the Nintendo logo check.
+- Making a Game Boy game in 2017: A "Sheep It Up!" Post-Mortem ([part 1](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/), [part 2](https://www.gamasutra.com/blogs/DoctorLudos/20180213/314554/))
+- [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system.
 
 ### Directories
 
@@ -414,15 +424,13 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [The Game Boy Archive](https://github.com/gb-archive) - A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades.
 - [The Game Boy Archive - Salvage](https://github.com/gb-archive/salvage) - Old articles, FAQs and various documents.
 
-### Articles, posts and sites
+### Websites
 
-- Making a Game Boy game in 2017: A "Sheep It Up!" Post-Mortem ([part 1](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/), [part 2](https://www.gamasutra.com/blogs/DoctorLudos/20180213/314554/))
-- [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system.
-- [Booting the Game Boy with a custom logo](https://dhole.github.io/post/gameboy_custom_logo/) - Bypassing the Nintendo logo check.
 - [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Including features, insights and interviews.
 - [pdroms.de](http://pdroms.de/news/gameboy/) Game Boy releases.
 - [Game Boy Demospotting](http://gameboy.modermodemet.se/en) - A collection of demos.
-- [Pokemon Pocket Computer:](https://tilde.town/~minerobber/techwriteups/pokemonpc.html) - What is it and how to use it to make cheat codes.
+- [Handheld Underground](http://hhug.me) - Unlicensed games, blog posts about Game Boy, home of the hhugboy emulator.
+
 
 ## About
 

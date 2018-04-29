@@ -254,6 +254,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [mgbdis](https://github.com/mattcurrie/mgbdis) - Game Boy ROM disassembler with RGBDS compatible output.
 - [Retr0 GB](https://bitbucket.org/HellSuffering/retr0-gb/) - An engine for creating games (expands GBDK).
 - [awake](https://github.com/devdri/awake) - Gameboy decompiler.
+- [swapdump](https://github.com/sanqui/swapdump) - Diagnostic utility for Game Boy flashcarts.
 
 
 #### Syntax highlighting packages
@@ -345,7 +346,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [ToyToy](https://github.com/tslanina/Retro-GameBoyColor-ToyToy)
 - [StefaN](https://github.com/tslanina/Retro-GameBoyColor-StefaN) - Fourway Breakout clone.
 - [Galaxia](https://github.com/tslanina/Retro-GameBoyColor-Galaxia)
-
+- [desgb](https://github.com/sanqui/desgb) - DES encryption.
 
 ### C
 
@@ -399,6 +400,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Disassembly of Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
 - [FX Hammer disassembly](https://github.com/DevEd2/FXHammer-Disasm)
 - [Reverse Engineering the GameBoy Tetris](https://github.com/h3nnn4n/Reverse-Engineering-the-GameBoy-Tetris)
+- [Harvest Moon 3](https://github.com/sanqui/hm3)
 
 ## Related projects
 

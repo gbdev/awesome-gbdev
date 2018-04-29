@@ -153,6 +153,9 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Codeslinger](http://www.codeslinger.co.uk/pages/projects/gameboy.html) - Another series of posts documenting the building of an emulator.
 - [Why did I spend 1.5 months creating a Gameboy emulator?](http://blog.rekawek.eu/2017/02/09/coffee-gb/) - Blog post.
 - [binjgb rewind](https://binji.github.io/2017/12/31/binjgb-rewind.html) - Implementing a *rewind* feature.
+- [Emulation Accuracy](https://github.com/Gekkio/mooneye-gb/blob/master/docs/accuracy.markdown)
+- [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
+- [Decoding Gameboy Z80 opcodes](https://avivace.com/apps/gbdev/decoding_gz80.html) - How to algorithmically decode gameboy instructions as opposed to writing one huge switch-case statement for over 500 instructions.
 
 
 ### Open-source emulators
@@ -196,6 +199,9 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Gambattye](https://github.com/Ben10do/Gambattye) - macOS, powered by a fork of Gambatte.
 - [miniBoy](https://github.com/Dhole/miniBoy) - C.
 - [hhugboy](https://github.com/tzlion/hhugboy) - Windows, based on GEST v1.1.1 by TM, with added support for unlicensed mappers, Unicode filenames, screenshots and some other stuff
+- [DDMG](https://github.com/mstojcevich/ddmg) - D.
+- [Castor](https://github.com/kosinw/Castor) - C# and Monogame.
+- [gb-rs](https://github.com/simias/gb-rs) - Rust.
 
 
 ## Software Development

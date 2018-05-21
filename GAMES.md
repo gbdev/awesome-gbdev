@@ -28,6 +28,7 @@
 - [StefaN](https://github.com/tslanina/Retro-GameBoyColor-StefaN) - Fourway Breakout clone.
 - [Galaxia](https://github.com/tslanina/Retro-GameBoyColor-Galaxia)
 - [desgb](https://github.com/sanqui/desgb) - DES encryption.
+- [superhappyfunbubbletime](https://github.com/l0k1/superhappyfunbubbletime)
 
 ### C
 

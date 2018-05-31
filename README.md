@@ -226,6 +226,10 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Z80 Assembly support for Visual Studio Code](https://github.com/Imanolea/z80asm-vscode)
 - [rgbds-vscode](https://github.com/DonaldHays/rgbds-vscode) - Visual Studio Code language extension for RGBDS GBZ80 Assembly
 
+### Boilerplate
+
+- [Gameboy Boilerplate](https://github.com/junebug12851/GameboyBoilerplateProj) - Boilerplate project to move quicker into the actual assembly code for your game.
+
 ## Programming Tutorials
 
 ### ASM

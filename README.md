@@ -21,12 +21,12 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   - [Compilers](#compilers)
   - [Emulators](#emulators)
   - [Tools](#tools)
-- [Programming Tutorials](#programming-tutorials)
+- [Programming](#programming)
   - [ASM](#asm)
     + [Glitches and exploits](#glitches-and-exploits)
     + [Timings](#timings)
+    + [Boilerplates](#boilerplates)
   - [C](#c)
-  - [Old articles](#old-articles)
 - [Open-Source Games](GAMES.md)
 - [ROMs Disassembly](#roms-disassembly)
 - [Related Projects](#related-projects)
@@ -45,16 +45,16 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Emulation of Nintendo Game Boy](https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf) - Overview of the Game Boy hardware with the perspective of building an emulator.
 - [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d615409fd) - Writeup offering a brief overview of the Game Boy's capabilities, discussing the pros and cons of the available development tools, and providing tips to write more efficient code.
 
-#### Disambiguation
-
-Although this documentation is focused on the original (1989) Game Boy (DMG), the *Game Boy Color* (GBC) and *Super Game Boy* (SGB) are very similar systems, with few important distinctions, such as:
-
-- Different hardware specifications
-- Specific hardware and software features
-- Specific registers
-- Specific bugs and exploitable behaviours
-
-If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check the [Game Boy Color](#game-boy-color) category and look for specific references to GBC/CGB and SGB in the documentation.
+> #### Disambiguation
+>
+>Although this documentation is focused on the original (1989) Game Boy (DMG), the *Game Boy Color* (GBC) and *Super Game Boy* (SGB) are very similar systems, with few important distinctions, such as:
+>
+>- Different hardware specifications
+>- Specific hardware and software features
+>- Specific registers
+>- Specific bugs and exploitable behaviours
+>
+>If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check the [Game Boy Color](#game-boy-color) category and look for specific references to GBC/CGB and SGB in the documentation.
 
 ## Community
 
@@ -226,16 +226,7 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [Z80 Assembly support for Visual Studio Code](https://github.com/Imanolea/z80asm-vscode)
 - [rgbds-vscode](https://github.com/DonaldHays/rgbds-vscode) - Visual Studio Code language extension for RGBDS GBZ80 Assembly
 
-### Boilerplates
-
-- [gb-template](https://github.com/exezin/gb-template) - A template with basic functions pre-made such as joypad input, DMA transfers, and map/tile data loading.
-- [rgbds-template](https://github.com/nezticle/rgbds-template) - Basic hello-world example for Game Boy using RGBDS.
-- [Game Boy Assembly Language Primer](http://www.devrs.com/gb/files/galp.zip) - Simple template code with memory defines, copy routines and IBM font tilemap.
-- [bootstrap.gb](https://github.com/yenatch/bootstrap.gb) - An example Game Boy project.
-- [Simplified GBDK examples](https://github.com/mrombout/gbdk_playground)
-- [Gameboy Boilerplate](https://github.com/junebug12851/GameboyBoilerplateProj) - Boilerplate project to move quicker into the actual assembly code for your game.
-
-## Programming Tutorials
+## Programming
 
 ### ASM
 
@@ -267,6 +258,14 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [STAT interrupt timings](http://gameboy.mongenel.com/dmg/istat98.txt)
 - [Video Timing](https://github.com/jdeblese/gbcpu/wiki/Video-Timing)
 
+#### Boilerplates
+
+- [gb-template](https://github.com/exezin/gb-template) - A template with basic functions pre-made such as joypad input, DMA transfers, and map/tile data loading.
+- [rgbds-template](https://github.com/nezticle/rgbds-template) - Basic hello-world example for Game Boy using RGBDS.
+- [Game Boy Assembly Language Primer](http://www.devrs.com/gb/files/galp.zip) - Simple template code with memory defines, copy routines and IBM font tilemap.
+- [bootstrap.gb](https://github.com/yenatch/bootstrap.gb) - An example Game Boy project.
+- [Gameboy Boilerplate](https://github.com/junebug12851/GameboyBoilerplateProj) - Boilerplate project to move quicker into the actual assembly code for your game.
+
 ### C
 
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) - Well-written introductory document about how the Game Boy works and how to start developing working code for it.
@@ -279,9 +278,9 @@ If you aim to develop your software for SGB or GBC, or you want to know how it r
 - [GBDK Joypad](http://gbdev.gg8.se/wiki/articles/GBDK_Joypad_Tutorial) - Details the use of the joypad with GBDK.
 - [Game Boy home of Flavor](http://www.personal.triticom.com/~erm/GameBoy/) - Some full games and sources.
 - [GBDK Configuring and Programming Tutorial](https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/) - Configuring GBDK, Using Tiles, Colliding Sprites, GBTD, GBMB, Memory Management and ROM Banking.
+- [Simplified GBDK examples](https://github.com/mrombout/gbdk_playground)
 
 ## [Games](GAMES.md)
-
 
 ## ROMs Disassembly
 

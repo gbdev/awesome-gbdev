@@ -284,21 +284,27 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 
 ## ROMs Disassembly
 
-- [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)
 - [Pokémon Red/Blue](https://github.com/pret/pokered)
 - [Pokémon Crystal](https://github.com/pret/pokecrystal)
+- [Pokémon Yellow](https://github.com/pret/pokeyellow)
+- [Pokémon Gold and Silver](https://github.com/pret/pokegold)
 - [Pokémon Pinball](https://github.com/pret/pokepinball)
 - [Pokémon TCG](https://github.com/pret/poketcg)
+- [pokegold-spaceworld](https://github.com/pret/pokegold-spaceworld)
+- [Link's Awakening DX](https://github.com/mojobojo/LADX-Disassembly)
+- [Oracle of Ages](https://github.com/drenn1/ages-disasm)
+- [Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
+- [FX Hammer](https://github.com/DevEd2/FXHammer-Disasm)
+- [Harvest Moon 3](https://github.com/sanqui/hm3)
+- [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)
+
+### Articles and tools
+
 - [Reverse engineering Kirby's Dreamland 2](http://ecc-comp.blogspot.it/2016/03/reverse-engineering-kirbys-dreamland-2.html)
 - [pokemontools](https://github.com/pret/pokemon-reverse-engineering-tools) - a python module that provides various reverse engineering components for various Pokémon games.
 - [Reverse Engineering a Gameboy ROM with radare2](https://www.megabeets.net/reverse-engineering-a-gameboy-rom-with-radare2) - A walkthrough to reverse engineer a Game Boy ROM challenge using radare2.
 - [Disassembling Link's Awakening](http://kemenaran.winosx.com/posts/category-disassembling-links-awakening/) - A series of blog posts about disassembling Link's Awakening DX.
-- [Link's Awakening DX Disassembly](https://github.com/mojobojo/LADX-Disassembly)
-- [Oracle of Ages Disassembly](https://github.com/drenn1/ages-disasm)
-- [Disassembly of Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
-- [FX Hammer disassembly](https://github.com/DevEd2/FXHammer-Disasm)
 - [Reverse Engineering the GameBoy Tetris](https://github.com/h3nnn4n/Reverse-Engineering-the-GameBoy-Tetris)
-- [Harvest Moon 3](https://github.com/sanqui/hm3)
 
 ## Related projects
 

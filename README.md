@@ -15,6 +15,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   + [Peripherals](#peripherals)
   + [Cartridges](#cartridges)
 - [Emulator Development](#emulator-development)
+  - [Testing](#testing)
   - [Open-Source emulators](EMULATORS.md)
 - [Software Development](#software-development)
   - [Assemblers](#assemblers)
@@ -27,7 +28,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
     + [Timings](#timings)
     + [Boilerplates](#boilerplates)
   - [C](#c)
-- [Open-Source Games](GAMES.md)
+- [Games](#games)
 - [ROMs Disassembly](#roms-disassembly)
 - [Related Projects](#related-projects)
   + [Files Directories](#directories)
@@ -144,8 +145,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 ## Emulator Development
 
 - [Reverse Engineering fine details of Game Boy hardware](https://www.youtube.com/watch?v=GBYwjch6oEE) ([errata](https://gekkio.fi/blog/2018-02-05-errata-for-reverse-engineering-fine-details-of-game-boy-hardware.html)) - 43 minutes talk by Gekkio given at Disobey 2018.
-- [Blargg's test roms](http://gbdev.gg8.se/files/roms/blargg-gb-tests/)
-- [Gekkio's test roms](https://gekkio.fi/files/mooneye-gb/latest/)
 - [Building a Game Boy emulator in JavaScript](http://imrannazar.com/gameboy-Emulation-in-JavaScript) - Step by step tutorial.
 - [Writing a Game Boy emulator, Cinoop](https://cturt.github.io/cinoop.html)
 - [RealBoy Emulator](https://realboyemulator.wordpress.com/posts/) - A series of posts about the design and implementation of the RealBoy Emulator.
@@ -153,9 +152,14 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Why did I spend 1.5 months creating a Gameboy emulator?](http://blog.rekawek.eu/2017/02/09/coffee-gb/) - Blog post.
 - [binjgb rewind](https://binji.github.io/2017/12/31/binjgb-rewind.html) - Implementing a *rewind* feature.
 - [Emulation Accuracy](https://github.com/Gekkio/mooneye-gb/blob/master/docs/accuracy.markdown)
-- [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
+
 - [Decoding Gameboy Z80 opcodes](https://avivace.com/apps/gbdev/decoding_gz80.html) - How to algorithmically decode gameboy instructions as opposed to writing one huge switch-case statement for over 500 instructions.
 
+### Testing
+- [Blargg's test roms](http://gbdev.gg8.se/files/roms/blargg-gb-tests/)
+- [Gekkio's test roms](https://gekkio.fi/files/mooneye-gb/latest/)
+- [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
+- [144p Test Suite](https://github.com/pinobatch/240p-test-mini/tree/master/gameboy) - Port of Artemio Urbina's 240p Test Suite to the Game Boy.
 
 ### [Open Source emulators](EMULATORS.md)
 
@@ -280,7 +284,74 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [GBDK Configuring and Programming Tutorial](https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/) - Configuring GBDK, Using Tiles, Colliding Sprites, GBTD, GBMB, Memory Management and ROM Banking.
 - [Simplified GBDK examples](https://github.com/mrombout/gbdk_playground)
 
-## [Games](GAMES.md)
+## Games
+
+- [Homebrew Hub](https://gbhh.avivace.com) - Every unofficial homebrew ever produced for Game Boy playable online (mobile/touch too): a community-lead attempt to collect, archive and save every unofficial game, homebrew, demo, patch, hackrom for Game Boy (Color) produced by the community through years of passionate work.
+- [Infinity](https://github.com/infinity-gbc/infinity) - RPG developed by Affinix Software primarily between the years 1999 and 2001. The game never found a publisher and was eventually canceled. Got recently released with the full source, development tools and workflows.
+
+### ASM
+
+- [RedPlusPlus](https://github.com/TheFakeMateo/RedPlusPlus) - An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features.
+- [Tuff](https://github.com/BonsaiDen/Tuff.gb)
+- [2048-gb](https://github.com/Sanqui/2048-gb)
+- [Snake](https://bitbucket.org/Sanqui/snake/src/?at=master)
+- [PlantBoy](https://github.com/siObyte/PlantBoy)
+- [Lazerpong](https://github.com/huderlem/lazerpong)
+- [Geometrix](https://github.com/AntonioND/geometrix)
+- [µCity](https://github.com/AntonioND/ucity)
+- [Carazu](https://github.com/mholtkamp/carazu)
+- [Snake-gb](https://github.com/DonaldHays/snake-gb)
+- [GB303](https://github.com/furrtek/GB303) - GB303 wavetable-based TB-303 style synthesizer for the Nintendo Game Boy.
+- [Sushi](https://github.com/JustSid/Sushi)
+- [Flappy-boy-asm](https://github.com/bitnenfer/flappy-boy-asm)
+- [kupman](https://github.com/dubvulture/gbdev) and some other projects
+- [Adjustris](https://github.com/tbsp/Adjustris)
+- [exeman](https://github.com/exezin/exeman/)
+- [Aevilia](https://github.com/ISSOtm/Aevilia-GB)
+- [GBSlides](https://github.com/Kartones/gameboy) - A simple Game Boy Powerpoint-like slides viewer.
+- [Pokered-gbc](https://github.com/dannye/pokered-gbc) - Pokémon Red remade with full GBC support.
+- [ToyToy](https://github.com/tslanina/Retro-GameBoyColor-ToyToy)
+- [StefaN](https://github.com/tslanina/Retro-GameBoyColor-StefaN) - Fourway Breakout clone.
+- [Galaxia](https://github.com/tslanina/Retro-GameBoyColor-Galaxia)
+- [desgb](https://github.com/sanqui/desgb) - DES encryption.
+- [superhappyfunbubbletime](https://github.com/l0k1/superhappyfunbubbletime)
+
+### C
+
+- [FlappyBoy](https://github.com/bitnenfer/FlappyBoy)
+- [flappybird-gameboy](https://github.com/pashutk/flappybird-gameboy) - Flappy Bird clone (gbdk)
+- [fbgb](https://github.com/gb-archive/fbgb) - Flappy Bird clone (gbdk)
+- [Novascape](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=6823)
+- [Squishy the Turtle](https://github.com/cppchriscpp/SquishyTheTurtle)
+- [Quadratino](https://github.com/avivace/quadratino)
+- [Doctor How](https://github.com/elfgames/doctorhow)
+- [Super Princess' 2092 Exodus](https://github.com/Zal0/gbjam2016)
+- [GBsnake](https://github.com/brovador/GBsnake)
+- [gb-mines](https://github.com/andreasjhkarlsson/gb-mines)
+- [oranges](http://www.atari2600land.com/gameboy/oranges.html)
+- [red hot princess carnage](https://github.com/Imanolea/bitbitjam3_red_hot_princess_carnage)
+- [loderunner](http://www.tensi.eu/thomas/programming/gameboy/loderunner.html)
+- [Hives](https://refreshgames.co.uk/2017/04/24/ludum-dare-38-entry-hives/)
+- [Bubble Factory](https://github.com/DonaldHays/bubblefactory) - *Vanilla* SDCC (no gbdk).
+- [GBC Atari Boxing](https://github.com/rubfi/gbc-atari-boxing) - Atari 2600 Boxing clone for the Game Boy (Color).
+- [GB raycaster, Vision-8](https://github.com/haroldo-ok/really-old-stuff/tree/master/gameboy) and some other projects
+- [Tobu Tobu Girl](https://github.com/SimonLarsen/tobutobugirl) - An arcade platformer for the Game Boy.
+- [Burly Bear vs. The Mean Foxes](http://sebastianmihai.com/main.php?t=18&) ([GBC](http://sebastianmihai.com/main.php?t=55&n=Gameboy-Color-development-Burly-Bear-vs-The-Mean-Foxes-GBC-version) port)
+- [PostBot](https://github.com/MasterIV/PostBot)
+- [Guns & Riders](https://github.com/kanfor/gunsridersgameboy)
+
+### Hack ROMs
+
+- [Trainin' in a Winter Wonderland](https://www.pokecommunity.com/showthread.php?t=276298) (Pokemon Gold (U))
+
+### Demos
+
+- [Back to Color](https://github.com/AntonioND/back-to-color)
+- [beach-gbc](https://github.com/vegard/beach-gbc)
+- [CUTE DEMO](https://github.com/mills32/CUTE_DEMO)
+- [`10 PRINT` Game Boy](https://github.com/svendahlstrand/10-print-game-boy)
+- [Roboto Demo](https://github.com/naavis/roboto-demo)
+
 
 ## ROMs Disassembly
 

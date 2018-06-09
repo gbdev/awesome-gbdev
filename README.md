@@ -16,7 +16,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   + [Cartridges](#cartridges)
 - [Emulator Development](#emulator-development)
   - [Testing](#testing)
-  - [Open-Source emulators](EMULATORS.md)
+  - [Open-Source emulators](#open-source-emulators)
 - [Software Development](#software-development)
   - [Assemblers](#assemblers)
   - [Compilers](#compilers)
@@ -29,7 +29,12 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
     + [Boilerplates](#boilerplates)
   - [C](#c)
 - [Games](#games)
+  - [ASM](#asm-2)
+  - [C](#c-2)
+  - [Hack ROMs](#hack-roms)
+  - [Demos](#demos)
 - [ROMs Disassembly](#roms-disassembly)
+  - [Articles and tools about reverse engineering](#articles-and-tools)
 - [Related Projects](#related-projects)
   + [Files Directories](#directories)
   + [Websites](#websites)
@@ -152,7 +157,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Why did I spend 1.5 months creating a Gameboy emulator?](http://blog.rekawek.eu/2017/02/09/coffee-gb/) - Blog post.
 - [binjgb rewind](https://binji.github.io/2017/12/31/binjgb-rewind.html) - Implementing a *rewind* feature.
 - [Emulation Accuracy](https://github.com/Gekkio/mooneye-gb/blob/master/docs/accuracy.markdown)
-
 - [Decoding Gameboy Z80 opcodes](https://avivace.com/apps/gbdev/decoding_gz80.html) - How to algorithmically decode gameboy instructions as opposed to writing one huge switch-case statement for over 500 instructions.
 
 ### Testing
@@ -161,7 +165,51 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
 - [144p Test Suite](https://github.com/pinobatch/240p-test-mini/tree/master/gameboy) - Port of Artemio Urbina's 240p Test Suite to the Game Boy.
 
-### [Open Source emulators](EMULATORS.md)
+### Open Source emulators
+
+| Name | Language | Details |
+| --- | --- | --- |
+| **[Mooneye GB](https://github.com/Gekkio/mooneye-gb)** | Rust | Game Boy research project and emulator. |
+| **[Binjgb](https://github.com/binji/binjgb)** | C | 5kloc emulator that passes most of the tests. *Rewind* feature. Runs in the browser using WebAssembly |
+| [Wadatsumi](https://github.com/arrow-lang/wadatsumi) | Arrow | |
+| [cboy](https://github.com/jkbenaim/cboy) | C |
+| [miniBoy](https://github.com/Dhole/miniBoy) | C | |
+| [Sameboy](https://github.com/LIJI32/SameBoy) | C | |
+| [giibiiadvance](https://github.com/AntonioND/giibiiadvance) | C | A GB, GBC emulator with GB Camera support.|
+| [mGBA](https://github.com/mgba-emu/mgba) | C | A modern cross platform GBA emulator which also runs GB/GBC games. |
+| [gnuboy](https://github.com/rofl0r/gnuboy) | C | ANSI C |
+| [PlutoBoy](https://github.com/RossMeikleham/PlutoBoy) | C | Cross platform (Windows, OSX, Linux/Unix, Android, iOS, Web Browsers, and Sony PSP) emulator |
+| [SuperGameHerm](https://code.foxkit.us/emulators/supergameherm) | C 11 | Cross platform emulator |
+| [Castor](https://github.com/kosinw/Castor) | C#, Monogame |
+| [GameYob](https://github.com/Drenn1/GameYob) | C++, C# | GB, GBC emulator for Nintendo DS/3DS |
+| [jgilchrist](https://github.com/jgilchrist/emulator) | C++ |
+| [gameboycore](https://github.com/nnarain/gameboycore) | C++ 11 | C++ emulation backend. Dependency free library. |
+| [GameBoyEmulator-GBS](https://github.com/Salgat/GameBoyEmulator-GBS) | C++ 14 | with a single library dependency of SFML |
+| [oneup-gb](https://github.com/oneup40/oneup-gb) | C++ | DMG. Currently provides SDL frontend and Retroarch integration |
+| [Gearboy](https://github.com/drhelius/Gearboy) | C++ | iOS, Raspberry Pi, Mac, Windows and Linux |
+| [SmartGear](https://github.com/bitbank2/sg_free) | C++, SDL2 | Focus on optimized performance for resource-limited devices. GTK or direct framebuffer build |
+| [PatBoy](https://github.com/Jonazan2/PatBoy) | C++, SDL2 | with a fully functional visual debugger |
+| [GameLad](https://github.com/Dooskington/GameLad) | C++/SDL | Almost fully featured emulator |
+| [GBE+](https://github.com/shonumi/gbe-plus) | C++, SDL | Focused on enhancements |
+| [hhugboy](https://github.com/tzlion/hhugboy) | C++ | Windows, based on GEST v1.1.1 by TM, with added support for unlicensed mappers, Unicode filenames, screenshots and some other stuff |
+| [DDMG](https://github.com/mstojcevich/ddmg) | D |
+| [FunGBC](https://github.com/andreasjhkarlsson/fungbc) | F# | |
+| [gameboyGO](https://github.com/gonccalo/gameboyGO) | Go |
+| [gomeboycolor](https://github.com/djhworld/gomeboycolor) | Go | Cross platform [documented](http://djhworld.github.io/gomeboycolor/) emulator |
+| [AndroidGameBoyEmulator](https://github.com/pedrovgs/AndroidGameBoyEmulator) | Java | |
+| [Coffee GB](https://github.com/trekawek/coffee-gb) | Java 8 |
+| [weplay](https://github.com/rauchg/weplay) | JavaScript | Collaborative Game Boy emulation |
+| [GBRE](https://github.com/ericgramgb/GBRE) | JavaScript | Game Boy Runtime Environment for iOS (iOS Safari and Chrome) |
+| [gameboy-Online](https://github.com/taisel/gameboy-Online) | JavaScript | Uses HTML5 canvas and JavaScript audio APIs |
+| [node-gameboy](https://github.com/nakardo/node-gameboy) | Node.js |
+| [php-terminal-Game Boy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) | PHP | |
+| [PyBoy](https://github.com/Baekalfen/PyBoy) | Python | Mac, Linux and Windows |
+| [barnacleboy](https://github.com/rep-nop/barnacleboy) | Rust | |
+| [gb-rs](https://github.com/simias/gb-rs) | Rust | |
+| [scimitar](https://github.com/tompko/scimitar) | Rust | |
+| [rustboy](https://github.com/VelocityRa/rustboy) | Rust | A basic DMG emulator written in Rust, using the Piston engine for window creation and graphics |
+| [Gambattye](https://github.com/Ben10do/Gambattye) | Swift | macOS, powered by a fork of Gambatte |
+| [wasmBoy](https://github.com/torch2424/wasmBoy) | Web Assembly | |
 
 
 ## Software Development

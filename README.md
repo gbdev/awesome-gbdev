@@ -60,7 +60,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 >- Specific registers
 >- Specific bugs and exploitable behaviours
 >
->If you aim to develop your software for SGB or GBC, or you want to know how it runs on the others system, you may want to take advantage and adapt to these differences, check the [Game Boy Color](#game-boy-color) category and look for specific references to GBC/CGB and SGB in the documentation.
+>If you aim to develop your software for SGB or GBC, or you want to know how it runs on the other systems, you may want to take advantage and adapt to these differences, check the [Game Boy Color](#game-boy-color) category and look for specific references to GBC/CGB and SGB in the documentation.
 
 ## Community
 

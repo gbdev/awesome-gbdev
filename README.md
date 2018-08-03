@@ -220,19 +220,19 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [RGBDS](https://github.com/rednex/rgbds) - Assembler and linker package (a fork currently updated).
 - [wla-dx](https://github.com/vhelin/wla-dx) - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package.
 
+### Compilers
+- [The Game Boy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/) - A set of tools that enable to develop in **C**. Includes a set of libraries for the most common requirements and generates ready ROM files.
+    +[gbdk-osx](https://github.com/x43x61x69/gbdk-osx) - Patched GBDK 2.96a for the latest compilers on OS X.
+    +[gbdk-n](https://github.com/rotmoset/gbdk-n) - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms.
+- [clang-gbz80](https://github.com/Bevinsky/clang-gbz80) - Clang port to the GBZ80 CPU.
+
 #### Experimentals/Proof of Concepts
+- [Wiz](https://github.com/wiz-lang/wiz) - A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more).
 - [gbforth](https://github.com/ams-hackers/gbforth) - A Forth-based Game Boy development kit.
 - [gbasm](https://github.com/BonsaiDen/gbasm) - A JavaScript based compiler for Game Boy z80 assembly code.
 - [tniASM](http://www.tni.nl/products/tniasm.html) - Macro Assembler.
 - [Assembler](https://github.com/ulrikdamm/Assembler) - Assembler written in Swift.
-- [llvm-gbz80](https://github.com/Bevinsky/llvm-gbz80) - LLVM port to the GBZ80 CPU (similar [project](https://github.com/euclio/llvm-gbz80), deprecated).
- 
-
-### Compilers
-- [The Game Boy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/) - A set of tools that enable to develop programs for the Nintendo Game Boy system in **C**. Includes a set of libraries for the most common requirements and generates image files for use with a real Game Boy.
-- [gbdk-osx](https://github.com/x43x61x69/gbdk-osx) - Patched GBDK 2.96a for the latest compilers on OS X.
-- [clang-gbz80](https://github.com/Bevinsky/clang-gbz80) - Clang port to the GBZ80 CPU.
-
+- [llvm-gbz80](https://github.com/Bevinsky/llvm-gbz80) - LLVM port to the GBZ80 CPU (similar to the deprecated [euclio/llvm-gbz80](https://github.com/euclio/llvm-gbz80)).
 
 ### Emulators
 
@@ -434,8 +434,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [papiGB](https://github.com/diegovalverde/papiGB) - Game Boy Classic fully functional FPGA implementation from scratch.
 - [fpgaboy](https://github.com/trun/fpgaboy) - Implementation Nintendo's Game Boy console on an FPGA.
 - [Piglet](https://github.com/danShumway/Piglet) - A LUA-driven AI that plays classic Game Boy color games using experimentation. In active development.
-- [gbdk-n](https://github.com/rotmoset/gbdk-n) - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms.
-- [Wiz](https://github.com/wiz-lang/wiz) - A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more).
 - [Gatesboy](https://web.archive.org/web/*/http://www.gatesboy.com/) - Non-gaming purposes applications development.
 - [Ostrich](https://github.com/PumpMagic/ostrich) - A Game Boy Sound System player written in Swift.
 - [mGB](https://github.com/trash80/mGB) - A Game Boy cartridge program that enables the Game Boy to act as a full MIDI supported sound module.

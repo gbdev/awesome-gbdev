@@ -14,14 +14,14 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   + [Game Boy Color](#game-boy-color)
   + [Peripherals](#peripherals)
   + [Cartridges](#cartridges)
-- [Emulator Development](#emulator-development)
-  - [Testing](#testing)
-  - [Open-Source emulators](#open-source-emulators)
 - [Software Development](#software-development)
   - [Assemblers](#assemblers)
   - [Compilers](#compilers)
   - [Emulators](#emulators)
   - [Tools](#tools)
+- [Emulator Development](#emulator-development)
+  - [Testing](#testing)
+  - [Open-Source emulators](#open-source-emulators)
 - [Programming](#programming)
   - [ASM](#asm)
     + [Glitches and exploits](#glitches-and-exploits)
@@ -78,8 +78,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf) by Gekkio.
 - [Open Game Boy Documentation Project](https://mgba-emu.github.io/gbdoc/)
 - [Game Boy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) - Assembly language commands, timings and opcodes.
-- [RGBDS Documentation](https://rednex.github.io/rgbds/)
-- [GBDK libraries documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf)
 
 #### Misc
 
@@ -90,7 +88,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [GB ASM Tips](http://www.chrisantonellis.com/files/gameboy/gb-asm-tips.txt) - Some tips for coding in Assembly by Jeff Frohwein.
 - [ASMotor Manual](http://www.chrisantonellis.com/files/gameboy/asmotor-v0.1.0-manual.pdf) - A reference for RGBDS.
 - [ASMotor v1.10 documentation](http://otakunozoku.com/RGBDSdocs/)
-- [wla-dx documentation](http://www.villehelin.com/wla.txt) - WLA DX Macro Assembler Package manual.
 - [gbdev FAQs](http://www.devrs.com/gb/files/faqs.html) - Must read by Jeff Frohwein.
 - [Game Boy Bootrom](http://www.neviksti.com/DMG/DMG_ROM.asm) - Commented dump of the DMG bootrom.
 - [GB Technical Information](http://fms.komkon.org/GameBoy/Tech/) - Some old code resources.
@@ -146,6 +143,37 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Game Boy cartridge PCB photos](http://gekkio.fi/blog/2016-03-19-game-boy-cartridge-pcb-photos.html)
 - [Emulating a GameBoy Cartridge](https://dhole.github.io/post/gameboy_cartridge_emu_1/) - Emulating the functionality of a Game Boy cartridge with the development board STM32F4.
 - [Wolf](http://www.happydaze.se/wolf/) - Game Boy cartridge with co-processor.
+
+## Software Development
+
+### Assemblers
+
+- [RGBDS](https://github.com/rednex/rgbds) - Assembler and linker package (a fork currently updated).
+
+    + [RGBDS Documentation](https://rednex.github.io/rgbds/)
+
+- [wla-dx](https://github.com/vhelin/wla-dx) - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package.
+
+    + [wla-dx documentation](http://www.villehelin.com/wla.txt) - WLA DX Macro Assembler Package manual.
+
+### Compilers
+
+- [The Game Boy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/) - A set of tools that enable to develop in **C**. Includes a set of libraries for the most common requirements and generates ready ROM files.
+    
+    + [GBDK documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf)
+    + [gbdk-osx](https://github.com/x43x61x69/gbdk-osx) - Patched GBDK 2.96a for the latest compilers on OS X.
+    + [gbdk-n](https://github.com/rotmoset/gbdk-n) - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms.
+
+- [clang-gbz80](https://github.com/Bevinsky/clang-gbz80) - Clang port to the GBZ80 CPU.
+
+#### Experimentals/Proof of Concepts
+
+- [Wiz](https://github.com/wiz-lang/wiz) - A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more).
+- [gbforth](https://github.com/ams-hackers/gbforth) - A Forth-based Game Boy development kit.
+- [gbasm](https://github.com/BonsaiDen/gbasm) - A JavaScript based compiler for Game Boy z80 assembly code.
+- [tniASM](http://www.tni.nl/products/tniasm.html) - Macro Assembler.
+- [Assembler](https://github.com/ulrikdamm/Assembler) - Assembler written in Swift.
+- [llvm-gbz80](https://github.com/Bevinsky/llvm-gbz80) - LLVM port to the GBZ80 CPU (similar to the deprecated [euclio/llvm-gbz80](https://github.com/euclio/llvm-gbz80)).
 
 ## Emulator Development
 
@@ -210,32 +238,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 | [rustboy](https://github.com/VelocityRa/rustboy) | Rust | A basic DMG emulator written in Rust, using the Piston engine for window creation and graphics |
 | [Gambattye](https://github.com/Ben10do/Gambattye) | Swift | macOS, powered by a fork of Gambatte |
 | [wasmBoy](https://github.com/torch2424/wasmBoy) | Web Assembly | |
-
-
-## Software Development
-
-### Assemblers
-
-- [RGBDS](https://github.com/rednex/rgbds) - Assembler and linker package (a fork currently updated).
-- [wla-dx](https://github.com/vhelin/wla-dx) - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package.
-
-### Compilers
-
-- [The Game Boy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/) - A set of tools that enable to develop in **C**. Includes a set of libraries for the most common requirements and generates ready ROM files.
-
-    + [gbdk-osx](https://github.com/x43x61x69/gbdk-osx) - Patched GBDK 2.96a for the latest compilers on OS X.
-    + [gbdk-n](https://github.com/rotmoset/gbdk-n) - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms.
-
-- [clang-gbz80](https://github.com/Bevinsky/clang-gbz80) - Clang port to the GBZ80 CPU.
-
-#### Experimentals/Proof of Concepts
-
-- [Wiz](https://github.com/wiz-lang/wiz) - A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more).
-- [gbforth](https://github.com/ams-hackers/gbforth) - A Forth-based Game Boy development kit.
-- [gbasm](https://github.com/BonsaiDen/gbasm) - A JavaScript based compiler for Game Boy z80 assembly code.
-- [tniASM](http://www.tni.nl/products/tniasm.html) - Macro Assembler.
-- [Assembler](https://github.com/ulrikdamm/Assembler) - Assembler written in Swift.
-- [llvm-gbz80](https://github.com/Bevinsky/llvm-gbz80) - LLVM port to the GBZ80 CPU (similar to the deprecated [euclio/llvm-gbz80](https://github.com/euclio/llvm-gbz80)).
 
 ### Emulators
 

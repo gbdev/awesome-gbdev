@@ -154,7 +154,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 
 - [wla-dx](https://github.com/vhelin/wla-dx) - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package.
 
-    + [wla-dx documentation](http://www.villehelin.com/wla.txt) - WLA DX Macro Assembler Package manual.
+    + [wla-dx Documentation](http://www.villehelin.com/wla.txt)
 
 ### Compilers
 
@@ -188,6 +188,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Decoding Gameboy Z80 opcodes](https://gb-archive.github.io/salvage/decoding_gbz80_opcodes/Decoding%20Gamboy%20Z80%20Opcodes.html) - How to algorithmically decode gameboy instructions as opposed to writing one huge switch-case statement for over 500 instructions.
 
 ### Testing
+
 - [Blargg's test roms](http://gbdev.gg8.se/files/roms/blargg-gb-tests/)
 - [Gekkio's test roms](https://gekkio.fi/files/mooneye-gb/latest/)
 - [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)

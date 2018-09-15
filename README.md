@@ -424,7 +424,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
 - [FX Hammer](https://github.com/DevEd2/FXHammer-Disasm)
 - [Harvest Moon 3](https://github.com/sanqui/hm3)
-- [Sonic 1](https://github.com/Kroc/Sonic1-Z80-ASM)
 
 ### Articles and tools
 

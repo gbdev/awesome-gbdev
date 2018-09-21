@@ -284,7 +284,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 | [scimitar](https://github.com/tompko/scimitar) | Rust | |
 | [rustboy](https://github.com/VelocityRa/rustboy) | Rust | A basic DMG emulator written in Rust, using the Piston engine for window creation and graphics |
 | [Gambattye](https://github.com/Ben10do/Gambattye) | Swift | macOS, powered by a fork of Gambatte |
-| [wasmBoy](https://github.com/torch2424/wasmBoy) | Web Assembly | |
+| [WasmBoy](https://github.com/torch2424/wasmBoy) | Web Assembly (AssemblyScript) | Gameboy / Gameboy Color Emulator written for Web Assembly using AssemblyScript. 🕸️Shell/Debugger in Preact. ⚛️ |
 
 ## Programming
 
@@ -459,6 +459,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system.
 - [liblsdj](https://github.com/stijnfrishert/liblsdj) - A cross-platform and fast C utility library for interacting with the LSDJ save format (.sav), song files (.lsdsng) and more.
 - [Game Boy video effects](https://github.com/ChaosCabbage/crazy-gameboy-video-experiments) - Some little experiments using the STAT interrupt to do funny video manipulations.
+- [VaporBoy](https://github.com/torch2424/vaporBoy) - A Gameboy / Gameboy Color Emulator PWA. ⚛️ Powered by [WasmBoy](https://github.com/torch2424/wasmBoy). 🎮
 
 ### Directories
 

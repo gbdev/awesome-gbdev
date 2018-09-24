@@ -2,7 +2,7 @@
 
 | Name | Language | Details |
 | --- | --- | --- |
-| **[Mooneye GB](https://github.com/Gekkio/mooneye-gb)** | Rust | Game Boy research project and emulator. |
+| **[Mooneye GB](https://github.com/Gekkio/mooneye-gb)** | Rust | Research project and emulator. GB.|
 | **[Binjgb](https://github.com/binji/binjgb)** | C | 5kloc emulator that passes most of the tests. *Rewind* feature. Runs in the browser using WebAssembly |
 | [Wadatsumi](https://github.com/arrow-lang/wadatsumi) | Arrow | |
 | [cboy](https://github.com/jkbenaim/cboy) | C |
@@ -32,7 +32,7 @@
 | [AndroidGameBoyEmulator](https://github.com/pedrovgs/AndroidGameBoyEmulator) | Java | |
 | [Coffee GB](https://github.com/trekawek/coffee-gb) | Java 8 |
 | [weplay](https://github.com/rauchg/weplay) | JavaScript | Collaborative Game Boy emulation |
-| [GBRE](https://github.com/ericgramgb/GBRE) | JavaScript | Game Boy Runtime Environment for iOS (iOS Safari and Chrome) |
+| [GBRE](https://github.com/ericgramgb/GBRE) | JavaScript | GB Runtime Environment for iOS (iOS Safari and Chrome) |
 | [gameboy-Online](https://github.com/taisel/gameboy-Online) | JavaScript | Uses HTML5 canvas and JavaScript audio APIs |
 | [node-gameboy](https://github.com/nakardo/node-gameboy) | Node.js |
 | [php-terminal-Game Boy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) | PHP | |
@@ -42,4 +42,5 @@
 | [scimitar](https://github.com/tompko/scimitar) | Rust | |
 | [rustboy](https://github.com/VelocityRa/rustboy) | Rust | A basic DMG emulator written in Rust, using the Piston engine for window creation and graphics |
 | [Gambattye](https://github.com/Ben10do/Gambattye) | Swift | macOS, powered by a fork of Gambatte |
-| [wasmBoy](https://github.com/torch2424/wasmBoy) | Web Assembly (AssemblyScript) | Gameboy / Gameboy Color Emulator written for Web Assembly using AssemblyScript. Shell/Debugger in Preact. |
+| [wasmBoy](https://github.com/torch2424/wasmBoy) | Web Assembly (AssemblyScript) | GB/GBC *Library* written for Web Assembly using AssemblyScript. Shell/Debugger in Preact.|
+| [vaporBoy](https://github.com/torch2424/vaperBoy) | Javascript | PWA. Powered by [wasmBoy](https://github.com/torch2424/wasmBoy) |

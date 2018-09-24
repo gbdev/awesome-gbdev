@@ -28,7 +28,7 @@
 | [DDMG](https://github.com/mstojcevich/ddmg) | D |
 | [FunGBC](https://github.com/andreasjhkarlsson/fungbc) | F# | |
 | [gameboyGO](https://github.com/gonccalo/gameboyGO) | Go |
-| [gomeboycolor](https://github.com/djhworld/gomeboycolor) | Go | Cross platform [documented](http://djhworld.github.io/gomeboycolor/) emulator |
+| [gomeboycolor](https://github.com/djhworld/gomeboycolor) | Go | Cross platform [documented](http://djhworld.github.io/gomeboycolor/) emulator. [WASM](https://github.com/djhworld/gomeboycolor-wasm) port. |
 | [AndroidGameBoyEmulator](https://github.com/pedrovgs/AndroidGameBoyEmulator) | Java | |
 | [Coffee GB](https://github.com/trekawek/coffee-gb) | Java 8 |
 | [weplay](https://github.com/rauchg/weplay) | JavaScript | Collaborative Game Boy emulation |
@@ -42,4 +42,4 @@
 | [scimitar](https://github.com/tompko/scimitar) | Rust | |
 | [rustboy](https://github.com/VelocityRa/rustboy) | Rust | A basic DMG emulator written in Rust, using the Piston engine for window creation and graphics |
 | [Gambattye](https://github.com/Ben10do/Gambattye) | Swift | macOS, powered by a fork of Gambatte |
-| [wasmBoy](https://github.com/torch2424/wasmBoy) | Web Assembly | |
+| [wasmBoy](https://github.com/torch2424/wasmBoy) | Web Assembly (AssemblyScript) | Gameboy / Gameboy Color Emulator written for Web Assembly using AssemblyScript. Shell/Debugger in Preact. |

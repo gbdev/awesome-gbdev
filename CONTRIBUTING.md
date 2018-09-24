@@ -6,6 +6,7 @@ Search previous suggestions and open issues before making a new one, as yours ma
 
 The simplest way to contribute to this project is to look at [Issues](https://github.com/avivace/awesome-gbdev/issues) or open [Pull Requests](https://github.com/avivace/awesome-gbdev/pulls), your help and feedback is precious.
 
+
 ## Adding a resource
 
 ### Is it "awesome"?
@@ -16,14 +17,13 @@ For a resource to be added to the list, it must reach a minimum quality standard
 - It must have a clear purpose (implementation reference is okay, too) and/or provide something interesting;
 - It must provide a minimal documentation/README briefly describing what is the project and how to make use of it.
 
-If the resource is still work in progress, abandoned or you don't think reaches the described standard BUT it's still related to Game Boy develelopment add it to the MORE.md file.
+If the resource is still work in progress, abandoned or you don't think reaches the described standard BUT it's still related to Game Boy develelopment/hacking add it to the MORE.md file.
 
 ### Issue
 
 If you are not confident in forking the repository, making the changes and sending a Pull Request, you can have a resource added to the list simply opening an Issue reporting the resource(s) you think could be a nice addition. Be sure to tag the Issue with the `addition` label. Someone will look at it and make a PR for you.
 
 Obviously, you can use Issues to discuss anything about the list.
-
 
 ### Pull Request
 
@@ -37,6 +37,19 @@ Obviously, you can use Issues to discuss anything about the list.
 - It's `Game Boy`, not `gameboy`, `game boy` or `GameBoy`, however, you should honor the title or name of the resource while linking it, even if it's using a wrong lettering \[[1](https://github.com/avivace/awesome-gbdev/issues/34)\].
 - Games and Homebrews go to the GAMES.md file.
 - Open source emulators go to the EMULATORS.md file.
+
+## Correcting and improving resources
+
+Most of the linked resources are hosted on Git repository. You are encouraged to report errors in the corrisponding upstream repository or contact the authors. If the correction doesn't get merged, fork it and mantain an updated/correct version and open a PR replacing the link on the list with your version.
+
+In any case, open an Issue mentioning the error and its magnitude. This can have two outcomes:
+
+- If the resource is unique/important - while we wait for the error getting corrected in the upstream source - we add an Errata notice next near the link. OR
+- The resource gets moved in MORE, until it reaches a decent/maintanable/correct state.
+
+## Not awesome
+
+If you think something doesn't fit the list, open an Issue or a PR mentioning the reasons.
 
 ## Removing unavailable resources
 

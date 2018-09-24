@@ -60,7 +60,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 >- Specific registers
 >- Specific bugs and exploitable behaviours
 >
->If you aim to develop your software for SGB or GBC, or you want to know how it runs on the other systems, you may want to take advantage and adapt to these differences, check the [Game Boy Color](#game-boy-color) category and look for specific references to GBC/CGB and SGB in the documentation.
+>If you aim to develop your software for SGB or GBC, or you want to know how it runs on the other systems, you may want to take advantage and adapt to these differences, check the [Game Boy Color](#game-boy-color) category and look for specific references to GBC/CGB and SGB.
 
 ## Community
 
@@ -76,7 +76,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - Historical comprehensive technical reference, wikified, corrected and updated. [Original](http://bgb.bircd.org/pandocs.htm) version.
 - [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) - A precise documentation by AntonioND to make a cycle-accurate Game Boy emulator.
 - [Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf) by Gekkio.
-- [Open Game Boy Documentation Project](https://mgba-emu.github.io/gbdoc/)
 - [Game Boy CPU Manual](http://marc.rawer.de/Gameboy/Docs/GBCPUman.pdf) - Assembly language commands, timings and opcodes.
 
 #### Misc

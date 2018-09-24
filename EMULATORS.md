@@ -2,8 +2,7 @@
 
 | Name | Language | Details |
 | --- | --- | --- |
-| **[Mooneye GB](https://github.com/Gekkio/mooneye-gb)** | Rust | Research project and emulator. GB.|
-| **[Binjgb](https://github.com/binji/binjgb)** | C | 5kloc emulator that passes most of the tests. *Rewind* feature. Runs in the browser using WebAssembly |
+| [Binjgb](https://github.com/binji/binjgb) | C | 5kloc emulator that passes most of the tests. *Rewind* feature. Runs in the browser using WebAssembly |
 | [Wadatsumi](https://github.com/arrow-lang/wadatsumi) | Arrow | |
 | [cboy](https://github.com/jkbenaim/cboy) | C |
 | [miniBoy](https://github.com/Dhole/miniBoy) | C | |

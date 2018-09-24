@@ -182,7 +182,11 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 ### Emulators
 
 - [BGB](http://bgb.bircd.org/) - Powerful Game Boy emulator and debugger. Provides an accurate hardware emulation.
+- [Mooneye GB](https://github.com/Gekkio/mooneye-gb) - Research project and emulator in Rust.
+- [SameBoy](https://github.com/LIJI32/SameBoy) - Accurate emulator with a wide range of powerful debugging features.
 - [Gambatte](https://github.com/sinamas/gambatte) - Open-source, cross-platform and accurate emulator for Game Boy and Game Boy Color.
+
+A lot more of emulators, written in various languages/stacks, can be found in the [Open Source emulators](EMULATORS.md) list.
 
 ### Tools
 
@@ -244,6 +248,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Gekkio's test roms](https://gekkio.fi/files/mooneye-gb/latest/)
 - [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
 - [144p Test Suite](https://github.com/pinobatch/240p-test-mini/tree/master/gameboy) - Port of Artemio Urbina's 240p Test Suite to the Game Boy.
+
 
 ### [Open Source Emulators](EMULATORS.md)
 
@@ -418,7 +423,8 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Booting the Game Boy with a custom logo](https://dhole.github.io/post/gameboy_custom_logo/) - Bypassing the Nintendo logo check.
 - Making a Game Boy game in 2017: A "Sheep It Up!" Post-Mortem ([part 1](https://www.gamasutra.com/blogs/DoctorLudos/20171207/311143/), [part 2](https://www.gamasutra.com/blogs/DoctorLudos/20180213/314554/))
 - [Nintendo's fake logos](http://fuji.drillspirits.net/?post=87) - Every cartridge has to show the authentic logo to be considered valid and be run, but obviously some companies managed to exploit the check system.
-- [liblsdj](https://github.com/stijnfrishert/liblsdj) - A cross-platform and fast C utility library for interacting with the LSDJ save format (.sav), song files (.lsdsng) and more.
+- [liblsdj](https://github.com/stijnfrishert/liblsdj) - Utility library for interacting with the LSDj save format (.sav), song files (.lsdsng) and more.
+- [lsdpatch](https://github.com/jkotlinski/lsdpatch) - Tool for modifying samples, fonts and palettes on LSDj ROM images.
 - [Game Boy video effects](https://github.com/ChaosCabbage/crazy-gameboy-video-experiments) - Some little experiments using the STAT interrupt to do funny video manipulations.
 
 ### Directories

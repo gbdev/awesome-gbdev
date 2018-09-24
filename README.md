@@ -424,7 +424,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 
 - [Archive of related files](http://gbdev.gg8.se/files/)
 - [The Game Boy Archive](https://github.com/gb-archive) - A library of Game Boy related software, hardware and literature. Aimed to mirror and preserve old and fragmented contributions from the last three decades.
-- [The Game Boy Archive - Salvage](https://github.com/gb-archive/salvage) - Old articles, FAQs and various documents.
+- [The Game Boy Archive - Salvage](https://github.com/gb-archive/salvage) - Historical archive of software, old articles, FAQs and various documents.
 
 ### Websites
 

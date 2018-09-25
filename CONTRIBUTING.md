@@ -17,7 +17,7 @@ For a resource to be added to the list, it must reach a minimum quality standard
 - It must have a clear purpose (implementation reference is okay, too) and/or provide something interesting;
 - It must provide a minimal documentation/README briefly describing what is the project and how to make use of it.
 
-If the resource is still work in progress, abandoned or you don't think reaches the described standard BUT it's still related to Game Boy develelopment/hacking add it to the MORE.md file.
+If the resource is still work in progress, abandoned or you don't think reaches the described standard BUT it's still related to Game Boy development/hacking add it to the MORE.md file.
 
 ### Issue
 

@@ -18,7 +18,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   * [Cartridges](#cartridges)
 - [Emulator Development](#emulator-development)
   * [Testing](#testing)
-  * [Open Source Emulators](EMULATORS.md)]
+  * [Open Source Emulators](EMULATORS.md)
 - [Software Development](#software-development)
   * [Assemblers](#assemblers)
   * [Compilers](#compilers)

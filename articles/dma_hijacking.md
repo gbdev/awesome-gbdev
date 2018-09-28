@@ -90,3 +90,5 @@ Then :
 DMA hijacking works similarly to the GameShark : it detected when the GB tried reading from the VBlank interrupt vector, and responded with instructions that applied the codes.
 
 And yep, it is possible to use DMA hijacking to emulate GameShark codes. I have a PoC in Pokémon Red (a BGB save state), if anyone's interested.
+
+[Demo video](http://gbdev.gg8.se/forums/viewtopic.php?id=430).

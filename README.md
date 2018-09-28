@@ -18,7 +18,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   * [Cartridges](#cartridges)
 - [Emulator Development](#emulator-development)
   * [Testing](#testing)
-  * [[Open Source Emulators](EMULATORS.md)](#-open-source-emulators--emulatorsmd-)
+  * [Open Source Emulators](EMULATORS.md)]
 - [Software Development](#software-development)
   * [Assemblers](#assemblers)
   * [Compilers](#compilers)
@@ -30,7 +30,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
     + [Timings](#timings)
     + [Boilerplates](#boilerplates)
   * [C](#c)
-    + [Syntax highlighting packages](#syntax-highlighting-packages)
+  * [Syntax highlighting packages](#syntax-highlighting-packages)
 - [Games](#games)
   * [ASM](#asm-1)
   * [C](#c-1)
@@ -70,7 +70,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [gbdev Discord Server](https://discord.gg/gpBxq85)
 - [`#gbdev` on EFnet](http://chat.efnet.org/?channels=gbdev) - IRC channel.
 - [gbdev.gg8.se Wiki](http://gbdev.gg8.se/wiki/articles/Main_Page)
-- [devrs.com/gb](http://devrs.com/gb) - Old home of the scene, a lot was posted here: code examples and full sources, complete documentation, guides and tutorials, various tools.
+- [devrs.com/gb](http://devrs.com/gb) - Old home of the scene: exampls, sources, complete documentation, guides, tutorials and various tools.
 
 
 ## Documentation
@@ -180,21 +180,15 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 
 ### Assemblers
 
-- [RGBDS](https://github.com/rednex/rgbds) - Assembler and linker package (a fork currently mantained).
-
-    + [RGBDS Documentation](https://rednex.github.io/rgbds/)
-
-- [wla-dx](https://github.com/vhelin/wla-dx) - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package.
-
-    + [wla-dx Documentation](http://www.villehelin.com/wla.txt)
+- [RGBDS](https://github.com/rednex/rgbds) - Assembler and linker package. [Documentation](https://rednex.github.io/rgbds/).
+- [wla-dx](https://github.com/vhelin/wla-dx) - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package. [Documentation](http://www.villehelin.com/wla.txt).
 
 ### Compilers
 
-- [The Game Boy Developer's Kit (GBDK)](http://gbdk.sourceforge.net/) - A set of tools that enable to develop in **C**. Includes a set of libraries for the most common requirements and generates ready ROM files.
-    
-    + [GBDK documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf)
+- [GBDK](http://gbdk.sourceforge.net/) - A set of tools that enable to develop in **C**. Includes a set of libraries for the most common requirements and generates ready ROM files. [Documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf).
+
     + [gbdk-osx](https://github.com/x43x61x69/gbdk-osx) - Patched GBDK 2.96a for the latest compilers on OS X.
-    + [gbdk-n](https://github.com/rotmoset/gbdk-n) - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms.
+    + [gbdk-n](https://github.com/rotmoset/gbdk-n) - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms. Does not support ROM banking, thus limiting ROM size to 32K.
 
 - [clang-gbz80](https://github.com/Bevinsky/clang-gbz80) - Clang port to the GBZ80 CPU.
 

@@ -245,6 +245,7 @@ A lot more of emulators, written in various languages/stacks, can be found in th
 
 ### ASM
 
+- [gb asm tutorial](https://eldred.fr/gb-asm-tutorial) - Step by step tutorial, building several ROMs to accompany its explanations.
 - [ASMSchool](http://gameboy.mongenel.com/asmschool.html) - A set of lessons by Duo about coding in Assembly for GB/GBC and disassembling.
 - [hardware.inc](https://github.com/tobiasvl/hardware.inc) - Standard include file containing Game Boy hardware definitions for use in RGBDS projects.
 - [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) - A lot of working demos and sources.
@@ -258,7 +259,6 @@ A lot more of emulators, written in various languages/stacks, can be found in th
 - [FlappyBoy: Making a simple Game Boy Game](http://voidptr.io/blog/2017/01/21/GameBoy.html)
 - [Super Game Boy development](https://imanoleasgames.blogspot.no/2016/12/games-aside-1-super-game-boy.html) - Step by step tutorial to implement Super Game Boy features (frame and palettes).
 - [GameBoy programming tutorial: Hello World!](http://peterwynroberts.com/?p=10) - Step by step tutorial.
-- [gb asm tutorial](https://eldred.fr/gb-asm-tutorial) - Step by step tutorial, building several ROMs to accompany its explanations.
 
 #### Timings
 

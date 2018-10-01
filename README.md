@@ -18,7 +18,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
   * [Cartridges](#cartridges)
 - [Emulator Development](#emulator-development)
   * [Testing](#testing)
-  * [Open Source Emulators](EMULATORS.md)
 - [Software Development](#software-development)
   * [Assemblers](#assemblers)
   * [Compilers](#compilers)
@@ -160,8 +159,9 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Why did I spend 1.5 months creating a Gameboy emulator?](http://blog.rekawek.eu/2017/02/09/coffee-gb/) - Blog post.
 - [binjgb rewind](https://binji.github.io/2017/12/31/binjgb-rewind.html) - Implementing a *rewind* feature.
 - [Emulation Accuracy](https://github.com/Gekkio/mooneye-gb/blob/master/docs/accuracy.markdown)
-- [Decoding Gameboy Z80 opcodes](https://gb-archive.github.io/salvage/decoding_gbz80_opcodes/Decoding%20Gamboy%20Z80%20Opcodes.html) - How to algorithmically decode gameboy instructions as opposed to writing one huge switch-case statement for over 500 instructions.
+- [Decoding Gameboy Z80 opcodes](https://gb-archive.github.io/salvage/decoding_gbz80_opcodes/Decoding%20Gamboy%20Z80%20Opcodes.html) - How to algorithmically decode Game Boy instructions as opposed to writing one huge switch-case statement for over 500 instructions.
 - [Porting a GO Game Boy emulator to WebAssembly](https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/)
+- [List of open source emulators](EMULATORS.md)
 
 ### Testing
 
@@ -170,9 +170,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [SameSuite](https://github.com/LIJI32/SameSuite)
 - [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
 - [144p Test Suite](https://github.com/pinobatch/240p-test-mini/tree/master/gameboy) - Port of Artemio Urbina's 240p Test Suite to the Game Boy.
-
-### [Open Source Emulators](EMULATORS.md)
-
 
 ## Software Development
 
@@ -199,12 +196,14 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 
 ### Emulators
 
-- [BGB](http://bgb.bircd.org/) - Powerful Game Boy emulator and debugger. Provides an accurate hardware emulation.
+- [BGB](http://bgb.bircd.org/) - Powerful emulator and debugger. Provides an accurate hardware emulation.
 - [SameBoy](https://github.com/LIJI32/SameBoy) - Accurate emulator with a wide range of powerful debugging features.
 - [Mooneye GB](https://github.com/Gekkio/mooneye-gb) - Research project and emulator in Rust.
-- [Gambatte](https://github.com/sinamas/gambatte) - Open-source, cross-platform and accurate emulator for Game Boy and Game Boy Color.
+- [mGBA](https://github.com/mgba-emu/mgba) - Modern cross platform GBA emulator which also runs GB/GBC games.
+- [Binjgb](https://github.com/binji/binjgb) - 5Kloc emulator that passes most of the tests. *Rewind* feature. Runs in the browser using WebAssembly.
+- [Gambatte](https://github.com/sinamas/gambatte) - Cross-platform and accurate emulator.
 
-A lot more of emulators, written in various languages/stacks, can be found in the [Open Source emulators](EMULATORS.md) list.
+[Complete list of open source emulators](EMULATORS.md)
 
 ### Tools
 

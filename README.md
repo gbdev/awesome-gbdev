@@ -362,6 +362,7 @@ A lot more of emulators, written in various languages/stacks, can be found in th
 - [CUTE DEMO](https://github.com/mills32/CUTE_DEMO)
 - [`10 PRINT` Game Boy](https://github.com/svendahlstrand/10-print-game-boy)
 - [Roboto Demo](https://github.com/naavis/roboto-demo)
+- [matrix-rain-gb](https://github.com/wtjones/matrix-rain-gb) - A Matrix digital rain effect in assembler.
 
 
 ## ROMs Disassembly

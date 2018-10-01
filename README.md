@@ -22,7 +22,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Software Development](#software-development)
   * [Assemblers](#assemblers)
   * [Compilers](#compilers)
-    + [Experimental/Proof of Concepts](#experimental-proof-of-concepts)
+    + [Experimental/Proof of Concepts](#experimentalproof-of-concepts)
   * [Emulators](#emulators)
   * [Tools](#tools)
 - [Programming](#programming)
@@ -31,7 +31,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
     + [Boilerplates](#boilerplates)
   * [C](#c)
   * [Syntax highlighting packages](#syntax-highlighting-packages)
-- [Games](#games)
+- [Homebrews](#homebrews)
   * [ASM](#asm-1)
   * [C](#c-1)
   * [Hack ROMs](#hack-roms)
@@ -295,14 +295,13 @@ A lot more of emulators, written in various languages/stacks, can be found in th
 - [Z80 Assembly support for Visual Studio Code](https://github.com/Imanolea/z80asm-vscode)
 - [rgbds-vscode](https://github.com/DonaldHays/rgbds-vscode) - Visual Studio Code language extension for RGBDS GBZ80 Assembly
 
-## Games
+## Homebrews
 
 - [Homebrew Hub](https://gbhh.avivace.com) - Every unofficial homebrew ever produced for Game Boy playable online (mobile/touch too): a community-lead attempt to collect, archive and save every unofficial game, homebrew, demo, patch, hackrom for Game Boy (Color) produced by the community through years of passionate work.
 - [Infinity](https://github.com/infinity-gbc/infinity) - RPG developed by Affinix Software primarily between the years 1999 and 2001. The game never found a publisher and was eventually canceled. Got recently released with the full source, development tools and workflows.
 
 ### ASM
 
-- [RedPlusPlus](https://github.com/TheFakeMateo/RedPlusPlus) - An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features.
 - [Tuff](https://github.com/BonsaiDen/Tuff.gb)
 - [2048-gb](https://github.com/Sanqui/2048-gb)
 - [Snake](https://bitbucket.org/Sanqui/snake/src/?at=master)
@@ -364,7 +363,6 @@ A lot more of emulators, written in various languages/stacks, can be found in th
 - [Roboto Demo](https://github.com/naavis/roboto-demo)
 - [matrix-rain-gb](https://github.com/wtjones/matrix-rain-gb) - A Matrix digital rain effect in assembler.
 
-
 ## ROMs Disassembly
 
 - [Pokémon Red/Blue](https://github.com/pret/pokered)
@@ -379,6 +377,7 @@ A lot more of emulators, written in various languages/stacks, can be found in th
 - [Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
 - [FX Hammer](https://github.com/DevEd2/FXHammer-Disasm)
 - [Harvest Moon 3](https://github.com/sanqui/hm3)
+- [RedPlusPlus](https://github.com/TheFakeMateo/RedPlusPlus) - An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features.
 
 ### Articles and tools
 

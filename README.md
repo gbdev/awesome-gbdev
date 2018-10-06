@@ -234,7 +234,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [awake](https://github.com/devdri/awake) - Game Boy decompiler.
 - [swapdump](https://github.com/sanqui/swapdump) - Diagnostic utility for Game Boy flashcarts.
 - [Gameboy-LinkUp](https://github.com/JustinLloyd/Gameboy-LinkUp) - Game Boy LinkUp serial cable networking project.
-- [vtGBte](https://github.com/paul-arutyunov/vtGBte) - A raw-binary format tile editor for Unix systems.
+- [vtGBte](https://github.com/paul-arutyunov/vtGBte) - A minimalistic ncurses tile editor
 
 ## Programming
 

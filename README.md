@@ -103,6 +103,14 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
 - [Game Boy CPU Instruction Set Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
 
+### Game Boy Color
+
+- [Game Boy Color Bootstrap ROM](https://tcrf.net/Game_Boy_Color_Bootstrap_ROM)
+- [Unused Palettes](https://tcrf.net/Notes:Game_Boy_Color_Bootstrap_ROM)
+- [GBC colorization palettes in the BIOS](https://forums.nesdev.com/viewtopic.php?p=114388&sid=c3d4ce08cfd9d9c834958d4f148750c3#p114388)
+- [High resolution GBC schematics](https://drive.google.com/file/d/1a0HTmBiRxoZw4XgLEDzwGCugfTfdIQwT/view?usp=sharing)
+- [GameBoy Color Boot ROM Disassembly](https://gist.github.com/drhelius/6063265)
+
 ### Hardware
 
 - [DMG Schematics](http://gbdev.gg8.se/wiki/articles/DMG_Schematics) - Hardware schematics.
@@ -113,16 +121,9 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [fruttenboel](http://verhoeven272.nl/fruttenboel/Gameboy/index.html) - Page with loads of information on the hardware, custom boards to interface with the console and other related projects.
 - [Game Boy hardware database](https://gbhwdb.gekkio.fi/) - Data and photos of various types of Game Boy consoles.
 
-### Game Boy Color
-
-- [Game Boy Color Bootstrap ROM](https://tcrf.net/Game_Boy_Color_Bootstrap_ROM)
-- [Unused Palettes](https://tcrf.net/Notes:Game_Boy_Color_Bootstrap_ROM)
-- [GBC colorization palettes in the BIOS](https://forums.nesdev.com/viewtopic.php?p=114388&sid=c3d4ce08cfd9d9c834958d4f148750c3#p114388)
-- [High resolution GBC schematics](https://drive.google.com/file/d/1a0HTmBiRxoZw4XgLEDzwGCugfTfdIQwT/view?usp=sharing)
-- [GameBoy Color Boot ROM Disassembly](https://gist.github.com/drhelius/6063265)
-
 ### Peripherals
 
+- [Dan Docs](https://shonumi.github.io/dandocs.html) - Obscure Game Boy hardware documentation.
 - [Edge of Emulation](https://shonumi.github.io/articles.html), a series of articles about emulating and investigating Game Boy accessories:
 	+ [The Game Boy Printer](https://shonumi.github.io/articles/art2.html) - Diving deep into how this accessory really works
 	+ [Pocket Sonar](https://shonumi.github.io/articles/art13.html) - Investigating the Pocket Sonar: a blue cart with built-in sonar hardware.

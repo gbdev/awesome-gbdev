@@ -126,7 +126,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Edge of Emulation](https://shonumi.github.io/articles.html), a series of articles about emulating and investigating Game Boy accessories:
 	+ [The Game Boy Printer](https://shonumi.github.io/articles/art2.html) - Diving deep into how this accessory really works
 	+ [Pocket Sonar](https://shonumi.github.io/articles/art13.html) - Investigating the Pocket Sonar: a blue cart with built-in sonar hardware.
-	+ [Infrared Madness](https://shonumi.github.io/articles/art11.html)
+	+ [Infrared Madness](https://shonumi.github.io/articles/art11.html) - Infrared communication on the Game Boy Color.
 	+ [Game Boy 4-Player Adapter](https://shonumi.github.io/articles/art9.html) - DMG-07.
 	+ [Barcode Boy](https://shonumi.github.io/articles/art7.html) - The first Game Boy card-scanner.
 	+ [Barcode Taisen Bardigun](https://shonumi.github.io/articles/art6.html) - A late 90s DMG-GBC barcode reader.

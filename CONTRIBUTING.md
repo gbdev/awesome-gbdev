@@ -41,7 +41,7 @@ If you are not confident in forking the repository, making the change and sendin
 
 ## Correcting and improving resources
 
-Most of the linked resources are hosted on Git repository. You are encouraged to report errors in the corrisponding upstream repository or contact the authors. If the correction doesn't get merged, fork it and mantain an updated/correct version and open a PR replacing the link on the list with your version.
+Most of the linked resources are hosted on Git repository. You are encouraged to report errors in the corresponding upstream repository or contact the authors. If the correction doesn't get merged, fork it and mantain an updated/correct version and open a PR replacing the link on the list with your version.
 
 In any case, open an Issue mentioning the error and its magnitude. This can have two outcomes:
 

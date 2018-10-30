@@ -358,10 +358,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [PostBot](https://github.com/MasterIV/PostBot)
 - [Guns & Riders](https://github.com/kanfor/gunsridersgameboy)
 
-### Hack ROMs
-
-- [Trainin' in a Winter Wonderland](https://www.pokecommunity.com/showthread.php?t=276298) (Pokemon Gold (U))
-
 ### Demos
 
 - [Back to Color](https://github.com/AntonioND/back-to-color)

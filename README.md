@@ -125,8 +125,10 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 
 - [Dan Docs](https://shonumi.github.io/dandocs.html) - Obscure Game Boy hardware documentation.
 - [Edge of Emulation](https://shonumi.github.io/articles.html), a series of articles about emulating and investigating Game Boy accessories:
-	+ [The Game Boy Printer](https://shonumi.github.io/articles/art2.html) - Diving deep into how this accessory really works
-	+ [Pocket Sonar](https://shonumi.github.io/articles/art13.html) - Investigating the Pocket Sonar: a blue cart with built-in sonar hardware.
+  + [Mobile Adapter GB](https://shonumi.github.io/articles/art14.html) - Internet connectivity and DLC on the Game Boy Color.
+	+ [The Game Boy Printer](https://shonumi.github.io/articles/art2.html)
+	+ [Pocket Sonar](https://shonumi.github.io/articles/art13.html) - A blue cart with built-in sonar hardware.
+  + [Zok Zok Heroes](https://shonumi.github.io/articles/art8.html)  - Zok Zok Heroes' Full Changer, a motion-activated accessory.
 	+ [Infrared Madness](https://shonumi.github.io/articles/art11.html) - Infrared communication on the Game Boy Color.
 	+ [Game Boy 4-Player Adapter](https://shonumi.github.io/articles/art9.html) - DMG-07.
 	+ [Barcode Boy](https://shonumi.github.io/articles/art7.html) - The first Game Boy card-scanner.

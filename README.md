@@ -124,7 +124,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 ### Peripherals
 
 - [Dan Docs](https://shonumi.github.io/dandocs.html) - Obscure Game Boy hardware documentation.
-- [Edge of Emulation](https://shonumi.github.io/articles.html), a series of articles about emulating and investigating Game Boy accessories:
+- [Edge of Emulation](https://shonumi.github.io/articles.html), a series of articles about emulating and investigating Game Boy accessories. Also available as [technical documents](https://github.com/shonumi/gbe-plus/tree/master/src/docs/technical) in the GBE+ emulator documentation.
   + [Mobile Adapter GB](https://shonumi.github.io/articles/art14.html) - Internet connectivity and DLC on the Game Boy Color.
 	+ [The Game Boy Printer](https://shonumi.github.io/articles/art2.html)
 	+ [Pocket Sonar](https://shonumi.github.io/articles/art13.html) - A blue cart with built-in sonar hardware.

@@ -353,6 +353,7 @@ Complete and open source games.
 - [desgb](https://github.com/sanqui/desgb) - DES encryption.
 - [superhappyfunbubbletime](https://github.com/l0k1/superhappyfunbubbletime)
 - [minesweepGB](https://github.com/lancekindle/minesweepGB)
+- [Libbet and the Magic Floor](https://github.com/pinobatch/libbet)
 
 ### C
 

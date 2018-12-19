@@ -11,9 +11,9 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Community](#community)
 - [Documentation](#documentation)
     + [Misc](#misc)
-    + [Cheatsheets, Tables](#cheatsheets-tables)
-  * [Hardware](#hardware)
+    + [Cheatsheets, Tables](#cheatsheets--tables)
   * [Game Boy Color](#game-boy-color)
+  * [Hardware](#hardware)
   * [Peripherals](#peripherals)
   * [Cartridges](#cartridges)
 - [Emulator Development](#emulator-development)
@@ -21,19 +21,19 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Software Development](#software-development)
   * [Assemblers](#assemblers)
   * [Compilers](#compilers)
-    + [Experimental/Proof of Concepts](#experimentalproof-of-concepts)
+    + [Experimental/Proof of Concepts](#experimental-proof-of-concepts)
   * [Emulators](#emulators)
   * [Tools](#tools)
 - [Programming](#programming)
   * [ASM](#asm)
+    + [Sources](#sources)
     + [Timings](#timings)
     + [Boilerplates](#boilerplates)
+    + [Syntax highlighting packages](#syntax-highlighting-packages)
   * [C](#c)
-  * [Syntax highlighting packages](#syntax-highlighting-packages)
 - [Homebrews](#homebrews)
   * [ASM](#asm-1)
   * [C](#c-1)
-  * [Hack ROMs](#hack-roms)
   * [Demos](#demos)
 - [ROMs Disassembly](#roms-disassembly)
   * [Articles and tools](#articles-and-tools)
@@ -51,7 +51,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [The Game Boy, a hardware autopsy](https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu).
 - [The Ultimate Game Boy Talk](https://media.ccc.de/v/33c3-8029-the_ultimate_game_boy_talk).
 - [Emulation of Nintendo Game Boy](https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf) - Overview of the Game Boy hardware with the perspective of building an emulator.
-- [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d615409fd) - Overview of the Game Boy's capabilities, discussing the pros and cons of the available development tools, and providing tips to write more efficient code.
+
 
 > #### Disambiguation
 >
@@ -86,8 +86,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [GBSOUND.txt](https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt) - A document detailing the Game Boy sound engine.
 - [GB Instructions](https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-instructions.txt) Game Boy Assembly commands.
 - [GB ASM Tips](https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-asm-tips.txt) - Some tips for coding in Assembly by Jeff Frohwein.
-- [ASMotor documentation](https://github.com/csoren/asmotor/blob/develop/doc/documentation.pdf) - A portable and generic assembler engine and development system described as the 'spiritual successor to RGBDS'.
-- [ASMotor v1.10 documentation](http://otakunozoku.com/RGBDSdocs/)
 - [gbdev FAQs](http://www.devrs.com/gb/files/faqs.html) - Must read by Jeff Frohwein.
 - [Game Boy Bootrom](http://www.neviksti.com/DMG/DMG_ROM.asm) - Commented dump of the DMG bootrom.
 - [GB Technical Information](http://fms.komkon.org/GameBoy/Tech/) - Some old code resources.
@@ -187,9 +185,12 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 
 ## Software Development
 
+The [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d615409fd) essay, gives an overview of the Game Boy's capabilities, discussing the pros and cons of the available development tools, and providing tips to write more efficient code.
+
 ### Assemblers
 
 - [RGBDS](https://github.com/rednex/rgbds) - Assembler and linker package. [Documentation](https://rednex.github.io/rgbds/).
+- [ASMotor](https://github.com/csoren/asmotor) - Assembler engine and development system targeting Game Boy, among other CPUs. Written by the original RGBDS author. [Documentation](https://github.com/csoren/asmotor/blob/develop/doc/documentation.pdf).
 - [wla-dx](https://github.com/vhelin/wla-dx) - Yet Another GB-Z80/Z80/.. Multi Platform Cross Assembler Package. [Documentation](http://www.villehelin.com/wla.txt).
 
 ### Compilers
@@ -251,12 +252,13 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 
 ## Programming
 
+Guides, tutorials and tools to develop software for Game Boy using the development toolchains described in the [Software Development](#software-development) chapter.
+
 ### ASM
 
-- [gb asm tutorial](https://eldred.fr/gb-asm-tutorial) - Step by step tutorial, building several ROMs to accompany its explanations.
+- **[gb asm tutorial](https://eldred.fr/gb-asm-tutorial)** - Step by step tutorial, building several ROMs to accompany its explanations.
 - [ASMSchool](http://gameboy.mongenel.com/asmschool.html) - A set of lessons by Duo about coding in Assembly for GB/GBC and disassembling.
 - [hardware.inc](https://github.com/tobiasvl/hardware.inc) - Standard include file containing Game Boy hardware definitions for use in RGBDS projects.
-- [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) - A lot of working demos and sources.
 - [Assembly tutorial by David Pello](https://gb-archive.github.io/salvage/tutorial_de_ensamblador/tutorial_de_ensamblador%20[La%20decadence].html) - Good document to learn to produce working asm code for gb. Brief explanations of many important topics. Many examples with commented source code.
 - [assemblydigest](https://github.com/assemblydigest/gameboy) - Exploring Game Boy programming techniques:
   - [Making an Empty Game Boy ROM (in Wiz)](http://assemblydigest.tumblr.com/post/77203696711/tutorial-making-an-empty-game-boy-rom-in-wiz)
@@ -265,6 +267,13 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [FlappyBoy: Making a simple Game Boy Game](http://voidptr.io/blog/2017/01/21/GameBoy.html)
 - [Super Game Boy development](https://imanoleasgames.blogspot.no/2016/12/games-aside-1-super-game-boy.html) - Step by step tutorial to implement Super Game Boy features (frame and palettes).
 - [GameBoy programming tutorial: Hello World!](http://peterwynroberts.com/?p=10) - Step by step tutorial.
+
+#### Sources
+
+Fragments of code, effects, proof of concepts and generally non complete games.
+
+- [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) - A lot of working demos and sources.
+- [EmmaEwert's experiments](https://github.com/EmmaEwert/gameboy) - A collection of prototype programs, mostly just toying around. Among others, a daylight effect, transparency and a weather effect.
 
 #### Timings
 
@@ -283,6 +292,16 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [bootstrap.gb](https://github.com/yenatch/bootstrap.gb) - An example Game Boy project.
 - [Gameboy Boilerplate](https://github.com/junebug12851/GameboyBoilerplateProj) - Boilerplate project to move quicker into the actual assembly code for your game.
 
+#### Syntax highlighting packages
+
+- [Atom language package for RGBASM](https://atom.io/packages/language-rgbasm) - Atom syntax highlighting for RGBDS assembly.
+- [gbz80-highlight](https://github.com/ISSOtm/gbz80-highlight) - Notepad++ and gedit syntax highlighting files for RGBDS assembly.
+- [Vim syntax file for the Game Boy assembler RGBASM](http://www.vim.org/scripts/script.php?script_id=819) - Vim syntax highlighting for RGBDS assembly.
+- [Vim syntax file for RGBDS](https://github.com/Leandros/dotfiles/blob/master/.vim/syntax/rgbds.vim) - Another Vim syntax highlighting file for RGBDS assembly.
+- [rgbds_textmate](https://github.com/Bananattack/rgbds_textmate) - Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3\. The syntax is particularly designed for RGBDS and Game Boy-specific Z80 instructions.
+- [Z80 Assembly support for Visual Studio Code](https://github.com/Imanolea/z80asm-vscode)
+- [rgbds-vscode](https://github.com/DonaldHays/rgbds-vscode) - Visual Studio Code language extension for RGBDS GBZ80 Assembly
+
 ### C
 
 - [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) - Well-written introductory document about how the Game Boy works and how to start developing working code for it.
@@ -297,17 +316,9 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [GBDK Configuring and Programming Tutorial](https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/) - Configuring GBDK, Using Tiles, Colliding Sprites, GBTD, GBMB, Memory Management and ROM Banking.
 - [Simplified GBDK examples](https://github.com/mrombout/gbdk_playground)
 
-#### Syntax highlighting packages
-
-- [Atom language package for RGBASM](https://atom.io/packages/language-rgbasm) - Atom syntax highlighting for RGBDS assembly.
-- [gbz80-highlight](https://github.com/ISSOtm/gbz80-highlight) - Notepad++ and gedit syntax highlighting files for RGBDS assembly.
-- [Vim syntax file for the Game Boy assembler RGBASM](http://www.vim.org/scripts/script.php?script_id=819) - Vim syntax highlighting for RGBDS assembly.
-- [Vim syntax file for RGBDS](https://github.com/Leandros/dotfiles/blob/master/.vim/syntax/rgbds.vim) - Another Vim syntax highlighting file for RGBDS assembly.
-- [rgbds_textmate](https://github.com/Bananattack/rgbds_textmate) - Some syntax highlighting rules for coding in Z80 assembly as a Textmate language plugin. Works in Sublime Text 2 and 3\. The syntax is particularly designed for RGBDS and Game Boy-specific Z80 instructions.
-- [Z80 Assembly support for Visual Studio Code](https://github.com/Imanolea/z80asm-vscode)
-- [rgbds-vscode](https://github.com/DonaldHays/rgbds-vscode) - Visual Studio Code language extension for RGBDS GBZ80 Assembly
-
 ## Homebrews
+
+Complete and open source games.
 
 - [Homebrew Hub](https://gbhh.avivace.com) - Every unofficial homebrew ever produced for Game Boy playable online (mobile/touch too): a community-lead attempt to collect, archive and save every unofficial game, homebrew, demo, patch, hackrom for Game Boy (Color) produced by the community through years of passionate work.
 - [Infinity](https://github.com/infinity-gbc/infinity) - RPG developed by Affinix Software primarily between the years 1999 and 2001. The game never found a publisher and was eventually canceled. Got recently released with the full source, development tools and workflows.
@@ -423,6 +434,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [liblsdj](https://github.com/stijnfrishert/liblsdj) - Utility library for interacting with the LSDj save format (.sav), song files (.lsdsng) and more.
 - [lsdpatch](https://github.com/jkotlinski/lsdpatch) - Tool for modifying samples, fonts and palettes on LSDj ROM images.
 - [Game Boy video effects](https://github.com/ChaosCabbage/crazy-gameboy-video-experiments) - Some little experiments using the STAT interrupt to do funny video manipulations.
+
 
 ### Directories
 

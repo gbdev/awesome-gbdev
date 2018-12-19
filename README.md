@@ -131,7 +131,6 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
     * [Game Boy 4-Player Adapter](https://shonumi.github.io/articles/art9.html) - DMG-07.
     * [Barcode Boy](https://shonumi.github.io/articles/art7.html) - The first Game Boy card-scanner.
     * [Barcode Taisen Bardigun](https://shonumi.github.io/articles/art6.html) - A late 90s DMG-GBC barcode reader.
- 
 - [DMG-07 Technical Documentation](https://raw.githubusercontent.com/shonumi/gbe-plus/master/src/docs/technical/DMG_07.txt)
 - [Game Boy Camera RE](https://github.com/AntonioND/gbcam-rev-engineer) - Documentation about GB Camera and tools used to reverse engineer it by using Arduino UNO.
 - [Creating photo realistic images with neural networks and a Gameboy Camera](http://www.pinchofintelligence.com/photorealistic-neural-network-gameboy/)

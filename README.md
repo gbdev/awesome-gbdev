@@ -21,7 +21,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Software Development](#software-development)
   * [Assemblers](#assemblers)
   * [Compilers](#compilers)
-    + [Experimental/Proof of Concepts](#experimental-proof-of-concepts)
+    + [Experimental/Proof of Concepts](#experimentalproof-of-concepts)
   * [Emulators](#emulators)
   * [Tools](#tools)
 - [Programming](#programming)

@@ -382,6 +382,7 @@ Complete and open source games.
 - [PostBot](https://github.com/MasterIV/PostBot)
 - [Guns & Riders](https://github.com/kanfor/gunsridersgameboy)
 - [Dino's Offline Adventure](https://github.com/gingemonster/DinosOfflineAdventure) - A clone of the Google Chrome offline game
+- [dino-gb](https://github.com/rnegron/dino-gb) - Another clone of the Chrome game
 
 ### Demos
 

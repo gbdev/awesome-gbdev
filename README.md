@@ -11,7 +11,7 @@ A curated list of awesome Game Boy (Color) Development resources, tools, docs, r
 - [Community](#community)
 - [Documentation](#documentation)
     + [Misc](#misc)
-    + [Cheatsheets, Tables](#cheatsheets--tables)
+    + [Cheatsheets, Tables](#cheatsheets-tables)
   * [Game Boy Color](#game-boy-color)
   * [Hardware](#hardware)
   * [Peripherals](#peripherals)

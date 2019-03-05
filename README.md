@@ -4,7 +4,7 @@
 
 A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
-You can find a (way cooler) web version of this list [here](https://gbdev.github.io/list.html).gb
+You can find a (way cooler) web version of this list [here](https://gbdev.github.io/list.html).
 
 ## Contents
 

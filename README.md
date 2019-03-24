@@ -451,6 +451,7 @@ Complete and open source games.
 - [gbos](https://github.com/ekimekim/gbos) - A basic operating system for the Game Boy.
 - [Game Boy Link Cable Breakout Board](https://github.com/Palmr/gb-link-cable)
 - [GBCartFlasher firmware](https://github.com/Tauwasser/GBCartFlasher)
+- [VerilogBoy](https://github.com/zephray/VerilogBoy/) - Game Boy compatible console Verilog RTL implementation.
 
 ### Directories
 

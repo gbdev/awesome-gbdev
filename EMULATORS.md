@@ -45,3 +45,4 @@
 | [vaporBoy](https://github.com/torch2424/vaperBoy) | Javascript | PWA. Powered by [wasmBoy](https://github.com/torch2424/wasmBoy) |
 | [elmBoy](https://github.com/Malax/elmboy) | Elm | |
 | [goboy](https://github.com/Humpheh/goboy) | Go | |
+| [xgbc](https://github.com/kotcrab/xgbc) | Kotlin | |

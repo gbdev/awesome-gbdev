@@ -450,7 +450,7 @@ Complete and open source games.
 - [Game Boy video effects](https://github.com/ChaosCabbage/crazy-gameboy-video-experiments) - Some little experiments using the STAT interrupt to do funny video manipulations.
 - [gbos](https://github.com/ekimekim/gbos) - A basic operating system for the Game Boy.
 - [Game Boy Link Cable Breakout Board](https://github.com/Palmr/gb-link-cable)
-
+- [GBCartFlasher firmware](https://github.com/Tauwasser/GBCartFlasher)
 
 ### Directories
 

@@ -46,3 +46,4 @@
 | [elmBoy](https://github.com/Malax/elmboy) | Elm | |
 | [goboy](https://github.com/Humpheh/goboy) | Go | |
 | [xgbc](https://github.com/kotcrab/xgbc) | Kotlin | |
+| [UEFIBoy](https://github.com/RossMeikleham/UEFIBoy) | UEFI | |

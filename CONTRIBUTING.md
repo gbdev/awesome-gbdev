@@ -6,10 +6,11 @@ Search previous suggestions and open issues before making a new one, as yours ma
 
 Here's how you can contribute:
 
-- Look at [Issues](https://github.com/avivace/awesome-gbdev/issues) and provide help or feedback 
+- Look at open [Issues](https://github.com/avivace/awesome-gbdev/issues) and provide help or feedback 
 - [Add a resource](#adding-a-resource)
 - [Correct and improve existing entries](#correcting-and-improving-resources)
 - [Fix broken links and unavailable resources](#removing-unavailable-resources)
+- [Discuss on what should and shouldn't go on the list](https://github.com/gbdev/awesome-gbdev/issues/96), the 'awesome' quality standard
 
 If you are unsure about something or need help, we have a friendly Discord [chat](https://discord.gg/gpBxq85).
 
@@ -23,7 +24,9 @@ For a resource to be added to the list, it must reach a minimum quality standard
 - It must have a clear purpose (implementation reference is okay, too) and/or provide something interesting;
 - It must provide a minimal documentation briefly describing what is the project and how to make use of it.
 
-If the resource is still work in progress, abandoned or you don't think reaches the described standard BUT it's still related to Game Boy development/hacking add it to the MORE.md file.
+These criteria are discussed [here](https://github.com/gbdev/awesome-gbdev/issues/96).
+
+If the resource is still work in progress, abandoned or you don't think reaches the described standard BUT it's still related to Game Boy development/hacking you can add it to the MORE.md file.
 
 ### Pull Request
 
@@ -41,7 +44,7 @@ If you are not confident in forking the repository, making the change and sendin
 
 ## Correcting and improving resources
 
-Most of the linked resources are hosted on Git repository. You are encouraged to report errors in the corresponding upstream repository or contact the authors. If the correction doesn't get merged, fork it and mantain an updated/correct version and open a PR replacing the link on the list with your version.
+Most of the linked resources are hosted on Git repositories. You are encouraged to report errors in the corresponding upstream repository or contact the authors. If the correction doesn't get merged, fork it and mantain an updated/correct version and open a PR replacing the link on the list with your version.
 
 In any case, open an Issue mentioning the error and its magnitude. This can have two outcomes:
 

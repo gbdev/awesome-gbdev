@@ -102,6 +102,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [Opcode table](http://goldencrystal.free.fr/GBZ80Opcodes.pdf)
 - [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
 - [Game Boy CPU Instruction Set Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
+- [Game Boy Opcodes timings and flags in JSON](https://github.com/lmmendes/game-boy-opcodes/blob/master/opcodes.json) - JSON version of the pastraiser.com table ([repository](https://github.com/lmmendes/game-boy-opcodes))
 
 ### Game Boy Color
 

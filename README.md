@@ -395,6 +395,7 @@ Complete and open source games.
 - [Guns & Riders](https://github.com/kanfor/gunsridersgameboy)
 - [Dino's Offline Adventure](https://github.com/gingemonster/DinosOfflineAdventure) - A clone of the Google Chrome offline game
 - [dino-gb](https://github.com/rnegron/dino-gb) - Another clone of the Chrome game
+- [Evoland.gb](https://github.com/flozz/evoland.gb) - A port of the first level of Evoland on GameBoy
 
 ### Demos
 

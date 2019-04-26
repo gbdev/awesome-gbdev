@@ -18,16 +18,16 @@ If you are unsure about something or need help, we have a friendly Discord [chat
 
 ### Is it "awesome"?
 
-For a resource to be added to the list, it must reach a minimum quality standard:
+For a resource to be added to the list, it must...
 
-- It must be in english;
-- It must be in a minimal working state;
-- It must have a clear purpose (implementation reference is okay, too) and/or provide something interesting;
-- It must provide a minimal documentation briefly describing what is the project and how to make use of it.
+- Be in english;
+- Be in a minimal working state;
+- Have a clear purpose (implementation reference is okay, too) and/or provide something interesting;
+- Provide a minimal documentation briefly describing what is the project and how to make use of it.
 
 These criteria are discussed [here](https://github.com/gbdev/awesome-gbdev/issues/96).
 
-If the resource is still work in progress, abandoned or you don't think reaches the described standard BUT it's still related to Game Boy development/hacking you can add it to the MORE.md file.
+If the resource is in another language, still work in progress, abandoned or you don't think reaches the described standard BUT it's still related to Game Boy development/hacking you can add it to the **MORE.md** file.
 
 ### Pull Request
 
@@ -42,6 +42,8 @@ If the resource is still work in progress, abandoned or you don't think reaches 
 - Open source emulators go to the EMULATORS.md file.
 
 If you are not confident in forking the repository, making the change and sending the PR, don't hesitate to open an Issue describing the addition (or the change you want to make/discuss).
+
+Before the PR gets approved and merged, we may require a number of reviews from our contributors.
 
 ## Correcting and improving resources
 

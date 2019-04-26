@@ -20,6 +20,7 @@ If you are unsure about something or need help, we have a friendly Discord [chat
 
 For a resource to be added to the list, it must reach a minimum quality standard:
 
+- It must be in english;
 - It must be in a minimal working state;
 - It must have a clear purpose (implementation reference is okay, too) and/or provide something interesting;
 - It must provide a minimal documentation briefly describing what is the project and how to make use of it.

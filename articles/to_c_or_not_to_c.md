@@ -109,7 +109,7 @@ Another option is to [reach out to us](#community-and-help), and discuss the mat
 
 ## Alternatives To GBDK
 
-[GBDK-n](https://github.com/andreasjhkarlsson/gbdk-n) brings GBDK to newer SDCC versions, which produce much better code. This eliminates part of the performance problem, but keeps all library-related issues. It is (at the time of writing this) lacking banking support. If you intend to do a small project (in size, such as Flappy Boy or Tobu Tobu Girl), then GBDK-n is certainly a good choice.
+[GBDK-n](https://github.com/andreasjhkarlsson/gbdk-n) brings GBDK to newer SDCC versions, which produce much better code. This eliminates part of the performance problem, but keeps all library-related issues. It is (at the time of writing this) lacking banking support. If you intend to do a small project (in size, such as [Flappy Boy](https://github.com/bitnenfer/flappy-boy-asm) or [gb-mines](https://github.com/andreasjhkarlsson/gb-mines)), then GBDK-n is certainly a good choice.
 
 Below is the "experimental zone"; ie. projects that aren't finished yet, but that may provide significant alternatives once they will be completed.
 

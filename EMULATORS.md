@@ -29,6 +29,7 @@
 | [gameboyGO](https://github.com/gonccalo/gameboyGO) | Go |
 | [gomeboycolor](https://github.com/djhworld/gomeboycolor) | Go | Cross platform [documented](http://djhworld.github.io/gomeboycolor/) emulator. [WASM](https://github.com/djhworld/gomeboycolor-wasm) port. |
 | [AndroidGameBoyEmulator](https://github.com/pedrovgs/AndroidGameBoyEmulator) | Java | |
+| [OOPBoy](http://github.com/429ers/OOPBoy) | Java | Minimist, simple emulator in Swing/AWT with debugger support |
 | [Coffee GB](https://github.com/trekawek/coffee-gb) | Java 8 |
 | [weplay](https://github.com/rauchg/weplay) | JavaScript | Collaborative Game Boy emulation |
 | [GBRE](https://github.com/ericgramgb/GBRE) | JavaScript | GB Runtime Environment for iOS (iOS Safari and Chrome) |

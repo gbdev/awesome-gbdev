@@ -96,8 +96,9 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 
 #### Cheatsheets, Tables
 
-- [Game Boy Crib Sheet](https://github.com/JustinLloyd/Gameboy-Cribsheet/raw/master/Current%20Release/Gameboy%20Crib%20Sheet%20990823-0325.pdf) - A handy printable reference sheet with ASM opcodes, memory locations, and much more ([repository](https://github.com/JustinLloyd/Gameboy-Cribsheet)).
-- [OP Codes cheatsheet](http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html) - Gameboy CPU (LR35902) instruction set (a [JSON](https://github.com/lmmendes/game-boy-opcodes/blob/master/opcodes.json) version)
+- [Game Boy Crib Sheet](https://github.com/JustinLloyd/Gameboy-Cribsheet/raw/master/Current%20Release/Gameboy%20Crib%20Sheet%20990823-0325.pdf) - A handy printable reference sheet with ASM opcodes, memory locations, and much more ([repository](https://githubop.com/JustinLloyd/Gameboy-Cribsheet)).
+- [OP Codes cheatsheet](http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
+- [gb-opcodes](https://gbdev.github.io/gb-opcodes/optables/) - Opcodes table
 - [rednex gbz80 opcode reference](https://rednex.github.io/rgbds/gbz80.7.html)
 - [Opcode table](http://goldencrystal.free.fr/GBZ80Opcodes.pdf)
 - [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)

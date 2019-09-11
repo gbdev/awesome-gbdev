@@ -57,7 +57,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 
 > #### Disambiguation
 >
->Although this documentation is focused on the original (1989) Game Boy (DMG), the *Game Boy Color* (GBC) and *Super Game Boy* (SGB) are very similar systems, with few important distinctions, such as:
+>Although this documentation is focused on the original (1989) Game Boy (DMG), the *Game Boy Color* (GBC) and *Super Game Boy* (SGB) are very similar systems, with a few important distinctions, such as:
 >
 >- Different hardware specifications
 >- Specific hardware and software features

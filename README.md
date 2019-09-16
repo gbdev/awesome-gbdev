@@ -269,7 +269,7 @@ The [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d61
 
 ## Programming
 
-Guides, tutorials and tools to develop software for Game Boy using the development toolchains desed in the [Software Development](#software-development) chapter.
+Guides, tutorials and tools to develop software for Game Boy using the development toolchains described in the [Software Development](#software-development) chapter.
 
 ### ASM
 

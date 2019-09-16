@@ -96,7 +96,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 
 #### Cheatsheets, Tables
 
-- [Game Boy Crib Sheet](https://github.com/JustinLloyd/Gameboy-Cribsheet/raw/master/Current%20Release/Gameboy%20Crib%20Sheet%20990823-0325.pdf) - A handy printable reference sheet with ASM opcodes, memory locations, and much more ([repository](https://githubop.com/JustinLloyd/Gameboy-Cribsheet)).
+- [Game Boy Crib Sheet (grayscale)](https://github.com/JustinLloyd/Gameboy-Cribsheet/raw/master/Current%20Release/Gameboy%20Crib%20Sheet%20990823-0325.pdf) ([colored](http://www.otakunozoku.com/Downloads/gb_cribsheet/gb_cribsheet_000129.zip)) - A handy printable reference sheet with ASM opcodes, memory locations, and much more ([repository](https://githubop.com/JustinLloyd/Gameboy-Cribsheet)).
 - [OP Codes cheatsheet](http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
 - [gb-opcodes](https://gbdev.github.io/gb-opcodes/optables/) - Opcodes table
 - [rednex gbz80 opcode reference](https://rednex.github.io/rgbds/gbz80.7.html)
@@ -269,7 +269,7 @@ The [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d61
 
 ## Programming
 
-Guides, tutorials and tools to develop software for Game Boy using the development toolchains described in the [Software Development](#software-development) chapter.
+Guides, tutorials and tools to develop software for Game Boy using the development toolchains desed in the [Software Development](#software-development) chapter.
 
 ### ASM
 

@@ -464,6 +464,7 @@ Complete and open source games.
 - [lsdpatch](https://github.com/jkotlinski/lsdpatch) - Tool for modifying samples, fonts and palettes on LSDj ROM images.
 - [Game Boy video effects](https://github.com/ChaosCabbage/crazy-gameboy-video-experiments) - Some little experiments using the STAT interrupt to do funny video manipulations.
 - [gbos](https://github.com/ekimekim/gbos) - A basic operating system for the Game Boy.
+- [Work Master OS](https://translate.google.com/translate?hl=&sl=ru&tl=en&u=https%3A%2F%2Fweb.archive.org%2Fweb%2F20081226145726%2Fhttp%3A%2F%2Fworkmaster.ru%2Findex.php%3Fp%3D8&sandbox=1) - Russian multi tasking operating system.
 - [Game Boy Link Cable Breakout Board](https://github.com/Palmr/gb-link-cable)
 - [GBCartFlasher firmware](https://github.com/Tauwasser/GBCartFlasher)
 - [VerilogBoy](https://github.com/zephray/VerilogBoy/) - Game Boy compatible console Verilog RTL implementation.

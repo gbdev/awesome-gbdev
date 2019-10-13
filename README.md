@@ -469,6 +469,7 @@ Complete and open source games.
 - [Game Boy Link Cable Breakout Board](https://github.com/Palmr/gb-link-cable)
 - [GBCartFlasher firmware](https://github.com/Tauwasser/GBCartFlasher)
 - [VerilogBoy](https://github.com/zephray/VerilogBoy/) - Game Boy compatible console Verilog RTL implementation.
+- [GBCamcorder](https://github.com/furrtek/GBCamcorder) - Lo-Fi portable video recorder using a GameBoy Camera cartridge.
 
 ### Directories
 

@@ -1,6 +1,9 @@
 name: Continuous Integration
 
-on: [push]
+on:
+  push:
+  schedule:
+  - cron: 0 0 * * *
 
 jobs:
   awesome-lint:

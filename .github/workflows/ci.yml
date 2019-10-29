@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v1
 
     - name: Install awesome-lint
-      run: npm install --global awesome-lint
+      run: npm install --global https://github.com/gbdev/awesome-gbdev-lint
 
     - name: Run awesome-lint
       run: awesome-lint

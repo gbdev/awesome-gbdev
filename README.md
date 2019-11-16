@@ -93,6 +93,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [GB Technical Information](http://fms.komkon.org/GameBoy/Tech/) - Some old code resources.
 - [Differences between the Z80 and the gameboy's processor](http://www.z80.info/z80gboy.txt)
 - [Gameboy 2BPP Graphics Format](http://www.huderlem.com/demos/gameboy2bpp.html) - Information on how the Game Boy interprets VRAM tile data to color pixels.
+- [Reverse Engineering a GameBoy Advance Game](https://medium.com/@bruno.macabeus/reverse-engineering-a-gameboy-advance-game-introduction-ec185bd8e02) - A series of very detailed posts and talks about developing a level editor for Klonoa's game (in English and in Portuguese) 🖌
 
 #### Cheatsheets, Tables
 
@@ -421,6 +422,7 @@ Complete and open source games.
 - [Disassembling Link's Awakening](http://kemenaran.winosx.com/posts/category-disassembling-links-awakening/) - A series of blog posts about disassembling Link's Awakening DX.
 - [Reverse Engineering the GameBoy Tetris](https://github.com/h3nnn4n/Reverse-Engineering-the-GameBoy-Tetris)
 - [DMA hijacking](https://github.com/avivace/awesome-gbdev/blob/master/articles/dma_hijacking.md) - A simple technique that allows you to run custom code in most GB/SGB/CGB games, provided you have an ACE exploit.
+- [klo-gba.js](https://github.com/macabeus/klo-gba.js) - Level editor for the Klonoa's game 🧢
 
 ### Game Disassemblies
 

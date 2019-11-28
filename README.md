@@ -1,6 +1,6 @@
 # ![GameboyIcon](http://i.imgur.com/ROUq7NT.gif) Awesome Game Boy Development
 
-#### [Join us on Discord](https://discord.gg/gpBxq85) [![Discord Badge](https://img.shields.io/badge/dynamic/json.svg?label=chat&colorB=green&suffix=%20online&query=count&uri=https%3A%2F%2Fgbhh.avivace.com%2Fapi%2Fdiscord)](https://discord.gg/gpBxq85)
+#### [Join us on Discord](https://discord.gg/gpBxq85) [![Financial Contributors on Open Collective](https://opencollective.com/gbdev/all/badge.svg?label=financial+contributors)](https://opencollective.com/gbdev) [![Discord Badge](https://img.shields.io/badge/dynamic/json.svg?label=chat&colorB=green&suffix=%20online&query=count&uri=https%3A%2F%2Fgbhh.avivace.com%2Fapi%2Fdiscord)](https://discord.gg/gpBxq85)
 
 A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
@@ -490,6 +490,36 @@ Complete and open source games.
 ### Contribute
 
 Take a look at [Contribution Guidelines](CONTRIBUTING.md).
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/gbdev/awesome-gbdev/graphs/contributors"><img src="https://opencollective.com/gbdev/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/gbdev/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/gbdev"><img src="https://opencollective.com/gbdev/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/gbdev/contribute)]
+
+<a href="https://opencollective.com/gbdev/organization/0/website"><img src="https://opencollective.com/gbdev/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/gbdev/organization/1/website"><img src="https://opencollective.com/gbdev/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/gbdev/organization/2/website"><img src="https://opencollective.com/gbdev/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/gbdev/organization/3/website"><img src="https://opencollective.com/gbdev/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/gbdev/organization/4/website"><img src="https://opencollective.com/gbdev/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/gbdev/organization/5/website"><img src="https://opencollective.com/gbdev/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/gbdev/organization/6/website"><img src="https://opencollective.com/gbdev/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/gbdev/organization/7/website"><img src="https://opencollective.com/gbdev/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/gbdev/organization/8/website"><img src="https://opencollective.com/gbdev/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/gbdev/organization/9/website"><img src="https://opencollective.com/gbdev/organization/9/avatar.svg"></a>
 
 ### License
 

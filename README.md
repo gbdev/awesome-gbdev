@@ -288,6 +288,10 @@ Guides, tutorials and tools to develop software for Game Boy using the developme
 - [GameBoy programming tutorial: Hello World!](http://peterwynroberts.com/?p=10) - Step by step tutorial.
 - [DMGreport](https://github.com/lancekindle/DMGreport) - Game programming tutorials in assembly.
 - [OAM DMA tutorial](https://exez.in/gameboy-dma) - Example of how to use OAM DMA in assembly.
+- [Game Boy Assembly Programming for the Modern Game Developer](https://teamlampoil.se/book/gbasmdev.pdf) - An e-book about making Game Boy games in Assembly.
+
+#### Software libraries
+- [GingerBread](https://github.com/ahrnbom/gingerbread) - A software library for making your own Game Boy games. It uses the e-book [Game Boy Assembly Programming for the Modern Game Developer](https://teamlampoil.se/book/gbasmdev.pdf) as its documentation.
 
 #### Sources
 

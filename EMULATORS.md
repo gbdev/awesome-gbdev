@@ -49,3 +49,4 @@
 | [xgbc](https://github.com/kotcrab/xgbc) | Kotlin | |
 | [UEFIBoy](https://github.com/RossMeikleham/UEFIBoy) | UEFI | |
 | [Peanut-GB](https://github.com/deltabeard/Peanut-GB) | C | A high performance, inaccurate, DMG emulator single header library written in C99. Comes with examples, such as [Peanut-SDL](https://github.com/deltabeard/Peanut-GB/tree/master/examples/sdl2), which uses its own [APU implementation](https://github.com/deltabeard/Peanut-GB/tree/master/examples/sdl2/peanut_apu), or optionally Shay Green's gb_apu. MIT. |
+| [Worldwide](https://github.com/Akatsuki-py/Worldwide) | Go | Cross platform and full-featured GBC emulator (Japanese) |

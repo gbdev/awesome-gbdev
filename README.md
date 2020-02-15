@@ -293,6 +293,7 @@ Guides, tutorials and tools to develop software for Game Boy using the developme
 - [GameBoy programming tutorial: Hello World!](http://peterwynroberts.com/?p=10) - Step by step tutorial.
 - [DMGreport](https://github.com/lancekindle/DMGreport) - Game programming tutorials in assembly.
 - [OAM DMA tutorial](https://exez.in/gameboy-dma) - Example of how to use OAM DMA in assembly.
+- [Game Boy Assembly Programming for the Modern Game Developer](https://github.com/ahrnbom/gbapfomgd) - An e-book about making Game Boy games in Assembly.
 
 #### Sources
 
@@ -309,13 +310,14 @@ Fragments of code, effects, proof of concepts and generally non complete games.
 - [STAT interrupt timings](http://gameboy.mongenel.com/dmg/istat98.txt)
 - [Video Timing](https://github.com/jdeblese/gbcpu/wiki/Video-Timing)
 
-#### Boilerplates
+#### Boilerplates and libraries
 
 - [gb-template](https://github.com/exezin/gb-template) - A template with basic functions such as joypad input, DMA transfers, and map/tile data loading.
 - [rgbds-template](https://github.com/nezticle/rgbds-template) - Basic hello-world example for Game Boy using RGBDS.
 - [Game Boy Assembly Language Primer](http://www.devrs.com/gb/files/galp.zip) - Simple template code with memory defines, copy routines and IBM font tilemap.
 - [bootstrap.gb](https://github.com/yenatch/bootstrap.gb) - An example Game Boy project.
 - [Gameboy Boilerplate](https://github.com/junebug12851/GameboyBoilerplateProj) - Boilerplate project to move quicker into the actual assembly code for your game.
+- [GingerBread](https://github.com/ahrnbom/gingerbread) - A software library for making your own Game Boy games. It is made to be used alongside the book [Game Boy Assembly Programming for the Modern Game Developer](https://github.com/ahrnbom/gbapfomgd) which also doubles as documentation.
 
 #### Syntax highlighting packages
 

@@ -200,6 +200,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [Mealybug Tearoom Tests](https://github.com/mattcurrie/mealybug-tearoom-tests)
 - [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
 - [144p Test Suite](https://github.com/pinobatch/240p-test-mini/tree/master/gameboy) - Port of Artemio Urbina's 240p Test Suite to the Game Boy.
+- [Bootrom Expected Values Dump Post](https://pa.blocanse.co/posts/gameboy-testing/) - Dump of expected CPU register values for the first ~12,000 cycles of the Game Boy bootrom sequence and how to use it for testing.
 
 ## Software Development
 

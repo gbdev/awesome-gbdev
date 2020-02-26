@@ -66,11 +66,9 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 
 ## Community
 
-- [gbdev Discord Server](https://discord.gg/gpBxq85)
-- [`#gbdev` on EFnet](http://chat.efnet.org/?channels=gbdev) - IRC channel.
-- [gbdev.gg8.se Wiki](http://gbdev.gg8.se/wiki/articles/Main_Page)
-- [devrs.com/gb](http://devrs.com/gb) - Old home of the scene: examples, sources, complete documentation, guides, tutorials and various tools.
-
+- [Discord Server](https://discord.gg/gpBxq85)
+- [IRC Channel](http://chat.efnet.org/?channels=gbdev) - `#gbdev` on EFNET
+- [Forum](https://gbdev.gg8.se/forums/)
 
 ## Documentation
 
@@ -491,6 +489,7 @@ Complete and open source games.
 
 ### Websites
 
+- [devrs.com/gb](http://devrs.com/gb) - Old home of the scene: examples, sources, complete documentation, guides, tutorials and various tools.
 - [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Including features, insights and interviews.
 - [pdroms.de](http://pdroms.de/news/gameboy/) Game Boy releases.
 - [Game Boy Demospotting](http://gameboy.modermodemet.se/en) - A collection of demos.

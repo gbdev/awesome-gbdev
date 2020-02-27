@@ -72,10 +72,11 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 
 ## Documentation
 
-- **[Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf)** - Official Game Boy programming and hardware manual by Nintendo.
-- [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - Historical comprehensive technical reference, wikified, corrected and updated.
+- [**Pan Docs**](https://gbdev.github.io/pandocs/) - The single, most comprehensive technical reference to Game Boy available to the public. Corrected, updated and mantained by the community.
 - [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) - A precise documentation by AntonioND to make a cycle-accurate Game Boy emulator.
-- [Game Boy: Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf) by Gekkio.
+- [Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf) by Gekkio.
+- [Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) - Nintendo's official Game Boy programming and hardware manual. Historical value, superseded by more recent documents.
+
 
 #### Misc
 

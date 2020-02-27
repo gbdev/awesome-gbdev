@@ -53,16 +53,25 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [The Game Boy, a hardware autopsy](https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu).
 - [The Ultimate Game Boy Talk](https://media.ccc.de/v/33c3-8029-the_ultimate_game_boy_talk).
 
-> #### Disambiguation
+
+> ### Disambiguation
 >
->Although this documentation is focused on the original (1989) Game Boy (DMG), the *Game Boy Color* (GBC) and *Super Game Boy* (SGB) are very similar systems, with a few important distinctions, such as:
+> #### Game Boy Advance
+> 
+> Game Boy Advance development is covered by another project, the [awesome-GBAdev](https://github.com/gbdev/awesome-gbadev) list.
+> GBA, however, can run GB/GBC games. It does so in a slightly different way compared to native hardware. This is covered in the Emulator Development section of this list.
+>
+> #### Game Boy Color and Super Game Boy
+> 
+> This list is focused on the original (1989) Game Boy (DMG), the *Game Boy Color* (GBC) and *Super Game Boy* (SGB) are very similar systems, with a few important distinctions, such as:
 >
 >- Different hardware specifications
 >- Specific hardware and software features
 >- Specific registers
->- Specific bugs and exploitable behaviours
+>- Specific bugs, quirks and exploitable behaviours
 >
 >If you aim to develop your software for SGB or GBC, or you want to know how it runs on the other systems, you may want to take advantage and adapt to these differences, check the [Game Boy Color](#game-boy-color) category and look for specific references to GBC/CGB and SGB.
+
 
 ## Community
 

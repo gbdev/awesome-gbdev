@@ -11,3 +11,9 @@
 ### Tools
 
 - [GBZ80 to items](http://issotm.github.io/gbz80toitems3/) - An online converter, translates Game Boy assembly into Pokémon R/B/Y items ([Source](https://github.com/ISSOtm/gbz80-to-items)).
+
+### Documentation
+
+- [GB ASM Tips](https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-asm-tips.txt) - Some tips for coding in Assembly by Jeff Frohwein.
+- [GB Instructions](https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-instructions.txt) Game Boy Assembly commands.
+- [GB Technical Information](http://fms.komkon.org/GameBoy/Tech/) - Some old code resources.

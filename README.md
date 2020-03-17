@@ -52,47 +52,39 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 
 - [The Game Boy, a hardware autopsy](https://www.youtube.com/playlist?list=PLu3xpmdUP-GRDp8tknpXC_Y4RUQtMMqEu).
 - [The Ultimate Game Boy Talk](https://media.ccc.de/v/33c3-8029-the_ultimate_game_boy_talk).
-- [Emulation of Nintendo Game Boy](https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf) - Overview of the Game Boy hardware with the perspective of building an emulator.
 
 
-> #### Disambiguation
+> ### Disambiguation
 >
->Although this documentation is focused on the original (1989) Game Boy (DMG), the *Game Boy Color* (GBC) and *Super Game Boy* (SGB) are very similar systems, with a few important distinctions, such as:
+> #### Game Boy Advance
+> 
+> Game Boy Advance development is covered by another project, the [awesome-GBAdev](https://github.com/gbdev/awesome-gbadev) list.
+> GBA, however, can run GB/GBC games. It does so in a slightly different way compared to native hardware. This is covered in the Emulator Development section of this list.
+>
+> #### Game Boy Color and Super Game Boy
+> 
+> This list is focused on the original (1989) Game Boy (DMG), the *Game Boy Color* (GBC) and *Super Game Boy* (SGB) are very similar systems, with a few important distinctions, such as:
 >
 >- Different hardware specifications
 >- Specific hardware and software features
 >- Specific registers
->- Specific bugs and exploitable behaviours
+>- Specific bugs, quirks and exploitable behaviours
 >
 >If you aim to develop your software for SGB or GBC, or you want to know how it runs on the other systems, you may want to take advantage and adapt to these differences, check the [Game Boy Color](#game-boy-color) category and look for specific references to GBC/CGB and SGB.
 
+
 ## Community
 
-- [gbdev Discord Server](https://discord.gg/gpBxq85)
-- [`#gbdev` on EFnet](http://chat.efnet.org/?channels=gbdev) - IRC channel.
-- [gbdev.gg8.se Wiki](http://gbdev.gg8.se/wiki/articles/Main_Page)
-- [devrs.com/gb](http://devrs.com/gb) - Old home of the scene: examples, sources, complete documentation, guides, tutorials and various tools.
-
+- [Discord Server](https://discord.gg/gpBxq85)
+- [IRC Channel](http://chat.efnet.org/?channels=gbdev) - `#gbdev` on EFNET
+- [Forum](https://gbdev.gg8.se/forums/)
 
 ## Documentation
 
-- **[Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf)** - Official Game Boy programming and hardware manual by Nintendo.
-- [Pan Docs](http://gbdev.gg8.se/wiki/articles/Pan_Docs) - Historical comprehensive technical reference, wikified, corrected and updated.
+- [**Pan Docs**](https://gbdev.github.io/pandocs/) - The single, most comprehensive technical reference to Game Boy available to the public. Corrected, updated and mantained by the community.
 - [The Cycle-Accurate Game Boy Docs](https://github.com/AntonioND/giibiiadvance/blob/master/docs/TCAGBD.pdf) - A precise documentation by AntonioND to make a cycle-accurate Game Boy emulator.
-- [Game Boy: Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf) by Gekkio.
-
-#### Misc
-
-- [Introduction to Game Boy Hacking](http://pepijndevos.nl/sha2017/workshop.pdf) - Workshop introducing basic assembly, debugging and reverse engineering.
-- [Everything You Always Wanted To Know About GAME BOY](http://www.emulatronia.com/doctec/consolas/gameboy/gameboy.txt) - but were afraid to ask
-- [GBSOUND.txt](https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt) - A document detailing the Game Boy sound engine.
-- [GB Instructions](https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-instructions.txt) Game Boy Assembly commands.
-- [GB ASM Tips](https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-asm-tips.txt) - Some tips for coding in Assembly by Jeff Frohwein.
-- [gbdev FAQs](http://www.devrs.com/gb/files/faqs.html) - Must read by Jeff Frohwein.
-- [Game Boy Bootrom](http://www.neviksti.com/DMG/DMG_ROM.asm) - Commented dump of the DMG bootrom.
-- [GB Technical Information](http://fms.komkon.org/GameBoy/Tech/) - Some old code resources.
-- [Differences between the Z80 and the gameboy's processor](http://www.z80.info/z80gboy.txt)
-- [Gameboy 2BPP Graphics Format](http://www.huderlem.com/demos/gameboy2bpp.html) - Information on how the Game Boy interprets VRAM tile data to color pixels.
+- [Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf) by Gekkio.
+- [Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) - Nintendo's official Game Boy programming and hardware manual. Historical value, superseded by more recent documents.
 
 #### Cheatsheets, Tables
 
@@ -174,9 +166,20 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [Reiner Ziegler's Game Boy page](http://reinerziegler.de.mirrors.gg8.se/) - Commercial and homemade programmable cartridges and programming systems. Tutorials, wiring and schematics provided.
 - [Gameboy-MBC5-MBC1-Hybrid](https://github.com/insidegadgets/Gameboy-MBC5-MBC1-Hybrid) - CPLD implementation of a MBC5/MBC1 Hybrid cartridge.
 
+#### Misc
+
+- [Introduction to Game Boy Hacking](http://pepijndevos.nl/sha2017/workshop.pdf) - Workshop introducing basic assembly, debugging and reverse engineering.
+- [GBSOUND.txt](https://github.com/bwhitman/pushpin/blob/master/src/gbsound.txt) - A document detailing the Game Boy sound engine.
+- [gbdev FAQs](http://www.devrs.com/gb/files/faqs.html) - Must read by Jeff Frohwein.
+- [Game Boy Bootrom](http://www.neviksti.com/DMG/DMG_ROM.asm) - Commented dump of the DMG bootrom.
+- [Differences between the Z80 and the gameboy's processor](http://www.z80.info/z80gboy.txt)
+- [Gameboy 2BPP Graphics Format](http://www.huderlem.com/demos/gameboy2bpp.html) - Information on how the Game Boy interprets VRAM tile data to color pixels.
+
 ## Emulator Development
 
+
 - [Reverse Engineering fine details of Game Boy hardware](https://www.youtube.com/watch?v=GBYwjch6oEE) ([errata](https://gekkio.fi/blog/2018-02-05-errata-for-reverse-engineering-fine-details-of-game-boy-hardware.html)) - 43 minutes talk by Gekkio given at Disobey 2018.
+- [Emulation of Nintendo Game Boy](https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf) - Overview of the Game Boy hardware with the perspective of building an emulator.
 - [DMG-01](http://blog.ryanlevick.com/DMG-01/public/book/) - An educational Gameboy Emulator in Rust and a companion book explaining its development. *[Oh Boy! Creating a Game Boy Emulator in Rust](https://media.ccc.de/v/rustfest-rome-3-gameboy-emulator)* is a talk given at Rust Fest 18 about this.
 - [Building a Game Boy emulator in JavaScript](http://imrannazar.com/gameboy-Emulation-in-JavaScript) - Step by step tutorial.
 - [Writing a Game Boy emulator, Cinoop](https://cturt.github.io/cinoop.html)
@@ -491,6 +494,7 @@ Complete and open source games.
 
 ### Websites
 
+- [devrs.com/gb](http://devrs.com/gb) - Old home of the scene: examples, sources, complete documentation, guides, tutorials and various tools.
 - [GBDK Developers](http://gbdk-developers.com/) - Active blog about everything related to the scene. Including features, insights and interviews.
 - [pdroms.de](http://pdroms.de/news/gameboy/) Game Boy releases.
 - [Game Boy Demospotting](http://gameboy.modermodemet.se/en) - A collection of demos.

@@ -232,7 +232,7 @@ The [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d61
 
 ### Emulators
 
-- [BGB](http://bgb.bircd.org/) - Powerful emulator and debugger. Provides an accurate hardware emulation.
+- [BGB](https://bgb.bircd.org/) - Powerful emulator and debugger. Provides an accurate hardware emulation.
 - [SameBoy](https://github.com/LIJI32/SameBoy) - Accurate emulator with a wide range of powerful debugging features.
 - [Mooneye GB](https://github.com/Gekkio/mooneye-gb) - Research project and emulator in Rust.
 - [mGBA](https://github.com/mgba-emu/mgba) - Modern cross platform GBA emulator which also runs GB/GBC games.

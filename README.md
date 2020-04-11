@@ -13,7 +13,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [Community](#community)
 - [Documentation](#documentation)
     + [Misc](#misc)
-    + [Cheatsheets, Tables](#cheatsheets-tables)
+    + [Opcodes](#opcodes)
   * [Game Boy Color](#game-boy-color)
   * [Hardware](#hardware)
   * [Peripherals](#peripherals)

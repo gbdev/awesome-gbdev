@@ -86,15 +86,10 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf) by Gekkio.
 - [Game Boy Programming Manual](https://archive.org/download/GameBoyProgManVer1.1/GameBoyProgManVer1.1.pdf) - Nintendo's official Game Boy programming and hardware manual. Historical value, superseded by more recent documents.
 
-#### Cheatsheets, Tables
+#### Opcodes
 
-- [Game Boy Crib Sheet](https://github.com/gb-archive/salvage/blob/master/misc/GBCribSheet000129.pdf) - A handy printable reference sheet with ASM opcodes, memory locations, and much more ([repository](https://github.com/JustinLloyd/Gameboy-Cribsheet)).
-- [OP Codes cheatsheet](http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
 - [gb-opcodes](https://gbdev.github.io/gb-opcodes/optables/) - Opcodes table
 - [rednex gbz80 opcode reference](https://rednex.github.io/rgbds/gbz80.7.html) - A reference of all instructions, including short descriptions, cycle and byte counts, and explanations of flag modifications.
-- [Opcode table](http://goldencrystal.free.fr/GBZ80Opcodes.pdf)
-- [Opcode table with timings and flags](http://www.devrs.com/gb/files/opcodes.html)
-- [Game Boy CPU Instruction Set Sheet (GCISheet)](http://www.devrs.com/gb/files/GBCPU_Instr.html) - Cheatsheet for the available Instruction Set.
 
 ### Game Boy Color
 

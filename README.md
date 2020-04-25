@@ -330,7 +330,7 @@ Fragments of code, effects, proof of concepts and generally non complete games.
 
 ### C
 
-- [8-Bit Wonderland](http://belial.blarzwurst.de/gbpaper/paper.pdf) - Well-written introductory document about how the Game Boy works and how to start developing working code for it.
+- [8-Bit Wonderland](https://web.archive.org/web/20191106010059/http://belial.blarzwurst.de/gbpaper/paper.pdf) - Well-written introductory document about how the Game Boy works and how to start developing working code for it.
 - [Grooves Game Boy Programming](https://github.com/gbdk-salvage/grooves-game-boy-programming) - A complete set of lessons about implementing various game mechanics in a Game Boy game.
 - [How to Write a Simple Side Scrolling Game](http://pastebin.com/F3tHLj68) - Old (but still relevant) tutorial.
 - [Just another simple tutorial](http://pastebin.com/gzT47MPJ)

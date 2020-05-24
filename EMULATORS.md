@@ -52,3 +52,4 @@
 | [Worldwide](https://github.com/Akatsuki-py/Worldwide) | Go | Cross platform and full-featured GBC emulator (Japanese) |
 | [Kotlin-Gameboy-Emulator](https://github.com/stan-roelofs/Kotlin-Gameboy-Emulator) | Kotlin | Cross platform DMG emulator |
 | [Emux](https://github.com/Washi1337/Emux) | C# | |
+| [Y2Dmg](https://github.com/Y2JB/DMG) | C# | Fully featured DMG emulator written in C#. Passes Blargg's test roms and supports most games. Core is cross platform (.net core), renderer is Windows only.|

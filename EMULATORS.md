@@ -6,7 +6,7 @@
 | [Wadatsumi](https://github.com/arrow-lang/wadatsumi) | Arrow | |
 | [cboy](https://github.com/jkbenaim/cboy) | C |
 | [miniBoy](https://github.com/Dhole/miniBoy) | C | |
-| [Sameboy](https://github.com/LIJI32/SameBoy) | C | |
+| [SameBoy](https://github.com/LIJI32/SameBoy) | C | |
 | [giibiiadvance](https://github.com/AntonioND/giibiiadvance) | C | A GB, GBC emulator with GB Camera support.|
 | [mGBA](https://github.com/mgba-emu/mgba) | C | A modern cross platform GBA emulator which also runs GB/GBC games. |
 | [gnuboy](https://github.com/rofl0r/gnuboy) | C | ANSI C |

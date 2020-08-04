@@ -90,7 +90,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 #### Opcodes
 
 - [gb-opcodes](https://gbdev.github.io/gb-opcodes/optables/) - Opcodes table
-- [rednex gbz80 opcode reference](https://rednex.github.io/rgbds/gbz80.7.html) - A reference of all instructions, including short descriptions, cycle and byte counts, and explanations of flag modifications.
+- [RGBDS opcodes reference](https://rednex.github.io/rgbds/gbz80.7.html) - A reference of all instructions, including short descriptions, cycle and byte counts, and explanations of flag modifications.
 
 ### Game Boy Color
 
@@ -279,7 +279,7 @@ Guides, tutorials and tools to develop software for Game Boy using the developme
 
 ### ASM
 
-- **[gb asm tutorial](https://eldred.fr/gb-asm-tutorial)*- - Step by step tutorial, building several ROMs to accompany its explanations.
+- **[gb asm tutorial](https://eldred.fr/gb-asm-tutorial)** - Step by step tutorial, building several ROMs to accompany its explanations.
 - [ASMSchool](http://gameboy.mongenel.com/asmschool.html) - A set of lessons by Duo about coding in Assembly for GB/GBC and disassembling.
 - [hardware.inc](https://github.com/tobiasvl/hardware.inc) - Standard include file containing Game Boy hardware definitions for use in RGBDS projects.
 - [Assembly tutorial by David Pello](https://gb-archive.github.io/salvage/tutorial_de_ensamblador/tutorial_de_ensamblador%20[La%20decadence].html) - Good document to learn to produce working asm code for gb. Brief explanations of many important topics. Many examples with commented source code.

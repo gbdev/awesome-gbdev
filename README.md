@@ -198,6 +198,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [Mealybug Tearoom Tests](https://github.com/mattcurrie/mealybug-tearoom-tests)
 - [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
 - [144p Test Suite](https://github.com/pinobatch/240p-test-mini/tree/master/gameboy) - Port of Artemio Urbina's 240p Test Suite to the Game Boy.
+- [MBC3 RTC test ROM](https://github.com/aaaaaa123456789/rtc3test)
 
 ## Software Development
 

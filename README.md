@@ -26,6 +26,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
     - [Experimental/Proof of Concepts](#experimentalproof-of-concepts)
   - [Emulators](#emulators)
   - [Tools](#tools)
+    - [Music drivers and trackers](#music-drivers-and-trackers)
 - [Programming](#programming)
   - [ASM](#asm)
     - [Sources](#sources)
@@ -269,13 +270,14 @@ The [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d61
 - [Tilemap GB](https://github.com/bbbbbr/gimp-tilemap-gb) - GIMP image editor plug-in for importing & exporting GBMB and GBTD tilemaps and tilesets (as bitmap images or .GBM/.GBR files).
 - [Tilemap Helper](https://github.com/bbbbbr/gimp-tilemap-helper) - GIMP image editor plug-in for optimizing tile maps and tile sets.
 
-### Music drivers and trackers
+#### Music drivers and trackers
 
 - [DevSound](https://github.com/DevEd2/DevSound) - Sound driver embeddable in homebrews which supports pulse width manipulation, arpeggios, and multiple waveforms.
 - [Carillon Player](http://gbdev.gg8.se/files/musictools/Aleksi%20Eeben/Carillon%20Editor.zip) - Music Engine.
 - [GBT PLAYER](https://github.com/AntonioND/gbt-player) - A music player library and converter kit.
 - [mmlgb](https://github.com/SimonLarsen/mmlgb) - A MML parser and GBDK sound driver for the Nintendo Game Boy.
 - [XPMCK](https://github.com/bazzinotti/XPMCK) - An MML based music compiler with support for Game Boy & Game Boy Color.
+- [SoundSystem](https://github.com/BlitterObjectBob/GBSoundSystem) - A modernized audio driver for GameBoy Tracker (aka the Paragon 5 music player).
 
 ## Programming
 

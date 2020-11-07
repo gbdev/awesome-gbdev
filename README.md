@@ -1,6 +1,6 @@
 # ![GameboyIcon](http://i.imgur.com/ROUq7NT.gif) Awesome Game Boy Development
 
-#### [Join us on Discord](https://discord.gg/gpBxq85) [![Discord Badge](https://img.shields.io/badge/dynamic/json.svg?label=chat&colorB=green&suffix=%20online&query=presence_count&uri=https://discordapp.com/api/guilds/303217943234215948/widget.json)](https://discord.gg/gpBxq85)
+#### [Join us on Discord](https://discord.gg/tKGMPNr) [![Discord Badge](https://img.shields.io/badge/dynamic/json.svg?label=chat&colorB=green&suffix=%20online&query=presence_count&uri=https://discordapp.com/api/guilds/303217943234215948/widget.json)](https://discord.gg/tKGMPNr)
 
 A curated list of awesome Game Boy (Color) Development resources, tools, docs, related projects and open-source ROMs. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
@@ -76,7 +76,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 
 ## Community
 
-- [Discord Server](https://discord.gg/gpBxq85)
+- [Discord Server](https://discord.gg/tKGMPNr)
 - [IRC Channel](http://chat.efnet.org/?channels=gbdev) - `#gbdev` on EFNET.
 - [Forum](https://gbdev.gg8.se/forums/)
 

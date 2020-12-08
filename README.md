@@ -324,6 +324,8 @@ Fragments of code, effects, proof of concepts and generally non complete games.
 - [bootstrap.gb](https://github.com/yenatch/bootstrap.gb) - An example Game Boy project.
 - [Gameboy Boilerplate](https://github.com/junebug12851/GameboyBoilerplateProj) - Boilerplate project to move quicker into the actual assembly code for your game.
 - [GingerBread](https://github.com/ahrnbom/gingerbread) - A software library for making your own Game Boy games. It is made to be used alongside the book [Game Boy Assembly Programming for the Modern Game Developer](https://github.com/ahrnbom/gbapfomgd) which also doubles as documentation.
+- [gb-boilerplate](https://github.com/ISSOtm/gb-boilerplate) - A template for starting Game Boy projects, providing a Makefile for infrastructure.
+- [gb-starter-kit](https://github.com/ISSOtm/gb-starter-kit) - An expansion on the above, including base library code as well to get started faster.
 
 #### Syntax highlighting packages
 

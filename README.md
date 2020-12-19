@@ -199,6 +199,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
 - [144p Test Suite](https://github.com/pinobatch/240p-test-mini/tree/master/gameboy) - Port of Artemio Urbina's 240p Test Suite to the Game Boy.
 - [MBC3 RTC test ROM](https://github.com/aaaaaa123456789/rtc3test)
+- [dmg-acid2](https://github.com/mattcurrie/dmg-acid2) and [cgb-acid2](https://github.com/mattcurrie/cgb-acid2) - Basic PPU rendering tests.
 
 ## Software Development
 

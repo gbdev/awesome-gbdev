@@ -217,7 +217,7 @@ The [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d61
 ### Compilers
 
 + [GBDK](http://gbdk.sourceforge.net/) - A set of tools that enable to develop in **C**. Includes a set of libraries for the most common requirements and generates ready ROM files. Last updated in 2001. [Documentation](http://gbdk.sourceforge.net/doc/gbdk-doc.pdf).
-  - [GBDK-2020](https://github.com/Zal0/gbdk-2020/) - A modernized GBDK with updated SDCC toolchain (supports ROM banking), bug fixes, documentation and other improvements. Supports Windows, Linux and MacOS. [Documentation](https://zal0.github.io/gbdk-2020/api/index.html).
+  - [GBDK-2020](https://github.com/Zal0/gbdk-2020/) - A modernized GBDK with updated SDCC toolchain (supports ROM banking), bug fixes, documentation and other improvements. Supports Windows, Linux and MacOS.
   - [gbdk-osx](https://github.com/x43x61x69/gbdk-osx) - Patched GBDK 2.96a for the latest compilers on macOS.
   - [gbdk-n](https://github.com/rotmoset/gbdk-n) - Aims to update the gbdk libraries to be compatible with new versions of SDCC and provide helpers for building roms. Does not support ROM banking, thus limiting ROM size to 32K.
   

@@ -18,3 +18,21 @@ jobs:
 
     - name: Run awesome-lint
       run: awesome-lint
+
+  check-deadlinks:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v1
+
+    - name: Setup Node.js
+      run: wget https://github.com/smallhadroncollider/brok/releases/download/1.1.0/brok-1.1.0_x86-64-linux.deb
+
+    - name: Install awesome-lint
+      run: |
+        sudo apt install libtinfo5
+        sudo dpkg -i brok-1.1.0_x86-64-linux.deb
+
+    - name: Run awesome-lint
+      run: brok --only-failures *.md

@@ -1,12 +1,9 @@
 name: CI
 
-on:
-  push:
-#  schedule:
-#  - cron: 0 0 * * *
+on: [push, pull_request]
 
 jobs:
-  awesome-lint:
+  lint-markdown:
     runs-on: ubuntu-latest
 
     steps:

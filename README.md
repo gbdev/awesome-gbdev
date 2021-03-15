@@ -80,8 +80,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 
 ## Community
 
-- [Discord Server](https://discord.gg/tKGMPNr)
-- [IRC Channel](http://chat.efnet.org/?channels=gbdev) - `#gbdev` on EFNET.
+- [Chat channels](https://gbdev.io/chat)
 - [Forum](https://gbdev.gg8.se/forums/)
 
 ## Documentation

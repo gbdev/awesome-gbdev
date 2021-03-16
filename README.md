@@ -473,7 +473,6 @@ Complete and open source games.
 - [Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
 - [FX Hammer](https://github.com/DevEd2/FXHammer-Disasm)
 - [Harvest Moon 3](https://github.com/sanqui/hm3)
-- [RedPlusPlus](https://github.com/TheFakeMateo/RedPlusPlus) - An upgrade to Pokémon Red. Fixes several bugs and adds a lot of new features.
 
 ## Related projects
 

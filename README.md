@@ -44,6 +44,10 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
   - [Demos](#demos)
 - [Reverse Engineering](#reverse-engineering)
   - [Game Disassemblies](#game-disassemblies)
+- [Game Boy Camera](#game-boy-camera)
+  - [Retrieving Images](#retrieving-images)
+  - [Changing the camera's behavior](#changing-the-cameras-behavior)
+  - [Post-processing](#post-processing)
 - [Related projects](#related-projects)
   - [Directories](#directories)
   - [Websites](#websites)
@@ -473,6 +477,32 @@ Complete and open source games.
 - [Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
 - [FX Hammer](https://github.com/DevEd2/FXHammer-Disasm)
 - [Harvest Moon 3](https://github.com/sanqui/hm3)
+
+## Game Boy Camera
+
+### Retrieving images
+
+Game Boy Printer emulation (e.g. to retrieve images from the camera):
+
+- [Arduino Gameboy Printer Emulator](https://github.com/mofosyne/arduino-gameboy-printer-emulator) - Emulate a gameboy printer via the gameboy link cable. 
+- [ESP8266 Game Boy Printer](https://github.com/applefreak/esp8266-gameboy-printer) -  A device that emulates the Gameboy Printer and lets you retrieve images using WiFi powered by an ESP8266.
+- [WiFi GBP Emulator](https://github.com/HerrZatacke/wifi-gbp-emulator) - A GameBoy printer emulator which provides the received data over a WiFi connection.
+- [Game Boy WiFi Printer - D1 Mini Shield](https://github.com/cristofercruz/gbp-esp-shield-pcb) - Game Boy Printer interface shield for D1 mini/mini Pro ESP8266 boards. 
+- [Game Boy Printer Sniffer](https://github.com/mofosyne/GameboyPrinterSniffer) - Sniff packet communications between a Game Boy and the Printer.
+
+### Changing the camera's behavior
+
+Methods to improve and/or manipulate the camera's quality and behavior:
+
+- [Game Boy Camera Canon EF Lens Mount](http://ekeler.com/game-boy-camera-canon-ef-mount)
+- [Game Boy Camera to Canon Lens mount](https://www.thingiverse.com/thing:4337362) - based on the above.
+- [game-boy-camera-frame-replacer](https://github.com/cristofercruz/game-boy-camera-frame-replacer) - Manipulate the ROM of a camera to include custom frames
+
+### Post processing
+
+- [Game Boy Printer Paper Simulation](https://github.com/mofosyne/GameboyPrinterPaperSimulation) - Generate as-if-printed images of digital printed images.
+- [Game Boy Printer Web](https://github.com/HerrZatacke/gb-printer-web) - Gallery app for to the Game Boy camera: import pictures from exports or cartridge dumps and choose color palettes.
+- [lbcam](https://lbcam.xyz/) - Emulating the Game Boy Camera with a webcam.
 
 ## Related projects
 

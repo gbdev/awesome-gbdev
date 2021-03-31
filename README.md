@@ -18,8 +18,6 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
   - [Hardware](#hardware)
   - [Peripherals](#peripherals)
   - [Cartridges](#cartridges)
-- [Emulator Development](#emulator-development)
-  - [Testing](#testing)
 - [Software Development](#software-development)
   - [Assemblers](#assemblers)
   - [Compilers](#compilers)
@@ -177,37 +175,6 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [Differences between the Z80 and the gameboy's processor](http://www.z80.info/z80gboy.txt)
 - [Gameboy 2BPP Graphics Format](http://www.huderlem.com/demos/gameboy2bpp.html) - Information on how the Game Boy interprets VRAM tile data to color pixels.
 
-## Emulator Development
-
-
-- [Reverse Engineering fine details of Game Boy hardware](https://www.youtube.com/watch?v=GBYwjch6oEE) - 43 minutes talk by Gekkio given at Disobey 2018 ([errata](https://gekkio.fi/blog/2018-02-05-errata-for-reverse-engineering-fine-details-of-game-boy-hardware.html)).
-- [Emulation of Nintendo Game Boy](https://github.com/Baekalfen/PyBoy/blob/master/PyBoy.pdf) - Overview of the Game Boy hardware with the perspective of building an emulator.
-- [DMG-01](https://rylev.github.io/DMG-01/public/book/) - An educational Gameboy Emulator in Rust and a companion book explaining its development. *[Oh Boy! Creating a Game Boy Emulator in Rust](https://media.ccc.de/v/rustfest-rome-3-gameboy-emulator)- is a talk given at Rust Fest 18 about this.
-- [Building a Game Boy emulator in JavaScript](http://imrannazar.com/gameboy-Emulation-in-JavaScript) - Step by step tutorial.
-- [Writing a Game Boy emulator, Cinoop](https://cturt.github.io/cinoop.html)
-- [0dmg](https://jeremybanks.github.io/0dmg/2018/05/23/getting-started.html) - Learning Rust by building a partial Game Boy emulator.
-- [RealBoy Emulator](https://realboyemulator.wordpress.com/posts/) - A series of posts about the design and implementation of the RealBoy Emulator.
-- [Codeslinger](http://www.codeslinger.co.uk/pages/projects/gameboy.html) - Another series of posts documenting the building of an emulator.
-- [Why did I spend 1.5 months creating a Gameboy emulator?](http://blog.rekawek.eu/2017/02/09/coffee-gb/) - Blog post.
-- [binjgb rewind](https://binji.github.io/2017/12/31/binjgb-rewind.html) - Implementing a *rewind- feature.
-- [binjgb on the web](https://binji.github.io/2017/02/26/binjgb-on-the-web-part-1.html) - Porting of the binjgb emulator to Web Assembly. [(Part 2)](https://binji.github.io/2017/02/27/binjgb-on-the-web-part-2.html)
-- [binjgb debugging hangs](https://binji.github.io/2017/05/03/debugging-hangs.html) - Investigations on emulations quirks.
-- [Decoding Gameboy Z80 opcodes](https://gb-archive.github.io/salvage/decoding_gbz80_opcodes/Decoding%20Gamboy%20Z80%20Opcodes.html) - How to algorithmically decode Game Boy instructions (as opposed to writing one huge switch-case statement).
-- [Porting a GO Game Boy emulator to WebAssembly](https://djhworld.github.io/post/2018/09/21/i-ported-my-gameboy-color-emulator-to-webassembly/)
-- [About swotGB](https://mitxela.com/projects/swotgb/about) - Notes about the development of a Game Boy emulator in JavaScript.
-- [List of open source emulators](EMULATORS.md)
-
-### Testing
-
-- [Blargg's test roms](http://gbdev.gg8.se/files/roms/blargg-gb-tests/)
-- [Gekkio's test roms](https://gekkio.fi/files/mooneye-gb/latest/)
-- [SameSuite](https://github.com/LIJI32/SameSuite)
-- [Mealybug Tearoom Tests](https://github.com/mattcurrie/mealybug-tearoom-tests)
-- [GB Accuracy Tests](http://tasvideos.org/EmulatorResources/GBAccuracyTests.html)
-- [144p Test Suite](https://github.com/pinobatch/240p-test-mini/tree/master/gameboy) - Port of Artemio Urbina's 240p Test Suite to the Game Boy.
-- [MBC3 RTC test ROM](https://github.com/aaaaaa123456789/rtc3test)
-- [dmg-acid2](https://github.com/mattcurrie/dmg-acid2) and [cgb-acid2](https://github.com/mattcurrie/cgb-acid2) - Basic PPU rendering tests.
-
 ## Software Development
 
 The [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d615409fd) essay  gives an overview of the Game Boy's capabilities, discussing the pros and cons of the available development tools, and providing tips to write more efficient code.
@@ -239,17 +206,7 @@ The [To C Or Not To C](https://gist.github.com/ISSOtm/4f4d335c3fd258ad0dfc7d4d61
 
 ### Emulators
 
-- [BGB](https://bgb.bircd.org/) - Powerful emulator and debugger. Provides an accurate hardware emulation.
-- [SameBoy](https://github.com/LIJI32/SameBoy) - Accurate emulator with a wide range of powerful debugging features.
-- [Mooneye GB](https://github.com/Gekkio/mooneye-gb) - Research project and emulator in Rust.
-- [mGBA](https://github.com/mgba-emu/mgba) - Modern cross platform GBA emulator which also runs GB/GBC games.
-- [Binjgb](https://github.com/binji/binjgb) - 5Kloc emulator that passes most of the tests. *Rewind- feature. Runs in the browser using WebAssembly.
-- [Gambatte](https://github.com/sinamas/gambatte) - Cross-platform and accurate emulator.
-- [MetroBoy](https://github.com/aappleby/MetroBoy) - A playable, circuit-level simulation of an entire Game Boy.
-- [gbe-plus](https://github.com/shonumi/gbe-plus) - A recently rewritten emulator that has a large effort in preserving the functions of obscure accessories (such as IR link, Mobile Network GB, Barcode Boy, GB Printer, local and online GB Serial Link Cable, ... )
-- [Emulicious](https://emulicious.net/) - Provides accurate emulation and includes powerful tools such as a profiler and source-level debugging for ASM and C via a [VS Code debug adapter](https://marketplace.visualstudio.com/items?itemName=emulicious.emulicious-debugger).
-
-[Complete list of open source emulators](EMULATORS.md)
+- [Visual Boy Advance](https://www.youtube.com/watch?v=dQw4w9WgXcQ) - The superior GB emulator. "If it's good enough for Pokemon, it's good enough for me!"
 
 ### Tools
 

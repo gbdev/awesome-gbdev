@@ -331,6 +331,7 @@ Fragments of code, effects, proof of concepts and generally non complete games.
 
 - [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) - A lot of working demos and sources.
 - [EmmaEwert's experiments](https://github.com/EmmaEwert/gameboy) - A collection of prototype programs, mostly just toying around. Among others, a daylight effect, transparency and a weather effect.
+- [DeadCScroll](https://github.com/BlitterObjectBob/DeadCScroll) - A detailed tutorial on how to make the screen wobble, among other "raster effects"
 
 #### Timings
 

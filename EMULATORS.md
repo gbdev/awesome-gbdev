@@ -48,7 +48,7 @@
 | [goboy](https://github.com/Humpheh/goboy) | Go | |
 | [xgbc](https://github.com/kotcrab/xgbc) | Kotlin | |
 | [UEFIBoy](https://github.com/RossMeikleham/UEFIBoy) | UEFI | |
-| [Peanut-GB](https://github.com/deltabeard/Peanut-GB) | C | A high performance, inaccurate, DMG emulator single header library written in C99. Comes with examples, such as [Peanut-SDL](https://github.com/deltabeard/Peanut-GB/tree/master/examples/sdl2), which uses its own [APU implementation](https://github.com/deltabeard/Peanut-GB/tree/master/examples/sdl2/peanut_apu), or optionally Shay Green's gb_apu. MIT. |
+| [Peanut-GB](https://github.com/deltabeard/Peanut-GB) | C | A high performance, inaccurate, DMG emulator single header library written in C99. Comes with examples, such as [Peanut-SDL](https://github.com/deltabeard/Peanut-GB/tree/master/examples/sdl2), which uses its own [APU implementation](https://github.com/deltabeard/Peanut-GB/blob/master/examples/sdl2/minigb_apu/minigb_apu.c), or optionally Shay Green's gb_apu. MIT. |
 | [Worldwide](https://github.com/Akatsuki-py/Worldwide) | Go | Cross platform and full-featured GBC emulator (Japanese) |
 | [Kotlin-Gameboy-Emulator](https://github.com/stan-roelofs/Kotlin-Gameboy-Emulator) | Kotlin | Cross platform DMG emulator |
 | [Emux](https://github.com/Washi1337/Emux) | C# | |

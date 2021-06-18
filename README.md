@@ -476,7 +476,7 @@ Complete and open source games.
 - [pokegold-spaceworld](https://github.com/pret/pokegold-spaceworld) - Pokémon Gold and Silver 1997 Space World demo.
 - [Link's Awakening DX](https://github.com/mojobojo/LADX-Disassembly)
 - [Oracle of Ages](https://github.com/drenn1/ages-disasm)
-- [Tetris](https://github.com/osnr/tetris) - Based on Jeff Frohwein's original disassembly.
+- [Tetris](https://github.com/vinheim3/tetris-gb-disasm) - Complete Tetris disassembly.
 - [FX Hammer](https://github.com/DevEd2/FXHammer-Disasm)
 - [Harvest Moon 3](https://github.com/sanqui/hm3)
 

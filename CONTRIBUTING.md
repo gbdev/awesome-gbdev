@@ -66,8 +66,12 @@ You're welcome to remove any broken link in the repository, but first try to fin
 
 Then, **open an Issue** with any useful details.
 
-You can then proceed to remove the broken link (or wait for someone to do it).
-
 If you have some old and unavailable resource (not necessarly listed in the missing list) archived in your hard disk that maybe in the interest (even historical!) of the Game Boy development community, please open an Issue attaching or linking the resource.
+
+### Keeping a resource online
+
+If the resource was published under a license (e.g. OSS), keeping it online (re-uploading, finding mirrors, etc) is always suggested.
+
+If there isn't, discuss with upstream authors and understand their decisions/wishes. You should open an issue to discuss about this.
 
 #### Thank you!

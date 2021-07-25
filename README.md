@@ -417,7 +417,7 @@ Complete and open source games.
 - [vectroid.gb](https://gitlab.com/BonsaiDen/vectroid.gb) - Developed with gbasm.
 - [PlantBoy](https://github.com/gb-archive/plantboy)
 - [Death Planet](https://makrill.itch.io/death-planet)
-- [Quartet](https://makrill.itch.io/quartet) Puzzle game for the Game Boy (Color) and Super Game Boy
+- [Quartet](https://makrill.itch.io/quartet) - Puzzle game for the Game Boy (Color) and Super Game Boy.
 - [Dangan](https://snorpung.itch.io/dangan-gb)
 
 ### C
@@ -429,7 +429,7 @@ Complete and open source games.
 - [Squishy the Turtle](https://github.com/cppchriscpp/SquishyTheTurtle)
 - [Quadratino](https://github.com/avivace/quadratino)
 - [Doctor How](https://github.com/elfgames/doctorhow)
-- [Super Princess' 2092 Exodus](https://github.com/Zal0/gbjam2016)
+- [Super Princess' 2092 Exodus](https://github.com/Zal0/gbjam2016) - ([ZGB engine](https://github.com/Zal0/ZGB/)).
 - [GBsnake](https://github.com/brovador/GBsnake)
 - [gb-mines](https://github.com/andreasjhkarlsson/gb-mines)
 - [oranges](http://www.atari2600land.com/gameboy/oranges.html)
@@ -452,9 +452,9 @@ Complete and open source games.
 - [Genesis](https://gbdev.gg8.se/forums/viewtopic.php?id=674) - Shmup for the Game Boy ([itch.io](https://user0x7f.itch.io/genesis)).
 - [Indestructo Tank!](https://antonylavelle.itch.io/indestructotank-gb)
 - [Super JetPak DX](https://pocketpixel.design/super-jetpak-dx-game-boy-rom.html)
-- [Powa!](https://aiguanachein.itch.io/powa) - Side scrolling platformer for the Game Boy (Color).
-- [Cavern](https://thegreatgallus.itch.io/cavern-mvm-9)
-- [Mona and the Witch's Hat Deluxe](https://ctneptune.itch.io/mona-and-the-witchs-hat-dx)
+- [Powa!](https://aiguanachein.itch.io/powa) - Side scrolling platformer for the Game Boy (Color)  ([ZGB engine](https://github.com/Zal0/ZGB/)).
+- [Cavern](https://thegreatgallus.itch.io/cavern-mvm-9) - ([ZGB engine](https://github.com/Zal0/ZGB/)).
+- [Mona and the Witch's Hat Deluxe](https://ctneptune.itch.io/mona-and-the-witchs-hat-dx) - ([ZGB engine](https://github.com/Zal0/ZGB/)).
 - [The Bouncing Ball](https://gamejolt.com/games/the-bouncing-ball-gb/86699)
 - [DMG Deals Damage](https://drludos.itch.io/dmg-deals-damage)
 

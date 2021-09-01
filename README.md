@@ -425,7 +425,7 @@ Complete and open source games.
 - [FlappyBoy](https://github.com/bitnenfer/FlappyBoy)
 - [flappybird-gameboy](https://github.com/pashutk/flappybird-gameboy)
 - [fbgb](https://github.com/gb-archive/fbgb)
-- [Novascape](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=6823)
+- [Novascape](https://web.archive.org/web/20171002042716/http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=6823)
 - [Squishy the Turtle](https://github.com/cppchriscpp/SquishyTheTurtle)
 - [Quadratino](https://github.com/avivace/quadratino)
 - [Doctor How](https://github.com/elfgames/doctorhow)

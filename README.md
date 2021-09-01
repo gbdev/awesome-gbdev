@@ -440,7 +440,7 @@ Complete and open source games.
 - [GBC Atari Boxing](https://github.com/rubfi/gbc-atari-boxing) - Atari 2600 Boxing clone for the Game Boy (Color).
 - [GB raycaster, Vision-8](https://github.com/haroldo-ok/really-old-stuff/tree/master/gameboy) - and some other projects.
 - [Tobu Tobu Girl Deluxe](https://github.com/SimonLarsen/tobutobugirl-dx) - An arcade platformer for the Game Boy (Color).
-- [Burly Bear vs. The Mean Foxes](http://sebastianmihai.com/main.php?t=18&) ([GBC](http://sebastianmihai.com/main.php?t=55&n=Gameboy-Color-development-Burly-Bear-vs-The-Mean-Foxes-GBC-version) port)
+- [Burly Bear vs. The Mean Foxes](http://sebastianmihai.com/gameboy-burly-bear.html) ([GBC](http://sebastianmihai.com/gameboy-color-burly-bear.html) port)
 - [PostBot](https://github.com/MasterIV/PostBot)
 - [Guns & Riders](https://github.com/kanfor/gunsridersgameboy)
 - [Dino's Offline Adventure](https://github.com/gingemonster/DinosOfflineAdventure) - A clone of the Google Chrome offline game.

@@ -303,7 +303,7 @@ The [Choosing tools for Game Boy development](https://gbdev.io/guides/tools.html
 - [GBT PLAYER](https://github.com/AntonioND/gbt-player) - A music player library and converter kit.
 - [mmlgb](https://github.com/SimonLarsen/mmlgb) - A MML parser and GBDK sound driver for the Nintendo Game Boy.
 - [XPMCK](https://github.com/bazzinotti/XPMCK) - An MML based music compiler with support for Game Boy & Game Boy Color.
-- [SoundSystem](https://github.com/BlitterObjectBob/GBSoundSystem) - A modernized audio driver for GameBoy Tracker (aka the Paragon 5 music player).
+- [SoundSystem](https://github.com/gb-archive/GBSoundSystem) - A modernized audio driver for GameBoy Tracker (aka the Paragon 5 music player).
 - [hUGETracker](https://github.com/SuperDisk/hUGETracker) - A music tracker based on OpenMPT, focused on ease of use, compact output, and embeddability in homebrew games.
 
 ## Programming
@@ -333,7 +333,7 @@ Fragments of code, effects, proof of concepts and generally non complete games.
 
 - [dev'rs ASM section](http://www.devrs.com/gb/asmcode.php) - A lot of working demos and sources.
 - [EmmaEwert's experiments](https://github.com/EmmaEwert/gameboy) - A collection of prototype programs, mostly just toying around. Among others, a daylight effect, transparency and a weather effect.
-- [DeadCScroll](https://github.com/BlitterObjectBob/DeadCScroll) - A detailed tutorial on how to make the screen wobble, among other "raster effects"
+- [DeadCScroll](https://github.com/gb-archive/DeadCScroll) - A detailed tutorial on how to make the screen wobble, among other "raster effects"
 
 #### Timings
 

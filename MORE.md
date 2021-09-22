@@ -17,3 +17,9 @@
 - [GB ASM Tips](https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-asm-tips.txt) - Some tips for coding in Assembly by Jeff Frohwein.
 - [GB Instructions](https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-instructions.txt) Game Boy Assembly commands.
 - [GB Technical Information](http://fms.komkon.org/GameBoy/Tech/) - Some old code resources.
+
+### Cheatsheets
+
+- http://www.devrs.com/gb/files/opcodes.html
+- http://goldencrystal.free.fr/GBZ80Opcodes.pdf
+- https://github.com/gb-archive/salvage/blob/master/misc/GBCribSheet000129.pdf - https://github.com/JustinLloyd/Gameboy-Cribsheet

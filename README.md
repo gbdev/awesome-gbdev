@@ -305,6 +305,7 @@ The [Choosing tools for Game Boy development](https://gbdev.io/guides/tools.html
 - [XPMCK](https://github.com/bazzinotti/XPMCK) - An MML based music compiler with support for Game Boy & Game Boy Color.
 - [SoundSystem](https://github.com/gb-archive/GBSoundSystem) - A modernized audio driver for GameBoy Tracker (aka the Paragon 5 music player).
 - [hUGETracker](https://github.com/SuperDisk/hUGETracker) - A music tracker based on OpenMPT, focused on ease of use, compact output, and embeddability in homebrew games.
+- [CBT-FX](https://github.com/datguywitha3ds/CBT-FX) - A GBDK-2020 sound effect driver compatible with FX-Hammer sound effects.
 
 ## Programming
 

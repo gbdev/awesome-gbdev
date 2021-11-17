@@ -524,7 +524,6 @@ Methods to improve and/or manipulate the camera's quality and behavior:
 
 - [Game Boy Printer Paper Simulation](https://github.com/mofosyne/GameboyPrinterPaperSimulation) - Generate as-if-printed images of digital printed images.
 - [Game Boy Printer Web](https://github.com/HerrZatacke/gb-printer-web) - Gallery app for to the Game Boy camera: import pictures from exports or cartridge dumps and choose color palettes.
-- [lbcam](https://lbcam.xyz/) - Emulating the Game Boy Camera with a webcam.
 
 ## Related projects
 

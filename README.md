@@ -287,6 +287,7 @@ The [Choosing tools for Game Boy development](https://gbdev.io/guides/tools.html
 - [Tilemap Helper](https://github.com/bbbbbr/gimp-tilemap-helper) - GIMP image editor plug-in for optimizing tile maps and tile sets.
 - [Tilemap Studio](https://github.com/Rangi42/tilemap-studio) - A tilemap editor for Game Boy, Color, Advance, and SNES projects. Written in C++ with FLTK. 
 - [Superfamiconv](https://github.com/Optiroc/SuperFamiconv) - Flexible and composable tile graphics converter supporting Super Nintendo, Game Boy, Game Boy Color, Game Boy Advance, Mega Drive and PC Engine formats.
+- [GameBoyGraphicsEditor](https://github.com/odrevet/GameBoyGraphicsEditor) - Sprite viewer / editor for the Game Boy Dev Kit
 
 #### Hardware and ROM utilities
 

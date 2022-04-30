@@ -499,6 +499,7 @@ Complete and open source games.
 - [Tetris](https://github.com/vinheim3/tetris-gb-disasm) - Complete Tetris disassembly.
 - [FX Hammer](https://github.com/DevEd2/FXHammer-Disasm)
 - [Harvest Moon 3](https://github.com/sanqui/hm3)
+- [Final Fantasy Adventure](https://github.com/daid/FFA-disassembly)
 
 ## Game Boy Camera
 

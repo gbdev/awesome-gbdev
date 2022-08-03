@@ -142,6 +142,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 
 ### Cartridges
 
+- [List of GB Flash Cartridges for Sale](https://bbbbbr.github.io/GameBoy-Flash-Carts/)
 - [AntonioND's docs](https://github.com/AntonioND/giibiiadvance/tree/master/docs) - Corrected schematics and infos on cartridge header data.
 - [Gekkio's Game Boy cartridge types](http://gekkio.fi/blog/2015-02-14-mooneye-gb-gameboy-cartridge-types.html) - An overview on existing cartridge types.
 - Gekkio's cartridge analysis:

@@ -248,7 +248,7 @@ The [Choosing tools for Game Boy development](https://gbdev.io/guides/tools.html
 - [Mooneye GB](https://github.com/Gekkio/mooneye-gb) - Research project and emulator in Rust.
 - [mGBA](https://github.com/mgba-emu/mgba) - Modern cross platform GBA emulator which also runs GB/GBC games.
 - [Binjgb](https://github.com/binji/binjgb) - 5Kloc emulator that passes most of the tests. *Rewind- feature. Runs in the browser using WebAssembly.
-- [Gambatte](https://github.com/sinamas/gambatte) - Cross-platform and accurate emulator. *Note: Project has gone private, [alternative mirror](https://github.com/gb-archive/gambatte).*
+- [Gambatte](https://github.com/gb-archive/gambatte) - Cross-platform and accurate emulator.
 
 - [MetroBoy](https://github.com/aappleby/MetroBoy) - A playable, circuit-level simulation of an entire Game Boy.
 - [gbe-plus](https://github.com/shonumi/gbe-plus) - A recently rewritten emulator that has a large effort in preserving the functions of obscure accessories (such as IR link, Mobile Network GB, Barcode Boy, GB Printer, local and online GB Serial Link Cable, ... )

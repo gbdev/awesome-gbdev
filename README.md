@@ -274,6 +274,8 @@ The [Choosing tools for Game Boy development](https://gbdev.io/guides/tools.html
 - [romusage](https://github.com/bbbbbr/romusage) - Command line tool for estimating usage (free space) of Game Boy ROMs from a .map, .noi or ihx file. Works with GBDK-2020 and RGBDS.
 - [awake](https://github.com/devdri/awake) - Game Boy decompiler.
 - [Game Boy Text Tools](https://github.com/raphaklaus/gameboy-text-tools) - Set of tools for text manipulation and translation of Game Boy ROMs written in Node.js.
+- [evscript](https://github.com/eievui5/evscript) - A scripting language for the Game Boy, useful for enemy AI, dialogue, animations, and coroutines.
+- [evunit](https://github.com/eievui5/evunit) - A unit testing program for assembly code.
 
 #### Graphics utilities
 

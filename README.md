@@ -106,7 +106,8 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
 - [Bootstrap ROM](https://tcrf.net/Game_Boy_Color_Bootstrap_ROM)
 - [Unused Palettes](https://tcrf.net/Notes:Game_Boy_Color_Bootstrap_ROM)
 - [Colorization palettes in the BIOS](https://forums.nesdev.com/viewtopic.php?p=114388&sid=c3d4ce08cfd9d9c834958d4f148750c3#p114388)
-- [ROM Disassembly](https://gist.github.com/drhelius/6063265)
+- [Boot ROM Disassembly](https://gist.github.com/drhelius/6063265)
+- [GBC Hicolour notes](https://romhack.github.io/doc/gbcHiColour/) - A technical note regarding Hicolour mode trick for Game Boy Color and its realization in the GBC game “Crystalis”.
 
 ### Hardware
 

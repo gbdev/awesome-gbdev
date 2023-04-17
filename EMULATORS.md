@@ -54,3 +54,4 @@
 | [Emux](https://github.com/Washi1337/Emux) | C# | |
 | [Y2Dmg](https://github.com/Y2JB/DMG) | C# | Fully featured DMG emulator written in C#. Passes Blargg's test roms and supports most games. Core is cross platform (.net core), renderer is Windows only.|
 | [Gandalf](https://github.com/stan-roelofs/Gandalf) | C++ | Cross-platform GB, GBC emulator with an SDL/ImGui frontend that provides several debugging features. |
+| [Boytacean](https://github.com/joamag/boytacean) | Rust | A Game Boy emulator that is written in Rust, with a beautiful Web interface that makes use of WASM. |

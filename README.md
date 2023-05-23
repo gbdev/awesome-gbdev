@@ -602,4 +602,4 @@ Thanks to [every](https://github.com/avivace/awesome-gbdev/graphs/contributors) 
 
 ### Sponsors
 
-Special thanks to our friends at [DigitalOcean](https://www.digitalocean.com/), sponsoring the open source activites of our Game Boy Development community ([announcement](https://twitter.com/avivace4/status/992188011990409216)).
+Special thanks to our friends at [DigitalOcean](https://www.digitalocean.com/) and [Incube8 Games](https://incube8games.com/), sponsoring the open source activites of our Game Boy Development community.

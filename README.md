@@ -277,6 +277,7 @@ The [Choosing tools for Game Boy development](https://gbdev.io/guides/tools.html
 - [Game Boy Text Tools](https://github.com/raphaklaus/gameboy-text-tools) - Set of tools for text manipulation and translation of Game Boy ROMs written in Node.js.
 - [evscript](https://github.com/eievui5/evscript) - A scripting language for the Game Boy, useful for enemy AI, dialogue, animations, and coroutines.
 - [evunit](https://github.com/eievui5/evunit) - A unit testing program for assembly code.
+- [opcode_count](https://github.com/rondnelson99/opcode_count) - Generates statistics on which CPU instructions are run the most often using Python and Emulicious
 
 #### Graphics utilities
 

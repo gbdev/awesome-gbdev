@@ -233,7 +233,7 @@ The [Choosing tools for Game Boy development](https://gbdev.io/guides/tools.html
 
 #### Experimental/Proof of Concepts
 
-- [RGBDS-Live](https://daid.github.io/rgbds-live/) - In-browser coding environment to try out RGBDS.
+- [RGBDS-Live](https://gbdev.io/rgbds-live) - In-browser coding environment to try out RGBDS.
 - [Wiz](https://github.com/wiz-lang/wiz) - A high-level assembly language for writing homebrew on retro console platforms (Game Boy, NES, Atari 2600, and more).
 - [gbforth](https://github.com/ams-hackers/gbforth) - A Forth-based Game Boy development kit.
 - [gbasm-rs](https://gitlab.com/BonsaiDen/gbasm-rs) - An opinionated Rust based compiler for Game Boy z80 assembly code.

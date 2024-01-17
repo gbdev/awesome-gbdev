@@ -11,7 +11,7 @@
 | [mGBA](https://github.com/mgba-emu/mgba) | C | A modern cross platform GBA emulator which also runs GB/GBC games. |
 | [gnuboy](https://github.com/rofl0r/gnuboy) | C | ANSI C |
 | [PlutoBoy](https://github.com/RossMeikleham/PlutoBoy) | C | Cross platform (Windows, OSX, Linux/Unix, Android, iOS, Web Browsers, and Sony PSP) emulator |
-| [SuperGameHerm](https://code.foxkit.us/emulators/supergameherm) | C 11 | Cross platform emulator |
+| [SuperGameHerm](https://github.com/foxkit-us/supergameherm) | C 11 | Cross platform emulator |
 | [Castor](https://github.com/kosinw/Castor) | C#, Monogame |
 | [GameYob](https://github.com/Drenn1/GameYob) | C++, C# | GB, GBC emulator for Nintendo DS/3DS |
 | [jgilchrist](https://github.com/jgilchrist/emulator) | C++ |

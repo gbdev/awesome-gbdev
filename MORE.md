@@ -12,6 +12,11 @@
 
 - [GBZ80 to items](http://issotm.github.io/gbz80toitems3/) - An online converter, translates Game Boy assembly into Pokémon R/B/Y items ([Source](https://github.com/ISSOtm/gbz80-to-items)).
 
+### Software Development
+- [Asm83](https://github.com/inufuto/asm8) - An Assembler, linker and librarian for retro CPUs including the sm83 (Game Boy)
+- [Cate83](https://github.com/inufuto/Cate) - A C-like programming language compiler for sm83 cpus (Game Boy)
+  - There are [several example game programs](https://github.com/inufuto/Cate_examples/tree/main/megaduck) for the MegaDuck (a Game Boy clone)
+
 ### Documentation
 
 - [GB ASM Tips](https://raw.githubusercontent.com/gb-archive/salvage/master/txt-files/gb-asm-tips.txt) - Some tips for coding in Assembly by Jeff Frohwein.

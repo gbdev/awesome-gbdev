@@ -345,7 +345,7 @@ Fragments of code, effects, proof of concepts and generally non complete games.
 #### Timings
 
 - [Nitty Gritty Gameboy Cycle Timing](http://blog.kevtris.org/blogfiles/Nitty%20Gritty%20Gameboy%20VRAM%20Timing.txt)
-- [Mode3 Sprite Timing](https://www.reddit.com/r/EmuDev/comments/59pawp/gb_mode3_sprite_timing/)
+- [Mode3 Sprite Timing](https://old.reddit.com/r/EmuDev/comments/59pawp/gb_mode3_sprite_timing/)
 - [GameBoy Color DMA-Transfers v0.0.1](http://gameboy.mongenel.com/dmg/gbc_dma_transfers.txt)
 - [STAT interrupt timings](http://gameboy.mongenel.com/dmg/istat98.txt)
 - [Video Timing](https://github.com/jdeblese/gbcpu/wiki/Video-Timing)

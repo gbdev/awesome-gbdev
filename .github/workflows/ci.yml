@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v1
+      uses: actions/checkout@v4
 
     - name: Setup Node.js
       uses: actions/setup-node@v1
@@ -28,15 +28,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v1
-
-    - name: Download brok package
-      run: wget https://github.com/smallhadroncollider/brok/releases/download/1.1.0/brok-1.1.0_x86-64-linux.deb
+      uses: actions/checkout@v4
 
     - name: Install brok (and dependencies)
       run: |
-        sudo apt-get install libtinfo5
+        wget https://github.com/smallhadroncollider/brok/releases/download/1.1.0/brok-1.1.0_x86-64-linux.deb
         sudo dpkg -i brok-1.1.0_x86-64-linux.deb
 
-    - name: Run awesome-lint
+    - name: Check for dead links
       run: brok --only-failures *.md

@@ -5,6 +5,7 @@ on:
   pull_request:
   schedule:
     - cron: '18 16 1/7 * *'
+  workflow_dispatch:
 
 jobs:
   lint-markdown:

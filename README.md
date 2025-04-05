@@ -386,7 +386,7 @@ Fragments of code, effects, proof of concepts and generally non complete games.
 - [GBDK Configuring and Programming Tutorial](https://videlais.com/2016/07/03/programming-game-boy-games-using-gbdk-part-1-configuring-programming-and-compiling/) - Configuring GBDK, Using Tiles, Colliding Sprites, GBTD, GBMB, Memory Management and ROM Banking.
 - [Simplified GBDK examples](https://github.com/mrombout/gbdk_playground)
 - [GBDK Programming Video Tutorials](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJo) - A series of video tutorials introducing beginners to programming with GBDK.
-- [Larold's Jubilant Junkyard](https://laroldsjubilantjunkyard.com/tutorials/) - A collection of detailed GBDK-2020 based tutorials.
+- [Larold's Retro Gameyard](https://laroldsretrogameyard.com/category/tutorials/gb/) - A collection of detailed GBDK-2020 based tutorials.
 
 ## Homebrews
 
@@ -537,6 +537,7 @@ Methods to improve and/or manipulate the camera's quality and behavior:
 - [GB Studio](https://www.gbstudio.dev/) - Drag and drop game creator with simple, no knowledge required, visual scripting.
   - [Resources to get started](https://gbstudiocentral.com/resources/)
   - [Dedicated Discord](https://discord.gg/knRryZWGcm)
+  - [Lets Build a Platformer Game!](https://gumpyfunction.itch.io/lets-build-a-platformer) - A course designed to teach anyone how to create a platformer game using GB Studio 4+.
 - [ArduinoBoy](https://github.com/trash80/Arduinoboy) - Serial communication (MIDI) from an Arduino to the Game Boy for music applications such as LittleSoundDJ, Nanoloop, and mGB.
 - [papiGB](https://github.com/diegovalverde/papiGB) - Game Boy Classic fully functional FPGA implementation from scratch.
 - [fpgaboy](https://github.com/trun/fpgaboy) - Implementation Nintendo's Game Boy console on an FPGA.

@@ -506,6 +506,7 @@ Complete and open source games.
 - [FX Hammer](https://github.com/DevEd2/FXHammer-Disasm)
 - [Harvest Moon 3](https://github.com/sanqui/hm3)
 - [Final Fantasy Adventure](https://github.com/daid/FFA-disassembly)
+- [The Jungle Book](https://github.com/not-chciken/jungle-book-gb-disassembly)
 
 ## Game Boy Camera
 

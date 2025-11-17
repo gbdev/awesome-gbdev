@@ -572,6 +572,7 @@ Methods to improve and/or manipulate the camera's quality and behavior:
 - [GBCartRead](https://github.com/insidegadgets/GBCartRead) - Read ROM, Read RAM or Write RAM from/to a GameBoy Cartridge.
 - [GBxCart-RW](https://github.com/insidegadgets/GBxCart-RW) - A device for reading game ROMs, save games and restoring saves for GB, GBC and GBA carts from your PC via USB.
 - [Dumping the Super Game Boy Boot ROM](http://www.its.caltech.edu/~costis/sgb_hack/)
+- [sm83-render](https://github.com/msinger/sm83-render) - A 3D model of the Game Boy CPU layout in Blender.
 
 ### Directories
 

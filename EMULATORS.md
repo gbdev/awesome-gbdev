@@ -34,7 +34,7 @@
 | [weplay](https://github.com/rauchg/weplay) | JavaScript | Collaborative Game Boy emulation |
 | [GBRE](https://github.com/ericgramgb/GBRE) | JavaScript | GB Runtime Environment for iOS (iOS Safari and Chrome) |
 | [gameboy-Online](https://github.com/taisel/gameboy-Online) | JavaScript | Uses HTML5 canvas and JavaScript audio APIs |
-| [node-gameboy](https://github.com/nakardo/node-gameboy) | Node.js |
+| [node-gameboy](https://github.com/gb-archive/node-gameboy) | Node.js |
 | [php-terminal-Game Boy-emulator](https://github.com/gabrielrcouto/php-terminal-gameboy-emulator) | PHP | |
 | [PyBoy](https://github.com/Baekalfen/PyBoy) | Python | Mac, Linux and Windows |
 | [barnacleboy](https://github.com/rep-nop/barnacleboy) | Rust | |

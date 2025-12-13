@@ -573,6 +573,7 @@ Methods to improve and/or manipulate the camera's quality and behavior:
 - [GBxCart-RW](https://github.com/insidegadgets/GBxCart-RW) - A device for reading game ROMs, save games and restoring saves for GB, GBC and GBA carts from your PC via USB.
 - [Dumping the Super Game Boy Boot ROM](http://www.its.caltech.edu/~costis/sgb_hack/)
 - [sm83-render](https://github.com/msinger/sm83-render) - A 3D model of the Game Boy CPU layout in Blender.
+- [visual-sm83](https://iceboy.a-singer.de/visual6502/expert-sm83.html) - A visual transistor level simulation of the Game Boy CPU core in JavaScript, running in a browser.
 
 ### Directories
 

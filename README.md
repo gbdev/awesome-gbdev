@@ -505,7 +505,7 @@ Complete and open source games.
 - [Tetris](https://github.com/vinheim3/tetris-gb-disasm) - Complete Tetris disassembly.
 - [FX Hammer](https://github.com/DevEd2/FXHammer-Disasm)
 - [Harvest Moon 3](https://github.com/sanqui/hm3)
-- [Final Fantasy Adventure](https://github.com/daid/FFA-disassembly)
+- [Final Fantasy Adventure](https://daid.github.io/FFA-Disassembly/)
 - [The Jungle Book](https://github.com/not-chciken/jungle-book-gb-disassembly)
 
 ## Game Boy Camera
@@ -606,3 +606,4 @@ Thanks to [every](https://github.com/avivace/awesome-gbdev/graphs/contributors) 
 ### Sponsors
 
 Special thanks to our friends at [DigitalOcean](https://www.digitalocean.com/) and [Incube8 Games](https://incube8games.com/), sponsoring the open source activites of our Game Boy Development community.
+

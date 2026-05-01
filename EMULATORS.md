@@ -56,3 +56,4 @@
 | [Gandalf](https://github.com/stan-roelofs/Gandalf) | C++ | Cross-platform GB, GBC emulator with an SDL/ImGui frontend that provides several debugging features. |
 | [Boytacean](https://github.com/joamag/boytacean) | Rust | A Game Boy emulator that is written in Rust, with a beautiful Web interface that makes use of WASM. |
 | [Gameboy](https://github.com/raphamorim/gameboy) | Rust | Game Boy emulator written in Rust that runs as a desktop application or in the browser through WebAssembly |
+| [MagenBoy](https://github.com/alloncm/MagenBoy) | Rust | Cross-platform GB & GBC emulator with support for bare-metal RaspberryPi with custom hardware |

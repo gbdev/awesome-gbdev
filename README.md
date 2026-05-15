@@ -464,6 +464,7 @@ Complete and open source games.
 - [Mona and the Witch's Hat Deluxe](https://ctneptune.itch.io/mona-and-the-witchs-hat-dx) - ([ZGB engine](https://github.com/Zal0/ZGB/)).
 - [The Bouncing Ball](https://gamejolt.com/games/the-bouncing-ball-gb/86699)
 - [DMG Deals Damage](https://drludos.itch.io/dmg-deals-damage)
+- [totp-gb](https://github.com/dmang-dev/totp-gb) - TOTP (RFC 6238) two-factor authenticator with SGB border, GBC palettes and an MBC3 RTC clock.
 
 ### GB Studio
 

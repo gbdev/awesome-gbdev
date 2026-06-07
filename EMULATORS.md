@@ -41,6 +41,7 @@
 | [gb-rs](https://github.com/simias/gb-rs) | Rust | |
 | [scimitar](https://github.com/tompko/scimitar) | Rust | |
 | [rustboy](https://github.com/VelocityRa/rustboy) | Rust | A basic DMG emulator written in Rust, using the Piston engine for window creation and graphics |
+| [Revenant](https://github.com/zaiqltd/revenant) | Rust | Gate-accurate GB/GBC emulator compiled to WebAssembly. Live in-browser demo, CPU/PPU debugger, instruction rewind. dmg-acid2 pixel-perfect. |
 | [Gambattye](https://github.com/Ben10do/Gambattye) | Swift | macOS, powered by a fork of Gambatte |
 | [wasmBoy](https://github.com/torch2424/wasmBoy) | Web Assembly (AssemblyScript) | GB/GBC *Library* written for Web Assembly using AssemblyScript. Shell/Debugger in Preact.|
 | [vaporBoy](https://github.com/torch2424/vaporBoy) | Javascript | PWA. Powered by [wasmBoy](https://github.com/torch2424/wasmBoy) |

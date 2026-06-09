@@ -6,7 +6,7 @@ Search previous suggestions and open issues before making a new one, as yours ma
 
 Here's how you can contribute:
 
-- Look at open [Issues](https://github.com/avivace/awesome-gbdev/issues) and provide help or feedback 
+- Look at open [Issues](https://github.com/avivace/awesome-gbdev/issues) and provide help or feedback
 - [Add a resource](#adding-a-resource)
 - [Correct and improve existing entries](#correcting-and-improving-resources)
 - [Fix broken links and unavailable resources](#removing-unavailable-resources)
@@ -20,14 +20,16 @@ If you are unsure about something or need help, we have a friendly Discord [chat
 
 For a resource to be added to the list, it must...
 
-- Be in english;
+- Be in English;
 - Be in a minimal working state;
 - Have a clear purpose (implementation reference is okay, too) and/or provide something interesting;
-- Provide a minimal documentation briefly describing what is the project and how to make use of it.
+- Provide a minimal documentation briefly describing what is the project and how to make use of it;
+- Have reached a state where you would personally recommend it to the Game Boy community in general;
+- Be *awesome*.
 
-These criteria are discussed [here](https://github.com/gbdev/awesome-gbdev/issues/96).
+That last criterion is the most subjective one, but it's what distinguishes this list from being a raw collection of everything related to Game Boy development in general. Don't take the name too seriously -- not being on the list doesn't mean your project *isn't* awesome, and vice-versa, but we would rather leave things out than include too much.
 
-If the resource is in another language, still work in progress, abandoned or you don't think reaches the described standard BUT it's still related to Game Boy development/hacking you can add it to the **MORE.md** file.
+Historically there has been some tension between this list being a curated subset of "awesome" resources, and being a comprehensive set of all reasonable resources. For the latter, cases which don't *quite* make it to the main list, we have [**MORE.md**](MORE.md). If the resource is in a non-English language, still a work in progress, abandoned, or doesn't reach the described standard *but* is still related to Game Boy development/hacking, then you can add it to the **MORE.md** file.
 
 ### Pull Request
 

@@ -29,7 +29,7 @@ For a resource to be added to the list, it must...
 
 That last criterion is the most subjective one, but it's what distinguishes this list from being a raw collection of everything related to Game Boy development in general. Don't take the name too seriously -- not being on the list doesn't mean your project *isn't* awesome, and vice-versa, but we would rather leave things out than include too much.
 
-Historically there has been some tension between this list being a curated subset of "awesome" resources, and being a comprehensive set of all reasonable resources. For the latter, cases which don't *quite* make it to the main list, we have [**MORE.md**](MORE.md). If the resource is in a non-English language, still a work in progress, abandoned, or doesn't reach the described standard *but* is still related to Game Boy development/hacking, then you can add it to the **MORE.md** file.
+For resources which don't *quite* make it to the main list, we have [**MORE.md**](MORE.md). If the resource is in a non-English language, still a work in progress, abandoned, or doesn't reach the described standard *but* is still related to Game Boy development/hacking, then you can add it to the **MORE.md** file.
 
 ### Pull Request
 

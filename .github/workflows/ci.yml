@@ -37,4 +37,6 @@ jobs:
         sudo dpkg -i brok-1.1.0_x86-64-linux.deb
 
     - name: Check for dead links
-      run: brok --only-failures *.md
+      # tcrf.net uses DDoS protection that breaks link checkers
+      # <https://blog.xkeeper.net/uncategorized/tcrf-has-been-getting-ddosed/>
+      run: brok --only-failures --ignore "https://tcrf.net" *.md

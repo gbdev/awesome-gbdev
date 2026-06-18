@@ -482,6 +482,7 @@ Complete and open source games.
 - [matrix-rain-gb](https://github.com/wtjones/matrix-rain-gb) - A Matrix digital rain effect in assembler.
 - [GBVideoPlayer](https://github.com/LIJI32/GBVideoPlayer) - A technical demo demonstrating how the Game Boy LCD controller can be hacked to make a Game Boy Color play a full motion video in color, together with music.
 - [GBVideoPlayer2](https://github.com/LIJI32/GBVideoPlayer2) - The second iteration of the above demo, which increases the resolution, adds *stereo- PCM audio, and introduces video compression*.
+- [hash-bench-gb](https://github.com/dmang-dev/hash-bench-gb) - Hash-algorithm benchmark cartridge that times 18 cryptographic and non-cryptographic hashes (CRC, MD5, SHA-1, etc.) on the SM83 and displays ms/iter and KB/s on screen.
 
 ## Reverse Engineering
 

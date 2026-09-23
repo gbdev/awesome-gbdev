@@ -35,7 +35,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
   - [ASM](#asm)
     - [Sources](#sources)
     - [Timings](#timings)
-    - [Boilerplates](#boilerplates)
+    - [Boilerplates](#boilerplates-and-libraries)
     - [Syntax highlighting packages](#syntax-highlighting-packages)
   - [C](#c)
 - [Homebrews](#homebrews)

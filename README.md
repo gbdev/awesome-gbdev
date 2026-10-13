@@ -38,6 +38,7 @@ You can find a (way cooler) web version of this list [here](https://gbdev.github
     - [Boilerplates](#boilerplates-and-libraries)
     - [Syntax highlighting packages](#syntax-highlighting-packages)
   - [C](#c)
+  - [Blog posts](#blog-posts)
 - [Homebrews](#homebrews)
   - [ASM](#asm-1)
   - [C](#c-1)
@@ -388,6 +389,10 @@ Fragments of code, effects, proof of concepts and generally non complete games.
 - [Simplified GBDK examples](https://github.com/mrombout/gbdk_playground)
 - [GBDK Programming Video Tutorials](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJo) - A series of video tutorials introducing beginners to programming with GBDK.
 - [Larold's Retro Gameyard](https://laroldsretrogameyard.com/category/tutorials/gb/) - A collection of detailed GBDK-2020 based tutorials.
+
+### Blog posts
+
+- [DOTs for GBC](https://www.gmiller.net/2019/04/dots-for-gameboy-color/) - Making of a Game Boy Color port of the Dots game in C with GBDK, from code to a physical cartridge with box art. Includes the source code and a one-hour development commentary video.
 
 ## Homebrews
 

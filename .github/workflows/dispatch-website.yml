@@ -1,0 +1,21 @@
+name: Update gbdev.io
+
+# Ask gbdev.github.io to rebuild gbdev.io/resources, which is generated from this README
+on:
+  push:
+    branches: [ master ]
+    paths: [ README.md ]
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Send repository_dispatch to gbdev.github.io
+      uses: peter-evans/repository-dispatch@v4
+      with:
+        token: ${{ secrets.GBDEV_IO_DISPATCH_TOKEN }}
+        repository: gbdev/gbdev.github.io
+        event-type: awesome-gbdev-updated
+        client-payload: '{"sha": "${{ github.sha }}"}'

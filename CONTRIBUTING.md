@@ -58,6 +58,12 @@ Everything between them ends up on the website; everything outside them (introdu
 
 Please leave these markers where they are. When adding or editing resources you never need to touch them: just make sure your changes stay between them. Move them only when you're adding, removing or reordering top-level sections in a way that changes what should appear on the website, and mention it in your PR.
 
+### Website updates
+
+Whenever README.md changes on `master`, the [Update gbdev.io](.github/workflows/dispatch-website.yml) workflow sends an `awesome-gbdev-updated` [`repository_dispatch`](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#repository_dispatch) event to [gbdev.github.io](https://github.com/gbdev/gbdev.github.io), which rebuilds and deploys the website with the new list. It can also be run manually from the Actions tab ("Run workflow").
+
+The event is sent with the `GBDEV_IO_DISPATCH_TOKEN` repository secret: a fine-grained personal access token with access to `gbdev/gbdev.github.io` only (Contents: read and write). If it expires or is revoked, the workflow fails and the website stops picking up list changes: generate a new token and update the secret. See the [gbdev.github.io CONTRIBUTING.md](https://github.com/gbdev/gbdev.github.io/blob/dev/CONTRIBUTING.md) for the receiving side.
+
 ## Correcting and improving resources
 
 Most of the linked resources are hosted on Git repositories. You are encouraged to report errors in the corresponding upstream repository or contact the authors. If the correction doesn't get merged, fork it and mantain an updated/correct version and open a PR replacing the link on the list with your version.

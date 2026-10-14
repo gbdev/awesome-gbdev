@@ -47,6 +47,17 @@ If you are not confident in forking the repository, making the change and sendin
 
 Before the PR gets approved and merged, we may require a number of reviews from our contributors.
 
+### Website sync markers
+
+The list in README.md is also published on [gbdev.io/resources](https://gbdev.io/resources). Two HTML comments, invisible when the README is rendered, mark the part of the file that gets copied to the website ([#203](https://github.com/gbdev/awesome-gbdev/issues/203)):
+
+- `<!-- gbdev.io:begin body -->`, right before the Documentation section;
+- `<!-- gbdev.io:end body -->`, right after the last entry of the Related projects section.
+
+Everything between them ends up on the website; everything outside them (introduction, table of contents, community, about) stays on GitHub only.
+
+Please leave these markers where they are. When adding or editing resources you never need to touch them: just make sure your changes stay between them. Move them only when you're adding, removing or reordering top-level sections in a way that changes what should appear on the website, and mention it in your PR.
+
 ## Correcting and improving resources
 
 Most of the linked resources are hosted on Git repositories. You are encouraged to report errors in the corresponding upstream repository or contact the authors. If the correction doesn't get merged, fork it and mantain an updated/correct version and open a PR replacing the link on the list with your version.

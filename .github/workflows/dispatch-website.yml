@@ -9,6 +9,7 @@ on:
 
 jobs:
   dispatch:
+    name: Trigger website rebuild
     runs-on: ubuntu-latest
 
     steps:

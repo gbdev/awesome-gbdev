@@ -9,6 +9,7 @@ on:
 
 jobs:
   lint-markdown:
+    name: Lint Markdown
     runs-on: ubuntu-latest
 
     steps:
@@ -32,13 +33,14 @@ jobs:
       run: yarn lint
 
   check-deadlinks:
+    name: Check for dead links
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Check for dead links
+    - name: Run lychee
       uses: lycheeverse/lychee-action@v2.9.0
       with:
         # tcrf.net uses DDoS protection that breaks link checkers

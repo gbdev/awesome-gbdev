@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "node lint.js"
+  },
+  "devDependencies": {
+    "awesome-lint": "2.3.0",
+    "remark-gfm": "^4.0.1",
+    "remark-lint": "^10.0.1"
+  }
+}

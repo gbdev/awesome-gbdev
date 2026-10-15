@@ -38,12 +38,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Install brok (and dependencies)
-      run: |
-        wget https://github.com/smallhadroncollider/brok/releases/download/1.1.0/brok-1.1.0_x86-64-linux.deb
-        sudo dpkg -i brok-1.1.0_x86-64-linux.deb
-
     - name: Check for dead links
-      # tcrf.net uses DDoS protection that breaks link checkers
-      # <https://blog.xkeeper.net/uncategorized/tcrf-has-been-getting-ddosed/>
-      run: brok --only-failures --ignore "https://tcrf.net" *.md
+      uses: lycheeverse/lychee-action@v2.9.0
+      with:
+        # tcrf.net uses DDoS protection that breaks link checkers
+        # <https://blog.xkeeper.net/uncategorized/tcrf-has-been-getting-ddosed/>
+        args: >-
+          --no-progress
+          --max-retries 3
+          --exclude '^https?://(www\.)?tcrf\.net'
+          --exclude '^https?://([^/]+\.)?itch\.io'
+          README.md

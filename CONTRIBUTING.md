@@ -47,6 +47,29 @@ If you are not confident in forking the repository, making the change and sendin
 
 Before the PR gets approved and merged, we may require a number of reviews from our contributors.
 
+### Checking your changes locally
+
+CI runs two checks, here's how you can try them locally.
+
+The list is linted with [awesome-lint](https://github.com/sindresorhus/awesome-lint), using only the rules listed in [`lint/lint.js`](lint/lint.js). With Node.js 20 or later and [Yarn](https://classic.yarnpkg.com/) installed, run from the `lint` folder:
+
+```bash
+cd lint
+yarn install
+yarn lint
+```
+
+Links are checked with [lychee](https://github.com/lycheeverse/lychee): install it following its [instructions](https://lychee.cli.rs/guides/getting-started/) (prebuilt binaries, Homebrew, Cargo, Docker and more) and run, from the root of the repository:
+
+```bash
+lychee --no-progress --max-retries 3 \
+  --exclude '^https?://(www\.)?tcrf\.net' \
+  --exclude '^https?://([^/]+\.)?itch\.io' \
+  README.md
+```
+
+This reports the links in README.md that don't respond. tcrf.net and itch.io links are skipped, as their protection against automated traffic blocks link checkers. A link can fail because a site is temporarily down: try it in your browser before replacing it or opening an issue about it, and see [Removing unavailable resources](#removing-unavailable-resources).
+
 ### Website sync markers
 
 The list in README.md is also published on [gbdev.io/resources](https://gbdev.io/resources). Two HTML comments, invisible when the README is rendered, mark the part of the file that gets copied to the website ([#203](https://github.com/gbdev/awesome-gbdev/issues/203)):
@@ -60,7 +83,7 @@ Please leave these markers where they are. When adding or editing resources you 
 
 ### Website updates
 
-Whenever README.md changes on `master`, the [Update gbdev.io](.github/workflows/dispatch-website.yml) workflow sends an `awesome-gbdev-updated` [`repository_dispatch`](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#repository_dispatch) event to [gbdev.github.io](https://github.com/gbdev/gbdev.github.io), which rebuilds and deploys the website with the new list. It can also be run manually from the Actions tab ("Run workflow").
+Whenever README.md changes on `master`, the [Update gbdev.io](.github/workflows/dispatch-website.yml) workflow sends an `awesome-gbdev-updated` [`repository_dispatch`](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#repository_dispatch) event to [gbdev.github.io](https://github.com/gbdev/gbdev.github.io), which rebuilds and deploys the website with the new content of the list. It can also be run manually from the Actions tab ("Run workflow").
 
 The event is sent with the `GBDEV_IO_DISPATCH_TOKEN` repository secret: a fine-grained personal access token with access to `gbdev/gbdev.github.io` only (Contents: read and write). If it expires or is revoked, the workflow fails and the website stops picking up list changes: generate a new token and update the secret. See the [gbdev.github.io CONTRIBUTING.md](https://github.com/gbdev/gbdev.github.io/blob/dev/CONTRIBUTING.md) for the receiving side.
 

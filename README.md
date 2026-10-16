@@ -233,7 +233,7 @@ The [Choosing tools for Game Boy development](https://gbdev.io/guides/tools.html
   - [Examples](https://github.com/mrombout/gbdk_playground)
   - [Documentation, links and tools](https://gbdk-2020.github.io/gbdk-2020/docs/api/docs_links_and_tools.html)
 - [Turbo Rascal Syntax Error](https://lemonspawn.com/turbo-rascal-syntax-error-expected-but-begin/) - Complete suite (IDE, compiler, programming language, resource editor) intended for developing games/demos for 8 / 16-bit line of computers, including the Game Boy and Game Boy Color.
-- [LLVM-Z80](https://github.com/llvm-z80/llvm-z80) - A fork of LLVM with a backend for the Game Boy CPU (SM83), supporting the latest C standards and LLVM’s excellent optimizations.
+- [LLVM-Z80](https://github.com/llvm-z80/llvm-z80) † - A fork of LLVM with a backend for the Game Boy CPU (SM83), supporting the latest C standards and LLVM’s excellent optimizations.
 
 #### Experimental/Proof of Concepts
 

@@ -15,12 +15,6 @@
 - [Asm83](https://github.com/inufuto/asm8) - An Assembler, linker and librarian for retro CPUs including the sm83 (Game Boy)
 - [Cate83](https://github.com/inufuto/Cate) - A C-like programming language compiler for sm83 cpus (Game Boy)
   - There are [several example game programs](https://github.com/inufuto/Cate_examples/tree/main/megaduck) for the MegaDuck (a Game Boy clone)
- 
-#### Unmaintained LLVM forks
-- [llvm-gbz80](https://github.com/Bevinsky/llvm-gbz80) / [clang-gbz80](https://github.com/Bevinsky/clang-gbz80)
-- [euclio/llvm-gbz80](https://github.com/euclio/llvm-gbz80)
-- [gb-llvm](https://github.com/DaveDuck321/gb-llvm)
-- [llvm-dmg](https://github.com/arkamnite/llvm-dmg)
 
 ### Documentation
 

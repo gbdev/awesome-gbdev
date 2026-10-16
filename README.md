@@ -365,6 +365,9 @@ Fragments of code, effects, proof of concepts and generally non complete games.
 - [gb-boilerplate](https://codeberg.org/ISSOtm/gb-boilerplate) - A template for starting Game Boy projects, providing a Makefile for infrastructure.
 - [gb-starter-kit](https://codeberg.org/ISSOtm/gb-starter-kit) - An expansion on the above, including base library code as well to get started faster.
 - [gb-template](https://github.com/gb-archive/gb-template) - A template with basic functions such as joypad input, DMA transfers, and map/tile data loading.
+- [rgbds-structs](https://codeberg.org/ISSOtm/rgbds-structs) - A macro pack that provides struct-like functionality.
+- [rgbds-arrays](https://github.com/Rangi42/rgbds-arrays) - A macro pack that provides array-like functionality.
+- [regex.inc](https://github.com/evie-calico/regex.inc) - A regular expression parser in assembly macros.
 
 #### Syntax highlighting packages
 

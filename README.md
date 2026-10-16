@@ -494,6 +494,7 @@ Complete and open source games.
 - [matrix-rain-gb](https://github.com/wtjones/matrix-rain-gb) - A Matrix digital rain effect in assembler.
 - [GBVideoPlayer](https://github.com/LIJI32/GBVideoPlayer) - A technical demo demonstrating how the Game Boy LCD controller can be hacked to make a Game Boy Color play a full motion video in color, together with music.
 - [GBVideoPlayer2](https://github.com/LIJI32/GBVideoPlayer2) - The second iteration of the above demo, which increases the resolution, adds *stereo* PCM audio, and introduces *video compression*.
+- [Game Boy Demospotting](https://privat.bahnhof.se/wb800787/gb/) - An archive of Game Boy software demos made from 1996 to 2020.
 
 ## Reverse Engineering
 

@@ -26,6 +26,7 @@
 | [hhugboy](https://github.com/tzlion/hhugboy) | C++ | Windows, based on GEST v1.1.1 by TM, with added support for unlicensed mappers, Unicode filenames, screenshots and some other stuff |
 | [DDMG](https://github.com/mstojcevich/ddmg) | D |
 | [FunGBC](https://github.com/andreasjhkarlsson/fungbc) | F# | |
+| [Fame Boy Color](https://github.com/Thorium/fame-boy-color) | F# | GB/GBC emulator with link cable multiplayer. Continues [Fame Boy](https://github.com/nickkossolapov/fame-boy) by Nick Kossolapov |
 | [gameboyGO](https://github.com/gonccalo/gameboyGO) | Go |
 | [gomeboycolor](https://github.com/djhworld/gomeboycolor) | Go | Cross platform [documented](http://djhworld.github.io/gomeboycolor/) emulator. [WASM](https://github.com/djhworld/gomeboycolor-wasm) port. |
 | [AndroidGameBoyEmulator](https://github.com/pedrovgs/AndroidGameBoyEmulator) | Java | |

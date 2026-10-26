@@ -43,6 +43,7 @@ jobs:
     - name: Run lychee
       uses: lycheeverse/lychee-action@v2.9.0
       with:
+        fail: false
         # tcrf.net uses DDoS protection that breaks link checkers
         # <https://blog.xkeeper.net/uncategorized/tcrf-has-been-getting-ddosed/>
         args: >-

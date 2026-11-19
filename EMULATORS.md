@@ -61,3 +61,4 @@
 | [hazelnut-gb-emu](https://github.com/atifcodesalot/hazelnut-gb-emu) | Python | Cross platform, inaccurate and slow performance, but improving and awesome emulator done via pygame! Runs most commercial games. |
 | [oxGBC](https://github.com/mxmgorin/oxgbc) | Rust | Cross-platform, accuracy-focused GB & GBC emulator (passes Blargg, Mooneye, SameSuite & acid2 tests) with save states, rewind, shaders, and a tile viewer |
 | [esp-gbx](https://github.com/zhing2006/esp-gbx) ‡ | C++ | GB, GBC and GBA emulator for ESP32-P4, ESP32-S31 and ESP32-C5 boards, with an interpreter and a RISC-V JIT written from scratch |
+| [Press Any](https://github.com/thisjustin816/press-any) ‡ | Swift | iPhone emulator built on SameBoy for making and testing games. Keeps every ROM revision and patch of a game together and carries saves across them ([App Store](https://apps.apple.com/us/app/press-any-retro-game-emulator/id6819330326)). |
